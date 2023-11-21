@@ -35,3 +35,6 @@ The ErgoDonk Simple Zero is designed with the following goals:
 * Add mur3xx to the BOM after validating the Solenoid circuit
 * Improve the key outlines
 * Add a "letter" indicator per key? (Can this be tied to schematic variables?)
+* Fix 'pad nub' on main switch footprint
+
+![pad nub](images/pad_nub.png)
