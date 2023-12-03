@@ -55,6 +55,23 @@
     (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp eb539a1b-3625-4ec7-901d-f1aaf1e65163))
   (pad "" np_thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.8) (layers "F&B.Cu" "*.Mask") (tstamp 3d7454bc-ca6c-4eb1-994e-50b7d7230c2a))
   (pad "" np_thru_hole circle (at 2.54 0) (size 0.8 0.8) (drill 0.8) (layers "F&B.Cu" "*.Mask") (tstamp fd6fa5c0-a7c1-4158-9252-ab9b93cab2e2))
+  (zone (net 0) (net_name "") (layers "F&B.Cu" "Margin") (tstamp 09990ef2-d582-40f7-9e29-fdf12fdcc76b) (name "fill keepout") (hatch edge 0.5)
+    (connect_pads (clearance 0))
+    (min_thickness 0.25) (filled_areas_thickness no)
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+    (polygon
+      (pts
+        (xy -1.29 -1.49)
+        (xy -1.29 1.4)
+        (xy 7.08 1.4)
+        (xy 7.16 1.32)
+        (xy 7.16 -1.47)
+        (xy 7.14 -1.49)
+        (xy -1.28 -1.49)
+      )
+    )
+  )
   (group "" (id 936411f3-f953-4a59-8eed-b5f189759c52)
     (members
       25b32deb-8486-4e29-9324-5f33c0c84211
