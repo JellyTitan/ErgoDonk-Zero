@@ -1,4 +1,4 @@
-23509876314045156
+23511582028890006
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53558,6 +53558,13 @@ TO-220-3 Horizontal RM 2.54mm
 3
 Ergodonk_simple_zero
 Tenting_Puck.kicad_mod_nocenter_ergodonk_simple
+
+
+0
+0
+0
+Ergodonk_simple_zero
+jumper jig
 
 
 0
