@@ -29,22 +29,22 @@ The ErgoDonk Simple Zero is designed with the following goals:
 
 ### v0.2
 * Confirmed v0.1 works as expected.
-* 
+* Put a GND plane on both sides, wire VCC directly. (with big fat traces)!
 * Added jumper jig to help bend jumper bridges.
+* Move all traces from pads to the corners to prevent acid traps.
+* Fix jumper bay graphics
+* Changing pad connections on Polygons to 'Solid' - might be a bit harder to solder, but leads to better connections.
 
 ## Punch list
-* Put a GND plane on both sides, wire VCC directly. (with big fat traces)!
-* Move all traces from pads to the corners to prevent acid traps.
 * add holes between the jumpers so a row of header pins can be used.
 * Separate the Zero power traces to the right of the footprint. (Too close together)
-* Fix jumper bay graphics
 * Add usb option to the TRRS jack.
 * Add mur3xx to the BOM after validating the Solenoid circuit
 * Improve the key outlines
 * Add a "letter" indicator per key? (Can this be tied to schematic variables?)
 * move the knob column up a tiny bit, keep hitting it with my thumb.
 * Fix 'pad nub' on main switch footprint
-* Consider changing pad connections on Polygons to 'Solid' - might be a bit harder to solder, but leads to better connections.
+
 * Add note about jumper jig in build guide.
 
 ![pad nub](images/pad_nub.png)
