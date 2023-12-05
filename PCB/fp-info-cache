@@ -1,4 +1,4 @@
-23515000752560948
+23513322460032291
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53515,13 +53515,6 @@ M2_Hole_naked
 0
 0
 Ergodonk_simple_zero
-M2_Hole_naked 2
-
-
-0
-0
-0
-Ergodonk_simple_zero
 MUR340S_IN4001_TH_HYBRID
 
 
@@ -53557,13 +53550,6 @@ Footprint for Cherry Clip/Screw in type stabilizers, 2u
 2
 0
 Ergodonk_simple_zero
-STAB_MX_P_2u_ergodonk_simple_zero
-Footprint for Cherry Clip/Screw in type stabilizers, 2u
-
-0
-2
-0
-Ergodonk_simple_zero
 TO-220-3_Horizontal_TabDown_ergodonk_simple_zero
 TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
 TO-220-3 Horizontal RM 2.54mm
@@ -53572,6 +53558,13 @@ TO-220-3 Horizontal RM 2.54mm
 3
 Ergodonk_simple_zero
 Tenting_Puck.kicad_mod_nocenter_ergodonk_simple
+
+
+0
+0
+0
+Ergodonk_simple_zero
+diode jig
 
 
 0

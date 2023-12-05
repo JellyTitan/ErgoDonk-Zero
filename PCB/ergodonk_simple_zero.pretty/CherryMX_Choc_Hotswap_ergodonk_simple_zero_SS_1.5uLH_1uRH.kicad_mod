@@ -103,34 +103,22 @@
     (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp d0913133-6713-4fa8-abd4-69c3a91823b4))
   (fp_line (start -13.7625 9) (end 4.2375 9)
     (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp be41709c-91b6-4622-8ba6-0f51b0f2973e))
-  (fp_line (start -11.7625 -7) (end -11.7625 7)
-    (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp e795947f-a9e0-4326-b6ff-d178d8ead713))
-  (fp_line (start -11.7625 7) (end 2.2375 7)
-    (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp 6ab0a11b-4a35-4cde-8154-bc5b540091c9))
   (fp_line (start -9 -9) (end 9 -9)
     (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp ff3a59fd-91c0-4ed7-904a-442f9cb649cf))
   (fp_line (start -9 9) (end -9 -9)
     (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp 5a9c149a-9686-47f8-a320-f429ff2dac3c))
-  (fp_line (start -7 -7) (end 7 -7)
-    (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp 93a156e8-f559-4a41-beca-2fd2f2fd8424))
-  (fp_line (start -7 7) (end -7 -7)
-    (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp 6c2b322a-f8c8-4494-8c24-d72687ed5f6b))
-  (fp_line (start 2.2375 -7) (end -11.7625 -7)
-    (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp affa8d15-d3eb-487d-9250-7be2554a9335))
-  (fp_line (start 2.2375 7) (end 2.2375 -7)
-    (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp 5d43b7c4-9795-4c4c-98e1-ba7af95ad388))
   (fp_line (start 4.2375 -9) (end -13.7625 -9)
     (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp c0c4aeb8-e451-416e-a4ec-64aef3bc8383))
   (fp_line (start 4.2375 9) (end 4.2375 -9)
     (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp 8822277c-8356-43a8-ba4f-7c4b264762e3))
-  (fp_line (start 7 -7) (end 7 7)
-    (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp 117b85a7-523d-42c4-a790-73cbe847e2fe))
-  (fp_line (start 7 7) (end -7 7)
-    (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp 237c3697-e132-4edd-a975-43d4d4b197a8))
   (fp_line (start 9 -9) (end 9 9)
     (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp 623293ef-46ab-409c-bc8a-b1fa6754f978))
   (fp_line (start 9 9) (end -9 9)
     (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp 4437de68-5824-4a9b-8e9e-74a8cc424913))
+  (fp_rect (start 2.2375 7) (end -11.7625 -7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.4") (tstamp 46b43c42-26bb-43e4-9e49-dfed19dea769))
+  (fp_rect (start 7 7) (end -7 -7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.4") (tstamp eb449a0f-0ae9-4ba8-8245-f5d15c516916))
   (pad "" np_thru_hole circle (at -10.2625 0 90) (size 1.9 1.9) (drill 1.9) (layers "*.Cu" "*.Mask") (tstamp 604d520c-1e38-4504-9919-f8163e03ff4f))
   (pad "" np_thru_hole circle (at -9.8425 0 180) (size 1.7 1.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 3898b19c-8d96-4fff-b2a4-5173c7334ef9))
   (pad "" np_thru_hole circle (at -7.3025 5.08) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 5bf9c7db-20e6-4085-a770-5beadfd0b2c0))
@@ -173,12 +161,11 @@
       3b284d60-9a85-44cb-ad1e-ab5ab99b25e8
       3e9dace7-4c9a-4e43-911c-0f67dd458eb3
       4640df08-be1b-4441-9fae-a5e4283d1ca2
+      46b43c42-26bb-43e4-9e49-dfed19dea769
       596e9b2e-cadb-4366-ba6f-8b2aaa1fd02b
       5bf9c7db-20e6-4085-a770-5beadfd0b2c0
-      5d43b7c4-9795-4c4c-98e1-ba7af95ad388
       604d520c-1e38-4504-9919-f8163e03ff4f
       66934007-2c3c-4415-b215-a044570106be
-      6ab0a11b-4a35-4cde-8154-bc5b540091c9
       7b9f4dfd-64e5-406f-b675-5b09dd6333d8
       8822277c-8356-43a8-ba4f-7c4b264762e3
       8baea93c-9537-4d0d-acc4-05f5110c0db3
@@ -187,7 +174,6 @@
       920fdbd9-2cde-43fb-8fb6-c09e6b68ff88
       988d8c78-086e-4cda-ac15-10c749e3c77a
       a4f1b872-fc11-46a5-8024-9d2067a34527
-      affa8d15-d3eb-487d-9250-7be2554a9335
       bad9af16-49ee-4a8f-8d9a-90891e13a805
       bc76bb21-0ac3-4946-aaff-fbdaac8dc222
       bd317c49-7039-4cd1-b34d-0260812e8e35
@@ -199,7 +185,6 @@
       d5273a8f-d921-4378-8277-555ba1595cf9
       d9ab5b54-e1b6-46a1-b424-6d04cb544565
       dca346f6-f670-40c4-a219-c06a5a367689
-      e795947f-a9e0-4326-b6ff-d178d8ead713
       f4135f37-0024-4ffd-99e1-a47ad3d822b5
       f577605e-391a-49cc-b3b7-d9f93072ee4d
       f5dba99d-4067-4ad0-9c4b-7113709ce463
@@ -207,11 +192,9 @@
   )
   (group "" (id 4983856d-91d5-41b4-b24d-0bd0867b36bb)
     (members
-      117b85a7-523d-42c4-a790-73cbe847e2fe
       1212a6f5-574a-435e-8ad8-79568c5fa022
       16762647-2951-4702-94e7-533d06e0bfeb
       204dee77-dbac-4b02-9d96-890105f83801
-      237c3697-e132-4edd-a975-43d4d4b197a8
       380f0c49-125f-4c75-8ccd-d4677b47a6a3
       3847d616-b4ea-4ddf-93a8-0cf840a4b5f0
       39d18034-10ec-4145-bb5d-01c3eacfc10d
@@ -226,13 +209,11 @@
       623293ef-46ab-409c-bc8a-b1fa6754f978
       67e82c7a-9f56-4e0c-a11c-4acfaf68f3fb
       68ccdf44-aa2e-42a9-a76b-2efe54a2a13a
-      6c2b322a-f8c8-4494-8c24-d72687ed5f6b
       6d1a792a-9342-4d17-98f3-d297dfb317ea
       744721de-2e0b-41d7-8a79-91313c097558
       7cd30b0e-3990-455e-bb53-e7364506a375
       8789d41d-9153-4b8a-b75c-9786b2bbbd93
       8ff1d0a9-b9ee-475a-8837-48bb911128c4
-      93a156e8-f559-4a41-beca-2fd2f2fd8424
       a62656ff-f44f-4ce8-9711-49df9b5a039a
       b2178d71-9f56-4fd9-839f-778512ed2e8c
       bdb337cf-051d-46df-ac20-10e85d27650e
@@ -243,6 +224,7 @@
       e7633205-dfbe-4e2f-8fe4-3fa3983c5a59
       eac338dd-2d4e-4bfc-8691-b0eb93f22259
       eaf4b153-ced3-4008-b190-b419ac729bfa
+      eb449a0f-0ae9-4ba8-8245-f5d15c516916
       f641f4f0-612b-4809-adc3-c32780bfb360
       f85f200b-e61e-40de-9489-404d32099695
       ff3a59fd-91c0-4ed7-904a-442f9cb649cf

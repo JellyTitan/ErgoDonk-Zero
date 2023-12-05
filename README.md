@@ -34,8 +34,12 @@ The ErgoDonk Simple Zero is designed with the following goals:
 * Move all traces from pads to the corners to prevent acid traps.
 * Fix jumper bay graphics
 * Changing pad connections on Polygons to 'Solid' - might be a bit harder to solder, but leads to better connections.
+* Added keycap labels to each key.
+* Increased key outlines and solenid component silks for improved legibility.
 
 ## Punch list
+* Add stabalizers to the BOM
+* Adjust key labels before production. (There are a few under holes)
 * add holes between the jumpers so a row of header pins can be used.
 * Separate the Zero power traces to the right of the footprint. (Too close together)
 * Add usb option to the TRRS jack.
