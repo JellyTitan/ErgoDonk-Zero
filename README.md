@@ -36,8 +36,12 @@ The ErgoDonk Simple Zero is designed with the following goals:
 * Changing pad connections on Polygons to 'Solid' - might be a bit harder to solder, but leads to better connections.
 * Added keycap labels to each key.
 * Increased key outlines and solenid component silks for improved legibility.
+* **3.7795** is the keyplate multiplier when creating Fusion 360 imports
 
 ## Punch list
+* Add low profile header pins to the bom https://www.aliexpress.us/item/3256805874707460.html
+* Tweak diode placement to not interfere with stabalizer footprints
+* UPdate Jack routing to support TRS & TRRS?
 * Add stabalizers to the BOM
 * Adjust key labels before production. (There are a few under holes)
 * add holes between the jumpers so a row of header pins can be used.

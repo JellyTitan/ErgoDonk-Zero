@@ -416,10 +416,11 @@
       "ergodonk_kicad_library",
       "SofleChoc",
       "Footprints",
-      "kbd",
       "PCM_marbastlib-mx",
       "ergodonk_simple",
-      "Ergodonk_simple_zero"
+      "Ergodonk_simple_zero",
+      "Keebio footprints",
+      "kbd"
     ],
     "pinned_symbol_libs": []
   },
