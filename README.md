@@ -47,7 +47,7 @@ Bubbleology](https://www.printables.com/model/235433-tenting-puck-for-keyboard-t
   * Can use either MX or Choc V1 low profile key switches.
   * Through-hole components used for easy soldering.
   * "Drag and drop" MCU flashing.
-  * Supports more keys than a traditional split ergo, making it a good transition to a smaller split, or for those who really like their "F" keys.
+  * [Supports more keys](http://www.keyboard-layout-editor.com/#/gists/ac776db3b0deef94de51943c384cfdfc) than a traditional split ergo, making it a good transition to a smaller split, or for those who really like their "F" keys.
 * Low cost
   * The PCB is reversible to reduce manufacturing costs.
   * Uses RP2040 Zero. (Inexpensive clones are readily available through Alixpress for ~$3USD)
@@ -62,7 +62,7 @@ Bubbleology](https://www.printables.com/model/235433-tenting-puck-for-keyboard-t
 | Diodes | 103 | Surface mount SOD-123 1N4148, or through-hole 1N4148 diode. These are common, any old one should do. Through hole is usually easier to solder. | SMD: [AliExpress](https://www.aliexpress.us/item/2251832663565152.html) [JLCPCB](https://jlcpcb.com/partdetail/3368026-1N4148SOD123/C2972760) Through-hole: [AliExpress](https://www.aliexpress.us/item/2251832473773777.html) |
 | Raspberry Pi Zero | 2 | There's tons of clones available. Getting the version with the header pins pre-soldered is nice, but they are long so you'll have to nip off the excess. | [AliExpress](https://www.aliexpress.us/w/wholesale-rp2040-zero.html) |
 | TRRS Jacks | 2 | PJ-320A | [AliExpress](https://www.aliexpress.us/item/2255800474897706.html) |
-| TRRS  (3.5mm "Headphone" Cable) | 1 | TRRS ("4 pole" required) | |
+| TRRS  (3.5mm "Headphone" Cable) | 1 | TRRS ("4 pole" required) @todo - is it? can we t get away with TRS? | |
 | MX Style Switches or Choc V1 low profile switches. | 101 | For MX switches, 3-pin or 5-pin will work. For the Choc low profile switches, only V1 is supported.| |
 | Key Caps | 58 | | |
 | Rotary Encoders and Caps | 2 | EC-11 Rotary Encoder. 20mm stem is the most common. Make sure the knob matches the encoder's shaft shape. SA keycaps can be quite tall, so you may want to use tall knobs as well.| [AliExpress 20mm](https://www.aliexpress.us/item/2261799870168498.html) |
