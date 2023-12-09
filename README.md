@@ -11,6 +11,7 @@ The ErgoDonk Zero was designed by [Ryan Neff](https://github.com/JellyTitan). Ma
 [Bill of Materials](#bill-of-materials)
  - [Required Parts](#required-parts)
  - [Optional - MCU Sockets](#optional---mcu-sockets)
+ - [Optional - PCB screw in Stabilizers](#optional---pcb-screw-in-stabilizers)
  - [Optional - Solenoid](#optional---solenoid)
  - [Optional - key plates](#optional---key-plates)
  - [Optional - low profile header pins](#optional---low-profile-header-pins)
@@ -21,6 +22,7 @@ The ErgoDonk Zero was designed by [Ryan Neff](https://github.com/JellyTitan). Ma
  - [Soldering](#soldering)
  - [Diodes](#diodes)
  - [Switch Sockets](#switch-sockets)
+ - [Jumpers](#jumpers)
  - [Pi Zero MCU](#pi-zero-mcu)
  - [TRRS Jacks](#trrs-jacks)
  - [Rotary Encoders](#rotary-encoders)
@@ -82,6 +84,10 @@ This is strictly a quality of life upgrade. The older ProMicro's were notorious 
 Needle pin male connectors | 80 | Diode legs would also work, but these little sets of 4 are nice to work with. | [Aliexpress](https://www.aliexpress.us/item/2251832650595759.html?spm=a2g0o.order_list.order_list_main.186.15a91802YueygY&gatewayAdapt=glo2usa)
 
 <hr>
+
+### Optional - PCB screw in Stabilizers 
+Supports up to 8 PCB mounted screw in stabilizers that are 2u in length. Stabilizers often come in sets based on keyboard sizes. A full size 104 key set will usually have 7 2u bars. Note, "PCB mount stabilizers" are not the same as "plate mount stabilizers". 
+@todo - add images.
 
 ### Optional - Solenoid
 The solenoid feature is still a work in progress. It is designed to attach to a separate backplate.
@@ -156,12 +162,18 @@ Heat the metal connector, apply solder and look for the solder to wick down to t
 
 I like to put all the sockets in, find a comfortable position, solder one side of each socket, then rotate the board 180 and solder the remaining sides.
 
+### Jumpers
+Because the MCU on both sides shares the same footprint, we need to set jumpers to ensure the power is routed correctly. The set of six jumpers for the right and left hands are marked accordingly. They can be soldered on the front or the back, for the sake of consistency, we'll go with the front. 
+
+You can bridge the jumpers by dragging a blob of solder across the 2 adjacent pads. Modern rosin core solder can make this difficult. As an alternate bridging method, you can bend a diode leg and solder that in place. There is a diode 'jumper jig' adjacent to the jumper rows to make it easy to bend to the optimal width. 
+
+@todo Add images.
+
 ### RP2040 Zero MCU
 The Zero is installed on the top of the board, buttons facing up.
 @todo-add image.
 * Top of the board: this is the side of the PCB opposite the diodes, LEDs and switch sockets
 * Marked holes: Insert the Zero into the holes with the rectangular outline on the top of the board. 
-@todo - add rectangular ouline?
 
 #### Pi Zero MCU installed permanently with header pins
 You can permanently install the Zero using the male-male headers that came with the Zero. (Or the low-profile headers, if your feeling fancy)!
