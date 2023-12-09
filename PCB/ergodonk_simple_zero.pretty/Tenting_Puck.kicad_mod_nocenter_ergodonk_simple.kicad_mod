@@ -73,6 +73,8 @@
     (stroke (width 0.12) (type default)) (fill none) (layer "Dwgs.User") (tstamp 3291d136-4ee5-457c-a12d-4e13568d1761))
   (fp_circle (center 0 0) (end 20.55 0)
     (stroke (width 0.55) (type solid)) (fill none) (layer "B.CrtYd") (tstamp 06a9c821-a1c8-4045-8c62-cb00eae08770))
+  (fp_circle (center 0 0) (end 22.5 0)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.5") (tstamp 151667e5-f4ad-4bc8-b14d-5e3f8d137bba))
   (fp_circle (center 0 0) (end 20.55 0)
     (stroke (width 0.1) (type solid)) (fill none) (layer "User.9") (tstamp bb00b938-38ad-42c5-88cb-c84256b867ae))
   (pad "" np_thru_hole circle (at -19.05 0) (size 2.2 2.2) (drill 2.2) (layers "F&B.Cu" "*.Mask")

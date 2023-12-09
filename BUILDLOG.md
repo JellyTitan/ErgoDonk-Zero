@@ -18,6 +18,7 @@
 
 ## Punch list
 * MOVE HOLE H7!
+* Add Solenoid installation to the README
 * Tweak diode placement to not interfere with stabilizer footprints
 * UPdate Jack routing to support TRS & TRRS?
 * Adjust key labels before production. (There are a few under holes)
