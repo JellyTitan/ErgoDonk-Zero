@@ -18,11 +18,11 @@
 
 ## Punch list
 * MOVE HOLE H7!
-* Tweak diode placement to not interfere with stabalizer footprints
+* Tweak diode placement to not interfere with stabilizer footprints
 * UPdate Jack routing to support TRS & TRRS?
 * Adjust key labels before production. (There are a few under holes)
 * Add mur3xx to the BOM after validating the Solenoid circuit
-* move the knob column up a tiny bit, keep hitting it with my thumb.
 * Fix 'pad nub' on main switch footprint
+* Move mounting holes under the MCU plate cover. (Left in old postion to help make cases for the v0.1)
 
 ![pad nub](images/pad_nub.png)
