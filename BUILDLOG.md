@@ -19,16 +19,15 @@
 * Moved mounting holes for MCU Covers
 * Moved thumb 2u key diodes down to prevent stabilizer interference.
 * Added markings to indicate stabilizer holes per side.
+* Fixed protruding 'trace nub' on main footprint
 
 ## Punch list
 * Decide on diode 
 * MOVE HOLE H7!
 * Add Solenoid installation to the README
-* Tweak diode placement to not interfere with stabilizer footprints
 * UPdate Jack routing to support TRS & TRRS?
 * Adjust key labels before production. (There are a few under holes)
 * Add mur3xx to the BOM after validating the Solenoid circuit
-* Fix 'pad nub' on main switch footprint
 * Move mounting holes under the MCU plate cover. (Left in old postion to help make cases for the v0.1)
 
 ![pad nub](images/pad_nub.png)
