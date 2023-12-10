@@ -15,8 +15,11 @@
 * Added keyplate layer with stabilizer cutouts.
 * **3.7795** is the keyplate multiplier when creating Fusion 360 imports
 * Moved rotary encoder column up 2.5mm to avoid hitting encoder with my freakishly long thumbs.
+* Added plates for RH/LH MCU Covers
+* Moved mounting holes for MCU Covers
 
 ## Punch list
+* Decide on diode 
 * MOVE HOLE H7!
 * Add Solenoid installation to the README
 * Tweak diode placement to not interfere with stabilizer footprints
