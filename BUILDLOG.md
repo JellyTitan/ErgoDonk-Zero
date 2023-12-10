@@ -17,6 +17,8 @@
 * Moved rotary encoder column up 2.5mm to avoid hitting encoder with my freakishly long thumbs.
 * Added plates for RH/LH MCU Covers
 * Moved mounting holes for MCU Covers
+* Moved thumb 2u key diodes down to prevent stabilizer interference.
+* Added markings to indicate stabilizer holes per side.
 
 ## Punch list
 * Decide on diode 

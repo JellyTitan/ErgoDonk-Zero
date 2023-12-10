@@ -10,6 +10,26 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7561b10b-8161-463e-9696-4262c2b8d7bd)
   )
+  (fp_poly
+    (pts
+      (xy -11.15625 5.21)
+      (xy -12.65625 5.21)
+      (xy -11.88625 5.98)
+      (xy -11.86625 5.98)
+      (xy -11.15625 5.22)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 79acca79-a260-44ff-a77e-fb890b8d046a))
+  (fp_poly
+    (pts
+      (xy 12.65625 5.21)
+      (xy 11.15625 5.21)
+      (xy 11.92625 5.98)
+      (xy 11.94625 5.98)
+      (xy 12.65625 5.22)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 322dcded-f7f4-46f9-b80b-0fc7b2ed9714))
   (fp_line (start -19.05 -9.525) (end -19.05 9.525)
     (stroke (width 0.12) (type solid)) (layer "Dwgs.User") (tstamp 1db33eff-eef1-46e0-81b7-c60a0816eca5))
   (fp_line (start -19.05 -9.525) (end 19.05 -9.525)

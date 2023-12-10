@@ -211,7 +211,8 @@ Saved these for last because they are tallest. Insert into the top of the board,
 
 ### Final assembly
 Installing the keys and case.
-
+1. Optional: Screw stabalizers into PCB. The stabilizers are inserted into the front of the board, and screws are inserted on the back of the board. There are an abundance of holes around the pinky keys, so the stabalizer insertion holes have been marked with an arrow on the front of the board. 
+![stabilizer markings](images/stabalizer_markings.png) @todo add image of inserted stabalizer for sw47.
 1. Snap a few switches into the top plate, the corner switches work best.
 1. Place the PCB on a flat surface. This will save some strain on the solder joints in the next step (though they should be able handle it).
 1. Carefully lower the top plate with switches on the main PCB and push into sockets. Ensure pins are aligned.
