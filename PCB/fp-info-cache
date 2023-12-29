@@ -1,4 +1,4 @@
-23918479038827865
+23921892834781778
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53501,6 +53501,13 @@ CherryMX_Choc_Hotswap_ergodonk_simple_zero_SS_2U
 4
 2
 Ergodonk_simple_zero
+D_DO-41_SOD81_P10.16mm_Horizontal
+Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+Ergodonk_simple_zero
 D_SOD-123_DO-35_Hybrid_DoubleSided_ergodonk_simple_zero
 SOD-123
 SOD-123
@@ -53585,14 +53592,21 @@ Tenting_Puck.kicad_mod_nocenter_ergodonk_simple
 0
 0
 Ergodonk_simple_zero
-diode jig
+jig-diode
 
 
 0
 0
 0
 Ergodonk_simple_zero
-jumper jig
+jig-jumper
+
+
+0
+0
+0
+Ergodonk_simple_zero
+jig-resistor
 
 
 0

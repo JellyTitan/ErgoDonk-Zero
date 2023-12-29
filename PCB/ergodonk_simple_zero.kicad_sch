@@ -5535,7 +5535,7 @@
     (property "Value" "1N4004" (at 54.61 93.98 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 47.625 92.71 0)
+    (property "Footprint" "Ergodonk_simple_zero:D_DO-41_SOD81_P10.16mm_Horizontal" (at 47.625 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf" (at 52.07 92.71 0)
