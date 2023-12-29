@@ -1,4 +1,4 @@
-23916675890020521
+23918479038827865
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90552,26 +90552,26 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 48
 48
 Sofle_Pico
-Cherry_MX_DS_Hotswap_miniE_1U_v3.03
+Cherry_MX_DS_Hotswap_miniE_1U_v3.5.2
 
 
 0
 30
 6
 Sofle_Pico
-Cherry_MX_DS_Hotswap_miniE_1U_v3.5
-
-
-0
-28
-6
-Sofle_Pico
 D_SOD-123_DO-35_Hybrid_DoubleSided_V2
 SOD-123
 SOD-123
 0
-10
+12
 2
+Sofle_Pico
+Dummy 6812miniE
+Placeholder for the nested SK6812Mini-E/Hotswop socket so the PNP/BOM generates correctly.
+
+0
+0
+0
 Sofle_Pico
 Hole from sofle for M2 posts gold rimmer
 
@@ -90591,7 +90591,7 @@ Level Shifter Bypass Jumper
 
 
 0
-2
+6
 2
 Sofle_Pico
 MJ-4PP-9
@@ -90601,7 +90601,7 @@ MJ-4PP-9
 8
 4
 Sofle_Pico
-OLED SSD1306 128x64 UNVERIFIED v3b
+OLED SSD1306 128x64
 
 
 0
@@ -90612,8 +90612,8 @@ Pimaroni_PinHeader_1x05_P2.54mm_Vertical Sofle v3b
 Through hole straight pin header, 1x05, 2.54mm pitch, single row
 Through hole pin header THT 1x05 2.54mm single row
 0
-5
-5
+4
+4
 Sofle_Pico
 PinHeader_1x05_P2.54mm_Vertical
 Through hole straight pin header, 1x05, 2.54mm pitch, single row
@@ -90622,19 +90622,26 @@ Through hole pin header THT 1x05 2.54mm single row
 5
 5
 Sofle_Pico
-RPi_Pico_SMD_TH - Junco -DS Sofle v3b v3 nohole
+PinHeader_1x05_P2.54mm_Vertical_one-dead
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+4
+4
+Sofle_Pico
+RPi_Pico_SMD_TH-DS Sofle Pico handpins
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
 Through hole pin header THT 2x20 2.54mm double row
 0
 80
-40
+41
 Sofle_Pico
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
 rotary encoder
 0
-7
-6
+5
+5
 Sofle_Pico
 SN74AHCT1G125 - Junco
 SN74AHCT1G125 Buffer Gate SOT-23
@@ -90644,6 +90651,13 @@ level shifter
 5
 Sofle_Pico
 Sofle Pico Logo
+
+
+0
+0
+0
+Sofle_Pico
+Sofle Pico Logo copper
 
 
 0
@@ -90671,40 +90685,12 @@ Sofle Pico logo w text
 0
 0
 Sofle_Pico
-Sofle Pico text inverted
-
-
-0
-0
-0
-Sofle_Pico
-Sofle SK6803-DS
-
-
-0
-24
-4
-Sofle_Pico
 Tenting_Puck.kicad_mod_nocenter_v2
 
 
 0
 4
 1
-Sofle_Pico
-rp2040-zero DS
-
-
-0
-66
-33
-Sofle_Pico
-uxcell a14092600ux0438 solenoid
-
-
-0
-0
-0
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -97811,6 +97797,13 @@ Elite-C-ZigZag
 29
 29
 ergodonk_kicad_library
+Elite-C_ds
+
+
+0
+30
+25
+ergodonk_kicad_library
 HOLE_M2_Post_throughhole_from_sofle
 
 
@@ -98006,6 +97999,13 @@ Through hole pin header THT 1x05 2.54mm single row
 0
 5
 5
+ergodonk_kicad_library
+RP2040 ProMicro
+
+
+0
+31
+31
 ergodonk_kicad_library
 RPi_Pico_SMD_TH
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
@@ -98502,6 +98502,13 @@ Cherry_MX_DS_Hotswap_miniE_1U_sofle3b v2
 
 0
 30
+6
+ergodonk_pico
+Cherry_MX_DS_Hotswap_miniE_1U_v3.5.2
+
+
+0
+28
 6
 ergodonk_pico
 Cherry_MX_SS_Hotswap_miniE_1U_sofle3b v2
