@@ -7556,7 +7556,7 @@
     (property "Value" "4PIN" (at 82.55 104.14 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "ergodonk_kicad_library:MJ-4PP-9_CANTOR_KITCHEN_SINK" (at 83.82 97.79 0)
+    (property "Footprint" "Ergodonk_simple_zero:MJ-4PP-9_TRRS_ds_jack" (at 83.82 97.79 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 83.82 97.79 0)

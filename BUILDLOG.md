@@ -20,14 +20,16 @@
 * Moved thumb 2u key diodes down to prevent stabilizer interference.
 * Added markings to indicate stabilizer holes per side.
 * Fixed protruding 'trace nub' on main footprint
+* Moved all diodes down a bit to make more room for choc keys
+* Considered moving TRRS jack below vol buttons. Decided against it, as i like to keep things between the two halves of the keyboard, so keeping the cables higher up is preferred.
+* Converted TRRS jack to TRS. 
+* Refactored TRRS jack to remove full duplex. Replaced with serial default. Rerouted accordingly - then rolled it all back. I think it's better to leave the config for Full duplex available, but only implement serial communication. The full duplex config will probably be used in other ergodonk variants, and there is no urgent need for freeing up that extra pin.
 
 ## Punch list
-* Decide on diode 
+* Make sure that TX and RX correspond to the correct collapsed pins on TRRS and TRS.
 * MOVE HOLE H7!
 * Add Solenoid installation to the README
-* UPdate Jack routing to support TRS & TRRS?
 * Adjust key labels before production. (There are a few under holes)
-* Add mur3xx to the BOM after validating the Solenoid circuit
 * Move mounting holes under the MCU plate cover. (Left in old postion to help make cases for the v0.1)
 
 ![pad nub](images/pad_nub.png)
