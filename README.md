@@ -90,19 +90,22 @@ Supports up to 8 PCB mounted screw in stabilizers that are 2u in length. Stabili
 @todo - add images.
 
 ### Optional - Solenoid
-The solenoid feature is still a work in progress. It is designed to attach to a separate backplate.
+The solenoid attaches to the PCB below the left palm. It's lovely and loud. Will only work on the left hand.
 Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/412/solenoid_driver.pdf). 
 [QMK Docs for solenoid.](https://docs.qmk.fm/#/feature_haptic_feedback?id=solenoids) 
 | Name | Count | Remarks | Potential Storefront |
 | - | - |-|-|
 | Solenoid | 1 | 4.5v Solenoid - I've only been able to get the Amazon Uxcell solenoid to work. I suspect the voltage is a bit low. | [Amazon](https://www.amazon.com/dp/B013DR655A/ref=cm_sw_em_r_mt_dp_YHJRTZ5YY042HC7522VG?_encoding=UTF8&psc=1)
- 2.2k Resistor | 1 |  @todo do the math here.| |
- 1N4001 Diode or MUR340 | 1 | Either the through hole IN4001 or the Surface mount MUR340 will work. | [AliExpress](https://www.aliexpress.us/item/3256802685977811.html)|
- TIP 120 | 1 |  | 
+ 1k Resistor | 1 |   A 2.2k resistor should work as well, but I've not tried it.| [Amazon](https://www.amazon.com/gp/product/B08FHPKF9V), [Aliexpress](https://www.aliexpress.us/item/3256805483572082.html) |
+ 1N4001 Diode | 1 |  | [Amazon](https://www.amazon.com/gp/product/B079JPMW9H), [AliExpress](https://www.aliexpress.us/item/3256802685977811.html)|
+ TIP 120 | 1 | Heatsinks are available for these, but aren't needed.  | [Amazon](https://www.amazon.com/gp/product/B083TQN12B/), [Aliexpress](https://www.aliexpress.us/item/3256803429634601.html)
 
-### Optional - key plates:
- - Key plates are strongly recommended, but not technically required. (The thumb keys tend to fall out if you don't use a key plate).
- - The MCU's and the Solenoid are taller than the key plate, so they have their own separate taller plates. 
+### Optional - key plates, bottom plates, and cover plates:
+ - Key plates are strongly recommended with 3-pin MX switches, but not technically required. (The thumb keys tend to fall out if you don't use a key plate). If you're using choc switches or 5-pin MX switches, they stay put well enough to skip the key plate entirely.
+ - Bottom plates pair nicely with key plates, and can be connected with M2 standoff posts. These are not strictly necessary, as you could use [adhesive rubber bumpers](https://www.amazon.com/gp/product/B074C2XKXH) on the underside of the pcb instead.
+ - The MCU's and the Solenoid are taller than the key plate, so they have their own separate taller plates cover plates.
+ - The left MCU cover plate is different from the right MCU cover plate, because the left MCU cover plate also hides empty keyholes.
+ @todo add images here.
  - Spacers are intended to pass through the main pcb and screw onto the bottom plates, key plates, and MCU cover plates.
 
 ### Optional - low profile header pins
