@@ -1,4 +1,4 @@
-23905158282570117
+23911983254580129
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53515,6 +53515,27 @@ SOD-123
 10
 2
 Ergodonk_simple_zero
+ErgoDonk Zero Keyplate
+
+
+0
+0
+0
+Ergodonk_simple_zero
+ErgoDonk Zero LH MCU Cover
+
+
+0
+0
+0
+Ergodonk_simple_zero
+ErgoDonk Zero RH MCU Cover
+
+
+0
+0
+0
+Ergodonk_simple_zero
 Hole from sofle for M2 posts gold rimmer
 
 
@@ -53583,6 +53604,13 @@ Footprint for Cherry Clip/Screw in type stabilizers, 2u
 
 0
 2
+0
+Ergodonk_simple_zero
+Solenoid Plate
+
+
+0
+0
 0
 Ergodonk_simple_zero
 Solenoid wire hole

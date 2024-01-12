@@ -27,6 +27,7 @@
 * Via support added. It's on branch ergodonk_zero: https://github.com/JellyTitan/keyboards/blob/ergodonk_zero/v3/ergodonk_zero/ergodonk_zero.json
 * Hid the case mount holes where possible. Where not possible, made them appear balanced & intentional.
 * Ordered v0.2 PCB 1-11-2024.
+* Ordered v0.2 Acrylic cases 1-12-2024
 
 ### v0.3
 - [ ] Verify the TRRS/TRS jack works as expected.
