@@ -25,12 +25,19 @@
 * Converted TRRS jack to TRS. 
 * Refactored TRRS jack to remove full duplex. Replaced with serial default. Rerouted accordingly - then rolled it all back. I think it's better to leave the config for Full duplex available, but only implement serial communication. The full duplex config will probably be used in other ergodonk variants, and there is no urgent need for freeing up that extra pin.
 * Via support added. It's on branch ergodonk_zero: https://github.com/JellyTitan/keyboards/blob/ergodonk_zero/v3/ergodonk_zero/ergodonk_zero.json
+* Hid the case mount holes where possible. Where not possible, made them appear balanced & intentional.
+* Ordered v0.2 PCB 1-11-2024.
+
+### v0.3
+- [ ] Verify the TRRS/TRS jack works as expected.
+- [ ] Convert QMK config to Serial from full duplex.
 
 ## Punch list
-* Make sure that TX and RX correspond to the correct collapsed pins on TRRS and TRS.
-* MOVE HOLE H7!
-* Add Solenoid installation to the README
+- [x] Make sure that TX and RX correspond to the correct collapsed pins on TRRS and TRS.
+- [x] hide case holes underkeys
+- [x] MOVE HOLE H7!
 * Adjust key labels before production. (There are a few under holes)
-* Move mounting holes under the MCU plate cover. (Left in old postion to help make cases for the v0.1)
+- [x] Move mounting holes under the MCU plate cover. (Left in old postion to help make cases for the v0.1)
+* Add Solenoid installation to the README
 
 ![pad nub](images/pad_nub.png)

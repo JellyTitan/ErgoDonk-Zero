@@ -1,0 +1,39 @@
+(footprint "Solenoid wire hole" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 -6.06 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 86bed4ca-d875-4c7b-980e-7b1da7a9d27e)
+  )
+  (fp_text value "Solenoid wire hole" (at 0 5.93 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 26af28c1-52d8-40e1-a0d5-8edb5c5236cd)
+  )
+  (fp_circle (center 0 0) (end 5 0)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 13bd0c31-e3cc-4716-b65b-2fa32ae0c620))
+  (fp_circle (center 0 0) (end 5.25 0)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp db37f761-e0cc-4201-b759-766382eef16a))
+  (pad "1" thru_hole circle (at -4.5 0) (size 0.9 0.9) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 361a3fb6-0d45-4c24-92cb-8450c1901057))
+  (pad "1" thru_hole circle (at -3.181981 -3.181981) (size 0.9 0.9) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp aafcd862-465e-4628-8be5-5dad897f0da9))
+  (pad "1" thru_hole circle (at -3.181981 3.181981) (size 0.9 0.9) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 915d258d-73cc-46a3-be6b-019de27a3c90))
+  (pad "1" thru_hole circle (at 0 -4.5) (size 0.9 0.9) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp dcfd1411-05fc-4efc-ad3e-5e5826afc8af))
+  (pad "1" thru_hole circle (at 0 0) (size 9 9) (drill 6) (layers "*.Cu" "*.Mask") (tstamp 2a42a38f-b9c8-45db-9099-99542ac1894f))
+  (pad "1" thru_hole circle (at 0 4.5) (size 0.9 0.9) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 8dc7fee6-e448-410a-ac41-f689fa95d8cf))
+  (pad "1" thru_hole circle (at 3.181981 -3.181981) (size 0.9 0.9) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 70a5846b-0d41-4fa8-aae4-8ea9b1388b5e))
+  (pad "1" thru_hole circle (at 3.181981 3.181981) (size 0.9 0.9) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp b69d64f0-96a7-43dc-8bde-6b0de4f5bb34))
+  (pad "1" thru_hole circle (at 4.5 0) (size 0.9 0.9) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 95a477ec-da23-4a9f-a2cf-7d92826c27e9))
+  (group "" (id 9d16e449-e638-49a7-8fee-6aeab70df2ad)
+    (members
+      13bd0c31-e3cc-4716-b65b-2fa32ae0c620
+      2a42a38f-b9c8-45db-9099-99542ac1894f
+      361a3fb6-0d45-4c24-92cb-8450c1901057
+      70a5846b-0d41-4fa8-aae4-8ea9b1388b5e
+      8dc7fee6-e448-410a-ac41-f689fa95d8cf
+      915d258d-73cc-46a3-be6b-019de27a3c90
+      95a477ec-da23-4a9f-a2cf-7d92826c27e9
+      aafcd862-465e-4628-8be5-5dad897f0da9
+      b69d64f0-96a7-43dc-8bde-6b0de4f5bb34
+      db37f761-e0cc-4201-b759-766382eef16a
+      dcfd1411-05fc-4efc-ad3e-5e5826afc8af
+    )
+  )
+)

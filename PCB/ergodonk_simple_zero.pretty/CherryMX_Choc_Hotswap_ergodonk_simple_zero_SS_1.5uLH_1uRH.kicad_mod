@@ -17,7 +17,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
     (tstamp a4f22031-5fdc-4963-a19f-e02daf6b3b5b)
   )
-  (fp_text user "${REFERENCE}" (at -18.94 -7.74 unlocked) (layer "F.SilkS")
+  (fp_text user "${REFERENCE}" (at -16.39 -7.74 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
     (tstamp 1d1476fa-3a83-4488-bdf0-32cd24224e74)
   )

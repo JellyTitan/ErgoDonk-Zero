@@ -103,7 +103,7 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
 ### Optional - key plates, bottom plates, and cover plates:
  - Key plates are strongly recommended with 3-pin MX switches, but not technically required. (The thumb keys tend to fall out if you don't use a key plate). If you're using choc switches or 5-pin MX switches, they stay put well enough to skip the key plate entirely.
  - Bottom plates pair nicely with key plates, and can be connected with M2 standoff posts. These are not strictly necessary, as you could use [adhesive rubber bumpers](https://www.amazon.com/gp/product/B074C2XKXH) on the underside of the pcb instead.
- - The MCU's and the Solenoid are taller than the key plate, so they have their own separate taller plates cover plates.
+ - The MCU's and the Solenoid are taller than the key plate, so they have their own separate taller plataes cover plates.
  - The left MCU cover plate is different from the right MCU cover plate, because the left MCU cover plate also hides empty keyholes.
  @todo add images here.
  - Spacers are intended to pass through the main pcb and screw onto the bottom plates, key plates, and MCU cover plates.
