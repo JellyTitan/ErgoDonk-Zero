@@ -102,4 +102,9 @@
   (pad "" np_thru_hole circle (at 1 -1.5 90) (size 0.001 0.001) (drill 2.2) (layers "F&B.Cu" "*.Mask") (tstamp be50ae43-d211-47af-bb02-63212bba9e13))
   (pad "" np_thru_hole circle (at 5 -3 90) (size 0.001 0.001) (drill 2.2) (layers "F&B.Cu" "*.Mask") (tstamp afa6bd69-5d26-4431-9dda-fcebc071e6c1))
   (pad "" np_thru_hole circle (at 5 2.975 90) (size 0.001 0.001) (drill 2.2) (layers "F&B.Cu" "*.Mask") (tstamp 1e3b0d19-218e-4e92-8b6b-823ffa126443))
+  (model "${KIPRJMOD}/ErgoDonk_Zero.3dshapes/SOLENOID.STEP"
+    (offset (xyz -0.5 0 -15))
+    (scale (xyz 0.7 0.8 0.7))
+    (rotate (xyz 0 0 0))
+  )
 )

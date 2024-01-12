@@ -7,7 +7,7 @@
   (title_block
     (title "Ergodonk Zero")
     (date "2024-01-11")
-    (rev "0.3")
+    (rev "0.2.1")
     (company "github.com/JellyTitan")
     (comment 1 "Ryan Neff")
     (comment 2 "5V Zone was intentionally omitted because of the solenoid, dedicated 5V pins were used.")

@@ -230,4 +230,14 @@
       ff3a59fd-91c0-4ed7-904a-442f9cb649cf
     )
   )
+  (model "${KIPRJMOD}/ErgoDonk_Zero.3dshapes/Kailh-CherryMX-Socket.step"
+    (offset (xyz -3.5 -7.5 -3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/ErgoDonk_Zero.3dshapes/CherryMX Switch.step"
+    (offset (xyz -4.5 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

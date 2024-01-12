@@ -118,9 +118,9 @@
   (pad "C" thru_hole circle (at -7.5 0) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp a1d820f3-4bd0-4586-bea2-02c792966a11))
   (pad "S1" thru_hole circle (at 7 2.5) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 204808c0-6059-4e25-9786-ea8aaf426b73))
   (pad "S2" thru_hole circle (at 7 -2.5) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 127da420-f621-4720-ada4-50908cf1d5c4))
-  (model "${KICAD6_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm.wrl"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/ErgoDonk_Zero.3dshapes/EC11_Rotary_Encoder_Switched.step"
+    (offset (xyz 0 0 -1.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 180 90))
   )
 )

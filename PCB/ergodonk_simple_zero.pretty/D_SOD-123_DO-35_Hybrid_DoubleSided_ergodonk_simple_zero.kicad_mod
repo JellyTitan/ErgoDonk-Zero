@@ -129,7 +129,7 @@
       dba2360a-da96-4f28-92d1-f6a24232864c
     )
   )
-  (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+  (model "${KIPRJMOD}/ErgoDonk_Zero.3dshapes/D_SOD-123.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -193,4 +193,14 @@
       (gr_line (start -6.88535 -5.203635) (end -7.514219 -6.168529) (width 0.4))
     ) (tstamp 924da944-0530-4bf1-a0b1-d38608235edb))
   (pad "6" smd rect (at 8.1 3.7 180) (size 2 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 057a1be2-2ba3-4875-9a94-5f29a81a5b6d))
+  (model "${KIPRJMOD}/ErgoDonk_Zero.3dshapes/CherryMX Switch.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/ErgoDonk_Zero.3dshapes/Kailh-CherryMX-Socket.step"
+    (offset (xyz -1.5 8 -3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -180))
+  )
 )
