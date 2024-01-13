@@ -4,14 +4,14 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp dfe08a9e-d85e-4caf-b672-2a128a9e59b9)
   )
-  (fp_text value "Solenoid Plate" (at 0 1 unlocked) (layer "F.Fab") hide
+  (fp_text value "Solenoid Plate" (at 0 4.95 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 281b2bb1-97f6-48b5-a99c-fe3cbe250e87)
   )
-  (fp_circle (center -0.01 -0.07) (end 6.3 -0.07)
+  (fp_circle (center 0 0) (end 4 0)
     (stroke (width 0.12) (type default)) (fill none) (layer "Dwgs.User") (tstamp 110c8844-9e6d-4d28-a9b8-07977bec57d9))
   (model "${KIPRJMOD}/ErgoDonk_Zero.3dshapes/ErgoDonk Zero v0.2 solenoid plate.step"
-    (offset (xyz 0 0 7.5))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

@@ -29,9 +29,11 @@
 * Ordered v0.2 PCB 1-11-2024.
 * Ordered v0.2 Acrylic cases 1-12-2024
 
-### v0.3
+### v0.2.1
 - [ ] Verify the TRRS/TRS jack works as expected.
 - [ ] Convert QMK config to Serial from full duplex.
+- [ ] There may be a problem with the leftmost post hole intersecting the stabalizer:
+![post hole intersect](images/stab_prob.png)
 
 ## Punch list
 * [x] Adjust key labels before production. (There are a few under holes)
