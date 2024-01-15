@@ -34,6 +34,7 @@
 - [ ] Convert QMK config to Serial from full duplex.
 - [ ] There may be a problem with the leftmost post hole intersecting the stabalizer:
 ![post hole intersect](images/stab_prob.png)
+* Tried some alternate Solenoids. [This one from Sparkfun](https://www.sparkfun.com/products/11015) did not work. These [little](https://www.aliexpress.us/item/3256802092636163.html) [3V Solenoids](https://www.aliexpress.us/item/3256801967962531.html?spm=a2g0o.order_list.order_list_main.15.124c1802EEEXaw&gatewayAdapt=glo2usa) from Aliexpress did work, but the 'thunk' was not nearly as satisfying. I suspect the solenoid is not actually getting a Solid 5V. The [4.5V Uxcell Solenoid](https://www.amazon.com/gp/product/B013DR655A) initially recommended in the Red Herring seems to be the most forgiving of the under-voltage. Making that my official recommendation. 
 
 ## Punch list
 * [x] Adjust key labels before production. (There are a few under holes)
