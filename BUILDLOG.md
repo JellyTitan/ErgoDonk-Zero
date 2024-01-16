@@ -30,6 +30,7 @@
 * Ordered v0.2 Acrylic cases 1-12-2024
 
 ### v0.2.1
+- Created footprints for plates. (key plate, back plate, MCU Covers Left & Right, and Solenoid cover).
 - [ ] Verify the TRRS/TRS jack works as expected.
 - [ ] Convert QMK config to Serial from full duplex.
 - [ ] There may be a problem with the leftmost post hole intersecting the stabalizer:
