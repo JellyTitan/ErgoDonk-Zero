@@ -1,4 +1,4 @@
-23915397685482052
+23917103312192024
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53515,13 +53515,6 @@ SOD-123
 10
 2
 Ergodonk_simple_zero
-ErgoDonk Zero Bottom Plate
-
-
-0
-0
-0
-Ergodonk_simple_zero
 ErgoDonk Zero Keyplate
 
 
@@ -53537,6 +53530,20 @@ ErgoDonk Zero LH MCU Cover
 0
 Ergodonk_simple_zero
 ErgoDonk Zero RH MCU Cover
+
+
+0
+0
+0
+Ergodonk_simple_zero
+ErgoDonk_Zero_Bottom_Plate_Acrylic
+
+
+0
+0
+0
+Ergodonk_simple_zero
+ErgoDonk_Zero_Bottom_Plate_PCB
 
 
 0
