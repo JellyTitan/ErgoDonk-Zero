@@ -3,7 +3,8 @@
 ErgoDonk Zero is a 6×9+6 keys split ortholinear keyboard with encoder & solenoid support, hotswap sockets for MX or Choc v1 low profile switches, and uses the RP2040 "Zero" MCU.
 
 The ErgoDonk Zero was designed by [Ryan Neff](https://github.com/JellyTitan). Many of the footprints came from the well-regarded foostan [kbd library](https://github.com/foostan/kbd). 
-![Ergodonk simple zero v0.1](images/ergodonk_simple_zero_v0.1.png)
+
+![Ergodonk simple zero v0.1](images/v0.1_hero.JPG)
 
 [Overview](#overview)
  - [Design philosophy](#design-philosophy)
