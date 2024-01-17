@@ -844,7 +844,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "ergodonk_pcb5.dsn",
-      "step": "../../../Desktop/ergodonk_pcb_encoder_test_5g.STEP",
+      "step": "../Case/v0.2/source/ErgoDonk_Zero_v0.2.1.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
