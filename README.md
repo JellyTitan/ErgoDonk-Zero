@@ -175,7 +175,7 @@ Because the MCU on both sides shares the same footprint, we need to set jumpers 
 
 You can bridge the jumpers by dragging a blob of solder across the 2 adjacent pads. Modern rosin core solder can make this difficult. As an alternate bridging method, you can bend a diode leg and solder that in place. There is bending jig to make it easy to bend jumpers to the optimal width. The bottom slot on the jig is for the jumpers.
 
-<img style="max-width: 100px" alt="Bending jig location" src="images/bending_jigs.png" /> <img style="max-width: 100px" alt="Jumper bending jig in use" src="images/jumper_bender_use.png" /> <img style="max-width: 100px" alt="Six bent jumpers made from diode legs" src="images/jumpers.png" /> <img style="max-width: 100px" alt="Jumpers on the board that have not been soldered." src="images/jumpers_in_place.png" />
+<img style="max-width: 150px" alt="Bending jig location" src="images/bending_jigs.png" /> <img style="max-width: 150px" alt="Jumper bending jig in use" src="images/jumper_bender_use.png" /> <img style="max-width: 150px" alt="Six bent jumpers made from diode legs" src="images/jumpers.png" /> <img style="max-width: 150px" alt="Jumpers on the board that have not been soldered." src="images/jumpers_in_place.png" /> <img style="max-width: 150px" alt="Soldered jumpers on the left hand of the ErgoDonk Zero" src="images/soldered_jumpers.png" />
 
 ### RP2040 Zero MCU
 The Zero is installed on the top of the board, buttons facing up.
