@@ -171,7 +171,7 @@ Heat the metal connector, apply solder and look for the solder to wick down to t
 I like to put all the sockets in, find a comfortable position, solder one side of each socket, then rotate the board 180 and solder the remaining sides.
 
 ### Jumpers
-Because the MCU on both sides shares the same footprint, we need to set jumpers to ensure the power is routed correctly. The set of six jumpers for the right and left hands are marked accordingly. They can be soldered on the front or the back, for the sake of consistency, we'll go with the front. 
+Because the MCU on both sides shares the same footprint, we need to set jumpers to ensure the power is routed correctly. The set of six jumpers for the right and left hands are marked accordingly. They can be soldered on the front or the back. Soldering on the front is recommended.
 
 You can bridge the jumpers by dragging a blob of solder across the 2 adjacent pads. Modern rosin core solder can make this difficult. As an alternate bridging method, you can bend a diode leg and solder that in place. There is bending jig to make it easy to bend jumpers to the optimal width. The bottom slot on the jig is for the jumpers.
 
