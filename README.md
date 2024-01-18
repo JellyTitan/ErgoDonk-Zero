@@ -141,13 +141,16 @@ Then install the components on the front:
  - Jumpers
  - RP2040 Zero MCU & socket
  - TRRS connector
+ - Solenoid components
  - Rotary encoder
 
 ### Diodes
 @todo update image
 ![diode orientation](docs/images/build_guide_Zero/sofle_Zero_diode_orientation.png)
 
-Diodes, surface mount or through-hole, can be installed on either the front or the back. The back is preferred for a cleaner look. If you are hand soldering, through hole diodes are recommended because they are easier. If you damage a pad on one side, feel free to move that diode to the other side.
+Diodes, surface mount or through-hole, can be installed on either the front or the back. Back side installation is recommended because after the case plates are installed, it's easier to access the back then the front. 
+
+If you are hand soldering, through hole diodes are recommended because they are easier. If you damage a pad on one side, feel free to move that diode to the other side.
 
 Diodes _must_ be oriented with the white band in the direction of the "arrow" symbol on the PCB.
 @todo add image.
