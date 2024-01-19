@@ -1,4 +1,4 @@
-23917103312192024
+23918810736378205
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53677,6 +53677,13 @@ jig-jumper
 0
 Ergodonk_simple_zero
 jig-resistor
+
+
+0
+0
+0
+Ergodonk_simple_zero
+tip120_bending_jig
 
 
 0

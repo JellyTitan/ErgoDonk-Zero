@@ -20,6 +20,8 @@
 * Moved thumb 2u key diodes down to prevent stabilizer interference.
 * Added markings to indicate stabilizer holes per side.
 * Fixed protruding 'trace nub' on main footprint
+
+![pad nub](images/pad_nub.png)
 * Moved all diodes down a bit to make more room for choc keys
 * Considered moving TRRS jack below vol buttons. Decided against it, as i like to keep things between the two halves of the keyboard, so keeping the cables higher up is preferred.
 * Converted TRRS jack to TRS. 
@@ -45,4 +47,6 @@
 * [ ] Before submitting QMK PR, update version number in `info.json`
 * Add Solenoid installation to the README
 
-![pad nub](images/pad_nub.png)
+
+## Wish list
+* [ ] Write a PCBA walk through. (pulled images for the Sofle Pico - but never wrote a guide?)

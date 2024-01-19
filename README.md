@@ -50,18 +50,19 @@ Bubbleology](https://www.printables.com/model/235433-tenting-puck-for-keyboard-t
   * Can use either MX or Choc V1 low profile key switches.
   * Through-hole components used for easy soldering.
   * "Drag and drop" MCU flashing.
+  * Uses VIA for easy customization.
   * [Supports more keys](http://www.keyboard-layout-editor.com/#/gists/ac776db3b0deef94de51943c384cfdfc) than a traditional split ergo, making it a good transition to a smaller split, or for those who really like their "F" keys.
 * Low cost
   * The PCB is reversible to reduce manufacturing costs.
-  * Uses RP2040 Zero. (Inexpensive clones are readily available through Alixpress for ~$3USD)
-  * Does not require split-specific keycaps.
+  * Uses RP2040 Zero. (Inexpensive clones are readily available through AliExpress for ~$3USD)
+  * Does not require split-specific key caps.
 
 ## Bill of materials
 ### Required Parts
 
 | Name | Count | Remarks | Potential Storefront | Image |
 | ---- | ----- | ------- | -------------------- | ----- |
-| PCB | 2 | The PCB should be 1.6mm thick. I used JLCPCB's default settings only customizing the PCB color, and selecting 'lead free'. | Manufacturers such as JLCPCB, LCSC, and Elecrow. [Price comparison tool](https://pcbshopper.com/) | <img src="/Users/ryanrayneff/Unsynced/ergodonk_simple_zero/images/ergodonk_simple_zero_v0.1.png" > |
+| PCB | 2 | The PCB should be 1.6mm thick. I used JLCPCB's default settings only customizing the PCB color, and selecting 'lead free'. | Manufacturers such as JLCPCB, PCBWay, and Elecrow. [Price comparison tool](https://pcbshopper.com/) | <img src="/Users/ryanrayneff/Unsynced/ergodonk_simple_zero/images/ergodonk_simple_zero_v0.1.png" > |
 | Hot-swap Sockets | 101 | The PCB requires sockets. Switches cannot be soldered directly to the board. Either MX or Choc low profile sockets| [Aliexpress](https://www.aliexpress.us/item/3256803687338432.html) | <img src="images/bom_switches.png" > |
 | Diodes | 103 | Surface mount SOD-123 1N4148, or through-hole 1N4148 diode. These are common, any old one should do. Through hole is usually easier to solder. | SMD:  <br> [AliExpress](https://www.aliexpress.us/item/2251832663565152.html) <br> [JLCPCB](https://jlcpcb.com/partdetail/3368026-1N4148SOD123/C2972760) <br> Through-hole: [AliExpress](https://www.aliexpress.us/item/2251832473773777.html) <br> [Amazon](https://www.amazon.com/100-Pieces-1N4148-Switching-High-Speed/dp/B079KJ91JZ) | <img src="images/diodes.png" > |
 | Raspberry Pi Zero | 2 | There's tons of clones available. Getting the version with the header pins pre-soldered is nice, but they are long so you'll have to nip off the excess. | [AliExpress](https://www.aliexpress.us/w/wholesale-rp2040-zero.html) |  <img src="images/rp2040.png" >
@@ -158,7 +159,6 @@ Diodes _must_ be oriented with the white band in the direction of the "arrow" sy
 For surface mount diodes, a common method is to tin one pad, place the diode on, apply the soldering iron to the diode leg until it melts the solder underneath and sinks flush with the PCB. Then come back and solder the other leg. Alternately, you can use a rework station heat gun and solder paste. (I prefer this method for smds).
 .
 This board has been designed with automated Printed Circuit Board Assembly (PCBA) in mind. Since the minimum PCB order quantity is usually 5, it's often worth ordering PCBA for the diodes alone. (Roughly 1030 solder joints).
-@todo port the PCBA guide you wrote for the Junco.
 
 There is 1 diode per key, and 1 diode on the rotary encoder.
 @todo add image.
