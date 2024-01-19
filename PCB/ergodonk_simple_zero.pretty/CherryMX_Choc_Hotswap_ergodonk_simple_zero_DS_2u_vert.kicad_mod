@@ -132,7 +132,7 @@
   (pad "5" smd roundrect (at 2.8 5.9 180) (size 1.8 2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
     (chamfer_ratio 0) (chamfer top_left top_right bottom_right) (tstamp 55c4ed8c-0164-4ec0-92a7-5e097533cd70))
   (pad "5" smd rect (at 5.6 -5.08 180) (size 2 2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp fe5f1b9f-521f-40b3-9882-9c065f033298))
-  (pad "5" smd custom (at 6.19 -3.21) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "5" smd custom (at 6.19 -3.21) (size 0.5 0.5) (layers "F.Cu")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -165,14 +165,14 @@
       (gr_arc (start 0.005477 -1.04) (mid 0.19 -1.485478) (end 0.635477 -1.670003) (width 0.4))
     ) (tstamp 06ae02cd-cce7-4c83-be44-7a46e233a5c0))
   (pad "6" thru_hole circle (at -6.88183 2.623515) (size 0.7 0.7) (drill 0.3) (layers "*.Cu") (tstamp e3a4164a-9bfb-4748-a3dd-2144958399b8))
-  (pad "6" smd custom (at -6.29 -4.35) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "6" smd custom (at -6.29 -4.35) (size 0.5 0.5) (layers "F.Cu")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_arc (start 0.04 0.54) (mid 0.224523 0.094523) (end 0.67 -0.09) (width 0.7))
       (gr_line (start 0.04 0.54) (end 0.04 -0.06) (width 0.7))
     ) (tstamp 0bddc38e-f1e8-478b-a111-e7cd47e01b9f))
-  (pad "6" smd custom (at -6.29 -3.34) (size 0.5 0.5) (layers "B.Cu" "B.Paste" "B.Mask")
+  (pad "6" smd custom (at -6.29 -3.34) (size 0.5 0.5) (layers "B.Cu")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
