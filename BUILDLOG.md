@@ -46,7 +46,8 @@
 
 
 ## Punch list
-* [ ] Un-fix diode bending jig. (It is for the diode in the Solenoid circuit, not the rest-of-board diodes).
+* [ ] Create a tip120 bending jig.
+* [ ] Add diode punch outs for the bending jigs.
 * [ ] When using PCBA, all the matrix intersections will get a diode. I think this is what's breaking the handedness by matrix intersection setting in QMK. Consider add a jumper for the RH Backspace key, so that even if PCBA is used, the handedness detcetion by matrix intersection will still work.
 * [ ] Use the Zero LED as a layer indicator. Example qmk_firmware/keyboards/handwired/alcor_dactyl
 * [ ] Update case to include hole above layer indicator LED. 
