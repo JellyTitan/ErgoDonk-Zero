@@ -65,12 +65,12 @@ Bubbleology](https://www.printables.com/model/235433-tenting-puck-for-keyboard-t
 | PCB | 2 | The PCB should be 1.6mm thick. I used JLCPCB's default settings only customizing the PCB color, and selecting 'lead free'. | Manufacturers such as JLCPCB, PCBWay, and Elecrow. [Price comparison tool](https://pcbshopper.com/) | <img src="/Users/ryanrayneff/Unsynced/ergodonk_simple_zero/images/ergodonk_simple_zero_v0.1.png" > |
 | Hot-swap Sockets | 101 | The PCB requires sockets. Switches cannot be soldered directly to the board. Either MX or Choc low profile sockets| [Aliexpress](https://www.aliexpress.us/item/3256803687338432.html) | <img src="images/bom_switches.png" > |
 | Diodes | 103 | Surface mount SOD-123 1N4148, or through-hole 1N4148 diode. These are common, any old one should do. Through hole is usually easier to solder. | SMD:  <br> [AliExpress](https://www.aliexpress.us/item/2251832663565152.html) <br> [JLCPCB](https://jlcpcb.com/partdetail/3368026-1N4148SOD123/C2972760) <br> Through-hole: [AliExpress](https://www.aliexpress.us/item/2251832473773777.html) <br> [Amazon](https://www.amazon.com/100-Pieces-1N4148-Switching-High-Speed/dp/B079KJ91JZ) | <img src="images/diodes.png" > |
-| Raspberry Pi Zero | 2 | There's tons of clones available. Getting the version with the header pins pre-soldered is nice, but they are long so you'll have to nip off the excess. | [AliExpress](https://www.aliexpress.us/w/wholesale-rp2040-zero.html) |  <img src="images/rp2040.png" >
+| Raspberry Pi Zero | 2 | There's tons of clones available. Getting the version with the header pins pre-soldered saves you some time, but the pins are long so you'll have to nip off the excess and the pins may bend during shipping. Consider getting the versions without the soldered pins, and using [low profile header pins](#optional---low-profile-header-pins) instead of the header pins it comes with. | [Amazon](https://www.amazon.com/RP2040-Zero-High-Performance-Microcontroller-Castellated-Boards-2pcs/dp/B0B2Z3YWB9/) <br> [AliExpress](https://www.aliexpress.us/item/3256805808673201.html) |  <img src="images/rp2040.png" >
 | TRRS Jacks | 2 | PJ-320A | [AliExpress](https://www.aliexpress.us/item/2255800474897706.html) |  <img src="images/trrs.png" > |
 | TRRS or TRS (3.5mm "Headphone" Cable) | 1 | Either TRRS "4 pole" or TRS "3 pole" will work. These are often refered to as 3.5mm audio cables, or 'aux' cables.  | [Aliexpress](https://www.aliexpress.us/w/wholesale-3-5-mm-audio-cable.html) <br> [Amazon](https://www.amazon.com/s?k=short+aux+cable)|  <img src="images/trs_cable.png" > | 
 | MX Style Switches or Choc V1 low profile switches. | 101 | For MX switches, 3-pin or 5-pin will work. For the Choc low profile switches, only V1 is supported.| |
 | Key Caps | 101 | Look for keycap sets for "[100% full size](https://thegamingsetup.com/wp-content/uploads/Keyboard-Size-Guide-The-Gaming-Setup-scaled.webp)" keyboards. <br> <br> **Choc V1 Switches**: Choc Switches don't have many keycap options available. <br> <br> **MX swtiches**: The ErgoDonk Zero was designed with the SA [keycap profile](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fkld2wynulsq51.png) in mind. The default switch layout on the PCB makes use of the different SA row heights. If you intend to move the keys about, XDA profile is recommended.  | [Choc V1 AliExpress](https://www.aliexpress.us/item/2251832794671800.html) <br> [MX 'SA' AliExpress](https://www.aliexpress.us/item/3256805853319024.html) <br> [MX SA Amazon](https://www.amazon.com/Ducky-Doubleshot-Keyboards-Compatible-Standard/dp/B08WXBVQ4W/?th=1) <br> [MX XDA AliExpress](https://www.aliexpress.us/w/wholesale-xda-keycaps.html)|
-| Rotary Encoders and Caps | 2 | EC-11 Rotary Encoder. 20mm stem is the most common, and a 6mm shaft is standard. Either "D" shaft or round shaft will work. If you're partial to fancy knobs, you should pick a shaft that matches your knob. 6mm shafts are used for guitar knobs, so you've got plenty of options. SA Profile keycaps can be quite tall, so you may want to use tall knobs as well. Some EC11's include a washer and nut, but you won't be using either the washer or nut. | [AliExpress 20mm](https://www.aliexpress.us/item/2261799870168498.html) | <img src="images/ec11.png" > <img src="images/ec11_knob.png" > |
+| Rotary Encoders and Caps | 2 | EC-11 Rotary Encoder. 20mm stem is the most common, and a 6mm shaft is standard. Either "D" shaft or round shaft will work. If you're partial to fancy knobs, you should pick a shaft that matches your knob. 6mm shafts are used for guitar knobs, so you've got plenty of options. SA Profile keycaps can be quite tall, so you may want to use tall knobs as well. Some EC11's include a washer and nut, but you won't be using either the washer or nut. | [Amazon](https://www.amazon.com/gp/product/B07D3DF8TK) <br> [AliExpress 20mm](https://www.aliexpress.us/item/3256802171959870.html) | <img src="images/ec11.png" > <img src="images/ec11_knob.png" > |
 | M2 8mm FF spacers @todo - these heights & qty are outdated. | 12 | Connects the bottom plate to the key plate, running through the PCB | |
 | M2 12mm FF spacers | 6 | Connects the bottom plate to the OLED plate, running through the PCB and the keyplate. @todo - is it really 12mm? | |
 | M2x4mm screws | 18 | M2 screws. | |
@@ -149,7 +149,7 @@ Then install the components on the front:
 @todo update image
 ![diode orientation](docs/images/build_guide_Zero/sofle_Zero_diode_orientation.png)
 
-Diodes, surface mount or through-hole, can be installed on either the front or the back. Back side installation is recommended because after the case plates are installed, it's easier to access the back then the front. 
+Diodes, surface mount or through-hole, can be installed on either the front or the back. Back side installation is recommended because after the case plates are installed, it's easier to access the back then the front. If you are using Choc switches and a switch plate, you must install the diodes on the back side.
 
 If you are hand soldering, through hole diodes are recommended because they are easier. If you damage a pad on one side, feel free to move that diode to the other side.
 
@@ -157,10 +157,13 @@ Diodes _must_ be oriented with the white band in the direction of the "arrow" sy
 @todo add image.
 
 For surface mount diodes, a common method is to tin one pad, place the diode on, apply the soldering iron to the diode leg until it melts the solder underneath and sinks flush with the PCB. Then come back and solder the other leg. Alternately, you can use a rework station heat gun and solder paste. (I prefer this method for smds).
-.
+
+When you trim off the diode legs, save 12 for use as jumpers.
+
 This board has been designed with automated Printed Circuit Board Assembly (PCBA) in mind. Since the minimum PCB order quantity is usually 5, it's often worth ordering PCBA for the diodes alone. (Roughly 1030 solder joints).
 
 There is 1 diode per key, and 1 diode on the rotary encoder.
+
 @todo add image.
 
 ### Switch Sockets
@@ -214,15 +217,20 @@ If you ever need to remove the Zero: do it by gently prying the board up in smal
 Solder these on the front of the boards, inserting into the outline.
 Some brands of jack will snap into the board, holding them in place while you solder. Other brands may require tape. Solder 1 pin first to check that everything is flush. Adjust as needed. Solder remaining pins. 
 
+### Solenoid
+
+
 ### Rotary encoders
 Saved these for last because they are tallest. Insert into the top of the board, and solder on the backside. Some EC11's have metal tabs on opposite sides that add mechanical stability - no need to solder those.
 
 ### Final assembly
 Installing the keys and case.
 1. Optional: Screw stabalizers into PCB. The stabilizers are inserted into the front of the board, and screws are inserted on the back of the board. There are an abundance of holes around the pinky keys, so the stabalizer insertion holes have been marked with an arrow on the front of the board. 
-![stabilizer markings](images/stabalizer_markings.png) 
+
+<img style="max-width: 500px" alt="stabalizer markings" src="images/stabalizer_markings.png"><img style="max-width: 500px" alt="stabalizer markings" src="images/stabalizer_markings.png">
 
 @todo add image of inserted stabalizer for sw47.
+
 1. Snap a few switches into the top plate, the corner switches work best.
 1. Place the PCB on a flat surface. This will save some strain on the solder joints in the next step (though they should be able handle it).
 1. Carefully lower the top plate with switches on the main PCB and push into sockets. Ensure pins are aligned.
