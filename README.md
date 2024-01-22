@@ -34,6 +34,8 @@ The ErgoDonk Zero was designed by [Ryan Neff](https://github.com/JellyTitan). Ma
  - @todo crib this section from Junco?
  - [An entire row or column of keys is not working](#an-entire-row-or-column-of-keys-is-not-working)
  - [Random key or keys not working](#random-key-or-keys-not-working)
+[Version History](#version-history)
+[Future feature wish list](#future-feature-wish-list)
 
 ## Overview
 
@@ -239,7 +241,7 @@ Saved these for last because they are tallest. Insert into the top of the board,
 Installing the keys and case.
 1. Optional: Screw stabalizers into PCB. The stabilizers are inserted into the front of the board, and screws are inserted on the back of the board. There are an abundance of holes around the pinky keys, so the stabalizer insertion holes have been marked with an arrow on the front of the board. 
 
-<img width="500" alt="stabalizer markings" src="images/stabalizer_markings.png"><img width="500" alt="stabalizer markings" src="images/stabalizer_markings.png">
+<img width="49%" alt="stabalizer markings" src="images/stabalizer_markings.png"> <img width="49%" alt="stabalizer markings" src="images/stabalizer_markings.png">
 
 @todo add image of inserted stabalizer for sw47.
 
@@ -304,12 +306,17 @@ To flash:
 - Connect USB cable to the **left** side.
 - Enjoy!
 
- 
+## Version History
+See [build log](./BUILDLOG.md).
+
+## Future feature wish list
+Theres some features that I would like to add if time permits. Open to contributions.
+* [ ] Plate mount stabilizers. Currently has PCB mount only, but would like to support both types.
+* [ ] Write a PCBA ordering walk through. I pulled images for the process with the Sofle Pico - but never wrote a guide.
 
 ## Links
 - [QMK Firmware][qmk_firmware]
 - [QMK Configurator][qmk_configurator]
-
 
 ## Default layout
 
@@ -317,9 +324,6 @@ To flash:
 @todo update these after final hardware!!
 ![Keyboard Photo 1](./images/SofleChoc_2.jpg)
 ![Keyboard Photo 2](./images/SofleChoc_3.jpg)
-
-## Version History
-See [build log](./BUILDLOG.md).
 
 <style>
 mark{
