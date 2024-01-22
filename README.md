@@ -11,7 +11,6 @@ The ErgoDonk Zero was designed by [Ryan Neff](https://github.com/JellyTitan). Ma
 
 [Bill of Materials](#bill-of-materials)
  - [Required Parts](#required-parts)
- - [Optional - MCU Sockets](#optional---mcu-sockets)
  - [Optional - PCB screw in Stabilizers](#optional---pcb-screw-in-stabilizers)
  - [Optional - Solenoid](#optional---solenoid)
  - [Optional - key plates](#optional---key-plates)
@@ -79,18 +78,11 @@ Bubbleology](https://www.printables.com/model/235433-tenting-puck-for-keyboard-t
 
 <hr>
 
-### Optional - MCU Sockets
-This is strictly a quality of life upgrade. The older ProMicro's were notorious for weak Micro USB jacks that could snap off. This is not needed with the RP2040 Zero which uses USB-C.
-| Name | Count | Remarks | Potential Storefront |
-| - | - |-|-|
-2.54mm Round Female Pin Header | 4 sets of 20 | They commonly come in strips of 40. They don't always snap in half cleanly, so get extra | [Aliexpress](https://www.aliexpress.us/item/2251832729504304.html)
-Needle pin male connectors | 80 | Diode legs would also work, but these little sets of 4 are nice to work with. | [Aliexpress](https://www.aliexpress.us/item/2251832650595759.html?spm=a2g0o.order_list.order_list_main.186.15a91802YueygY&gatewayAdapt=glo2usa)
-
-<hr>
-
 ### Optional - PCB screw in Stabilizers 
 Supports up to 8 PCB mounted screw in stabilizers that are 2u in length. Stabilizers often come in sets based on keyboard sizes. A full size 104 key set will usually have 7 2u bars. Note, "PCB mount stabilizers" are not the same as "plate mount stabilizers". 
 @todo - add images.
+
+<hr>
 
 ### Optional - Solenoid
 The solenoid attaches to the PCB below the left palm. It's lovely and loud. Will only work on the left hand.
@@ -103,6 +95,8 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
  1N4001 Diode | 1 |  | [Amazon](https://www.amazon.com/gp/product/B079JPMW9H), [AliExpress](https://www.aliexpress.us/item/3256802685977811.html)|
  TIP 120 | 1 | Heatsinks are available for these, but aren't needed.  | [Amazon](https://www.amazon.com/gp/product/B083TQN12B/), [Aliexpress](https://www.aliexpress.us/item/3256803429634601.html)
 
+<hr>
+
 ### Optional - key plates, bottom plates, and cover plates:
  - Key plates are strongly recommended with 3-pin MX switches, but not technically required. (The thumb keys tend to fall out if you don't use a key plate). If you're using choc switches or 5-pin MX switches, they stay put well enough to skip the key plate entirely.
  - Bottom plates pair nicely with key plates, and can be connected with M2 standoff posts. These are not strictly necessary, as you could use [adhesive rubber bumpers](https://www.amazon.com/gp/product/B074C2XKXH) on the underside of the pcb instead.
@@ -111,8 +105,14 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
  @todo add images here.
  - Spacers are intended to pass through the main pcb and screw onto the bottom plates, key plates, and MCU cover plates.
 
+<hr>
+
 ### Optional - low profile header pins
-- The header pins that come with the Zero are usually too long. You can either clip them off after soldering, or use [8.5mm low profile header pins ](https://www.aliexpress.us/item/3256805874707460.html) instead. 
+- The header pins that come with the Zero are usually too long. You can either clip them off after soldering, or use [8.5mm low profile header pins ](https://www.aliexpress.us/item/3256805874707460.html) instead.
+
+<img src="images/sofle_pico_luxary_pins.png" alt="low profile header pins" height="100" >
+
+<hr>
 
 
 ## Tools and materials
@@ -153,7 +153,7 @@ The assembly order does not matter. This guide is written in the order I like to
 
 Then install the components on the front:
  - Jumpers
- - RP2040 Zero MCU & socket
+ - RP2040 Zero MCU
  - TRRS connector
  - Solenoid components
  - Rotary encoder
@@ -217,32 +217,24 @@ You can permanently install the Zero using the male-male headers that came with 
 1. Solder the remaining pcb/pin header joints on the back.
 1. Flip the board over. With the Zero, repeat the process of soldering & checking 1 pin with the pin header and the Zero. 
 1. Solder all the remaining Zero/pin header pins.
-#### Pi Zero MCU installed with sockets
-The needle pins will add some height to your MCU, so you'll need to use longer spacers later when installing the MCU cover plate.
-![Pi Zero socketed MCU](docs/images/build_guide_Zero/sofle_Zero_sockets_add_height.png)
-You can use diode legs if you're feeling fancy.
-To install a socketed Zero using the diode leg approach [from splitkb.com][promicrosocketing]:
 
-1. Insert the needle pins into the female sockets, and then insert the female sockets into the PCB and the Zero. Assembling the sockets/Zero/PCB before soldering ensures an excellent alignment. Be sure that the Zero is face up, and that the socket pins are inserted into the square outline on the front of the board. Applying a piece of kapton tape to hold everything in place can be helpful. 
-
-1. Flip the board over. On the back of the PCB, solder one pin on each side, pushing down on the PCB to ensure the headers are perpendicular and fully seated. Pick up the board and inspect to insure that everything is seated flush. If it's not flush, reheat the joint and push the socket down until it's flush. (Be sure you're not touching the pin your heating when you push it down).
-
-1. Solder the remaining pins on the back of the pcb.
-
-1. Flip over the board. On the front, solder 1 pin on each side to the Zero. Again check that everything is flush before soldering the remaining pins.
-
-
-If you ever need to remove the Zero: do it by gently prying the board up in small increments, working your way around the board. Avoid pressure on the USB connector. The diode legs are quite weak and will usually bend if you pull the Zero off in one action.
+<hr>
 
 ### TRRS Jacks
 Solder these on the front of the boards, inserting into the outline.
 Some brands of jack will snap into the board, holding them in place while you solder. Other brands may require tape. Solder 1 pin first to check that everything is flush. Adjust as needed. Solder remaining pins. 
 
+<hr>
+
 ### Solenoid
 
 
+<hr>
+
 ### Rotary encoders
 Saved these for last because they are tallest. Insert into the top of the board, and solder on the backside. Some EC11's have metal tabs on opposite sides that add mechanical stability - no need to solder those.
+
+<hr>
 
 ### Final assembly
 Installing the keys and case.
