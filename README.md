@@ -239,13 +239,8 @@ Saved these for last because they are tallest. Insert into the top of the board,
 
 ### Final assembly
 Installing the keys and case.
-1. Optional: Screw stabalizers into PCB. The stabilizers are inserted into the front of the board, and screws are inserted on the back of the board. There are an abundance of holes around the pinky keys, so the stabalizer insertion holes have been marked with an arrow on the front of the board. 
-
-<img width="49%" alt="stabalizer markings" src="images/stabalizer_markings.png"> <img width="49%" alt="stabalizer markings" src="images/stabalizer_markings.png">
-
-@todo add image of inserted stabalizer for sw47.
-
-1. Snap a few switches into the top plate, the corner switches work best.
+1. Install stabilizers. (Optional) The stabilizers are inserted into the front of the board, and screws are inserted on the back of the board. There are an abundance of holes around the pinky keys, so the stabilizer insertion holes have been marked with an arrow on the front of the board. <br> <img width="49%" alt="stabilizer markings" src="images/stabalizer_markings.jpeg"> <img width="49%" alt="stabilizer installed on left hand shift key" src="images/stabilizer_inserted.JPG"><br> Notice the thumb clusters stabilizers are 'back-to-back': <br><img width="49%" alt="thumb stabilizers installed" src="images/thumb_stabs.JPG">
+1. Snap switches into the corners of the key plate.
 1. Place the PCB on a flat surface. This will save some strain on the solder joints in the next step (though they should be able handle it).
 1. Carefully lower the top plate with switches on the main PCB and push into sockets. Ensure pins are aligned.
 1. Snap the remaining switches into the top plate pressing into the sockets.
@@ -256,30 +251,29 @@ Installing the keys and case.
 1. Slide the three standoff on the OLED plate through the PCB. Attach those standoffs to the backplate using M2 screws.
 1. Put at least 4 adhesive rubber feet in the corners so the keyboard is not moving when you type.
 
+<hr> 
+
 ## Warnings and disclaimers
 - Don't connect or disconnect the TRRS cable when the keyboard is powered. It may short out. Always disconnect the USB cable first.
-- Be gentle with USB-C ports on your microcontrollers. They are easy to break.
+- Be gentle with USB-C ports on your micro controllers. They are easy to break.
 - Keep in mind that this is a prototype of a DIY keyboard. It’s not a polished product.
+
+<hr> 
 
 ## Firmware and programming
 @todo - update hte firmware.
 ### The easy way
 The rp2040 supports 'drag and drop' flashing with a UF2 file on Mac or PC. This is the recommended approach if you're not familiar with compiling QMK firmware yourself. After the first 'drag and drop' flash, you can tweak your keymaps further using [VIA](https://www.caniusevia.com/).
 
-VIA allows you to quickly change your keymap without flashing or a QMK build environment. I highly recommend it for experimenting. There are few downsides:
-- it doesn't support custom logic like a key for switching between Mac/Win
-- the exporting/importing keymaps has some problems with some multi-chord keys though typically I don't find I need to export/import
-- lighting configuration keys only seem to affect lighting on the master side. If you don't change lighting much, a workaround is to plug just the right side in to the computer, change the lighting then plug everything back normally
-
 To flash with 'drag 'n drop':
 These instructions are a summarization of the [official explanation found in the QMK docs](https://docs.qmk.fm/#/flashing?id=raspberry-pi-rp2040-uf2).
-1. Make sure halves are not connected together with TRRS cable.
+1. Make sure halves are not connected together with TRS cable.
 1. Connect one half to USB.
-1. Enter the bootloader using any of the following methods. These are dependant on where your RP2040 came from. You may have to remove an OLED to access the `BOOT` button.
+1. Enter the bootloader using any of the following methods. These are dependant on where your RP2040 Zero came from.
     * Hold down `BOOT` and tap `RESET`.
-    * Hold the `BOOT` button while pluging in the usb cable.
+    * Hold the `BOOT` button while plugging in the usb cable.
     * Double tapping the `RESET` button on the RP2040. ([Double tap reset is enabled by default on the RP2040](https://github.com/qmk/qmk_firmware/blob/master/docs/platformdev_rp2040.md#double-tap-reset-boot-loader-entry-iddouble-tap)).
-    * **Bootmagic reset** (works after you have flashed once): Hold down the top far corner key while plugging in the keyboard (`~` left half, `-` right half). This will also clear the EEPROM.
+    * **Bootmagic reset** (works after you have flashed once): Hold down the top far corner key while plugging in the keyboard (`~` left half, `-` right half). This will also clear the EEPROM. @todo Add Bootmagic to QMK config.
 1. Wait for the OS to detect the device.
 1. Copy the .uf2 file to the new USB disk. 
   * The files can be found in this repo at ./Sofle_Zero/Firmware
@@ -287,9 +281,9 @@ These instructions are a summarization of the [official explanation found in the
   * On Mac after the file is dropped, the 'Keyboard setup assistant' may be triggered. You can ignore and quit the assistant.(@todo add relative path to UF2 files.) 
 1. Unplug the side you just flashed, and repeat the process with the other side.
 1. Disconnect both halves from USB.
-1. Connect both halves together using the TRRS cable. 
+1. Connect both halves together using the TRS cable. 
 1. Connect the left half to USB.
-1. Test everything using VIA. (After you've downloaded and installed the VIA app from https://caniusevia.com/, it should recognize the keyboard when it opens).
+1. Test everything using VIA. (Earlier versions of VIA were downloaded and installed. The latest version, VIA 3, is accessed through the web interface).
 
 ### The less easy way
 If you want to build your own firmware, ErgoDonk Zero uses [QMK Firmware][qmk_firmware]. Support is not in the main QMK repository [yet](@todo: Update this url with official PR). Instead use the [jellytitan/qmk_firmware](https://github.com/jellytitan/qmk_firmware) fork.
@@ -297,22 +291,28 @@ https://docs.qmk.fm/#/flashing?id=raspberry-pi-rp2040-uf2
 
 To flash:
 - Clone [https://github.com/jellytitan/qmk_firmware](https://github.com/jellytitan/qmk_firmware)
-- Switch to the `sofle_Zero` branch with `git checkout sofle_Zero`
+- Switch to the `ergodonk_zero` branch with `git checkout ergodonk_zero`
 - Make sure your QMK environment [is setup][qmkintro].
-- Make sure halves are not connected together with TRRS cable.
-- Connect one half to USB, flash the firmware (always follow the current instructions in the QMK documentation! The command might look something like this: `qmk flash -kb sofle_choc -km default`). Use the reset button to reset the keyboard when you are asked to in console. 
+- Make sure halves are _not_ connected together with TRS cable.
+- Connect one half to USB, flash the firmware (always follow the current instructions in the QMK documentation! The command might look something like this: `qmk flash -kb ergodonk_zero --keymap default -bl uf2-split-right` and `qmk flash -kb ergodonk_zero --keymap default -bl uf2-split-left`). Use the reset button to reset the keyboard when you are asked to in console. 
 - Connect the second half and flash it in the same way as the previous one.
 - Disconnect the USB cable. Connect both halves together with TRRS cable.
 - Connect USB cable to the **left** side.
 - Enjoy!
 
+<hr> 
+
 ## Version History
 See [build log](./BUILDLOG.md).
+
+<hr> 
 
 ## Future feature wish list
 Theres some features that I would like to add if time permits. Open to contributions.
 * [ ] Plate mount stabilizers. Currently has PCB mount only, but would like to support both types.
 * [ ] Write a PCBA ordering walk through. I pulled images for the process with the Sofle Pico - but never wrote a guide.
+
+<hr> 
 
 ## Links
 - [QMK Firmware][qmk_firmware]
