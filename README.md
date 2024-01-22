@@ -63,7 +63,7 @@ Bubbleology](https://www.printables.com/model/235433-tenting-puck-for-keyboard-t
 | Name | Count | Remarks | Potential Storefront | Image |
 | ---- | ----- | ------- | -------------------- | ----- |
 | PCB | 2 | The PCB should be 1.6mm thick. I used JLCPCB's default settings only customizing the PCB color, and selecting 'lead free'. | Manufacturers such as JLCPCB, PCBWay, and Elecrow. [Price comparison tool](https://pcbshopper.com/) | <img src="images/ergodonk_simple_zero_v0.1.png" > |
-| Hot-swap Sockets | 101 | The PCB requires sockets. Switches cannot be soldered directly to the board. Either MX or Choc low profile sockets| [Aliexpress](https://www.aliexpress.us/item/3256803687338432.html) | <img src="images/bom_switches.png" > |
+| Hot-swap Sockets | 101 | The PCB requires sockets. Switches cannot be soldered directly to the board. <br> Either MX or Choc low profile sockets.  <br> When shopping for MX sockets, try to avoid the variant that has a metal tab in the center of the socket. This makes it harder to get the soldering iron in there. I've only encountered this tab when buying black MX sockets in bulk (500+) from AliExpress. I've _not_ encountered that problem with Kailh & Durock colored sockets. In the image to the right, the black socket has the troublesome tab. | [Amazon MX]( https://www.amazon.com/DUROCK-Mechanical-Keyboard-Switches-Hot-Swap/dp/B0B4WCKWLZ/ )  <br> [Aliexpress MX & Choc](https://www.aliexpress.us/item/3256803687338432.html) | <img src="images/bom_switches.png" > <br> <img src="images/hot_swop_sockets.JPG" alt="troublesome tab on kailh hot swop sockets"> |
 | Diodes | 103 | Surface mount SOD-123 1N4148, or through-hole 1N4148 diode. These are common, any old one should do. Through hole is usually easier to solder. | SMD:  <br> [AliExpress](https://www.aliexpress.us/item/2251832663565152.html) <br> [JLCPCB](https://jlcpcb.com/partdetail/3368026-1N4148SOD123/C2972760) <br> Through-hole: [AliExpress](https://www.aliexpress.us/item/2251832473773777.html) <br> [Amazon](https://www.amazon.com/100-Pieces-1N4148-Switching-High-Speed/dp/B079KJ91JZ) | <img src="images/diodes.png" > |
 | Raspberry Pi Zero | 2 | There's tons of clones available. Getting the version with the header pins pre-soldered saves you some time, but the pins are long so you'll have to nip off the excess and the pins may bend during shipping. Consider getting the versions without the soldered pins, and using [low profile header pins](#optional---low-profile-header-pins) instead of the header pins it comes with. | [Amazon](https://www.amazon.com/RP2040-Zero-High-Performance-Microcontroller-Castellated-Boards-2pcs/dp/B0B2Z3YWB9/) <br> [AliExpress](https://www.aliexpress.us/item/3256805808673201.html) |  <img src="images/rp2040.png" >
 | TRRS Jacks | 2 | PJ-320A | [AliExpress](https://www.aliexpress.us/item/2255800474897706.html) |  <img src="images/trrs.png" > |
@@ -139,6 +139,8 @@ With through hole components, there's a few common soldering methods:
 1. Use helping hands or work holding jig to keep the PCB lifted off the work surface. Insert components through the holes, _do not_ flip the pcb, and solder on the side the components are inserted. This is the recommended method. <br> <img src="images/top_jig.JPG" alt="pcb in workholding jigs with diodes inserted from the top" width="49%" /> <img src="images/workholding_jig_solder_from_top.JPG" alt="pcb in workholding jigs with diodes protruding" width="49%" />
 
 
+<hr>
+
 ### Prepare
 
 Make sure you know which side you are working on, and don't make two left hand sides by mistake. Stick a piece of tape on the front side of both PCBs to help remember.
@@ -155,6 +157,8 @@ Then install the components on the front:
  - TRRS connector
  - Solenoid components
  - Rotary encoder
+
+<hr>
 
 ### Diodes
 @todo update image
@@ -177,6 +181,8 @@ There is 1 diode per key, and 1 diode on the rotary encoder.
 
 @todo add image.
 
+<hr>
+
 ### Switch Sockets
 Switch sockets installed on the back of the PCB facing up towards the front of the PCB. Make sure they are flush with the PCB. 
 
@@ -184,12 +190,16 @@ Heat the metal connector, apply solder and look for the solder to wick down to t
 
 I like to put all the sockets in, find a comfortable position, solder one side of each socket, then rotate the board 180 and solder the remaining sides.
 
+<hr>
+
 ### Jumpers
 Because the MCU on both sides shares the same footprint, we need to set jumpers to ensure the power is routed correctly. The set of six jumpers for the right and left hands are marked accordingly. They can be soldered on the front or the back. Soldering on the front is recommended.
 
 You can bridge the jumpers by dragging a blob of solder across the 2 adjacent pads. Modern rosin core solder can make this difficult. As an alternate bridging method, you can bend a diode leg and solder that in place. There is bending jig to make it easy to bend jumpers to the optimal width. The bottom slot on the jig is for the jumpers.
 
-<img width="19%" alt="Bending jig location" src="images/bending_jigs.png" /> <img width="19%" alt="Jumper bending jig in use" src="images/jumper_bender_use.png" /> <img width="19%" alt="Six bent jumpers made from diode legs" src="images/jumpers.png" /> <img width="19%" alt="Jumpers on the board that have not been soldered." src="images/jumpers_in_place.png" /> <img width="19%" alt="Soldered jumpers on the left hand of the ErgoDonk Zero" src="images/soldered_jumpers.png" />
+<img width="16%" alt="Bending jig location" src="images/bending_jigs.png" /> <img width="16%" alt="Jumper bending jig in use" src="images/jumper_bender_use.png" /> <img width="16%" alt="Six bent jumpers made from diode legs" src="images/jumpers.png" /> <img width="16%" alt="Jumpers on the board that have not been soldered." src="images/jumpers_in_place.png" /> <img width="16%" alt="Soldered jumpers on the left hand of the ErgoDonk Zero" src="images/soldered_jumpers.png" /> <img width="16%" alt="clipping excess jumpers on the left hand of the ErgoDonk Zero" src="images/clipping_jumpers.JPG" />
+
+<hr>
 
 ### RP2040 Zero MCU
 The Zero is installed on the top of the board, buttons facing up.
