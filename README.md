@@ -204,26 +204,24 @@ You can bridge the jumpers by dragging a blob of solder across the 2 adjacent pa
 ### RP2040 Zero MCU
 The Zero is installed on the top of the board, buttons facing up.
 @todo-add image.
-* Top of the board: this is the side of the PCB opposite the diodes, LEDs and switch sockets
+* Top of the board: this is the side of the PCB opposite the diodes and switch sockets
 * Marked holes: Insert the Zero into the holes with the rectangular outline on the top of the board. 
 
-#### Pi Zero MCU installed permanently with header pins
-You can permanently install the Zero using the male-male headers that came with the Zero. (Or the low-profile headers, if your feeling fancy)!
-1. Insert the headers into the board and the Zero both before soldering. (The header pin rows can tilt a little if it's not inserted into both the board and the Zero.) The header pins may have one longer side. Install the longer side on the PCB, because you'll need to trim these, and the trimmed pins look better on the underside of the board. Use a piece of kapton tape to attach the Zero to the PCB while soldering.
 
-1. Flip the board over. Solder 1 of the outermost pins on each pin header on the PCB. Hold the board up to make sure the pin header is sitting flush with the pcb. If it's not, you can reheat that joint until it is flush. 
-@todo add images
+Install the Zero using the male-male headers that came with the Zero. (Or the low-profile headers, if your feeling fancy)!
+1. Insert the headers into the board and the Zero both before soldering. The header pin rows can tilt a little if it's not inserted into both the board and the Zero. The header pins that come with the zero have one longer side. Install the longer side on the PCB because you'll need to trim these, and the trimmed pins look better on the underside of the board. Use a piece of kapton tape to attach the Zero to the PCB while soldering.
+If you are using a Zero with pre-soldered headers, you'll likely have to bend the headers a bit to get everything to line up perfectly. Once you get it in, the friction will keep it in place, and you can skip the tape.
 
+1. Flip the board over. Solder 1 of the outermost pins on each pin header on the PCB. Hold the board up to make sure the pin header is sitting flush with the pcb. If it's not, you can reheat that joint until it is flush.<br> <img  width="50%" alt="first pin line up of the MCU" src="images/line_up_the_zero.JPG" />
 1. Solder the remaining pcb/pin header joints on the back.
 1. Flip the board over. With the Zero, repeat the process of soldering & checking 1 pin with the pin header and the Zero. 
-1. Solder all the remaining Zero/pin header pins.
+1. Solder all the remaining Zero/pin header pins.<br><img  width="50%" alt="RP2040 Zero MCU all pins soldered" src="images/solder_remaining_zero_pins.JPG" />
 
 <hr>
 
 ### TRRS Jacks
-Solder these on the front of the boards, inserting into the outline.
-Some brands of jack will snap into the board, holding them in place while you solder. Other brands may require tape. Solder 1 pin first to check that everything is flush. Adjust as needed. Solder remaining pins. 
-
+Insert the jack into the outline on the front of the board. Some brands of jack will snap into the board, holding them in place. Others may need to be taped down. Then flip the board over and solder on the backside. Solder 1 pin first to check that everything is flush. Adjust as needed. Solder remaining pins.<br>
+<img  width="49%" alt="TRRS jack from the front" src="images/TRRS_front.JPG" /> <img  width="49%" alt="TRRS jack from the back" src="images/TRRS_back.JPG" />
 <hr>
 
 ### Solenoid
