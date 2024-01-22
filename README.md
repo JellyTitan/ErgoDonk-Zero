@@ -124,10 +124,21 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
 - flush cutters to trim diode legs
 - masking, kapton or electrical tape
 - isopropyl-alcohol for cleaning
-- multimeter for troubleshooting
+- Optional - magnetic 'third hand' PCB work holding fixture. (I'm partial to the little cones) 
+- Optional - multimeter for troubleshooting. 
+- Optional - [magnifier headband](https://www.amazon.com/Headband-Magnifier-eSynic-Rechargeable-Detachable/dp/B08W55R47Z).
 
 ## Build Guide / Assembly steps
-This guide includes all optional components.
+This guide includes all optional components. 
+
+With through hole components, there's a few common soldering methods:
+1. Push the legs through the holes, then bend the legs slightly outward on the bottom side to keep the component in the hole when the PCB is flipped over. Solder on the side of the board opposite from the side the component was inserted.
+<br> <img src="images/diode_bend_top.JPG" alt="pcb with diode inserted from the top" width="49%" /> <img src="images/diode_bend_under.JPG" alt="pcb with bent diode legs" width="49%" />
+1. Push the legs through the holes and put a piece of kapton tape over the component to keep it in place when the board is flipped. Solder on the side of the board opposite from the side the component was inserted.
+<br> <img src="images/kapton_top.JPG" alt="pcb with diodes held in place by kapton tape" width="49%" /> <img src="images/kapton_under.JPG" alt="underside of pcb with diodes held in place by kapton tape" width="49%" />
+1. Use helping hands or work holding jig to keep the PCB lifted off the work surface. Insert components through the holes, _do not_ flip the pcb, and solder on the side the components are inserted. This is the recommended method. <br> <img src="images/top_jig.JPG" alt="pcb in workholding jigs with diodes inserted from the top" width="49%" /> <img src="images/workholding_jig_solder_from_top.JPG" alt="pcb in workholding jigs with diodes protruding" width="49%" />
+
+
 ### Prepare
 
 Make sure you know which side you are working on, and don't make two left hand sides by mistake. Stick a piece of tape on the front side of both PCBs to help remember.
