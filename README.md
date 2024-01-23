@@ -95,7 +95,8 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
 | Solenoid | 1 | 4.5v Solenoid - the Amazon Uxcell solenoid is the most reliable one I've found. Some [3V Solenoids](https://www.aliexpress.us/item/3256802092636163.html) from Aliexpress will work - but the 'thunk' is not nearly as satisfying. Go with the Uxcell if you can. | [Amazon](https://www.amazon.com/dp/B013DR655A)
  1k Resistor | 1 |   A 2.2k resistor should work as well, but I've not tried it.| [Amazon](https://www.amazon.com/gp/product/B08FHPKF9V), [Aliexpress](https://www.aliexpress.us/item/3256805483572082.html) |
  1N4001 Diode | 1 |  | [Amazon](https://www.amazon.com/gp/product/B079JPMW9H), [AliExpress](https://www.aliexpress.us/item/3256802685977811.html)|
- TIP 120 | 1 | Heatsinks are available for these, but aren't needed.  | [Amazon](https://www.amazon.com/gp/product/B083TQN12B/), [Aliexpress](https://www.aliexpress.us/item/3256803429634601.html)
+ TIP 120 | 1 | Heatsinks are available for these, but aren't needed.  | [Amazon](https://www.amazon.com/gp/product/B083TQN12B/), [Aliexpress](https://www.aliexpress.us/item/3256803429634601.html) | 
+ | M2 4mm screws | 2 | Attaches the Solenoid to the PCB | @todo use the same source as case screws in teh required section. |
 
 <hr>
 
@@ -167,7 +168,8 @@ Then install the components on the front:
 @todo update image
 ![diode orientation](docs/images/build_guide_Zero/sofle_Zero_diode_orientation.png)
 
-Diodes, surface mount or through-hole, can be installed on either the front or the back. Back side installation is recommended because after the case plates are installed, it's easier to access the back then the front. If you are using Choc switches and a switch plate, you must install the diodes on the back side.
+Diodes, surface mount or through-hole, can be installed on either the front or the back. 
+Back side installation is recommended because after the case plates are installed, it's easier to access the back then the front. If you are using Choc switches and a switch plate, you must install the diodes on the back side.
 
 If you are hand soldering, through hole diodes are recommended because they are easier. If you damage a pad on one side, feel free to move that diode to the other side.
 
@@ -175,6 +177,10 @@ Diodes _must_ be oriented with the white band in the direction of the "arrow" sy
 @todo add image.
 
 For surface mount diodes, a common method is to tin one pad, place the diode on, apply the soldering iron to the diode leg until it melts the solder underneath and sinks flush with the PCB. Then come back and solder the other leg. Alternately, you can use a rework station heat gun and solder paste. (I prefer this method for smds).
+
+For through-hole diodes, pre bending the legs while they are still on the paper strip makes inserting them much easier. You can use a [bending jig](@todo insert link to 3d printable jig here) to make quick uniform bends. Alternately, a carpenters pencil is roughly the right size. 
+
+<img width="49%" alt="Using a carpenters pencil as a bending jig" src="images/carpenter_pencil.JPG" />
 
 When you trim off the diode legs, save 12 for use as jumpers.
 
@@ -228,6 +234,18 @@ Insert the jack into the outline on the front of the board. Some brands of jack 
 <hr>
 
 ### Solenoid
+The Solenoid is installed on the left hand front of the board _only_. Right hand installation is not supported.
+
+1. Put a piece of electrical tape on the backside of the tip120 and trim it to the outline. In some applications these get really hot so a heat sink could be attached. Our application will never need that heat sink, but we don’t want that exposed metal against our board. Alternately, You can slap a sticker on there if you’re feeling fancy.<br> <img width="32%" alt="tip120 with untrimmed tape insulation" src="images/tip_tape_trim_1.jpeg"> <img width="32%" alt="tip120 with trimmed tape insulation" src="images/tip_tape_trim_2.jpeg">  <img width="32%" alt="tip120 with sticker insulation" src="images/tip_tape_trim_3.jpeg">
+1. Use the tip120 bending jig to get a 90 degree bend just below the fat part of the pins.
+<br> <img width="49%" alt="diode bending jig front" src="images/tip_120_jig_front.jpeg"> <img width="49%" alt="diode bending jig back" src="images/tip_120_jig_back.jpeg">
+1. Insert the tip120 into the holes on the front of the board. Tape it down, flip the board over, and solder on the backside. Trim off the long pins after soldering.<br><img width="49%" alt="tip120 render showing the 90 degree bend" src="images/tip_120_in place.jpeg"> <img width="49%" alt="tip120 render showing the 90 degree bend" src="images/solenoid_circuit_tip120.jpeg">
+1. Bend the legs of the 1k resistor using the bending jig on the left of the board.<br><img width="49%" alt="render demonstrating resistor bending jig" src="images/resistor_bending.jpeg">
+1. Insert the 1k resistor into the holes on the front of the board. Orientation of the resistor does not matter. Tape the resistor in place, flip the board, solder on the back and trim the pins.<br><img width="49%" alt="1k resistor placement indicated" src="images/solenoid_circuit_1k_resitor.jpeg">
+1. Bend the legs of the 1N4004 Shottky diode using the bending jig on the left of the board.<br><img width="49%" alt="render demonstrating resistor bending jig" src="images/1N4001_diode_bending.jpeg">
+1. Insert the 1N4004 Shottky diode into the holes on the front of the board. Be sure to orient the diode with the strip towards the top of the board. Tape the diode in place, flip the board, solder on the back and trim the pins.<br><img width="49%" alt="1k resistor placement indicated" src="images/solenoid_circuit_1N4004_diode.jpeg">
+1. Using M2 screws, attach the solenoid to the top of the board. Run the wires through the big hole in the PCB. Solder onto the holes marked 'solenoid'. Polarity does not matter, so either wire can go in either hole. @todo - get pic of solenoid screwed to the board.
+<br><img width="49%" alt="Solenoid connection point indicated" src="images/solenoid_circuit_solenoid_connection.jpeg">
 
 
 <hr>

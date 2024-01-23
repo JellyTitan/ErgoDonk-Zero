@@ -1,4 +1,4 @@
-23918819387948203
+23920527852860058
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53644,6 +53644,13 @@ Ergodonk_simple_zero
 TO-220-3_Horizontal_TabDown_ergodonk_simple_zero
 TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
 TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
+Ergodonk_simple_zero
+TO220AH
+<b>Molded Package</b><p>grid 2.54 mm
+
 0
 3
 3
