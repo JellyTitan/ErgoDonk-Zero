@@ -119,6 +119,14 @@
     (stroke (width 0.12) (type default)) (fill none) (layer "User.4") (tstamp c8fdc288-3b5b-481c-8c89-ecd58ada10d3))
   (fp_rect (start 7 7) (end -7 -7)
     (stroke (width 0.12) (type default)) (fill none) (layer "User.4") (tstamp a515dfcf-e021-4fcd-a19d-b1c2cdb408df))
+  (fp_rect (start -23.8125 -9.525) (end 9.525 9.525)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp 4eaecc99-c14d-4c8a-9bd1-7bc53b26833d))
+  (fp_rect (start -9.525 9.525) (end 9.525 -9.525)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp deb0e7bd-9b66-4b56-88a0-8a2ddf355fbe))
+  (fp_rect (start -0.14375 7) (end -14.14375 -7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp 486b1d1b-2243-41b6-a21d-655be773940d))
+  (fp_rect (start 7 7) (end -7 -7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp ed7f6dcb-1067-4c7b-a680-91fb7b06873e))
   (pad "" np_thru_hole circle (at -12.64375 0 90) (size 1.9 1.9) (drill 1.9) (layers "*.Cu" "*.Mask") (tstamp 604d520c-1e38-4504-9919-f8163e03ff4f))
   (pad "" np_thru_hole circle (at -12.22375 0 180) (size 1.7 1.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 3898b19c-8d96-4fff-b2a4-5173c7334ef9))
   (pad "" np_thru_hole circle (at -9.68375 5.08) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 5bf9c7db-20e6-4085-a770-5beadfd0b2c0))
@@ -159,6 +167,7 @@
       3a40cd2d-65af-4b2d-bde8-a39436350a08
       3b284d60-9a85-44cb-ad1e-ab5ab99b25e8
       3e9dace7-4c9a-4e43-911c-0f67dd458eb3
+      4eaecc99-c14d-4c8a-9bd1-7bc53b26833d
       596e9b2e-cadb-4366-ba6f-8b2aaa1fd02b
       5bf9c7db-20e6-4085-a770-5beadfd0b2c0
       5d43b7c4-9795-4c4c-98e1-ba7af95ad388
@@ -220,6 +229,7 @@
       cd84e1bd-2e45-4c4a-ad87-8c5ef0182484
       d3e1a209-6e51-4118-a571-d9ebce59efc4
       dd19da73-f579-42f4-9d84-0c2a21dd114c
+      deb0e7bd-9b66-4b56-88a0-8a2ddf355fbe
       e7633205-dfbe-4e2f-8fe4-3fa3983c5a59
       eac338dd-2d4e-4bfc-8691-b0eb93f22259
       eaf4b153-ced3-4008-b190-b419ac729bfa

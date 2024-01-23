@@ -119,6 +119,14 @@
     (stroke (width 0.12) (type default)) (fill none) (layer "User.4") (tstamp 46b43c42-26bb-43e4-9e49-dfed19dea769))
   (fp_rect (start 7 7) (end -7 -7)
     (stroke (width 0.12) (type default)) (fill none) (layer "User.4") (tstamp eb449a0f-0ae9-4ba8-8245-f5d15c516916))
+  (fp_rect (start -19.05 -9.525) (end 9.525 9.525)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp 909496d6-f28b-4a45-8008-73258f356cd9))
+  (fp_rect (start -9.525 9.525) (end 9.525 -9.525)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp 79052f12-e340-4ae3-80d6-d14c75531808))
+  (fp_rect (start 2.2375 7) (end -11.7625 -7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp f692b765-7457-4132-9925-e5d814ce099d))
+  (fp_rect (start 7 7) (end -7 -7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp a128fe6f-1639-478a-9ec7-68055f631d8d))
   (pad "" np_thru_hole circle (at -10.2625 0 90) (size 1.9 1.9) (drill 1.9) (layers "*.Cu" "*.Mask") (tstamp 604d520c-1e38-4504-9919-f8163e03ff4f))
   (pad "" np_thru_hole circle (at -9.8425 0 180) (size 1.7 1.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 3898b19c-8d96-4fff-b2a4-5173c7334ef9))
   (pad "" np_thru_hole circle (at -7.3025 5.08) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 5bf9c7db-20e6-4085-a770-5beadfd0b2c0))
@@ -170,6 +178,7 @@
       8822277c-8356-43a8-ba4f-7c4b264762e3
       8baea93c-9537-4d0d-acc4-05f5110c0db3
       8de8e4b2-377b-4849-ad85-4d7f06eccea2
+      909496d6-f28b-4a45-8008-73258f356cd9
       9100d3f4-19c8-40fd-9533-00e1a6246ca7
       920fdbd9-2cde-43fb-8fb6-c09e6b68ff88
       988d8c78-086e-4cda-ac15-10c749e3c77a
@@ -188,6 +197,7 @@
       f4135f37-0024-4ffd-99e1-a47ad3d822b5
       f577605e-391a-49cc-b3b7-d9f93072ee4d
       f5dba99d-4067-4ad0-9c4b-7113709ce463
+      f692b765-7457-4132-9925-e5d814ce099d
     )
   )
   (group "" (id 4983856d-91d5-41b4-b24d-0bd0867b36bb)
@@ -211,9 +221,11 @@
       68ccdf44-aa2e-42a9-a76b-2efe54a2a13a
       6d1a792a-9342-4d17-98f3-d297dfb317ea
       744721de-2e0b-41d7-8a79-91313c097558
+      79052f12-e340-4ae3-80d6-d14c75531808
       7cd30b0e-3990-455e-bb53-e7364506a375
       8789d41d-9153-4b8a-b75c-9786b2bbbd93
       8ff1d0a9-b9ee-475a-8837-48bb911128c4
+      a128fe6f-1639-478a-9ec7-68055f631d8d
       a62656ff-f44f-4ce8-9711-49df9b5a039a
       b2178d71-9f56-4fd9-839f-778512ed2e8c
       bdb337cf-051d-46df-ac20-10e85d27650e

@@ -46,6 +46,7 @@
 
 
 ## Punch list
+* [ ] consider a key plate variant that has holes to attach a top plate.
 * [ ] Note look for socket outline when placing switches per hand. An earlier note referenced looking for pads, it’s easier to find outlines and pads.
 * [ ] After you finish, tacking down the first side of the sockets, give the board of gentle tap to see if anything shakes loose. It’s better to find weak solder joints now than later. Then rotate the board 180 and solder the other one.
 * [ ] Make a note about tacking down, one side, rotating, and then soldering the other side of the socket switches. There’s images for these.

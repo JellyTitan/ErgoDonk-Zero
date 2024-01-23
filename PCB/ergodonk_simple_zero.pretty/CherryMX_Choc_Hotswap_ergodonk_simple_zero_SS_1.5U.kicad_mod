@@ -64,9 +64,11 @@
   (fp_line (start 9 9) (end -9 9)
     (stroke (width 0.15) (type solid)) (layer "Eco2.User") (tstamp be41709c-91b6-4622-8ba6-0f51b0f2973e))
   (fp_rect (start 7 7) (end -7 -7)
-    (stroke (width 0.12) (type default)) (fill none) (layer "User.4") (tstamp 7469d415-dde4-4140-a22c-3d6e3302f8c6))
-  (fp_rect (start 7 7) (end -7 -7)
     (stroke (width 0.12) (type default)) (fill none) (layer "User.4") (tstamp 763ec62a-7a80-408c-9e91-213b7d1809be))
+  (fp_rect (start -14.2875 -9.525) (end 14.2875 9.525)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp 1880e816-bc09-4771-ba82-d41315b2ac20))
+  (fp_rect (start 7 7) (end -7 -7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp 7469d415-dde4-4140-a22c-3d6e3302f8c6))
   (pad "" np_thru_hole circle (at -5.5 0 270) (size 1.9 1.9) (drill 1.9) (layers "*.Cu" "*.Mask") (tstamp 596e9b2e-cadb-4366-ba6f-8b2aaa1fd02b))
   (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp c850dcfa-2cf7-4359-9696-1072d3a8ebc8))
   (pad "" np_thru_hole circle (at -5 -3.7 90) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp f4135f37-0024-4ffd-99e1-a47ad3d822b5))
@@ -83,6 +85,7 @@
   (group "" (id 4317046e-197e-48a9-8fbb-8e4539b53e62)
     (members
       15354118-1d29-484b-8d27-667725759662
+      1880e816-bc09-4771-ba82-d41315b2ac20
       18af0ddc-8193-4322-83ee-c735c0b041b6
       1a6c5f78-1e57-4b57-86df-acc2191af113
       1d0ccdf6-aab9-40ca-afdc-71ed9e527194
