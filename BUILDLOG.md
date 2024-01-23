@@ -45,7 +45,15 @@
 ![Solenoids](images/solenoids.JPG)
 
 
-## Punch lis
+## Punch list
+* [ ] Note look for socket outline when placing switches per hand. An earlier note referenced looking for pads, it’s easier to find outlines and pads.
+* [ ] After you finish, tacking down the first side of the sockets, give the board of gentle tap to see if anything shakes loose. It’s better to find weak solder joints now than later. Then rotate the board 180 and solder the other one.
+* [ ] Make a note about tacking down, one side, rotating, and then soldering the other side of the socket switches. There’s images for these.
+* [ ] Add notes to the build guide, about how the symbols on the key cap should not correspond to the actual key presses., and the default layout is an adaptation of the ergodox.
+* [ ] Add note about how great those magnetic data cables are.
+* [ ] Add note in the build guide about the key layout using the ergonomic height of the SA keys and add images demponstrating. Also add a keyboard layout editor.com variant with the Row #'s.'
+* [ ] Add a link to make it easy for users to contribute to documentation, like QMK has.
+* [ ] Add note about the merits of AliExpress vs other vendors.
 * [ ] Consider creating a choc key plate variant with cutouts for the diodes on the front?
 * [ ] fix hot swap socket graphic with iconography. (Currently two red arrows - maybe a green check and a red 'no')?
 * [ ] Create a tip120 bending jig.
