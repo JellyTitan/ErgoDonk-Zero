@@ -239,11 +239,12 @@ The Solenoid is installed on the left hand front of the board _only_. Right hand
 1. Put a piece of electrical tape on the backside of the tip120 and trim it to the outline. In some applications these get really hot so a heat sink could be attached. Our application will never need that heat sink, but we don’t want that exposed metal against our board. Alternately, You can slap a sticker on there if you’re feeling fancy.<br> <img width="32%" alt="tip120 with untrimmed tape insulation" src="images/tip_tape_trim_1.jpeg"> <img width="32%" alt="tip120 with trimmed tape insulation" src="images/tip_tape_trim_2.jpeg">  <img width="32%" alt="tip120 with sticker insulation" src="images/tip_tape_trim_3.jpeg">
 1. Use the tip120 bending jig to get a 90 degree bend just below the fat part of the pins.
 <br> <img width="49%" alt="diode bending jig front" src="images/tip_120_jig_front.jpeg"> <img width="49%" alt="diode bending jig back" src="images/tip_120_jig_back.jpeg">
-1. Insert the tip120 into the holes on the front of the board. Tape it down, flip the board over, and solder on the backside. Trim off the long pins after soldering.<br><img width="49%" alt="tip120 render showing the 90 degree bend" src="images/tip_120_in place.jpeg"> <img width="49%" alt="tip120 render showing the 90 degree bend" src="images/solenoid_circuit_tip120.jpeg">
+1. Insert the tip120 into the holes on the front of the board. Tape it down, flip the board over, and solder on the backside.<br><img width="49%" alt="tip120 render showing the 90 degree bend" src="images/tip_120_in place.jpeg"> <img width="49%" alt="tip120 render showing the 90 degree bend" src="images/solenoid_circuit_tip120.jpeg">
 1. Bend the legs of the 1k resistor using the bending jig on the left of the board.<br><img width="49%" alt="render demonstrating resistor bending jig" src="images/resistor_bending.jpeg">
-1. Insert the 1k resistor into the holes on the front of the board. Orientation of the resistor does not matter. Tape the resistor in place, flip the board, solder on the back and trim the pins.<br><img width="49%" alt="1k resistor placement indicated" src="images/solenoid_circuit_1k_resitor.jpeg">
+1. Insert the 1k resistor into the holes on the front of the board. Orientation of the resistor does not matter. Tape the resistor in place, flip the board, solder on the back side.<br><img width="49%" alt="1k resistor placement indicated" src="images/solenoid_circuit_1k_resitor.jpeg"> 
 1. Bend the legs of the 1N4004 Shottky diode using the bending jig on the left of the board.<br><img width="49%" alt="render demonstrating resistor bending jig" src="images/1N4001_diode_bending.jpeg">
-1. Insert the 1N4004 Shottky diode into the holes on the front of the board. Be sure to orient the diode with the strip towards the top of the board. Tape the diode in place, flip the board, solder on the back and trim the pins.<br><img width="49%" alt="1k resistor placement indicated" src="images/solenoid_circuit_1N4004_diode.jpeg">
+1. Insert the 1N4004 Shottky diode into the holes on the front of the board. Be sure to orient the diode with the strip towards the top of the board. Tape the diode in place, flip the board and solder on the back.<br><img width="49%" alt="1k resistor placement indicated" src="images/solenoid_circuit_1N4004_diode.jpeg">
+1. Flip the board and trim the pins sticking out for the components you just installed. <br><img width="49%" alt="trimming pins on the backside" src="images/solenoid_pin_nipping.jpeg">
 1. Using M2 screws, attach the solenoid to the top of the board. Run the wires through the big hole in the PCB. Solder onto the holes marked 'solenoid'. Polarity does not matter, so either wire can go in either hole. @todo - get pic of solenoid screwed to the board.
 <br><img width="49%" alt="Solenoid connection point indicated" src="images/solenoid_circuit_solenoid_connection.jpeg">
 
@@ -251,12 +252,13 @@ The Solenoid is installed on the left hand front of the board _only_. Right hand
 <hr>
 
 ### Rotary encoders
-Saved these for last because they are tallest. Insert into the top of the board, and solder on the backside. Some EC11's have metal tabs on opposite sides that add mechanical stability - no need to solder those.
-
+Saved these for last because they are tallest. Insert into the top of the board, and solder on the backside. Some EC11's have metal tabs on opposite sides that add mechanical stability - no need to solder those tabs.
+<br><img width="49%" alt="rotary encoder soldered to the PCB" src="images/ec11_soldered.jpeg">
 <hr>
 
 ### Final assembly
-Installing the keys and case.
+Installing the stabilizers, keys and case.
+
 1. Install stabilizers. (Optional) The stabilizers are inserted into the front of the board, and screws are inserted on the back of the board. There are an abundance of holes around the pinky keys, so the stabilizer insertion holes have been marked with an arrow on the front of the board. <br> <img width="49%" alt="stabilizer markings" src="images/stabalizer_markings.jpeg"> <img width="49%" alt="stabilizer installed on left hand shift key" src="images/stabilizer_inserted.JPG"><br> Notice the thumb clusters stabilizers are 'back-to-back': <br><img width="49%" alt="thumb stabilizers installed" src="images/thumb_stabs.JPG">
 1. Snap switches into the corners of the key plate.
 1. Place the PCB on a flat surface. This will save some strain on the solder joints in the next step (though they should be able handle it).
