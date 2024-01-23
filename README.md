@@ -38,16 +38,18 @@ The ErgoDonk Zero was designed by [Ryan Neff](https://github.com/JellyTitan). Ma
 [Future feature wish list](#future-feature-wish-list)
 
 ## Overview
+@todo - can i get rid of this section? Maybe this is where i put the "why have you done this"? 
 
 ## Design philosophy
 The ErgoDonk Zero is designed with the following goals:
-* Comfort
+* Comfort & ergonomics
   * Ortholinear.
   * Split.
   * Tiltable. Has tenting puck mounting holes. [SplitKB](https://splitkb.com/products/tenting-puck) or 3d print your own: design by [
 Bubbleology](https://www.printables.com/model/235433-tenting-puck-for-keyboard-tripod-mount/comments/943096).
+  * Thumb clusters designed to use SA variable height keycaps
 * Accessible
-  * Uses standard keycap sets.
+  * Uses standard key cap sets. 
   * Can use either MX or Choc V1 low profile key switches.
   * Through-hole components used for easy soldering.
   * "Drag and drop" MCU flashing.
@@ -55,8 +57,10 @@ Bubbleology](https://www.printables.com/model/235433-tenting-puck-for-keyboard-t
   * [Supports more keys](http://www.keyboard-layout-editor.com/#/gists/ac776db3b0deef94de51943c384cfdfc) than a traditional split ergo, making it a good transition to a smaller split, or for those who really like their "F" keys.
 * Low cost
   * The PCB is reversible to reduce manufacturing costs.
-  * Uses RP2040 Zero. (Inexpensive clones are readily available through AliExpress for ~$3USD)
-  * Does not require split-specific key caps.
+  * Uses RP2040 Zero. (Inexpensive clones are readily available for ~$3USD)
+  * Does not require expensive split-specific key cap sets.
+
+<hr>
 
 ## Bill of materials
 ### Required Parts
@@ -117,7 +121,6 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
 
 <hr>
 
-
 ## Tools and materials
 
 - soldering iron and solder
@@ -131,10 +134,12 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
 - Optional - multimeter for troubleshooting. 
 - Optional - [magnifier headband](https://www.amazon.com/Headband-Magnifier-eSynic-Rechargeable-Detachable/dp/B08W55R47Z).
 
+<hr>
+
 ## Build Guide / Assembly steps
 This guide includes all optional components. 
 
-With through hole components, there's a few common soldering methods. In this guide, we'll be using the third method - "work holding". Accordingly, the docs will not reference flipping the PCB over for soldering legs.
+There's a few common soldering methods used with through-hole components. In this guide, we'll be using the third method - "work holding". Accordingly, the docs will not reference flipping the PCB over for soldering legs.
 
 1. **The bendy method**: Push the legs through the holes, then bend the legs slightly outward on the bottom side to keep the component in the hole when the PCB is flipped over. Solder on the side of the board opposite from the side the component was inserted.
 <br> <img src="images/diode_bend_top.JPG" alt="pcb with diode inserted from the top" width="49%" /> <img src="images/diode_bend_under.JPG" alt="pcb with bent diode legs" width="49%" />
@@ -232,6 +237,7 @@ If you are using a Zero with pre-soldered headers, you'll likely have to bend th
 ### TRRS Jacks
 Insert the jack into the outline on the front of the board. Some brands of jack will snap into the board, holding them in place. Others may need to be taped down. Then flip the board over and solder on the backside. Solder 1 pin first to check that everything is flush. Adjust as needed. Solder remaining pins.<br>
 <img  width="49%" alt="TRRS jack from the front" src="images/TRRS_front.JPG" /> <img  width="49%" alt="TRRS jack from the back" src="images/TRRS_back.JPG" />
+
 <hr>
 
 ### Solenoid
@@ -249,12 +255,12 @@ The Solenoid is installed on the left hand front of the board _only_. Right hand
 1. Using M2 screws, attach the solenoid to the top of the board. Run the wires through the big hole in the PCB. Solder onto the holes marked 'solenoid'. Polarity does not matter, so either wire can go in either hole. @todo - get pic of solenoid screwed to the board.
 <br><img width="49%" alt="Solenoid connection point indicated" src="images/solenoid_circuit_solenoid_connection.jpeg">
 
-
 <hr>
 
 ### Rotary encoders
 Saved these for last because they are tallest. Insert into the top of the board, and solder on the backside. Some EC11's have metal tabs on opposite sides that add mechanical stability - no need to solder those tabs.
 <br><img width="49%" alt="rotary encoder soldered to the PCB" src="images/ec11_soldered.jpeg">
+
 <hr>
 
 ### Final assembly
@@ -341,16 +347,10 @@ Theres some features that I would like to add if time permits. Open to contribut
 
 ## Default layout
 
+<hr>
+
 ## Images of keyboard
 @todo update these after final hardware!!
 ![Keyboard Photo 1](./images/SofleChoc_2.jpg)
 ![Keyboard Photo 2](./images/SofleChoc_3.jpg)
 
-<style>
-mark{
-    position: fixed;
-    right: 25px;
-    bottom: 25px;
-}
-</style>
-<mark>[🔼 Back to top](#sofle-Zero-keyboard)</mark>
