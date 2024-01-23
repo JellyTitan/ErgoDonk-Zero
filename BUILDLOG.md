@@ -45,7 +45,8 @@
 ![Solenoids](images/solenoids.JPG)
 
 
-## Punch list
+## Punch lis
+* [ ] Consider creating a choc key plate variant with cutouts for the diodes on the front?
 * [ ] fix hot swap socket graphic with iconography. (Currently two red arrows - maybe a green check and a red 'no')?
 * [ ] Create a tip120 bending jig.
 * [ ] Strip GEO metadata from all images.

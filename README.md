@@ -178,15 +178,15 @@ Diodes _must_ be oriented with the white band in the direction of the "arrow" sy
 
 For surface mount diodes, a common method is to tin one pad, place the diode on, apply the soldering iron to the diode leg until it melts the solder underneath and sinks flush with the PCB. Then come back and solder the other leg. Alternately, you can use a rework station heat gun and solder paste. (I prefer this method for smds).
 
-For through-hole diodes, pre bending the legs while they are still on the paper strip makes inserting them much easier. You can use a [bending jig](@todo insert link to 3d printable jig here) to make quick uniform bends. Alternately, a carpenters pencil is roughly the right size. 
+For through-hole diodes, pre bending the legs while they are still on the paper strip makes inserting them much easier. You can use a 3d printed diode [bending jig](https://www.printables.com/model/734696-diode-bending-jig-8mm) to make quick uniform bends.<br><img width="49%" alt="Using a carpenters pencil as a bending jig" src="images/diode_jig_fold.jpeg" /> <img width="49%" alt="Using a carpenters pencil as a bending jig" src="images/diode_jig_cut.jpeg" />
+
+Alternately, a carpenters pencil is roughly the right size. (The diode holes are 8mm apart, wooden pencils are often 7mm - 8mm).
 
 <img width="49%" alt="Using a carpenters pencil as a bending jig" src="images/carpenter_pencil.JPG" />
 
 When you trim off the diode legs, save 12 for use as jumpers.
 
-This board has been designed with automated Printed Circuit Board Assembly (PCBA) in mind. Since the minimum PCB order quantity is usually 5, it's often worth ordering PCBA for the diodes alone. (Roughly 1030 solder joints).
-
-There is 1 diode per key, and 1 diode on the rotary encoder.
+There is 1 diode per key, and 1 diode on the rotary encoder. (@todo Make note about more diodes on the RH side)
 
 @todo add image.
 
