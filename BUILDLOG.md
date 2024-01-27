@@ -76,3 +76,4 @@
 ## Features to add to future keyboards
 * Space 2mm and 4mm case holes evenly around the perimeter for monoblock type cases.
 * Consider moving TRS and Zero jack back a bit so they sit flush with the edge of the board. This would make it easier to use 'monoblock' cases.
+* Be sure to rotate the thumb cluster keys when building a LED variant.

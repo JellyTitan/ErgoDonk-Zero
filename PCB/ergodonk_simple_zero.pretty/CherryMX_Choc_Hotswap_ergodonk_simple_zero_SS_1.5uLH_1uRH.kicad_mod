@@ -123,6 +123,14 @@
     (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp 909496d6-f28b-4a45-8008-73258f356cd9))
   (fp_rect (start -9.525 9.525) (end 9.525 -9.525)
     (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp 79052f12-e340-4ae3-80d6-d14c75531808))
+  (fp_rect (start -6.9125 -7.5) (end -2.6125 -7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp 08444e84-c821-4cdd-afb2-ae8715ed7f19))
+  (fp_rect (start -6.9125 7) (end -2.6125 7.5)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp d42d7577-c69f-4b19-9bcf-01fdece76d68))
+  (fp_rect (start -2.15 -7.5) (end 2.15 -7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp 9cb0f529-0b36-4f43-84e6-c2bcf71b27ed))
+  (fp_rect (start -2.15 7) (end 2.15 7.5)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp f4cdbe2c-3942-4ebf-b240-3bb736b6c769))
   (fp_rect (start 2.2375 7) (end -11.7625 -7)
     (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp f692b765-7457-4132-9925-e5d814ce099d))
   (fp_rect (start 7 7) (end -7 -7)
@@ -158,6 +166,7 @@
   (group "" (id 315da363-37cb-4219-a975-03e254d0c31b)
     (members
       02e518b4-436e-4222-a0f2-bfd15f986458
+      08444e84-c821-4cdd-afb2-ae8715ed7f19
       15354118-1d29-484b-8d27-667725759662
       18af0ddc-8193-4322-83ee-c735c0b041b6
       1a6c5f78-1e57-4b57-86df-acc2191af113
@@ -191,6 +200,7 @@
       c0c4aeb8-e451-416e-a4ec-64aef3bc8383
       c850dcfa-2cf7-4359-9696-1072d3a8ebc8
       d0913133-6713-4fa8-abd4-69c3a91823b4
+      d42d7577-c69f-4b19-9bcf-01fdece76d68
       d5273a8f-d921-4378-8277-555ba1595cf9
       d9ab5b54-e1b6-46a1-b424-6d04cb544565
       dca346f6-f670-40c4-a219-c06a5a367689
@@ -225,6 +235,7 @@
       7cd30b0e-3990-455e-bb53-e7364506a375
       8789d41d-9153-4b8a-b75c-9786b2bbbd93
       8ff1d0a9-b9ee-475a-8837-48bb911128c4
+      9cb0f529-0b36-4f43-84e6-c2bcf71b27ed
       a128fe6f-1639-478a-9ec7-68055f631d8d
       a62656ff-f44f-4ce8-9711-49df9b5a039a
       b2178d71-9f56-4fd9-839f-778512ed2e8c
@@ -237,6 +248,7 @@
       eac338dd-2d4e-4bfc-8691-b0eb93f22259
       eaf4b153-ced3-4008-b190-b419ac729bfa
       eb449a0f-0ae9-4ba8-8245-f5d15c516916
+      f4cdbe2c-3942-4ebf-b240-3bb736b6c769
       f641f4f0-612b-4809-adc3-c32780bfb360
       f85f200b-e61e-40de-9489-404d32099695
       ff3a59fd-91c0-4ed7-904a-442f9cb649cf

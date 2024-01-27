@@ -114,6 +114,38 @@
     (stroke (width 0.05) (type solid)) (layer "User.4") (tstamp 8fdeebad-ab2d-48a9-89b3-841ba083d694))
   (fp_arc (start 15.40625 7.500001) (mid 15.259806 7.853571) (end 14.90625 8.000001)
     (stroke (width 0.05) (type solid)) (layer "User.4") (tstamp e2b14493-9448-4e73-aa05-66a7a4d92c99))
+  (fp_line (start -15.65625 8.255) (end -15.65625 -6.985)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp 41f9b9fe-648f-4002-85d3-be5a48b2bd8e))
+  (fp_line (start -15.65625 8.255) (end -15.65625 -6.985)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp da438c7e-181e-4885-af7e-cb6f1f39b0dc))
+  (fp_line (start -8.15625 -6.985) (end -8.15625 8.255)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp 01e40b0c-57b3-4155-afde-6f9598236b1d))
+  (fp_line (start -8.15625 -6.985) (end -8.15625 8.255)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp fda638f5-767f-40a5-8b31-c1b7404fc88d))
+  (fp_line (start 8.15625 -6.985) (end 8.15625 8.255)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp 20e5d506-40d3-4d45-b703-03846ef771f5))
+  (fp_line (start 8.15625 -6.985) (end 8.15625 8.255)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp 8b80c7ab-d04e-459d-89eb-369d7f8c7d78))
+  (fp_line (start 15.65625 8.255) (end 15.65625 -6.985)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp 3f5b6f30-1840-41ed-a9a8-e5aac5462c1c))
+  (fp_line (start 15.65625 8.255) (end 15.65625 -6.985)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp f3eedf77-b235-44cc-8660-80e3f972b6f8))
+  (fp_arc (start -15.65625 -6.985) (mid -11.90625 -10.735) (end -8.15625 -6.985)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp 786e92a2-fe45-4fb8-b2e7-986a808ea1cc))
+  (fp_arc (start -15.65625 -6.985) (mid -11.90625 -10.735) (end -8.15625 -6.985)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp caf749d7-b9d0-4476-af8c-a564ec252aaf))
+  (fp_arc (start -8.15625 8.255) (mid -11.90625 12.005) (end -15.65625 8.255)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp 7693416a-dab0-43b1-ae5a-92c1508c93dc))
+  (fp_arc (start -8.15625 8.255) (mid -11.90625 12.005) (end -15.65625 8.255)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp cb526926-9dfb-4dd7-96ad-7e2a7d001e8c))
+  (fp_arc (start 8.15625 -6.985) (mid 11.90625 -10.735) (end 15.65625 -6.985)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp a38da756-46f6-42b1-8a4b-04e937eb4927))
+  (fp_arc (start 8.15625 -6.985) (mid 11.90625 -10.735) (end 15.65625 -6.985)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp c496702a-20a2-4c17-b377-2c15246ff5b4))
+  (fp_arc (start 15.65625 8.255) (mid 11.90625 12.005) (end 8.15625 8.255)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp 441ec6dd-d5fd-4bf7-a9d0-b2bf422db962))
+  (fp_arc (start 15.65625 8.255) (mid 11.90625 12.005) (end 8.15625 8.255)
+    (stroke (width 0.12) (type default)) (layer "User.8") (tstamp e29c6e4a-1b57-4165-b77e-ff53b3f398a5))
   (pad "" thru_hole circle (at -11.90625 -6.985) (size 4 4) (drill 3.048) (layers "*.Cu" "*.Mask") (tstamp b1458ef4-617b-4c49-ac45-a5a84f41623e))
   (pad "" np_thru_hole circle (at -11.90625 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers "F&B.Cu" "*.Mask") (tstamp 9a2b07f4-263e-4136-8437-1989419e4076))
   (pad "" thru_hole circle (at 11.90625 -6.985) (size 4 4) (drill 3.048) (layers "*.Cu" "*.Mask") (tstamp eeabc32f-e7d0-4e89-bbbf-0d6921f34c07))
@@ -154,6 +186,18 @@
       905e9155-9313-4bee-a8b6-d4dd8b5882d8
       bbb9c316-9454-488e-873a-364f88488580
       c35f62d8-995f-446b-ac65-a13a4c97a3b6
+    )
+  )
+  (group "" (id 8735be1b-fe71-4967-a7af-5b2067e06edb)
+    (members
+      20e5d506-40d3-4d45-b703-03846ef771f5
+      3f5b6f30-1840-41ed-a9a8-e5aac5462c1c
+      41f9b9fe-648f-4002-85d3-be5a48b2bd8e
+      441ec6dd-d5fd-4bf7-a9d0-b2bf422db962
+      786e92a2-fe45-4fb8-b2e7-986a808ea1cc
+      a38da756-46f6-42b1-8a4b-04e937eb4927
+      cb526926-9dfb-4dd7-96ad-7e2a7d001e8c
+      fda638f5-767f-40a5-8b31-c1b7404fc88d
     )
   )
 )
