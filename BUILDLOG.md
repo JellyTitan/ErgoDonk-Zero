@@ -44,12 +44,13 @@
 * Tried some alternate Solenoids. [This one from Sparkfun](https://www.sparkfun.com/products/11015) did not work. These [little](https://www.aliexpress.us/item/3256802092636163.html) [3V Solenoids](https://www.aliexpress.us/item/3256801967962531.html?spm=a2g0o.order_list.order_list_main.15.124c1802EEEXaw&gatewayAdapt=glo2usa) from Aliexpress did work, but the 'thunk' was not nearly as satisfying. I suspect the solenoid is not actually getting a Solid 5V. The [4.5V Uxcell Solenoid](https://www.amazon.com/gp/product/B013DR655A) initially recommended in the Red Herring seems to be the most forgiving of the under-voltage. Making that my official recommendation. 
 ![Solenoids](images/solenoids.JPG)
 * Found another Soleniod on AliExpress that works, and added it to the BOM.
-
+* The tenting puck did not work with MX footprints - it intersected the switch sockets. I added a second tenting puck, now there's one for choc and one for MX.
 
 ## Punch list
+* [ ] Validate the new and old tenting puck holes are good.
 * [ ] consider a key plate variant that has holes to attach a top plate. 
 * [ ] Try putting a smaller 3v Solenoid on each hand.
-* [ ] Consider moving TRS and Zero jack back a bit so they sit flush with the edge of the board. This would make it easier to use 'monoblock' cases.
+
 * [ ] Note look for socket outline when placing switches per hand. An earlier note referenced looking for pads, it’s easier to find outlines and pads.
 * [ ] After you finish, tacking down the first side of the sockets, give the board of gentle tap to see if anything shakes loose. It’s better to find weak solder joints now than later. Then rotate the board 180 and solder the other one.
 * [ ] Make a note about tacking down, one side, rotating, and then soldering the other side of the socket switches. There’s images for these.
@@ -74,3 +75,4 @@
 
 ## Features to add to future keyboards
 * Space 2mm and 4mm case holes evenly around the perimeter for monoblock type cases.
+* Consider moving TRS and Zero jack back a bit so they sit flush with the edge of the board. This would make it easier to use 'monoblock' cases.
