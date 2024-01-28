@@ -38,7 +38,7 @@ The ErgoDonk Zero was designed by [Ryan Neff](https://github.com/JellyTitan). Ma
 [Future feature wish list](#future-feature-wish-list)
 
 ## Overview
-The ErgoDonk Zero was designed to be a good first split ortholinear keyboard. It is inexpensive, the parts are accessable, it's easy to build, and has a key layout that is still familiar to vanilla querty users. 
+The ErgoDonk Zero was designed to be a good first split ortholinear keyboard. It is inexpensive, the parts are accessable, it's easy to build, and has a key layout that is still familiar to non-split querty users. 
 
 It can be used with any MX [keycap profile](https://www.reddit.com/r/MechanicalKeyboards/comments/j484j5/keycap_profiles_i_compiled_a_direct_comparison/), but is designed specifically for the ergonomic SA Keycap profile. The E0 has been designed to use off the shelf keycap sets. The layout [leverages](http://www.keyboard-layout-editor.com/##@_backcolor=%23264653&name=ErgoDonk%20Zero%20Keycap%20heights&author=https%2F:%2F%2F%2F%2Fgithub.com%2F%2Fjellytitan%3B&@_y:0.25&x:1&c=%23e76f51&a:7%3B&=R1&_x:0.25%3B&=R1&=R1&=R1&=R1&_x:0.25%3B&=R1&=R1&_x:4%3B&=R1&=R1&_x:0.25%3B&=R1&=R1&=R1&=R1&_x:0.25%3B&=R1%3B&@_y:0.25&x:4.5%3B&=R1&_x:10%3B&=R1%3B&@_y:-0.75&x:3.5%3B&=R1&_x:1%3B&=R1&_x:8%3B&=R1&_x:1%3B&=R1%3B&@_y:-0.75&x:1.5%3B&=R1&=R1&_x:3%3B&=R1&_x:6%3B&=R1&_x:3%3B&=R1%3B&@_y:-0.75&x:7.5%3B&=R1&_x:0.25%3B&=R1&_x:1.5%3B&=R1&_x:0.25%3B&=R1&_x:5%3B&=R1&=R1&_w:2%3B&=R1%3B&@_y:-0.75&x:4.5&c=%23f4a261%3B&=R2&_x:10%3B&=R2%3B&@_y:-0.75&x:3.5%3B&=R2&_x:1%3B&=R2&_x:8%3B&=R2&_x:1%3B&=R2%3B&@_y:-0.75&x:1&w:1.5%3B&=R2&=R2&_x:3%3B&=R2&_x:6%3B&=R2&_x:3%3B&=R2%3B&@_y:-0.75&x:7.5%3B&=R2&_x:0.25&c=%23e76f51%3B&=R1&_x:1.5%3B&=R1&_x:0.25&c=%23f4a261%3B&=R2&_x:5%3B&=R2&=R2&_w:1.5%3B&=R2%3B&@_y:-0.75&x:4.5&c=%23e9c46a%3B&=R3&_x:10%3B&=R3%3B&@_y:-0.75&x:3.5%3B&=R3&_x:1&n:true%3B&=R3&_x:8&n:true%3B&=R3&_x:1%3B&=R3%3B&@_y:-0.75&x:0.75&w:1.75%3B&=R3&=R3&_x:3%3B&=R3&_x:6%3B&=R3&_x:3%3B&=R3%3B&@_y:-0.75&x:7.5%3B&=R3&_x:0.25&c=%23e76f51%3B&=R1&_x:1.5%3B&=R1&_x:0.25&c=%23e9c46a%3B&=R3&_x:5%3B&=R3&_w:2.25%3B&=R3%3B&@_y:-0.75&x:4.5&c=%232a9d8f%3B&=R4&_x:10%3B&=R4%3B&@_y:-0.75&x:3.5%3B&=R4&_x:1%3B&=R4&_x:8%3B&=R4&_x:1%3B&=R4%3B&@_y:-0.75&x:0.25&w:2.25%3B&=R4&=R4&_x:3%3B&=R4&_x:6%3B&=R4&_x:3%3B&=R4%3B&@_y:-0.75&x:7.5%3B&=E&_x:4%3B&=E&_x:5&w:2.75%3B&=R4%3B&@_y:-0.75&x:4.5&p=R1%3B&=R4&_x:10%3B&=R4%3B&@_y:-0.75&x:3.5%3B&=R4&_x:12%3B&=R4%3B&@_y:-0.75&w:1.25%3B&=R4&_w:1.25%3B&=R4&=R4&_x:14%3B&=R4%3B&@_y:-0.75&x:18.5&w:1.25%3B&=R4&_w:1.25%3B&=R4%3B&@_r:8&rx:10.6&ry:1&y:4.75&x:-1.3000000000000007&c=%23e76f51%3B&=R1%3B&@_x:-3.3&c=%23e9c46a&h:2%3B&=R3&_c=%232a9d8f&h:2%3B&=R4&_c=%23f4a261%3B&=R2%3B&@_y:-0.25&x:-4.3&c=%232a9d8f&h:1.25%3B&=R4%3B&@_y:-0.75&x:-1.3000000000000007&c=%23e9c46a%3B&=R3%3B&@_r:-8&y:-3&x:0.09999999999999964&c=%23e76f51%3B&=R1%3B&@_x:0.09999999999999964&c=%23f4a261%3B&=R2&_c=%232a9d8f&fa@:4%3B&h:2%3B&=R4&_c=%23e9c46a&f:4&h:2%3B&=R3%3B&@_y:-0.25&x:3.0999999999999996&c=%232a9d8f&f:3&h:1.25%3B&=R4%3B&@_y:-0.75&x:0.09999999999999964&c=%23e9c46a%3B&=R3) the variable height profile of SA keycaps. 
 ![SA Keycap row heights](images/sa_heights.png)
@@ -178,10 +178,11 @@ Then install the components on the front:
 @todo update image
 ![diode orientation](docs/images/build_guide_Zero/sofle_Zero_diode_orientation.png)
 
-Diodes, surface mount or through-hole, can be installed on either the front or the back. 
-Back side installation is recommended because after the case plates are installed, it's easier to access the back then the front. If you are using Choc switches and a switch plate, you must install the diodes on the back side.
+Diodes, surface mount or through-hole, should be installed on the back of the board. This allows for easy access after the keyplate is installed, and allows for the use of choc keyplates and stabilizers.
 
-If you are hand soldering, through hole diodes are recommended because they are easier. If you damage a pad on one side, feel free to move that diode to the other side.
+If you are hand soldering, through hole diodes are recommended because they are easier. If you damage a pad on one side, you can install the diode on the opposite side.
+
+If you are using PCBA with surface mount diodes, either the front or the back will technically work, but surface mount diodes on the front will prevent the use of a choc keyplate.
 
 Diodes _must_ be oriented with the white band in the direction of the "arrow" symbol on the PCB.
 @todo add image.
@@ -270,7 +271,7 @@ Saved these for last because they are tallest. Insert into the top of the board,
 ### Final assembly
 Installing the stabilizers, keys and case.
 
-1. Install stabilizers. (Optional) The stabilizers are inserted into the front of the board, and screws are inserted on the back of the board. There are an abundance of holes around the pinky keys, so the stabilizer insertion holes have been marked with an arrow on the front of the board. <br> <img width="49%" alt="stabilizer markings" src="images/stabalizer_markings.jpeg"> <img width="49%" alt="stabilizer installed on left hand shift key" src="images/stabilizer_inserted.JPG"><br> Notice the thumb clusters stabilizers are 'back-to-back': <br><img width="49%" alt="thumb stabilizers installed" src="images/thumb_stabs.JPG">
+1. Install stabilizers. (Optional) The stabilizers are inserted into the front of the board, and screws are inserted on the back of the board. There are an abundance of holes around the pinky keys, so the stabilizer insertion holes have been marked with an arrow on the front of the board. Lay down the stabilizer stickers starting with the arrow side. <br> <img width="49%" alt="stabilizer markings" src="images/stabalizer_markings.jpeg"> <img width="49%" alt="stabilizer installed on left hand shift key" src="images/stabilizer_inserted.JPG"><br> Notice the thumb clusters stabilizers are 'back-to-back': <br><img width="49%" alt="thumb stabilizers installed" src="images/thumb_stabs.JPG">
 1. Snap switches into the corners of the key plate.
 1. Place the PCB on a flat surface. This will save some strain on the solder joints in the next step (though they should be able handle it).
 1. Carefully lower the top plate with switches on the main PCB and push into sockets. Ensure pins are aligned.

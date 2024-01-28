@@ -130,6 +130,8 @@
     (stroke (width 0.12) (type default)) (layer "User.8") (tstamp 3f5b6f30-1840-41ed-a9a8-e5aac5462c1c))
   (fp_line (start 15.65625 8.255) (end 15.65625 -6.985)
     (stroke (width 0.12) (type default)) (layer "User.8") (tstamp f3eedf77-b235-44cc-8660-80e3f972b6f8))
+  (fp_rect (start -19.05 7) (end 19.05 9.525)
+    (stroke (width 0.12) (type default)) (fill none) (layer "User.8") (tstamp 7737fd74-1e65-491d-8f9b-cc15d6f4a5bf))
   (fp_arc (start -15.65625 -6.985) (mid -11.90625 -10.735) (end -8.15625 -6.985)
     (stroke (width 0.12) (type default)) (layer "User.8") (tstamp 786e92a2-fe45-4fb8-b2e7-986a808ea1cc))
   (fp_arc (start -15.65625 -6.985) (mid -11.90625 -10.735) (end -8.15625 -6.985)
