@@ -175,8 +175,6 @@ Then install the components on the front:
 <hr>
 
 ### Diodes
-@todo update image
-![diode orientation](docs/images/build_guide_Zero/sofle_Zero_diode_orientation.png)
 
 Diodes, surface mount or through-hole, should be installed on the back of the board. This allows for easy access after the keyplate is installed, and allows for the use of choc keyplates and stabilizers.
 
@@ -184,22 +182,32 @@ If you are hand soldering, through hole diodes are recommended because they are 
 
 If you are using PCBA with surface mount diodes, either the front or the back will technically work, but surface mount diodes on the front will prevent the use of a choc keyplate.
 
-Diodes _must_ be oriented with the white band in the direction of the "arrow" symbol on the PCB.
-@todo add image.
+There is one diode per key, and one for the rotary encoder. The right hand has more than the left hand.
 
-For surface mount diodes, a common method is to tin one pad, place the diode on, apply the soldering iron to the diode leg until it melts the solder underneath and sinks flush with the PCB. Then come back and solder the other leg. Alternately, you can use a rework station heat gun and solder paste. (I prefer this method for smds).
+When inserting diodes into the backs of the boards, you only need to insert diodes into the footprints that have an accompanying switch socket outline. For example, in this image, we are looking at the backside of the left hand board. The left hand does not have a switch 18, so there is no socket outline, and so no diode would be needed. If you do add a diode where it is not needed, there is no negative impact.<br>
+<img src="images/asymetrical_diode_marking.jpeg" alt="Through hole diode orientation" width="100%" /><br>
+
+For surface mount diodes, a common soldering method method is to tin one pad, place the diode on, apply the soldering iron to the diode leg until it melts the solder underneath and sinks flush with the PCB. Then come back and solder the other leg. Alternately, you can use a rework station heat gun and solder paste. (I prefer this method for smds).
+<br>SMD Orientation:<br>
+<img width="49%" alt="SMD orientation marking example" src="images/smd_diode_orientation_1.jpeg
+" />
+<img width="49%" alt="SMD orientation example" src="images/smd_diode_orientation_2.jpeg
+" />
 
 For through-hole diodes, pre bending the legs while they are still on the paper strip makes inserting them much easier. You can use a 3d printed diode [bending jig](https://www.printables.com/model/734696-diode-bending-jig-8mm) to make quick uniform bends.<br><img width="49%" alt="Using a carpenters pencil as a bending jig" src="images/diode_jig_fold.jpeg" /> <img width="49%" alt="Using a carpenters pencil as a bending jig" src="images/diode_jig_cut.jpeg" />
 
 Alternately, a carpenters pencil is roughly the right size. (The diode holes are 8mm apart, wooden pencils are often 7mm - 8mm).
-
 <img width="49%" alt="Using a carpenters pencil as a bending jig" src="images/carpenter_pencil.JPG" />
 
+With the PCB eleveated via workholding, insert the bent diodes into the holes on the back of the board. 
+Diodes _must_ be oriented with the black band in the direction of the "arrow" symbol on the PCB. There is also a black outline around the pad to make it easy to check the diode orientation is correct after the diode has been soldered in place.<br><img src="images/diode_orientation.jpeg" alt="Through hole diode orientation" width="100%" />
+
+<img src="images/ergodonk_bristling_with_diodes.jpeg" alt="Through hole diode orientation" width="100%" />
+Solder the legs in place.
+
+Flip over the board, and trim the legs.
+
 When you trim off the diode legs, save 12 for use as jumpers.
-
-There is 1 diode per key, and 1 diode on the rotary encoder. (@todo Make note about more diodes on the RH side)
-
-@todo add image.
 
 <hr>
 

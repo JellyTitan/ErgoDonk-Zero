@@ -63,7 +63,7 @@
 * [ ] fix hot swap socket graphic with iconography. (Currently two red arrows - maybe a green check and a red 'no')?
 * [ ] Create a tip120 bending jig.
 * [ ] Strip GEO metadata from all images.
-* [ ] Add diode punch outs for the bending jigs.
+* [ ] Add diode punch outs for the bending jig
 * [ ] Review pitch and tilt angle origion for ergo case. If the origin is the center of the board as opposed to the edge, what does that change?
 * [ ] When using PCBA, all the matrix intersections will get a diode. I think this is what's breaking the handedness by matrix intersection setting in QMK. Consider add a jumper for the RH Backspace key, so that even if PCBA is used, the handedness detcetion by matrix intersection will still work.
 * [ ] Use the Zero LED as a layer indicator. Example qmk_firmware/keyboards/handwired/alcor_dactyl
