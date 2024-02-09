@@ -36,7 +36,8 @@
 - Removed solenoid outline on the LH top silks layer. I like the look better without the outline.
 - Fixed unmasked nub on the switch footprint for connecting front/back.
 - Added Tip120 bending jig.
-- 
+- Improved diode markings 
+
 - [x] Verified the TRRS/TRS jack works as expected. ()
 - [x] Convert QMK config to Serial from full duplex.
 - [ ] There may be a problem with the leftmost post hole intersecting the stabilizer:
