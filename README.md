@@ -218,6 +218,7 @@ Switch sockets installed on the back of the PCB facing up towards the front of t
 1. Solder _one_ side of each socket by heating the metal connector. Apply solder and look for the solder to wick down to the PCB. You want a solid joint since this may take some mechanical strain from switch installation and removal. The 3d printed workholding feet are really handy here. You can reposition the board as you work to get the best angle for soldering those connectors.
 1. Give the board a few good taps to make sure there are no loose sockets.
 1. Rotate the board 180 degrees and solder the remaining sides.
+
 <img src="images/ergodonk_lh_sockets.jpeg" alt="ErgoDonk left hand backside indicating socket placement" width="49%" /> <img src="images/ergodonk_rh_sockets.jpeg" alt="ErgoDonk right hand backside indicating socket placement" width="49%"  />
 <hr>
 
@@ -226,13 +227,16 @@ Because the MCU on both sides shares the same footprint, we need to set jumpers 
 
 You can bridge the jumpers by dragging a blob of solder across the 2 adjacent pads. Modern rosin core solder can make this difficult. As an alternate bridging method, you can bend a diode leg and solder that in place. There is bending jig to make it easy to bend jumpers to the optimal width. The bottom slot on the jig is for the jumpers.
 
-<img width="16%" alt="Bending jig location" src="images/bending_jigs.png" /> <img width="16%" alt="Jumper bending jig in use" src="images/jumper_bender_use.png" /> <img width="16%" alt="Six bent jumpers made from diode legs" src="images/jumpers.png" /> <img width="16%" alt="Jumpers on the board that have not been soldered." src="images/jumpers_in_place.png" /> <img width="16%" alt="Soldered jumpers on the left hand of the ErgoDonk Zero" src="images/soldered_jumpers.png" /> <img width="16%" alt="clipping excess jumpers on the left hand of the ErgoDonk Zero" src="images/clipping_jumpers.JPG" />
+<img width="32%" alt="Bending jig location" src="images/bending_jigs.png" /> <img width="32%" alt="Jumper bending jig in use" src="images/jumper_bender_use.png" /> <img width="32%" alt="Six bent jumpers made from diode legs" src="images/jumpers.png" /> <img width="32%" alt="Jumpers on the board that have not been soldered." src="images/jumpers_in_place.png" /> <img width="32%" alt="Soldered jumpers on the left hand of the ErgoDonk Zero" src="images/soldered_jumpers.png" /> <img width="32%" alt="clipping excess jumpers on the left hand of the ErgoDonk Zero" src="images/clipping_jumpers.JPG" />
 
 <hr>
 
 ### RP2040 Zero MCU
 The Zero is installed on the top of the board, buttons facing up.
-@todo-add image.
+
+<img width="49%" alt="RP2040 Zero installed on the top of the left hand board of the ErgoDonk Zero keyboard" src="images/mcu_top_of_board_1.jpeg" title="let me see those buttons baby!" /> 
+<img width="49%" alt="RP2040 Zero installed on the top of both sides of the ErgoDonk Zero keyboard" src="images/mcu_top_of_board_2.jpeg" title="Notice the MCU's installed on the top in the outer corners." />
+
 * Top of the board: this is the side of the PCB opposite the diodes and switch sockets
 * Marked holes: Insert the Zero into the holes with the rectangular outline on the top of the board. 
 
