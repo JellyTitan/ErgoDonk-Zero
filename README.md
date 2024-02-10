@@ -272,8 +272,7 @@ The Solenoid is installed on the left hand front of the board _only_. Right hand
 1. Bend the legs of the 1N4004 Shottky diode using the bending jig on the left of the board.<br><img width="49%" alt="render demonstrating resistor bending jig" src="images/1N4001_diode_bending.jpeg">
 1. Insert the 1N4004 Shottky diode into the holes on the front of the board. Be sure to orient the diode with the strip towards the top of the board. Solder in place.<br><img width="49%" alt="1k resistor placement indicated" src="images/solenoid_circuit_1N4004_diode.jpeg">
 1. Flip the board and trim the pins sticking out for the components you just installed. <br><img width="49%" alt="trimming pins on the backside" src="images/solenoid_pin_nipping.jpeg">
-1. Using M2 screws, attach the solenoid to the top of the board. Run the wires through the big hole in the PCB. Solder onto the holes marked 'solenoid'. Polarity does not matter, so either wire can go in either hole. @todo - get pic of solenoid screwed to the board.
-<br><img width="49%" alt="Solenoid connection point indicated" src="images/solenoid_circuit_solenoid_connection.jpeg">
+1. Using M2 screws, attach the solenoid to the top of the board. Run the wires through the big hole in the PCB. Tape the wires down with kapton tape. Solder onto the holes marked 'solenoid'. Polarity does not matter, so either wire can go in either hole. Versions after 0.2.1 have an additional solenoid footprint connetion point closer to the solenoid itself. This is to accomodate shorter wires. Either connection point will work. <br><img width="32%" alt="Solenoid attached to the front of the left hand board by 2 M2 screws" src="images/Solenoid_on_front.jpeg"> <img width="32%" alt="Solenoid wiring routed along the back of the board" src="images/Solenoid_wiring_on_back.jpeg"> <img width="32%" alt="Solenoid connection point indicated" src="images/solenoid_circuit_solenoid_connection.jpeg">
 
 <hr>
 
