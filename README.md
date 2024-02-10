@@ -202,7 +202,9 @@ Alternately, a carpenters pencil is roughly the right size. (The diode holes are
 With the PCB eleveated via workholding, insert the bent diodes into the holes on the back of the board. 
 Diodes _must_ be oriented with the black band in the direction of the "arrow" symbol on the PCB. There is also a black outline around the pad to make it easy to check the diode orientation is correct after the diode has been soldered in place.<br><img src="images/diode_orientation.jpeg" alt="Through hole diode orientation" width="100%" />
 
-<img src="images/ergodonk_bristling_with_diodes.jpeg" alt="Through hole diode orientation" width="100%" />
+<img src="images/ergodonk_bristling_with_diodes.jpeg" alt="Through hole diode orientation" width="100%" /> 
+<img src="images/LH_diode_locations.png" alt="Left hand diode locations on the back of the ErgoDonk zero keyboar" width="49%" /> <img src="images/RH_diode_locations.png" alt="Right hand diode locations on the back of the ErgoDonk zero keyboard" width="49%" /> 
+
 Solder the legs in place.
 
 Flip over the board, and trim the legs.
