@@ -312,7 +312,10 @@ Installing the stabilizers, keys and case.
 <hr> 
 
 ## Firmware and programming
-@todo - update hte firmware.
+The ErgoDonk Zero uses QMK's `ee_hands` to determine which hand is connected to USB. This requires that the first time the keyboard is flashed, each hand uses a different file. When the right hand is connected to USB, the solenoid will not work.
+
+After the first 'drag and drop' flash, you can tweak your keymaps further using [VIA](https://www.caniusevia.com/). (Using VIA is covered in the [next section](#via)).
+
 ### The easy way
 The rp2040 supports 'drag and drop' flashing with a UF2 file on Mac or PC. This is the recommended approach if you're not familiar with compiling QMK firmware yourself. After the first 'drag and drop' flash, you can tweak your key maps further using [VIA](https://www.caniusevia.com/).
 
@@ -327,7 +330,7 @@ These instructions are a summarization of the [official explanation found in the
     * **Bootmagic reset** (works after you have flashed once): Hold down the top far corner key while plugging in the keyboard (`~` left half, `-` right half). This will also clear the EEPROM. @todo Add Bootmagic to QMK config.
 1. Wait for the OS to detect the device.
 1. Copy the .uf2 file to the new USB disk. 
-  * The files can be found in this repo at ./Sofle_Zero/Firmware
+  * The files can be found in this repo at [./Firmware/drag_and_drop](./Firmware/drag_and_drop)
   * There is a different file for right hand and left hand, as denoted by a `_RH` or `_LH` suffix. (@todo - can we use matrix detection to use a single file for both hands)?
   * On Mac after the file is dropped, the 'Keyboard setup assistant' may be triggered. You can ignore and quit the assistant.(@todo add relative path to UF2 files.) 
 1. Unplug the side you just flashed, and repeat the process with the other side.
@@ -337,7 +340,7 @@ These instructions are a summarization of the [official explanation found in the
 1. Test everything using VIA. (Earlier versions of VIA were downloaded and installed. The latest version, VIA 3, is accessed through the web interface).
 
 ### The less easy way
-If you want to build your own firmware, ErgoDonk Zero uses [QMK Firmware][qmk_firmware]. Support is not in the main QMK repository [yet](@todo: Update this url with official PR). Instead use the [jellytitan/qmk_firmware](https://github.com/jellytitan/qmk_firmware) fork.
+If you want to build your own firmware, ErgoDonk Zero uses [QMK Firmware][qmk_firmware]. Support is not in the main QMK repository [yet](@todo: Update this url with official PR). Instead use the [jellytitan/qmk_firmware](https://github.com/JellyTitan/qmk_firmware/tree/ergodonk_zero) fork and the `ergodonk_zero` branch.
 https://docs.qmk.fm/#/flashing?id=raspberry-pi-rp2040-uf2
 
 To flash:
@@ -353,6 +356,25 @@ To flash:
 
 <hr> 
 
+## VIA
+Until the ErgoDonk Zero layout is merged into the official VIA repo, you'll need to load the VIA definition manually. ()
+> [!IMPORTANT]
+> Editing with VIA will only work after you've flashed the ErgoDonk Zero at least once.
+
+1. Visit https://usevia.app/
+1. Open the "Settings" tab by clicking on the gear icon at the top of the page. 
+1. Enable "Show Design tab". <br>
+![VIA show design tab switch](images/VIA/via_1.png)
+1. Now you should see a paintbrush icon at the top of the screen. Click on that to open the "Design tab".
+1. Download the ErgoDonk Zero via config file: [ergodonk_zero.json](https://raw.githubusercontent.com/JellyTitan/Sofle-Pico/main/Sofle_Pico/Firmware/ergodonk_zero.json). @todo update this path. (Right click and 'Save As' to download the .json file).<br>
+Once you have the file locally, Click "Load" to upload `ergodonk_zero.json`.<br> (The ErgoDonk Zero PR for VIA can't be submitted until the QMK PR is submitted and approved. That PR is waiting and ready to go: [VIA PR for ErgoDonk Zero](https://github.com/JellyTitan/via-keyboards/tree/ergodonk_zero)).<br>
+![VIA uploading config](images/VIA/via_2.png)
+1. After the definition is loaded, you may be asked to authorize a connection to your device. If the auth request doesn't pop-up automagically, click on the 'configure' icon at the top of the page, then click on 'Authorize Device +'<br> ![VIA device authorization](images/VIA/via_3.png)
+1. Clicking on the "Configure" tab will let you modify your layout.<br>
+![VIA Configure tab](images/VIA/via_4.png)
+
+<hr>
+
 ## Version History
 See [build log](./BUILDLOG.md).
 
@@ -361,7 +383,7 @@ See [build log](./BUILDLOG.md).
 ## Future feature wish list
 Theres some features that I would like to add if time permits. Open to contributions.
 * [ ] Plate mount stabilizers. Currently has PCB mount only, but would like to support both types.
-* [ ] Write a PCBA ordering walk through. I pulled images for the process with the Sofle Pico - but never wrote a guide.
+* [ ] Write a PCBA ordering walk through. I pulled images for the process with the ErgoDonk Zero - but never wrote a guide.
 
 <hr> 
 
