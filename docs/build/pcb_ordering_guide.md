@@ -3,7 +3,7 @@ layout: page
 title: PCB Ordering
 # permalink: /pcb-ordering
 description: ErgoDonk Zero PCB ordering guide
-# parent: Build
+parent: Build
 nav_order: 4
 ---
 # PCB Ordering Guide.
@@ -22,15 +22,16 @@ The Gerbers for the ErgoDonk Zero can be found as a zipped file in the "Releases
 
 The homepage of JLCPCB has a drag & drop upload. Drag the gerber `.zip` and drop it on the "add gerber file" box.
 
-![JLCPCB Home](docs/images/ordering_guide/JLCPCB_Ordering_1.png)
+![JLCPCB Home](/images/ordering_guide/JLCPCB_Ordering_1.png)
 
 While the file is uploading, it will take you to an options screen. Once the board size is detected<sup>1</sup>, the price<sup>2</sup> will update accordingly.
 Changing the pcb color<sup>3</sup> may impact production time and price.
 Shipping estimates<sup>4</sup> can vary widely, so be sure to check those. (You'll see these options again during checkout).
 
-![JLCPCB Home](docs/images/ordering_guide/JLCPCB_Ordering_2.png)
+![JLCPCB Home](/images/ordering_guide/JLCPCB_Ordering_2.png)
 
-It's worth noting, the default pcb surface finish contains Lead. For boards in cases, this is usually not a problem. If you're going to rock a naked board, consider going with "lead free"<sup>5</sup> for a few bucks more. The more popular colors like green and black tend to cost less for the lead free option.
+{: .warning }
+> Warning: The default pcb surface finish contains Lead. For boards in cases, this is usually not a problem. If you're going to rock a naked board, consider going with "lead free"<sup>5</sup> for a few bucks more. The more popular colors like green and black tend to cost less for the lead free option.
 
 By default, all JLC boards have a part number printed on them. (Most people won't notice them unless your looking for them). You can pay extra to have them removed. ErgoDonk Zero supports the option to "Specify a location"<sup>6</sup>. (Essentially this is a line of text on the PCB that will JLC will substitute with their part number.) There is no additional charge for specifying the location. 
 

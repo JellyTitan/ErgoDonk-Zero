@@ -1,5 +1,14 @@
+---
+layout: page
+title: VIA
+description: Instructions for modifying the ErgoDonk Zero key map using the online VIA configurator
+# permalink: /pcb-ordering
+# parent: Flashing
+nav_order: 5
+image: /images/VIA/via_3.png
+---
 
-## VIA
+# VIA
 Until the ErgoDonk Zero layout is merged into the official VIA repo, you'll need to load the VIA definition manually. ()
 > [!IMPORTANT]
 > Editing with VIA will only work after you've flashed the ErgoDonk Zero at least once.
