@@ -1,4 +1,16 @@
-## Build log:
+---
+layout: page
+title: Build Log
+description: ErgoDonk Zero keyboard build log.
+# permalink: /build
+# parent: Build
+nav_order: 9
+# image: /images/build_guide_pico/sofle_pico_MCU_heroshot.png
+---
+
+# Build log:
+These are mostly personal notes to keep track of things during the development process.
+
 ### v0.1
 * 11-20-2023 Sent out v0.1 to JLC for production
 * Split off from the main ErgoDonk development repo for easier cleanup/maintenance.
