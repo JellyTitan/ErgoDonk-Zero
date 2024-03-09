@@ -6,3 +6,4 @@ The ErgoDonk Zero was designed by [Ryan Neff](https://github.com/JellyTitan). Ma
 
 ![Ergodonk simple zero v0.1](docs/images/v0.1_hero.JPG)
 
+**The documentation is hosted on github pages at [ErgoDonk.com](ergodonk.com)**

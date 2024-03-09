@@ -1,3 +1,10 @@
+---
+layout: page
+title: Overview
+nav_order: 1
+image: /images/v0.1_hero.JPG
+---
+
 # ErgoDonk Zero Keyboard
 
 ErgoDonk Zero is a 6×9+6 keys split ortholinear keyboard with encoder & solenoid support, hotswap sockets for MX or Choc v1 low profile switches, and uses the RP2040 "Zero" MCU.

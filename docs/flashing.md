@@ -1,4 +1,11 @@
-
+---
+layout: page
+title: Flashing
+description: Instructions for flashing ErgoDonk Zero
+permalink: /flashing
+nav_order: 3
+# has_children: true
+---
 
 ## Firmware and programming
 The ErgoDonk Zero uses QMK's `ee_hands` to determine which hand is connected to USB. This requires that the first time the keyboard is flashed, each hand uses a different file. When the right hand is connected to USB, the solenoid will not work.
