@@ -2447,6 +2447,6 @@ h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 
 #site-nav .nav-list .nav-list-item { font-size: 1rem !important; }
 
-tr:nth-child(even) td { background-color: #eeebee; }
+tr:nth-child(even) td { background-color: #5c5962; }
 
-thead th { background-color: #e6e1e8; }
+thead th { background-color: #44434d; }

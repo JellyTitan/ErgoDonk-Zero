@@ -7,12 +7,24 @@ nav_order: 3
 # has_children: true
 ---
 
-## Firmware and programming
-The ErgoDonk Zero uses QMK's `ee_hands` to determine which hand is connected to USB. This requires that the first time the keyboard is flashed, each hand uses a different file. When the right hand is connected to USB, the solenoid will not work.
+# Firmware and programming
+{: .no_toc }
 
-After the first 'drag and drop' flash, you can tweak your keymaps further using [VIA](https://www.caniusevia.com/). (Using VIA is covered in the [next section](#via)).
+{: .warning}
+> The ErgoDonk Zero uses QMK's split keyboard `handedness detection by eeprom` to determine which hand is connected to USB. (Also known as [ee_hands](https://docs.qmk.fm/#/feature_split_keyboard?id=handedness-by-eeprom)). This requires that the first time the keyboard is flashed, each hand uses a different file. When the right hand is connected to USB, the solenoid will not work.
 
-### The easy way
+After the first 'drag and drop' flash, you can tweak your keymaps further using [VIA](https://www.caniusevia.com/). ErgoDonk Zero is not yet merged into the main VIA repo. Until then, you can [use the via config manually](VIA.md).
+
+<hr>
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+## Drag and drop flashing (the easy way)
+
 The rp2040 supports 'drag and drop' flashing with a UF2 file on Mac or PC. This is the recommended approach if you're not familiar with compiling QMK firmware yourself. After the first 'drag and drop' flash, you can tweak your key maps further using [VIA](https://www.caniusevia.com/).
 
 To flash with 'drag 'n drop':
@@ -35,7 +47,8 @@ These instructions are a summarization of the [official explanation found in the
 1. Connect the left half to USB.
 1. Test everything using VIA. (Earlier versions of VIA were downloaded and installed. The latest version, VIA 3, is accessed through the web interface).
 
-### The less easy way
+## Compile QMK for flashing (the hard way)
+
 If you want to build your own firmware, ErgoDonk Zero uses [QMK Firmware][qmk_firmware]. Support is not in the main QMK repository [yet](@todo: Update this url with official PR). Instead use the [jellytitan/qmk_firmware](https://github.com/JellyTitan/qmk_firmware/tree/ergodonk_zero) fork and the `ergodonk_zero` branch.
 https://docs.qmk.fm/#/flashing?id=raspberry-pi-rp2040-uf2
 

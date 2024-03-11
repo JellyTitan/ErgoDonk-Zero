@@ -30,4 +30,7 @@
 <url>
 <loc>http://localhost:4000/build/pcb_ordering_guide.html</loc>
 </url>
+<url>
+<loc>http://localhost:4000/build/workholding.html</loc>
+</url>
 </urlset>

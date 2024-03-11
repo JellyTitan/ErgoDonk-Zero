@@ -7,7 +7,14 @@ nav_order: 7
 ---
 
 # ErgoDonk Zero is open source - feel free to help out!
+{: .no_toc }
 **The ErgoDonk Zeros' PCB & schematics have been intentionally designed to make it easy to swap in alternative switch footprints. Modifications and variants are encouraged!**
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## License
 * Hardware source files are licensed under [MIT license](https://raw.githubusercontent.com/JellyTitan/ErgoDonk-Zero/main/LICENSE).

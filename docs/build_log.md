@@ -8,14 +8,14 @@ nav_order: 9
 # image: /images/build_guide_pico/sofle_pico_MCU_heroshot.png
 ---
 
-# Build log:
+# Build log
 These are mostly personal notes to keep track of things during the development process.
 
-### v0.1
+## v0.1
 * 11-20-2023 Sent out v0.1 to JLC for production
 * Split off from the main ErgoDonk development repo for easier cleanup/maintenance.
 
-### v0.2
+## v0.2
 * Confirmed v0.1 works as expected.
 * Put a GND plane on both sides, wire VCC directly. (with big fat traces)!
 * Added jumper jig to help bend jumper bridges.
@@ -43,16 +43,15 @@ These are mostly personal notes to keep track of things during the development p
 * Ordered v0.2 PCB 1-11-2024.
 * Ordered v0.2 Acrylic cases 1-12-2024
 
-### v0.2.1
+## v0.2.1
 - Created footprints for plates. (key plate, back plate, MCU Covers Left & Right, and Solenoid cover).
 - Removed solenoid outline on the LH top silks layer. I like the look better without the outline.
 - Fixed unmasked nub on the switch footprint for connecting front/back.
 - Added Tip120 bending jig.
 - Improved diode markings
 - Added additional solenoid connection footprint for solenoids that come with shorter wires.
-
-- [x] Verified the TRRS/TRS jack works as expected. ()
-- [x] Convert QMK config to Serial from full duplex.
+- Verified the TRRS/TRS jack works as expected. ()
+- Convert QMK config to Serial from full duplex.
 - [ ] There may be a problem with the leftmost post hole intersecting the stabilizer:
 ![post hole intersect](images/stab_prob.png)
 * Tried some alternate Solenoids. [This one from Sparkfun](https://www.sparkfun.com/products/11015) did not work. These [little](https://www.aliexpress.us/item/3256802092636163.html) [3V Solenoids](https://www.aliexpress.us/item/3256801967962531.html?spm=a2g0o.order_list.order_list_main.15.124c1802EEEXaw&gatewayAdapt=glo2usa) from Aliexpress did work, but the 'thunk' was not nearly as satisfying. I suspect the solenoid is not actually getting a Solid 5V. The [4.5V Uxcell Solenoid](https://www.amazon.com/gp/product/B013DR655A) initially recommended in the Red Herring seems to be the most forgiving of the under-voltage. Making that my official recommendation. 

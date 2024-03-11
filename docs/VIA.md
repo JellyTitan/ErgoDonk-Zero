@@ -9,9 +9,10 @@ image: /images/VIA/via_3.png
 ---
 
 # VIA
-Until the ErgoDonk Zero layout is merged into the official VIA repo, you'll need to load the VIA definition manually. ()
-> [!IMPORTANT]
-> Editing with VIA will only work after you've flashed the ErgoDonk Zero at least once.
+Until the ErgoDonk Zero layout is merged into the official VIA repo, you'll need to load the VIA definition manually. 
+
+{: .warning}
+> Editing with VIA will only work after you've flashed the ErgoDonk Zero at least once. See [flashing](flashing.md) for first flash instructions.
 
 1. Visit https://usevia.app/
 1. Open the "Settings" tab by clicking on the gear icon at the top of the page. 

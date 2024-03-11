@@ -3,12 +3,19 @@ layout: page
 title: BOM
 description: Bill of Materials and sourcing notes
 parent: Build
-nav_order: 3
+nav_order: 1
 ---
 
-## Bill of materials (BOM)
+# Bill of materials (BOM)
+{: .no_toc }
 
-### Required Parts
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+## Required Parts
 
 | Name | Count | Remarks | Potential Storefront | Image |
 | ---- | ----- | ------- | -------------------- | ----- |
@@ -28,6 +35,8 @@ nav_order: 3
 | USB-C Cable | 1 | USB cable for connecting the keyboard to your computer. | | 
 
 <hr>
+
+## Optional parts
 
 ### Optional - PCB screw in Stabilizers 
 Supports up to 8 PCB mounted screw in stabilizers that are 2u in length. Stabilizers often come in sets based on keyboard sizes. A full size 104 key set will usually have 7 2u bars. Note, "PCB mount stabilizers" are not the same as "plate mount stabilizers". Stabilizers can rattle. [There's plenty of mods to 'tune' the stabilizers](https://www.youtube.com/watch?v=4XCErBcn5lc) - but I've given up fighting the rattle and just skip them. YMMV. 
@@ -66,5 +75,3 @@ This [3d printable ErgoDonk Zero case](https://www.printables.com/model/738066-e
 - The header pins that come with the Zero are usually too long. You can either clip them off after soldering, or use [8.5mm low profile header pins ](https://www.aliexpress.us/item/3256805874707460.html) instead.
 
 <img src="/images/sofle_pico_luxary_pins.png" alt="low profile header pins" height="100" >
-
-<hr>
