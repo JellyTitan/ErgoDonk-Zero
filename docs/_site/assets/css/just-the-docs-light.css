@@ -2314,3 +2314,11 @@ blockquote.info > p:last-child { margin-bottom: 0; }
 blockquote.info-title { margin-left: 0; margin-right: 0; }
 blockquote.info-title > p:nth-child(2) { margin-top: 0; }
 blockquote.info-title > p:last-child { margin-bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+
+#site-nav .nav-list .nav-list-item { font-size: 1rem !important; }
+
+tr:nth-child(even) td { background-color: #eeebee; }
+
+thead th { background-color: #e6e1e8; }

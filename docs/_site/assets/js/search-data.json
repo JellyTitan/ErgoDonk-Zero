@@ -56,124 +56,131 @@
     "relUrl": "/build_log.html#build-log"
   },"8": {
     "doc": "Build Log",
-    "title": "Punch list",
-    "content": ". | Validate the new and old tenting puck holes are good. | consider a key plate variant that has holes to attach a top plate. | Try putting a smaller 3v Solenoid on each hand. | Add notes to the build guide, about how the symbols on the key cap should not correspond to the actual key presses., and the default layout is an adaptation of the ergodox. | Add note about how great those magnetic data cables are. | Add note in the build guide about the key layout using the ergonomic height of the SA keys and add images demponstrating. | Add a link to make it easy for users to contribute to documentation, like QMK has. | Add note about the merits of AliExpress vs other vendors. | Consider creating a choc key plate variant with cutouts for the diodes on the front? | fix hot swap socket graphic with iconography. (Currently two red arrows - maybe a green check and a red ‘no’)? | Create a tip120 bending jig. | Strip GEO metadata from all images. | Add diode punch outs for the bending jig | Review pitch and tilt angle origion for ergo case. If the origin is the center of the board as opposed to the edge, what does that change? | When using PCBA, all the matrix intersections will get a diode. I think this is what’s breaking the handedness by matrix intersection setting in QMK. Consider add a jumper for the RH Backspace key, so that even if PCBA is used, the handedness detcetion by matrix intersection will still work. | Use the Zero LED as a layer indicator. Example qmk_firmware/keyboards/handwired/alcor_dactyl | Update case to include hole above layer indicator LED. | Adjust key labels before production. (There are a few under holes) | Before submitting QMK PR, update version number in info.json | Add Solenoid installation to the README | . ",
-    "url": "/build_log.html#punch-list",
-    
-    "relUrl": "/build_log.html#punch-list"
-  },"9": {
-    "doc": "Build Log",
-    "title": "Features to add to future keyboards",
-    "content": ". | Space 2mm and 4mm case holes evenly around the perimeter for monoblock type cases. | Consider moving TRS and Zero jack back a bit so they sit flush with the edge of the board. This would make it easier to use ‘monoblock’ cases. | Be sure to rotate the thumb cluster keys when building a LED variant. | . ",
-    "url": "/build_log.html#features-to-add-to-future-keyboards",
-    
-    "relUrl": "/build_log.html#features-to-add-to-future-keyboards"
-  },"10": {
-    "doc": "Build Log",
     "title": "Build Log",
     "content": " ",
     "url": "/build_log.html",
     
     "relUrl": "/build_log.html"
-  },"11": {
+  },"9": {
     "doc": "Contributing",
     "title": "ErgoDonk Zero is open source - feel free to help out!",
     "content": "The ErgoDonk Zeros’ PCB &amp; schematics have been intentionally designed to make it easy to swap in alternative switch footprints. Modifications and variants are encouraged! . ",
     "url": "/contributing#ergodonk-zero-is-open-source---feel-free-to-help-out",
     
     "relUrl": "/contributing#ergodonk-zero-is-open-source---feel-free-to-help-out"
-  },"12": {
+  },"10": {
     "doc": "Contributing",
     "title": "License",
     "content": ". | Hardware source files are licensed under MIT license. | The documentation is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0) license. This includes all photos and images in this repository and on the website. | Firmware is part of QMK firmware and has the same license (GPL v2) | . ",
     "url": "/contributing#license",
     
     "relUrl": "/contributing#license"
-  },"13": {
+  },"11": {
     "doc": "Contributing",
     "title": "Contribution guidelines",
     "content": "When making hardware contributions, please use “Semantic versioning”. To avoid ‘breaking changes’ when creating ErgoDonk Zero variants, please keep the following in mind: . | Changing the outline or moving the locations of the PCB, jack, knob, or switches would break compatibility between cases. | Changing the schematic pinout would require a different QMK &amp; VIA build and may be considered a breaking change. However, there are several unused pins, please use those for adding new stuff. Currently QMK is migrating to a .json based keyboard config, so pinout changes may be easier in the future. | Please prototype the variant before making a PR. | Please create a case if the variant is not compatible with existing cases. | Please include all footprints, symbols, and 3d models in the repo. | If you use open source work, please attribute. | Update the README / documentation of your changes as necessary. | . ",
     "url": "/contributing#contribution-guidelines",
     
     "relUrl": "/contributing#contribution-guidelines"
-  },"14": {
+  },"12": {
     "doc": "Contributing",
     "title": "ErgoDonk Zero Future feature wish list",
     "content": "Theres some features that I would like to add if time permits. Open to contributions. | Plate mount stabilizers. Currently has PCB mount only, but would like to support both types. | Write a PCBA ordering walk through. I pulled images for the process with the ErgoDonk Zero - but never wrote a guide. | . ",
     "url": "/contributing#ergodonk-zero-future-feature-wish-list",
     
     "relUrl": "/contributing#ergodonk-zero-future-feature-wish-list"
-  },"15": {
+  },"13": {
     "doc": "Contributing",
     "title": "Features to add to future keyboards",
     "content": ". | Space 2mm and 4mm case holes evenly around the perimeter for monoblock type cases. | Consider moving TRS and Zero jack back a bit so they sit flush with the edge of the board. This would make it easier to use ‘monoblock’ cases. | Be sure to rotate the thumb cluster keys when building a LED variant. | . ",
     "url": "/contributing#features-to-add-to-future-keyboards",
     
     "relUrl": "/contributing#features-to-add-to-future-keyboards"
-  },"16": {
+  },"14": {
     "doc": "Contributing",
     "title": "Contributing",
     "content": " ",
     "url": "/contributing",
     
     "relUrl": "/contributing"
+  },"15": {
+    "doc": "Current Project Status",
+    "title": "Current Project status",
+    "content": "While the current hardware iteration is stable and functional, (v.2) there are some supporting tasks still in progress. Specifically, QMK &amp; VIA commits, documenting case variants, and finalizing the PID/VID. ",
+    "url": "/status#current-project-status",
+    
+    "relUrl": "/status#current-project-status"
+  },"16": {
+    "doc": "Current Project Status",
+    "title": "Punch list",
+    "content": ". | A PR has been submit to pid.codes to apply for a unique USB-IF VID:PID combo: https://github.com/pidcodes/pidcodes.github.com/pull/936 | Update the QMK/VIA with the new VID:PID | Create a new logo | Use the new logo to generate the Favicon | Add a page detailing the differences between ErgoDonk and ErgoDonk Zero | Add a more appealing default key layout | Document more appealing default key layout. | Validate the new and old tenting puck holes are good. | consider a key plate variant that has holes to attach a top plate. | Try putting a smaller 3v Solenoid on each hand. | Add notes to the build guide, about how the symbols on the key cap should not correspond to the actual key presses., and the default layout is an adaptation of the Ergodox. | Add note about how great those magnetic data cables are. | Add note in the build guide about the key layout using the ergonomic height of the SA keys and add images demonstrating. | Add a link to make it easy for users to contribute to documentation, like QMK has. | Add note about the merits of AliExpress vs other vendors. | Consider creating a choc key plate variant with cutouts for the diodes on the front? | fix hot swap socket graphic with iconography. (Currently two red arrows - maybe a green check and a red ‘no’)? | Create a tip120 bending jig. | Strip GEO metadata from all images. | Add diode punch outs for the bending jig | Review pitch and tilt angle origion for ergo case. If the origin is the center of the board as opposed to the edge, what does that change? | When using PCBA, all the matrix intersections will get a diode. I think this is what’s breaking the handedness by matrix intersection setting in QMK. Consider add a jumper for the RH Backspace key, so that even if PCBA is used, the handedness detcetion by matrix intersection will still work. | Use the Zero LED as a layer indicator. Example qmk_firmware/keyboards/handwired/alcor_dactyl | Update case to include hole above layer indicator LED. | Adjust key labels before production. (There are a few under holes) | Before submitting QMK PR, update version number in info.json | Add Solenoid installation to the README | . ",
+    "url": "/status#punch-list",
+    
+    "relUrl": "/status#punch-list"
   },"17": {
+    "doc": "Current Project Status",
+    "title": "Current Project Status",
+    "content": " ",
+    "url": "/status",
+    
+    "relUrl": "/status"
+  },"18": {
     "doc": "Flashing",
     "title": "Firmware and programming",
     "content": "The ErgoDonk Zero uses QMK’s ee_hands to determine which hand is connected to USB. This requires that the first time the keyboard is flashed, each hand uses a different file. When the right hand is connected to USB, the solenoid will not work. After the first ‘drag and drop’ flash, you can tweak your keymaps further using VIA. (Using VIA is covered in the next section). The easy way . The rp2040 supports ‘drag and drop’ flashing with a UF2 file on Mac or PC. This is the recommended approach if you’re not familiar with compiling QMK firmware yourself. After the first ‘drag and drop’ flash, you can tweak your key maps further using VIA. To flash with ‘drag ‘n drop’: These instructions are a summarization of the official explanation found in the QMK docs. | Make sure halves are not connected together with TRS cable. | Connect one half to USB. | Enter the bootloader using any of the following methods. These are dependant on where your RP2040 Zero came from. | Hold down BOOT and tap RESET. | Hold the BOOT button while plugging in the usb cable. | Double tapping the RESET button on the RP2040. (Double tap reset is enabled by default on the RP2040). | Bootmagic reset (works after you have flashed once): Hold down the top far corner key while plugging in the keyboard (~ left half, - right half). This will also clear the EEPROM. @todo Add Bootmagic to QMK config. | . | Wait for the OS to detect the device. | Copy the .uf2 file to the new USB disk. | The files can be found in this repo at ./Firmware/drag_and_drop | There is a different file for right hand and left hand, as denoted by a _RH or _LH suffix. (@todo - can we use matrix detection to use a single file for both hands)? | On Mac after the file is dropped, the ‘Keyboard setup assistant’ may be triggered. You can ignore and quit the assistant.(@todo add relative path to UF2 files.) | . | Unplug the side you just flashed, and repeat the process with the other side. | Disconnect both halves from USB. | Connect both halves together using the TRS cable. | Connect the left half to USB. | Test everything using VIA. (Earlier versions of VIA were downloaded and installed. The latest version, VIA 3, is accessed through the web interface). | . The less easy way . If you want to build your own firmware, ErgoDonk Zero uses [QMK Firmware][qmk_firmware]. Support is not in the main QMK repository yet. Instead use the jellytitan/qmk_firmware fork and the ergodonk_zero branch. https://docs.qmk.fm/#/flashing?id=raspberry-pi-rp2040-uf2 . To flash: . | Clone https://github.com/jellytitan/qmk_firmware | Switch to the ergodonk_zero branch with git checkout ergodonk_zero | Make sure your QMK environment [is setup][qmkintro]. | Make sure halves are not connected together with TRS cable. | Connect one half to USB, flash the firmware (always follow the current instructions in the QMK documentation! The command might look something like this: qmk flash -kb ergodonk_zero --keymap default -bl uf2-split-right and qmk flash -kb ergodonk_zero --keymap default -bl uf2-split-left). Use the reset button to reset the keyboard when you are asked to in console. | Connect the second half and flash it in the same way as the previous one. | Disconnect the USB cable. Connect both halves together with TRRS cable. | Connect USB cable to the left side. | Enjoy! | . ",
     "url": "/flashing#firmware-and-programming",
     
     "relUrl": "/flashing#firmware-and-programming"
-  },"18": {
+  },"19": {
     "doc": "Flashing",
     "title": "Flashing",
     "content": " ",
     "url": "/flashing",
     
     "relUrl": "/flashing"
-  },"19": {
-    "doc": "Build",
-    "title": "Sofle Pico Build Guide",
-    "content": " ",
-    "url": "/build#sofle-pico-build-guide",
-    
-    "relUrl": "/build#sofle-pico-build-guide"
   },"20": {
-    "doc": "Build",
-    "title": "Build",
-    "content": " ",
-    "url": "/build",
-    
-    "relUrl": "/build"
-  },"21": {
     "doc": "Overview",
     "title": "ErgoDonk Zero Keyboard",
     "content": "ErgoDonk Zero is a 6×9+6 keys split ortholinear keyboard with encoder &amp; solenoid support, hotswap sockets for MX or Choc v1 low profile switches, and uses the RP2040 “Zero” MCU. The ErgoDonk Zero was designed by Ryan Neff. Many of the footprints came from the well-regarded foostan kbd library. ",
     "url": "/#ergodonk-zero-keyboard",
     
     "relUrl": "/#ergodonk-zero-keyboard"
-  },"22": {
+  },"21": {
     "doc": "Overview",
     "title": "Overview",
     "content": "The ErgoDonk Zero was designed to be a good first split ortholinear keyboard. It is inexpensive, the parts are accessable, it’s easy to build, and has a key layout that is still familiar to non-split querty users. It can be used with any MX keycap profile, but is designed specifically for the ergonomic SA Keycap profile. The E0 has been designed to use off the shelf keycap sets. The layout leverages the variable height profile of SA keycaps. @todo get image of the SA profiles from the thumb and sides. ",
     "url": "/",
     
     "relUrl": "/"
-  },"23": {
+  },"22": {
     "doc": "Overview",
     "title": "Design philosophy",
     "content": "The ErgoDonk Zero is designed with the following goals: . | Comfort &amp; ergonomics . | Ortholinear. | Split. | Tiltable. Has tenting puck mounting holes. SplitKB or 3d print your own: design by Bubbleology. | Thumb clusters designed to use SA variable height keycaps | . | Accessible . | Uses standard key cap sets. | Can use either MX or Choc V1 low profile key switches. | Through-hole components used for easy soldering. | “Drag and drop” MCU flashing. | Uses VIA for easy customization. | Supports more keys than a traditional split ergo, making it a good transition to a smaller split, or for those who really like their “F” keys. | . | Low cost . | The PCB is reversible to reduce manufacturing costs. | Uses RP2040 Zero. (Inexpensive clones are readily available for ~$3USD) | Does not require expensive split-specific key cap sets. | . | . ",
     "url": "/#design-philosophy",
     
     "relUrl": "/#design-philosophy"
+  },"23": {
+    "doc": "Build",
+    "title": "Sofle Pico Build Guide",
+    "content": " ",
+    "url": "/build#sofle-pico-build-guide",
+    
+    "relUrl": "/build#sofle-pico-build-guide"
   },"24": {
+    "doc": "Build",
+    "title": "Build",
+    "content": " ",
+    "url": "/build",
+    
+    "relUrl": "/build"
+  },"25": {
     "doc": "PCB Ordering",
     "title": "PCB Ordering Guide.",
     "content": "How to order this board from a PCB vendor - helpful info if it’s your first time ordering a PCB. Most PCB vendors have a similar ordering process. I use JLCPCB because they are usually the most cost effective. I’ve had good luck with Elecrow too. You can find PCB price comparison tools online. When comparing pricing, be sure to enter the board dimensions, and set the minimum quantity to 5. The ErgoDonk zero is 217mm X 156mm. Usually anything under 100x100mm is really inexpensive - so be sure to use actual dimensions when pricing. Most manufacturers have a 5 board minimum, so this is a safe quantity to start with. Usually the minimum quantity to order is 5 boards. The ErgoDonk Zero been designed to be double sided, so a batch of 5 boards gets you 2 &amp; 1/2 sets. The production files are known as “gerbers”, and they are usually uploaded as a .zip file. (It’s essentially a collection of files for each layer of the board, like holes, graphics, traces etc.) . The Gerbers for the ErgoDonk Zero can be found as a zipped file in the “Releases” section on the right hand side of the Github repo. @todo add image and name of release . The homepage of JLCPCB has a drag &amp; drop upload. Drag the gerber .zip and drop it on the “add gerber file” box. While the file is uploading, it will take you to an options screen. Once the board size is detected1, the price2 will update accordingly. Changing the pcb color3 may impact production time and price. Shipping estimates4 can vary widely, so be sure to check those. (You’ll see these options again during checkout). Warning: The default pcb surface finish contains Lead. For boards in cases, this is usually not a problem. If you’re going to rock a naked board, consider going with “lead free”5 for a few bucks more. The more popular colors like green and black tend to cost less for the lead free option. By default, all JLC boards have a part number printed on them. (Most people won’t notice them unless your looking for them). You can pay extra to have them removed. ErgoDonk Zero supports the option to “Specify a location”6. (Essentially this is a line of text on the PCB that will JLC will substitute with their part number.) There is no additional charge for specifying the location. The remainder of the checkout process is standard e-commerce stuff. After you pay for your order, it will be reviewed before going into production. They will let you know if the file has any issues. ",
     "url": "/build/pcb_ordering_guide.html#pcb-ordering-guide",
     
     "relUrl": "/build/pcb_ordering_guide.html#pcb-ordering-guide"
-  },"25": {
+  },"26": {
     "doc": "PCB Ordering",
     "title": "PCB Ordering",
     "content": " ",
