@@ -1,1 +1,6 @@
 PCB/ergodonk_simple_zero-backups
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
