@@ -2,7 +2,7 @@
 layout: page
 title: Build Log
 description: ErgoDonk Zero keyboard build log.
-# permalink: /build
+permalink: build-log
 # parent: Build
 nav_order: 9
 # image: /images/build_guide_pico/sofle_pico_MCU_heroshot.png

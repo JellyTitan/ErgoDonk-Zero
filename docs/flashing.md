@@ -2,7 +2,7 @@
 layout: page
 title: Flashing
 description: Instructions for flashing ErgoDonk Zero
-permalink: /flashing
+permalink: flashing
 nav_order: 3
 # has_children: true
 ---

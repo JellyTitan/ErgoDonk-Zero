@@ -4,6 +4,7 @@ title: PCB Ordering
 # permalink: /pcb-ordering
 description: ErgoDonk Zero PCB ordering guide
 parent: Build
+permalink: /build/pcb-ordering
 nav_order: 2
 ---
 # PCB Ordering Guide.

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/build/BOM.html</loc>
+<loc>http://localhost:4000/build/bom</loc>
 </url>
 <url>
-<loc>http://localhost:4000/VIA.html</loc>
+<loc>http://localhost:4000/via</loc>
 </url>
 <url>
-<loc>http://localhost:4000/build/build_guide.html</loc>
+<loc>http://localhost:4000/build-log</loc>
 </url>
 <url>
-<loc>http://localhost:4000/build_log.html</loc>
+<loc>http://localhost:4000/build/build-guide</loc>
 </url>
 <url>
 <loc>http://localhost:4000/contributing</loc>
@@ -28,9 +28,9 @@
 <loc>http://localhost:4000/build</loc>
 </url>
 <url>
-<loc>http://localhost:4000/build/pcb_ordering_guide.html</loc>
+<loc>http://localhost:4000/build/pcb-ordering</loc>
 </url>
 <url>
-<loc>http://localhost:4000/build/workholding.html</loc>
+<loc>http://localhost:4000/build/workholding</loc>
 </url>
 </urlset>

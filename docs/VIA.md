@@ -2,7 +2,7 @@
 layout: page
 title: VIA
 description: Instructions for modifying the ErgoDonk Zero key map using the online VIA configurator
-# permalink: /pcb-ordering
+permalink: via
 # parent: Flashing
 nav_order: 5
 image: /images/VIA/via_3.png

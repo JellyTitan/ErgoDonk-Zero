@@ -3,6 +3,7 @@ layout: page
 title: BOM
 description: Bill of Materials and sourcing notes
 parent: Build
+permalink: build/bom
 nav_order: 1
 ---
 
