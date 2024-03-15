@@ -32,7 +32,7 @@ nav_order: 1
 | M2 8mm FF spacers @todo - these heights & qty are outdated. | 12 | Connects the bottom plate to the key plate, running through the PCB | |
 | M2 12mm FF spacers | 6 | Connects the bottom plate to the OLED plate, running through the PCB and the keyplate. @todo - is it really 12mm? | |
 | M2x5mm screws | 52 | M2 screws. | |
-| Case | 1 Left Set, 1 Right Set | Case files are located in the [case folder](./Case). | @todo - regenerate after next prototype validated |
+| Case | 1 Left Set, 1 Right Set | Case files are located in the [github repo case folder](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Case). | @todo - regenerate after next prototype validated |
 | USB-C Cable | 1 | USB cable for connecting the keyboard to your computer. | | 
 
 <hr>
@@ -59,7 +59,7 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
 <hr>
 
 ### Optional - Case plates
- - Key plates are strongly recommended with 3-pin MX switches, but not technically required. The thumb keys tend to fall out if you don't use a key plate. If you're using choc switches or 5-pin MX switches, they stay put well enough to skip the key plate entirely. Key plates should be made from PCB or 3d printed. Acrylic is not recommended becasue the ErgoDonk is so large the acrylic can flex, making it difficult to seat the keys properly. 3d printable keyplates can be found [here]((https://www.printables.com/model/738066-ergodonk-zero-open-back-case)).
+ - Key plates are strongly recommended with 3-pin MX switches, but not technically required. The thumb keys tend to fall out if you don't use a key plate. If you're using choc switches or 5-pin MX switches, they stay put well enough to skip the key plate entirely. Key plates should be made from PCB or 3d printed. Acrylic is not recommended becasue the ErgoDonk is so large the acrylic can flex, making it difficult to seat the keys properly. 3d printable keyplates can be found [here](https://www.printables.com/model/738066-ergodonk-zero-open-back-case).
  - Bottom plates pair nicely with key plates and can be connected with M2 standoff posts. These are not strictly necessary, as you could use [adhesive rubber bumpers](https://www.amazon.com/gp/product/B074C2XKXH) on the underside of the pcb instead. Acrylic, PCB or 3d prints are good for these.
  - The MCU's and the Solenoid are taller than the key plate, so they have their own separate taller plataes cover plates. Acrylic, PCB or 3d prints are good for these.
  - The left MCU cover plate is different from the right MCU cover plate, because the left MCU cover plate also hides empty keyholes. 

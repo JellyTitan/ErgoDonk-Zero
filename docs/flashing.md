@@ -38,7 +38,7 @@ These instructions are a summarization of the [official explanation found in the
     * **Bootmagic reset** (works after you have flashed once): Hold down the top far corner key while plugging in the keyboard (`~` left half, `-` right half). This will also clear the EEPROM. @todo Add Bootmagic to QMK config.
 1. Wait for the OS to detect the device.
 1. Copy the .uf2 file to the new USB disk. 
-  * The files can be found in this repo at [./Firmware/drag_and_drop](./Firmware/drag_and_drop)
+  * The files can be found in the [ErgoDonk Zero repo](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Firmware/drag_and_drop).
   * There is a different file for right hand and left hand, as denoted by a `_RH` or `_LH` suffix. (@todo - can we use matrix detection to use a single file for both hands)?
   * On Mac after the file is dropped, the 'Keyboard setup assistant' may be triggered. You can ignore and quit the assistant.(@todo add relative path to UF2 files.) 
 1. Unplug the side you just flashed, and repeat the process with the other side.
@@ -49,7 +49,7 @@ These instructions are a summarization of the [official explanation found in the
 
 ## Compile QMK for flashing (the hard way)
 
-If you want to build your own firmware, ErgoDonk Zero uses [QMK Firmware][qmk_firmware]. Support is not in the main QMK repository [yet](@todo: Update this url with official PR). Instead use the [jellytitan/qmk_firmware](https://github.com/JellyTitan/qmk_firmware/tree/ergodonk_zero) fork and the `ergodonk_zero` branch.
+If you want to build your own firmware, ErgoDonk Zero uses [QMK Firmware][qmk_firmware]. Support is not in the main QMK repository yet. **@todo: Update this url with official PR**. Instead use the [jellytitan/qmk_firmware](https://github.com/JellyTitan/qmk_firmware/tree/ergodonk_zero) fork and the `ergodonk_zero` branch.
 https://docs.qmk.fm/#/flashing?id=raspberry-pi-rp2040-uf2
 
 To flash:
