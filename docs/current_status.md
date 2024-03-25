@@ -13,8 +13,7 @@ While the current hardware iteration is stable and functional, (v.2) there are s
 ## Punch list
 
 ### Hardware
-* [ ] Create a new logo
-* [ ] consider a key plate variant that has holes to attach a top plate. 
+* [ ] Create a new logo 
 * [ ] Consider creating a choc key plate variant with cutouts for the diodes on the front?
 * [ ] Validate the new and old tenting puck holes are good.
 * [ ] Try putting a smaller 3v Solenoid on each hand.
@@ -42,11 +41,8 @@ While the current hardware iteration is stable and functional, (v.2) there are s
 * [ ] Add gem to open images in modal. (There are hq images that are presented small-ish).
   
 ### QMK 
-* [ ] A PR has been submit to pid.codes to apply for a unique USB-IF VID:PID combo: https://github.com/pidcodes/pidcodes.github.com/pull/936
-* [ ] Update the QMK/VIA with the new VID:PID
 * [ ] Add a more appealing default key layout
 * [ ] Before submitting QMK PR, update version number in `info.json`
 
 ### VIA
-* [ ] Update the QMK/VIA with the new VID:PID
-* [ ] PR is ready, blocked by QMK merge.
+* [ ] [Draft PR](https://github.com/the-via/keyboards/pull/2208) created, blocked by QMK merge.
