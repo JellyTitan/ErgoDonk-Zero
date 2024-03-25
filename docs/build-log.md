@@ -58,3 +58,6 @@ These are mostly personal notes to keep track of things during the development p
 ![Solenoids](images/solenoids.JPG)
 * Found another Soleniod on AliExpress that works, and added it to the BOM.
 * The tenting puck did not work with MX footprints - it intersected the switch sockets. I added a second tenting puck, now there's one for choc and one for MX.
+* Was issued a quasi-official USB-IF VendorID and ProductID through [pid.codes](pid.codes):<br>
+[https://github.com/pidcodes/pidcodes.github.com/blob/master/1209/455A/index.md](https://github.com/pidcodes/pidcodes.github.com/blob/master/1209/455A/index.md)<br> 
+[https://github.com/pidcodes/pidcodes.github.com/blob/master/org/JellyTitan/index.md](https://github.com/pidcodes/pidcodes.github.com/blob/master/org/JellyTitan/index.md)
