@@ -50,14 +50,15 @@ These are mostly personal notes to keep track of things during the development p
 - Added Tip120 bending jig.
 - Improved diode markings
 - Added additional solenoid connection footprint for solenoids that come with shorter wires.
-- Verified the TRRS/TRS jack works as expected. ()
-- Convert QMK config to Serial from full duplex.
-- [ ] There may be a problem with the leftmost post hole intersecting the stabilizer:
+- Verified the TRRS/TRS jack works as expected.
+- Converted QMK config to Serial from full duplex. (Left the circuit in place for future ergodonk variants)
+- There may be a problem with the leftmost post hole intersecting the stabilizer. (There's not - stabilizers are dumb and I hate them - also - if there is a key in that hole, there won't be a post - so the binary state makes it fine).
 ![post hole intersect](images/stab_prob.png)
-* Tried some alternate Solenoids. [This one from Sparkfun](https://www.sparkfun.com/products/11015) did not work. These [little](https://www.aliexpress.us/item/3256802092636163.html) [3V Solenoids](https://www.aliexpress.us/item/3256801967962531.html?spm=a2g0o.order_list.order_list_main.15.124c1802EEEXaw&gatewayAdapt=glo2usa) from Aliexpress did work, but the 'thunk' was not nearly as satisfying. I suspect the solenoid is not actually getting a Solid 5V. The [4.5V Uxcell Solenoid](https://www.amazon.com/gp/product/B013DR655A) initially recommended in the Red Herring seems to be the most forgiving of the under-voltage. Making that my official recommendation. 
+-  Tried some alternate Solenoids. [This one from Sparkfun](https://www.sparkfun.com/products/11015) did not work. These [little](https://www.aliexpress.us/item/3256802092636163.html) [3V Solenoids](https://www.aliexpress.us/item/3256801967962531.html?spm=a2g0o.order_list.order_list_main.15.124c1802EEEXaw&gatewayAdapt=glo2usa) from Aliexpress did work, but the 'thunk' was not nearly as satisfying. I suspect the solenoid is not actually getting a Solid 5V. The [4.5V Uxcell Solenoid](https://www.amazon.com/gp/product/B013DR655A) initially recommended in the Red Herring seems to be the most forgiving of the under-voltage. Making that my official recommendation. 
 ![Solenoids](images/solenoids.JPG)
-* Found another Soleniod on AliExpress that works, and added it to the BOM.
-* The tenting puck did not work with MX footprints - it intersected the switch sockets. I added a second tenting puck, now there's one for choc and one for MX.
-* Was issued a quasi-official USB-IF VendorID and ProductID through [pid.codes](pid.codes):<br>
+- Found another Soleniod on AliExpress that works, and added it to the BOM.
+- The tenting puck did not work with MX footprints - it intersected the switch sockets. I added a second tenting puck, now there's one for choc and one for MX.
+- Was issued a quasi-official USB-IF VendorID and ProductID through [pid.codes](pid.codes):<br>
 [https://github.com/pidcodes/pidcodes.github.com/blob/master/1209/455A/index.md](https://github.com/pidcodes/pidcodes.github.com/blob/master/1209/455A/index.md)<br> 
 [https://github.com/pidcodes/pidcodes.github.com/blob/master/org/JellyTitan/index.md](https://github.com/pidcodes/pidcodes.github.com/blob/master/org/JellyTitan/index.md)
+- Found [another project](https://kbd.news/Ergodonk-released-792.html) [posted on thingiverse](https://www.thingiverse.com/thing:4892740) that uses the name 'ergodonk'. That project predates [my use of ergodonk](https://www.reddit.com/r/ErgoMechKeyboards/comments/12gs5or/ergodonk_easter_edition/) by a few years. I messaged user [Riverbottom on thingiverse](https://www.thingiverse.com/riverbottom/designs) to apologize. He was totally cool about it, and said I can have the name, but he will be leaving his existing Ergodonk in place. I think it's neat there's an ergodonk lineage, and I'd like to preserve it. I'll avoid using the name `Ergodonk` alone for any future keyboards, and instead use `ergodonk-<suffix>` for the standard naming conventions. <img src="/images/build-log/riverbottom_ergodonk_nameshare.png" alt="conversation screen cap regarding ergodonk name usage" />
