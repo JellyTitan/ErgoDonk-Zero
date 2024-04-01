@@ -5,7 +5,6 @@ description: ErgoDonk Zero keyboard build guide.
 parent: Build
 permalink: build/build-guide
 nav_order: 4
-# image: /images/build_guide_pico/sofle_pico_MCU_heroshot.png
 ---
 # ErgoDonk Zero build guide
 {: .no_toc }

@@ -41,8 +41,8 @@ While the current hardware iteration is stable and functional, (v.2) there are s
 * [ ] Add gem to open images in modal. (There are hq images that are presented small-ish).
   
 ### QMK 
-* [ ] Add a more appealing default key layout
 * [ ] Before submitting QMK PR, update version number in `info.json`
 
 ### VIA
+* [ ] Refactor VIA PR to match the new simplified QMK base keymap
 * [ ] [Draft PR](https://github.com/the-via/keyboards/pull/2208) created, blocked by QMK merge.
