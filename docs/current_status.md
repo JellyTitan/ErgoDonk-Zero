@@ -17,8 +17,7 @@ While the current hardware iteration is stable and functional, (v.2) there are s
 * [ ] Consider creating a choc key plate variant with cutouts for the diodes on the front?
 * [ ] Validate the new and old tenting puck holes are good.
 * [ ] Try putting a smaller 3v Solenoid on each hand.
-* [ ] Create a tip120 bending jig.
-* [ ] Review pitch and tilt angle origin for ergo case. If the origin is the center of the board as opposed to the edge, what does that change?
+* [ ] ~~Create~~ Validate a tip120 bending jig.
 * [ ] When using PCBA, all the matrix intersections will get a diode. I think this is what's breaking the handedness by matrix intersection setting in QMK. Consider add a jumper for the RH Backspace key, so that even if PCBA is used, the handedness detection by matrix intersection will still work.
 * [ ] Use the Zero LED as a layer indicator. Example qmk_firmware/keyboards/handwired/alcor_dactyl
 * [ ] Update case to include hole above layer indicator LED. 
