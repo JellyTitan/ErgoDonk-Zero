@@ -48,13 +48,15 @@ Supports up to 8 PCB mounted screw in stabilizers that are 2u in length. Stabili
 The solenoid attaches to the PCB below the left palm. It's lovely and loud. Will only work on the left hand.
 Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/412/solenoid_driver.pdf). 
 [QMK Docs for solenoid.](https://docs.qmk.fm/#/feature_haptic_feedback?id=solenoids) 
+
 | Name | Count | Remarks | Potential Storefront |
-| - | - |-|-|
+| ---- | ----- | ----- | ---- |
 | Solenoid | 1 | 4.5v Solenoid - the Amazon Uxcell solenoid is the most reliable one I've found.<br>Some [3V Solenoids](https://www.aliexpress.us/item/3256802092636163.html) from AliExpress will work - but the 'thunk' is not nearly as satisfying. Go with the 4.5v if you can. | [Amazon](https://www.amazon.com/dp/B013DR655A)<br> [AliExpress](https://www.aliexpress.us/item/3256805711149774.html)
  1k Resistor | 1 |   A 2.2k resistor should work as well, but I've not tried it.| [Amazon](https://www.amazon.com/gp/product/B08FHPKF9V)<br>[Aliexpress](https://www.aliexpress.us/item/3256805483572082.html) |
  1N4001 Diode | 1 |  | [Amazon](https://www.amazon.com/gp/product/B079JPMW9H), [AliExpress](https://www.aliexpress.us/item/3256802685977811.html)|
  TIP 120 | 1 | Heatsinks are available for these, but aren't needed.  | [Amazon](https://www.amazon.com/gp/product/B083TQN12B/), [Aliexpress](https://www.aliexpress.us/item/3256803429634601.html) | 
  | M2 4mm screws | 2 | Attaches the Solenoid to the PCB | @todo use the same source as case screws in teh required section. |
+
 
 <hr>
 

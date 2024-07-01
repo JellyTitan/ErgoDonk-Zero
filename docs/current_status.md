@@ -8,7 +8,7 @@ nav_order: 2
 
 # Current Project status
 
-While the current hardware iteration is stable and functional, (v.2) there are some supporting tasks still in progress. Specifically, QMK & VIA commits, documenting case variants, and finalizing the PID/VID.
+While the current hardware iteration is stable and functional, (v.2) there are some supporting tasks still in progress. Specifically, QMK & VIA commits, documenting case variants.
 
 ## Punch list
 
