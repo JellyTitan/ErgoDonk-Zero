@@ -888,7 +888,7 @@
       "pos_files": "",
       "specctra_dsn": "ergodonk_pcb5.dsn",
       "step": "../Case/v0.2/source/ErgoDonk_Zero_v0.2.1.STEP",
-      "svg": "",
+      "svg": "../../../SofleKeyboard/Comparison/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
