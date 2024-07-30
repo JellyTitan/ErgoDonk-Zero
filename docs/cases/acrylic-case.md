@@ -16,7 +16,7 @@ published: false
 @todo - update the output folder.
 
 {: .info}
->  Files are in the Github Repo [here](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Case/Acrylic_case).
+>  Files are in the Github Repo [here](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/Acrylic/production_ready).
 
 <hr>
 
