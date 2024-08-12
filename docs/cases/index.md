@@ -9,7 +9,7 @@ image: /images/build_guide_pico/acrylic_case_hero_shot.jpeg
 published: false
 ---
 
-# Sofle Pico Cases
+# ErgoDonk Zero Cases
 
 <a href="/images/build_guide_pico/acrylic_case_hero_shot.jpeg"><img src="/images/build_guide_pico/acrylic_case_hero_shot.jpeg" alt="Acrylic sofle pico case" width="32%"></a> <a href="/images/build_guide_pico/fdm_case_hero_shot.jpeg"><img src="/images/build_guide_pico/fdm_case_hero_shot.jpeg" alt="Acrylic sofle pico case" width="32%"></a>
 
@@ -17,11 +17,11 @@ published: false
  - The key plates combined with a backplate make a nice 'sandwich' case. You can cover up the sandwich case with the 'monobody' cover.
  - @todo - rewrite all of this to adapt from Sofle
  - Spacers are intended to pass through the main pcb and screw onto the bottom plates, top plates, and OLED plates.
- - Plates can be made from acrylic, pcb, or 3d printed. @todo - design pcb based plates.
+ - Plates can be made from acrylic, or 3d printed. 
  - Having a standoff kit is helpful when assembling the keyplates. [M2 Brass Standoff Kit](https://www.amazon.com/gp/product/B07B9X1KY6)
- - Acrylic key plates for MX switches should be 3mm thick, and 2mm for choc switches. @todo - validate the choc depth.
+ - Acrylic key plates should only be used for MX switches. (The choc switches retention nubs only allow 1.5mm or 1.6mm plates, which aren't recommended with acrylic).
  - PCB cases should be 1.6mm thick. The switches fit better in the PCBs because most switches have 'retention nubs' designed for PCBs.<br><img src="/images/build_guide_pico/sofle_pico_retention_nubs.png" alt="switch retention nubs" width="20%">
 
-Acrylic plates are assembled using standoffs that run through the board. Standoff lengths for the PCB plates will be different than the acrylic plates. FDM plates screw directly to the board, and do not use standoffs.
+Acrylic plates are assembled using standoffs that run through the board. 3d printed FDM plates screw directly to the board, and do not use standoffs.
 
 @todo - case assembly animation?
