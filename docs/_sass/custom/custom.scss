@@ -32,5 +32,6 @@ tr:nth-child(even) td {
 }
 thead th {
   background-color: $grey-dk-200;
+  min-width: none;font: 1em sans-serif;
 }
 
