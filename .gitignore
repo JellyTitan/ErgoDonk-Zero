@@ -4,3 +4,4 @@ docs/_site
 .jekyll-cache
 .jekyll-metadata
 vendor
+mogrify_looper.py
