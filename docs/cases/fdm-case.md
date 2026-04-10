@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "3d Printable (FDM)"
+title: 3d Printable (FDM)
 parent: Cases
 permalink: /cases/fdm-case
 description: 3d printable ErgoDonk Zero case instructions and links

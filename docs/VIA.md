@@ -17,7 +17,7 @@ Until the ErgoDonk Zero layout is merged into the official VIA repo, you'll need
 1. Visit https://usevia.app/
 1. Open the "Settings" tab by clicking on the gear icon at the top of the page. 
 1. Enable "Show Design tab". <br>
-![VIA show design tab switch](images/VIA/via_1.png)
+<img src="/images/VIA/via_1.png" alt="VIA show design tab switch" fetchpriority=high >
 1. Now you should see a paintbrush icon at the top of the screen. Click on that to open the "Design tab".
 1. Download the ErgoDonk Zero via config file: [ergodonk_zero.json](https://raw.githubusercontent.com/JellyTitan/ErgoDonk-Zero/main/Firmware/via/ergodonk_zero.json). (Right click and 'Save As' to download the .json file).<br>
 Once you have the file locally, Click "Load" to upload `ergodonk_zero.json`.<br> (The ErgoDonk Zero PR for VIA can't be submitted until the QMK PR is submitted and approved. That PR is waiting and ready to go: [VIA PR for ErgoDonk Zero](https://github.com/JellyTitan/via-keyboards/tree/ergodonk_zero)).<br>

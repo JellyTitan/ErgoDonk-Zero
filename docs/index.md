@@ -11,7 +11,7 @@ ErgoDonk Zero is a 6×9+6 keys split ortholinear keyboard with encoder & solenoi
 
 The ErgoDonk Zero was designed by [Ryan Neff](https://github.com/JellyTitan). Many of the footprints came from the well-regarded foostan [kbd library](https://github.com/foostan/kbd). 
 
-<a href="images/v0.1_hero.JPG"><img src="images/v0.1_hero.JPG" alt="Ergodonk Zero split keyboaard v0.1 hero image"> </a>
+<a href="images/v0.1_hero.JPG"><img src="images/v0.1_hero.JPG" alt="Ergodonk Zero split keyboaard v0.1 hero image" fetchpriority=high> </a>
 ## Overview
 The ErgoDonk Zero was designed to be a good first split ortholinear keyboard. It is inexpensive, the parts are accessable, it's easy to build, and has a key layout that is still familiar to non-split querty users. 
 

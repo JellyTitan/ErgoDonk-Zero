@@ -23,7 +23,7 @@ While the current hardware iteration is stable and functional, (v.2) there are s
 * [ ] Update case to include hole above layer indicator LED. 
 * [ ] Improve Acrylic keyplates. (Maybe one for each hand)?
 * [ ] Adjust key labels before production. (There are a few under holes)
-* [ ] Add data label to the TRS/TRRS jack for easier debugging. <br>![alt text](/images/build_guide/labeled_data_jack.png)
+* [ ] Add data label to the TRS/TRRS jack for easier debugging. <br><img src="/images/build_guide/labeled_data_jack.png" alt="labeled data jack" fetchpriority=high>
 * [ ] Add dimensions to Acrylic case file names. (Elecrow doesn't autodetect the dimensions).
 
 ### Documentation

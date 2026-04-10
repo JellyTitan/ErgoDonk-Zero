@@ -23,7 +23,7 @@ The Gerbers for the ErgoDonk Zero can be found as a zipped file in the "Releases
 
 The homepage of JLCPCB has a drag & drop upload. Drag the gerber `.zip` and drop it on the "add gerber file" box.
 
-<a href="/images/ordering_guide/JLCPCB_Ordering_1.png">![JLCPCB Home](/images/ordering_guide/JLCPCB_Ordering_1.png)</a>
+<a href="/images/ordering_guide/JLCPCB_Ordering_1.png"><img src="/images/ordering_guide/JLCPCB_Ordering_1.png" alt="jlcpcb button for uploading Gerber files" fetchpriority=high></a>
 
 While the file is uploading, it will take you to an options screen. Once the board size is detected<sup>1</sup>, the price<sup>2</sup> will update accordingly.
 Changing the pcb color<sup>3</sup> may impact production time and price.

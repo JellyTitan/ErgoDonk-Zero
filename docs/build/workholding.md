@@ -14,7 +14,7 @@ There's a few common soldering methods used with through-hole components. In thi
 
 ## The bendy method
 Push the legs through the holes, then bend the legs slightly outward on the bottom side to keep the component in the hole when the PCB is flipped over. Solder on the side of the board opposite from the side the component was inserted.
-<br> <a href="/images/diode_bend_top.JPG"><img src="/images/diode_bend_top.JPG" alt="pcb with diode inserted from the top" width="49%" /></a> <a href="/images/diode_bend_under.JPG"><img src="/images/diode_bend_under.JPG" alt="pcb with bent diode legs" width="49%" /></a>
+<br> <a href="/images/diode_bend_top.JPG"><img src="/images/diode_bend_top.JPG" alt="pcb with diode inserted from the top" fetchpriority=high width="49%" /></a> <a href="/images/diode_bend_under.JPG"><img src="/images/diode_bend_under.JPG" alt="pcb with bent diode legs" width="49%" /></a>
 
 ## The tape method
 Push the legs through the holes and put a piece of kapton tape over the component to keep it in place when the board is flipped. Solder on the side of the board opposite from the side the component was inserted.
