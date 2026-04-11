@@ -4,7 +4,7 @@ title: Acrylic Ordering
 description: ErgoDonk Zero acrylic case ordering guide
 parent: Cases
 permalink: /cases/acrylic-ordering-guide
-nav_order: 5
+nav_order: 2
 # published: false
 ---
 

@@ -15,8 +15,11 @@ image: /images/build_guide_pico/acrylic_case_hero_shot.jpeg
  - @todo - Fix FDM case publishing and image links (Currently publishing set to false)
  - @todo - Add page for "MVP" case (PCB & FDM keyplate only, aka 'cat-hair collector')
  - @todo - why did i only use 3 images on this page? Maybe one acrylic, 1 fdm, and 1 MVP?
+ - @todo - slideshow images not working on fdm page?
+ - @todo - Add images for mvp case to index and individual page. 
+
   
-<a href="/images/acrylic_case/acrylic_tilted_hero.jpeg" ><img src="/images/acrylic_case/acrylic_tilted_hero.jpeg" alt="Acrylic ErgoDonk Zero case" width="32%" fetchpriority=high></a> <a href="/images/acrylic_case/knob_close_up.jpeg"><img src="/images/acrylic_case/knob_close_up.jpeg" alt="Acrylic ErgoDonk Zero case" width="32%" fetchpriority=high></a> 
+<a href="/images/acrylic_case/knob_close_up.jpeg"><img src="/images/acrylic_case/knob_close_up.jpeg" alt="Acrylic ErgoDonk Zero case" width="32%" fetchpriority=high></a> <a href="/images/fdm_case/fdm_donk_2.webp"><img src="/images/fdm_case/fdm_donk_2.webp" alt="Close up of right hand egodonk zero 3d printed case" width="32%"></a>
 
  - Key plates are strongly recommended, but not technically required. If you use 3 pin MX keys, the thumb keys tend to fall out if you don't use a key plate.
  - Plates can be made from acrylic, or 3d printed.
