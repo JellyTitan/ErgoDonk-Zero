@@ -11,7 +11,13 @@ image: /images/cases/sofle_pico_3d_printed_case_green_glow.jpeg
 
 # Minimalist ErgoDonk Zero case
 
-For those that like the look of a bare pcb, you can get away with only a 3d printed keyplate and some rubber bumpers on the underside of the pdb. You could even get away without the key plate, but the switches will likely rock in their sockets. 
+For those that like the look of a bare pcb, the minimum viable case.
+
+## Details
+
+- @todo - Add images for mvp case. 
+
+You can get away with only a 3d printed keyplate and some rubber bumpers on the underside of the pdb. You could even get away without the key plate, but the switches will likely rock in their sockets. 
 
 3d printing the keyplate is the easiest method. You can find the source files for the keyplates in [this repo](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/3d_printable_case) or on [printables](https://www.printables.com/model/738066-ergodonk-zero-case). 
 
@@ -21,10 +27,9 @@ You could also print the source file for the acrylic key plate, and use it as a 
 
 Rubber bumpers on the bottom can be subbed out for bumps of hot glue.
 
+## BOM
+
 | Name | Count | Remarks | Potential Storefront | Image |
 | -----| ----- |---------| -------------------- | ----- |
 | Left & right hand keyplates   | 1 | Use the 2 [ErgoDonk Zero keyplate files found on printables](on [printables](https://www.printables.com/model/738066-ergodonk-zero-case)) | <a href="/images/acrylic_case/keyplate.png"><img src="/images/acrylic_case/keyplate.png" alt="Acrylic ErgoDonk Zero key plate" ></a> |
 | 2mm adhesive Rubber bumper feet. | 10 | These keep the board from sliding on the desk. Put 5 on the bottom side of each hand to keep from sliding on the desk. | [Amazon](https://www.amazon.com/ROCHU-Self-Adhesive-Rubber-Bumpons-Furniture/dp/B073SVKFYJ) | <a href="/images/acrylic_case/bumper_locations.JPG"><img src="/images/acrylic_case/bumper_locations.JPG" alt="Bumper feet locations" ></a> |
-
-
-- @todo - Add images for mvp case. 

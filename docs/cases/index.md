@@ -12,8 +12,6 @@ image: /images/build_guide_pico/acrylic_case_hero_shot.jpeg
 # ErgoDonk Zero Cases
 
  - @todo - This has been rewritten to adapt from Sofle, but needs images updated.
- - @todo - Fix FDM case publishing and image links (Currently publishing set to false)
- - @todo - Add page for "MVP" case (PCB & FDM keyplate only, aka 'cat-hair collector')
  - @todo - why did i only use 3 images on this page? Maybe one acrylic, 1 fdm, and 1 MVP?
  - @todo - slideshow images not working on fdm page?
  - @todo - Add images for mvp case to index and individual page. 
