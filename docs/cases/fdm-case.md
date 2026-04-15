@@ -34,6 +34,8 @@ The backplate of the case is optional.
 
 Use 8mm screws if the backplate is used. If no back plate is used, go with 4mm screws.
 
+The fusion 360 source files for the ErgoDonk-Zero can be found on [printables](https://www.printables.com/model/738066-ergodonk-zero-case/files). 
+
 <hr>
 
 ## About these plates
