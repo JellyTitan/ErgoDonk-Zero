@@ -3,7 +3,7 @@ function is_youtubelink(url) {
     return (url.match(p)) ? RegExp.$1 : false;
 }
 function is_imagelink(url) {
-    var p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))/i;
+    var p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif|webp))/i;
     return (url.match(p)) ? true : false;
 }
 function is_vimeolink(url,el) {
