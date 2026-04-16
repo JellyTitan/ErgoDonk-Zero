@@ -5,27 +5,44 @@ parent: Cases
 permalink: /cases/mvp-case
 description: Minimalist ErgoDonk Zero case using only a key plate and pcb bumpers
 nav_order: 4
-image: /images/cases/sofle_pico_3d_printed_case_green_glow.jpeg
+image: /images/mvp_case/mvp_case_both.JPG
 # published: false
 ---
+{% comment %}
+  Local build command: bundle exec jekyll serve 
+  Image aspect ratio should be 3:5
+  Adds lightbox to links around images:
+  https://jekyllcodex.org/without-plugin/lightbox/
+
+   - @todo - need to optimize images - way too big. 
+{% endcomment %}
+
+
 
 # Minimalist ErgoDonk Zero case
 
-For those that like the look of a bare pcb, the minimum viable case.
+For those that like the look of a bare pcb with the minimum viable case. Also known as a "naked case".
+
+{: .warning}
+>  Beware - this case collects cat hair like it's going out of style. Expect a tear down cleaning at least yearly. 
+
+<hr>
+
+<a href="/images/mvp_case/mvp_case_both.JPG"><img src="/images/mvp_case/mvp_case_both.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a> <a href="/images/mvp_case/mvp_case_left_closeup.JPG"><img src="/images/mvp_case/mvp_case_left_closeup.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a> <a href="/images/mvp_case/mvp_case_back.JPG"><img src="/images/mvp_case/mvp_case_back.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a>   
+
+<hr>
 
 ## Details
 
-- @todo - Add images for mvp case. 
+You can get away with only a 3d printed keyplate. You can add some rubber bumpers on the underside of the pcb if your feeling fancy. You could even get away without the key plate, but the switches will likely rock in their sockets. This setup has been my daily driver for the last year, and it's been lovely. In the pictures above, the left hand is the 'thickaronie' keyplate, while the right hand is a 3d print of the acrylic keyplate. I didn't bother with bumpers on the underside because i'm on a non-conductive desk. I'm happy to report that no keys popped out, and nothing short circuited.
 
-You can get away with only a 3d printed keyplate and some rubber bumpers on the underside of the pdb. You could even get away without the key plate, but the switches will likely rock in their sockets. 
-
-3d printing the keyplate is the easiest method. You can find the source files for the keyplates in [this repo](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/3d_printable_case) or on [printables](https://www.printables.com/model/738066-ergodonk-zero-case). 
+The 3d printed keyplate is the easiest method. You can find the source files for the keyplates in [this repo](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/3d_printable_case) or on [printables](https://www.printables.com/model/738066-ergodonk-zero-case). 
 
 You could also print the source file for the acrylic key plate, and use it as a template to cut a keyplate from cardboard.[8.5x11 & A4 pdf's of the keyplate](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/mvp_case) can be found in the github repo. Be sure to print at 100%, and test one key hole before cutting out the whole thing. Many printers default to 96% to offset the printer margins.
 
 <a href="/images/mvp_case/mvp_case_print_settings.png"><img src="/images/mvp_case/mvp_case_print_settings.png" alt="Print dialog with scale percentage highlighted" width="100%" fetchpriority=high>
 
-Rubber bumpers on the bottom can be subbed out for bumps of hot glue.
+Rubber bumpers on the bottom can be subbed out for bumps of hot glue, or omitted entirely if your using a desk mat that isn't. conductive. If you go that route, you might want to clean up your flux and nip your solder joints flat so you don't tear up your desk.
 
 ## BOM
 
