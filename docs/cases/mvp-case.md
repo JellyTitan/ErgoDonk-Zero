@@ -65,7 +65,7 @@ You could also print the source file for the acrylic key plate, and use it as a 
 %}
 <figcaption>Don't forget to check print size!</figcaption>
 </figure>
-Rubber bumpers on the bottom can be subbed out for bumps of hot glue, or omitted entirely if your using a desk mat that isn't. conductive. If you go that route, you might want to clean up your flux and nip your solder joints flat so you don't tear up your desk.
+Rubber bumpers on the bottom can be subbed out for bumps of hot glue, or omitted entirely if your using a desk mat that isn't conductive. If you go that route, you might want to clean up your flux and nip your solder joints flat so you don't tear up your desk.
 
 ## BOM
 
