@@ -17,8 +17,6 @@ image: /images/mvp_case/mvp_case_both.JPG
    - @todo - need to optimize images - way too big. 
 {% endcomment %}
 
-
-
 # Minimalist ErgoDonk Zero case
 
 For those that like the look of a bare pcb with the minimum viable case. Also known as a "naked case".
@@ -26,27 +24,29 @@ For those that like the look of a bare pcb with the minimum viable case. Also kn
 {: .warning}
 >  Beware - this case collects cat hair like it's going out of style. Expect a tear-down cleaning at least yearly. 
 <hr>
+{% assign p1 = site.data.image_manifest["images/mvp_case/mvp_case_both.JPG"] %}
+{% assign p2 = site.data.image_manifest["images/mvp_case/mvp_case_left_closeup.JPG"] %}
+{% assign p3 = site.data.image_manifest["images/mvp_case/mvp_case_back.JPG"] %}
 <p class="image-grid-3">
 {% include picture.html
-   src="/images/mvp_case/mvp_case_both.JPG"
+   src="images/mvp_case/mvp_case_both.JPG"
+   alt="Acrylic ErgoDonk Zero case"
+   eager=true
+   fetchpriority="high" 
+   manifest=p1 %}
+
+   {% include picture.html
+   src="images/mvp_case/mvp_case_left_closeup.JPG"
    alt="Acrylic ErgoDonk Zero case"
    fetchpriority="high"
-   width="800"
-   height="533" %}
+   manifest=p2 %}
 
    {% include picture.html
-   src="/images/mvp_case/mvp_case_left_closeup.JPG"
-   alt="Acrylic ErgoDonk Zero case"
-   width="800"
-   height="533" %}
-
-   {% include picture.html
-   src="/images/mvp_case/mvp_case_back.JPG"
+   src="images/mvp_case/mvp_case_back.JPG"
    alt="Minimal ErgoDonk case with only a keyplate"
-   width="800"
-   height="533" %}
+   fetchpriority="high"
+   manifest=p3 %}
 </p>
-<!-- <a href="/images/mvp_case/mvp_case_both.JPG"><img src="/images/mvp_case/mvp_case_both.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a> <a href="/images/mvp_case/mvp_case_left_closeup.JPG"><img src="/images/mvp_case/mvp_case_left_closeup.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a> <a href="/images/mvp_case/mvp_case_back.JPG"><img src="/images/mvp_case/mvp_case_back.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a>    -->
 <hr>
 
 ## Details
@@ -56,9 +56,15 @@ You can get away with only a 3d printed keyplate. You can add some rubber bumper
 The 3d printed keyplate is the easiest method. You can find the source files for the keyplates in [this repo](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/3d_printable_case) or on [printables](https://www.printables.com/model/738066-ergodonk-zero-case). 
 
 You could also print the source file for the acrylic key plate, and use it as a template to cut a keyplate from cardboard.[8.5x11 & A4 pdf's of the keyplate](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/mvp_case) can be found in the github repo. Be sure to print at 100%, and test one key hole before cutting out the whole thing. Many printers default to 96% to offset the printer margins.
-
-<a href="/images/mvp_case/mvp_case_print_settings.png"><img src="/images/mvp_case/mvp_case_print_settings.png" alt="Print dialog with scale percentage highlighted" width="100%" fetchpriority=high>
-
+<figure>
+{% assign p4 = site.data.image_manifest["images/mvp_case/mvp_case_print_settings.png"] %}
+{% include picture.html
+   src="images/mvp_case/mvp_case_print_settings.png"
+   alt="Print dialog with scale percentage highlighted"
+   manifest=p4
+%}
+<figcaption>Don't forget to check print size!</figcaption>
+</figure>
 Rubber bumpers on the bottom can be subbed out for bumps of hot glue, or omitted entirely if your using a desk mat that isn't. conductive. If you go that route, you might want to clean up your flux and nip your solder joints flat so you don't tear up your desk.
 
 ## BOM

@@ -23,6 +23,23 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+figure {
+  width: fit-content;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  figcaption {
+    font-size: 0.85rem;
+    color: var(--body-text-color);
+    opacity: 0.6;
+    font-style: italic;
+    margin-top: 0.4rem;
+  }
+}
+
 // Hamburger button on magenta bg.
 // #menu-button .icon {
 //   color: white;

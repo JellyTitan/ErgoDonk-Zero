@@ -1,20 +1,17 @@
-{% assign base = include.src | remove: '.jpg' | remove: '.JPG' | remove: '.jpeg' | remove: '.JPEG' | remove: '.gif' | remove: '.GIF' | remove: '.png' | remove: '.PNG' %}
-{% assign widths = "400,800,1200,1600" | split: "," %}
-{% assign largest = widths | last %}
+{% assign src_with_slash = "/" | append: include.src %}
+{% assign base = src_with_slash | remove: '.jpg' | remove: '.JPG' | remove: '.jpeg' | remove: '.JPEG' | remove: '.gif' | remove: '.GIF' | remove: '.png' | remove: '.PNG' %}
+{% assign manifest_entry = include.manifest %}
+{% assign largest = manifest_entry.variants | last %}
 
-{% comment %}
-cramming the <a> and <img> spacing together fixes a rendering issue. 
-{% endcomment %}
-
-<a href="{{ base }}-{{ largest }}w.webp"
-  data-title="{{ include.alt }}"><img
+<a href="{{ base }}-{{ largest.width }}w.webp"
+   data-title="{{ include.alt }}"><img
   src="{{ base }}.webp"
-  srcset="{% for w in widths %}{{ base }}-{{ w }}w.webp {{ w }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"
+  srcset="{% for v in manifest_entry.variants %}{{ base }}-{{ v.width }}w.webp {{ v.width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"
   sizes="{{ include.sizes | default: '(max-width: 768px) 100vw, 800px' }}"
   alt="{{ include.alt }}"
-  {% unless include.eager %}loading="lazy"{% endunless %}
+  {% if include.eager %}loading="eager"{% else %}loading="lazy"{% endif %}
   {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %}
   {% if include.class %}class="{{ include.class }}"{% endif %}
-  {% if include.width %}width="{{ include.width }}"{% endif %}
-  {% if include.height %}height="{{ include.height }}"{% endif %}
+  width="{{ include.width | default: manifest_entry.width }}"
+  height="{{ include.height | default: manifest_entry.height }}"
 /></a>

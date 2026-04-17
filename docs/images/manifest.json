@@ -4,6 +4,16 @@
     "height": 3024,
     "variants": [
       {
+        "width": 150,
+        "height": 113,
+        "file": "images/workholding_jig_solder_from_top-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/workholding_jig_solder_from_top-250w.webp"
+      },
+      {
         "width": 400,
         "height": 300,
         "file": "images/workholding_jig_solder_from_top-400w.webp"
@@ -29,6 +39,16 @@
     "width": 2712,
     "height": 1164,
     "variants": [
+      {
+        "width": 150,
+        "height": 64,
+        "file": "images/v0.1_hero-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 107,
+        "file": "images/v0.1_hero-250w.webp"
+      },
       {
         "width": 400,
         "height": 172,
@@ -56,6 +76,16 @@
     "height": 526,
     "variants": [
       {
+        "width": 150,
+        "height": 123,
+        "file": "images/trs_cable-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 205,
+        "file": "images/trs_cable-250w.webp"
+      },
+      {
         "width": 400,
         "height": 328,
         "file": "images/trs_cable-400w.webp"
@@ -67,6 +97,16 @@
     "height": 384,
     "variants": [
       {
+        "width": 150,
+        "height": 119,
+        "file": "images/trrs-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 198,
+        "file": "images/trrs-250w.webp"
+      },
+      {
         "width": 400,
         "height": 317,
         "file": "images/trrs-400w.webp"
@@ -77,6 +117,16 @@
     "width": 4032,
     "height": 3024,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/top_jig-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/top_jig-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -104,6 +154,16 @@
     "height": 2131,
     "variants": [
       {
+        "width": 150,
+        "height": 150,
+        "file": "images/tip_tape_trim_3-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 250,
+        "file": "images/tip_tape_trim_3-250w.webp"
+      },
+      {
         "width": 400,
         "height": 400,
         "file": "images/tip_tape_trim_3-400w.webp"
@@ -129,6 +189,16 @@
     "width": 2450,
     "height": 2450,
     "variants": [
+      {
+        "width": 150,
+        "height": 150,
+        "file": "images/tip_tape_trim_2-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 250,
+        "file": "images/tip_tape_trim_2-250w.webp"
+      },
       {
         "width": 400,
         "height": 400,
@@ -156,6 +226,16 @@
     "height": 1230,
     "variants": [
       {
+        "width": 150,
+        "height": 150,
+        "file": "images/tip_tape_trim_1-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 250,
+        "file": "images/tip_tape_trim_1-250w.webp"
+      },
+      {
         "width": 400,
         "height": 400,
         "file": "images/tip_tape_trim_1-400w.webp"
@@ -177,6 +257,16 @@
     "height": 417,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/tip_120_jig_front-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/tip_120_jig_front-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/tip_120_jig_front-400w.webp"
@@ -187,6 +277,16 @@
     "width": 1077,
     "height": 606,
     "variants": [
+      {
+        "width": 150,
+        "height": 84,
+        "file": "images/tip_120_jig_back-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/tip_120_jig_back-250w.webp"
+      },
       {
         "width": 400,
         "height": 225,
@@ -204,6 +304,16 @@
     "height": 386,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/tip_120_in place-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 140,
+        "file": "images/tip_120_in place-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/tip_120_in place-400w.webp"
@@ -214,6 +324,16 @@
     "width": 2834,
     "height": 1594,
     "variants": [
+      {
+        "width": 150,
+        "height": 84,
+        "file": "images/thumb_stabs-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/thumb_stabs-250w.webp"
+      },
       {
         "width": 400,
         "height": 225,
@@ -241,6 +361,16 @@
     "height": 1265,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/stabilizer_inserted-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/stabilizer_inserted-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/stabilizer_inserted-400w.webp"
@@ -267,6 +397,16 @@
     "height": 456,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/stabalizer_markings-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/stabalizer_markings-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/stabalizer_markings-400w.webp"
@@ -283,6 +423,16 @@
     "height": 596,
     "variants": [
       {
+        "width": 150,
+        "height": 157,
+        "file": "images/stab_prob-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 262,
+        "file": "images/stab_prob-250w.webp"
+      },
+      {
         "width": 400,
         "height": 419,
         "file": "images/stab_prob-400w.webp"
@@ -293,6 +443,16 @@
     "width": 4032,
     "height": 3024,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/solenoids-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/solenoids-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -320,6 +480,16 @@
     "height": 1701,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/solenoid_pin_nipping-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/solenoid_pin_nipping-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/solenoid_pin_nipping-400w.webp"
@@ -345,6 +515,16 @@
     "width": 2642,
     "height": 1486,
     "variants": [
+      {
+        "width": 150,
+        "height": 84,
+        "file": "images/solenoid_circuit_tip120-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/solenoid_circuit_tip120-250w.webp"
+      },
       {
         "width": 400,
         "height": 225,
@@ -372,6 +552,16 @@
     "height": 1486,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/solenoid_circuit_solenoid_connection-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/solenoid_circuit_solenoid_connection-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/solenoid_circuit_solenoid_connection-400w.webp"
@@ -397,6 +587,16 @@
     "width": 2642,
     "height": 1486,
     "variants": [
+      {
+        "width": 150,
+        "height": 84,
+        "file": "images/solenoid_circuit_1k_resitor-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/solenoid_circuit_1k_resitor-250w.webp"
+      },
       {
         "width": 400,
         "height": 225,
@@ -424,6 +624,16 @@
     "height": 1486,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/solenoid_circuit_1N4001_diode-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/solenoid_circuit_1N4001_diode-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/solenoid_circuit_1N4001_diode-400w.webp"
@@ -449,6 +659,16 @@
     "width": 2642,
     "height": 1486,
     "variants": [
+      {
+        "width": 150,
+        "height": 84,
+        "file": "images/solenoid_circuit-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/solenoid_circuit-250w.webp"
+      },
       {
         "width": 400,
         "height": 225,
@@ -476,6 +696,16 @@
     "height": 476,
     "variants": [
       {
+        "width": 150,
+        "height": 150,
+        "file": "images/soldered_jumpers-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 250,
+        "file": "images/soldered_jumpers-250w.webp"
+      },
+      {
         "width": 400,
         "height": 400,
         "file": "images/soldered_jumpers-400w.webp"
@@ -486,6 +716,16 @@
     "width": 4032,
     "height": 3024,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/solder_remaining_zero_pins-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/solder_remaining_zero_pins-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -513,6 +753,16 @@
     "height": 309,
     "variants": [
       {
+        "width": 150,
+        "height": 51,
+        "file": "images/sofle_pico_luxary_pins-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 85,
+        "file": "images/sofle_pico_luxary_pins-250w.webp"
+      },
+      {
         "width": 400,
         "height": 136,
         "file": "images/sofle_pico_luxary_pins-400w.webp"
@@ -529,6 +779,16 @@
     "height": 317,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/smd_diode_orientation_2-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/smd_diode_orientation_2-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/smd_diode_orientation_2-400w.webp"
@@ -540,6 +800,16 @@
     "height": 319,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/smd_diode_orientation_1-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 140,
+        "file": "images/smd_diode_orientation_1-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/smd_diode_orientation_1-400w.webp"
@@ -550,6 +820,16 @@
     "width": 1419,
     "height": 548,
     "variants": [
+      {
+        "width": 150,
+        "height": 58,
+        "file": "images/sa_heights-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 97,
+        "file": "images/sa_heights-250w.webp"
+      },
       {
         "width": 400,
         "height": 154,
@@ -570,12 +850,33 @@
   "images/rp2040.png": {
     "width": 337,
     "height": 322,
-    "variants": []
+    "variants": [
+      {
+        "width": 150,
+        "height": 143,
+        "file": "images/rp2040-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 239,
+        "file": "images/rp2040-250w.webp"
+      }
+    ]
   },
   "images/resistor_bending.jpeg": {
     "width": 848,
     "height": 477,
     "variants": [
+      {
+        "width": 150,
+        "height": 84,
+        "file": "images/resistor_bending-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/resistor_bending-250w.webp"
+      },
       {
         "width": 400,
         "height": 225,
@@ -591,12 +892,28 @@
   "images/pad_nub.png": {
     "width": 175,
     "height": 193,
-    "variants": []
+    "variants": [
+      {
+        "width": 150,
+        "height": 165,
+        "file": "images/pad_nub-150w.webp"
+      }
+    ]
   },
   "images/mcu_top_of_board_2.jpeg": {
     "width": 4032,
     "height": 2268,
     "variants": [
+      {
+        "width": 150,
+        "height": 84,
+        "file": "images/mcu_top_of_board_2-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/mcu_top_of_board_2-250w.webp"
+      },
       {
         "width": 400,
         "height": 225,
@@ -624,6 +941,16 @@
     "height": 2268,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/mcu_top_of_board_1-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/mcu_top_of_board_1-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/mcu_top_of_board_1-400w.webp"
@@ -649,6 +976,16 @@
     "width": 2002,
     "height": 1126,
     "variants": [
+      {
+        "width": 150,
+        "height": 84,
+        "file": "images/line_up_the_zero-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/line_up_the_zero-250w.webp"
+      },
       {
         "width": 400,
         "height": 225,
@@ -676,6 +1013,16 @@
     "height": 838,
     "variants": [
       {
+        "width": 150,
+        "height": 38,
+        "file": "images/kapton_under-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 63,
+        "file": "images/kapton_under-250w.webp"
+      },
+      {
         "width": 400,
         "height": 100,
         "file": "images/kapton_under-400w.webp"
@@ -701,6 +1048,16 @@
     "width": 4032,
     "height": 1008,
     "variants": [
+      {
+        "width": 150,
+        "height": 38,
+        "file": "images/kapton_top-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 63,
+        "file": "images/kapton_top-250w.webp"
+      },
       {
         "width": 400,
         "height": 100,
@@ -728,6 +1085,16 @@
     "height": 406,
     "variants": [
       {
+        "width": 150,
+        "height": 149,
+        "file": "images/jumpers_in_place-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 248,
+        "file": "images/jumpers_in_place-250w.webp"
+      },
+      {
         "width": 400,
         "height": 397,
         "file": "images/jumpers_in_place-400w.webp"
@@ -737,17 +1104,44 @@
   "images/jumpers.png": {
     "width": 208,
     "height": 208,
-    "variants": []
+    "variants": [
+      {
+        "width": 150,
+        "height": 150,
+        "file": "images/jumpers-150w.webp"
+      }
+    ]
   },
   "images/jumper_bender_use.png": {
     "width": 291,
     "height": 290,
-    "variants": []
+    "variants": [
+      {
+        "width": 150,
+        "height": 149,
+        "file": "images/jumper_bender_use-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 249,
+        "file": "images/jumper_bender_use-250w.webp"
+      }
+    ]
   },
   "images/hot_swop_sockets.JPG": {
     "width": 1878,
     "height": 1878,
     "variants": [
+      {
+        "width": 150,
+        "height": 150,
+        "file": "images/hot_swop_sockets-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 250,
+        "file": "images/hot_swop_sockets-250w.webp"
+      },
       {
         "width": 400,
         "height": 400,
@@ -775,6 +1169,16 @@
     "height": 855,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/ergodonk_zero_keyplate-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/ergodonk_zero_keyplate-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/ergodonk_zero_keyplate-400w.webp"
@@ -795,6 +1199,16 @@
     "width": 3390,
     "height": 1906,
     "variants": [
+      {
+        "width": 150,
+        "height": 84,
+        "file": "images/ergodonk_zero_3d_printable_case_backside-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/ergodonk_zero_3d_printable_case_backside-250w.webp"
+      },
       {
         "width": 400,
         "height": 225,
@@ -822,6 +1236,16 @@
     "height": 1546,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/ergodonk_zero_3d_printable_case-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/ergodonk_zero_3d_printable_case-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/ergodonk_zero_3d_printable_case-400w.webp"
@@ -848,6 +1272,16 @@
     "height": 689,
     "variants": [
       {
+        "width": 150,
+        "height": 109,
+        "file": "images/ergodonk_simple_zero_v0.1-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 182,
+        "file": "images/ergodonk_simple_zero_v0.1-250w.webp"
+      },
+      {
         "width": 400,
         "height": 292,
         "file": "images/ergodonk_simple_zero_v0.1-400w.webp"
@@ -863,6 +1297,16 @@
     "width": 3480,
     "height": 2610,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/ergodonk_rh_sockets-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/ergodonk_rh_sockets-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -890,6 +1334,16 @@
     "height": 1004,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/ergodonk_monobody_case-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/ergodonk_monobody_case-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/ergodonk_monobody_case-400w.webp"
@@ -915,6 +1369,16 @@
     "width": 3776,
     "height": 2832,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/ergodonk_lh_sockets-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/ergodonk_lh_sockets-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -942,6 +1406,16 @@
     "height": 1512,
     "variants": [
       {
+        "width": 150,
+        "height": 56,
+        "file": "images/ergodonk_bristling_with_diodes-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 94,
+        "file": "images/ergodonk_bristling_with_diodes-250w.webp"
+      },
+      {
         "width": 400,
         "height": 150,
         "file": "images/ergodonk_bristling_with_diodes-400w.webp"
@@ -967,6 +1441,16 @@
     "width": 2778,
     "height": 2778,
     "variants": [
+      {
+        "width": 150,
+        "height": 150,
+        "file": "images/ec11_soldered-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 250,
+        "file": "images/ec11_soldered-250w.webp"
+      },
       {
         "width": 400,
         "height": 400,
@@ -994,6 +1478,16 @@
     "height": 318,
     "variants": [
       {
+        "width": 150,
+        "height": 106,
+        "file": "images/ec11_knob-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 177,
+        "file": "images/ec11_knob-250w.webp"
+      },
+      {
         "width": 400,
         "height": 283,
         "file": "images/ec11_knob-400w.webp"
@@ -1005,6 +1499,16 @@
     "height": 423,
     "variants": [
       {
+        "width": 150,
+        "height": 130,
+        "file": "images/ec11-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 216,
+        "file": "images/ec11-250w.webp"
+      },
+      {
         "width": 400,
         "height": 346,
         "file": "images/ec11-400w.webp"
@@ -1014,12 +1518,33 @@
   "images/diodes.png": {
     "width": 275,
     "height": 288,
-    "variants": []
+    "variants": [
+      {
+        "width": 150,
+        "height": 157,
+        "file": "images/diodes-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 262,
+        "file": "images/diodes-250w.webp"
+      }
+    ]
   },
   "images/diode_orientation.jpeg": {
     "width": 1795,
     "height": 449,
     "variants": [
+      {
+        "width": 150,
+        "height": 38,
+        "file": "images/diode_orientation-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 63,
+        "file": "images/diode_orientation-250w.webp"
+      },
       {
         "width": 400,
         "height": 100,
@@ -1047,6 +1572,16 @@
     "height": 1128,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/diode_jig_fold-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/diode_jig_fold-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/diode_jig_fold-400w.webp"
@@ -1073,6 +1608,16 @@
     "height": 748,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/diode_jig_cut-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/diode_jig_cut-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/diode_jig_cut-400w.webp"
@@ -1093,6 +1638,16 @@
     "width": 2648,
     "height": 655,
     "variants": [
+      {
+        "width": 150,
+        "height": 37,
+        "file": "images/diode_bend_under-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 62,
+        "file": "images/diode_bend_under-250w.webp"
+      },
       {
         "width": 400,
         "height": 99,
@@ -1120,6 +1675,16 @@
     "height": 648,
     "variants": [
       {
+        "width": 150,
+        "height": 37,
+        "file": "images/diode_bend_top-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 62,
+        "file": "images/diode_bend_top-250w.webp"
+      },
+      {
         "width": 400,
         "height": 100,
         "file": "images/diode_bend_top-400w.webp"
@@ -1145,6 +1710,16 @@
     "width": 1914,
     "height": 1914,
     "variants": [
+      {
+        "width": 150,
+        "height": 150,
+        "file": "images/clipping_jumpers-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 250,
+        "file": "images/clipping_jumpers-250w.webp"
+      },
       {
         "width": 400,
         "height": 400,
@@ -1172,6 +1747,16 @@
     "height": 1178,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/carpenter_pencil-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/carpenter_pencil-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/carpenter_pencil-400w.webp"
@@ -1198,6 +1783,16 @@
     "height": 345,
     "variants": [
       {
+        "width": 150,
+        "height": 96,
+        "file": "images/bom_switches-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 160,
+        "file": "images/bom_switches-250w.webp"
+      },
+      {
         "width": 400,
         "height": 256,
         "file": "images/bom_switches-400w.webp"
@@ -1213,6 +1808,16 @@
     "width": 1115,
     "height": 627,
     "variants": [
+      {
+        "width": 150,
+        "height": 84,
+        "file": "images/asymetrical_diode_marking-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/asymetrical_diode_marking-250w.webp"
+      },
       {
         "width": 400,
         "height": 225,
@@ -1230,6 +1835,16 @@
     "height": 1149,
     "variants": [
       {
+        "width": 150,
+        "height": 150,
+        "file": "images/TRRS_front-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 250,
+        "file": "images/TRRS_front-250w.webp"
+      },
+      {
         "width": 400,
         "height": 400,
         "file": "images/TRRS_front-400w.webp"
@@ -1245,6 +1860,16 @@
     "width": 1726,
     "height": 1726,
     "variants": [
+      {
+        "width": 150,
+        "height": 150,
+        "file": "images/TRRS_back-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 250,
+        "file": "images/TRRS_back-250w.webp"
+      },
       {
         "width": 400,
         "height": 400,
@@ -1272,6 +1897,16 @@
     "height": 1464,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/Solenoid_wiring_on_back-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/Solenoid_wiring_on_back-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/Solenoid_wiring_on_back-400w.webp"
@@ -1297,6 +1932,16 @@
     "width": 3667,
     "height": 2063,
     "variants": [
+      {
+        "width": 150,
+        "height": 84,
+        "file": "images/Solenoid_on_front-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/Solenoid_on_front-250w.webp"
+      },
       {
         "width": 400,
         "height": 225,
@@ -1324,6 +1969,16 @@
     "height": 788,
     "variants": [
       {
+        "width": 150,
+        "height": 112,
+        "file": "images/RH_diode_locations-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 187,
+        "file": "images/RH_diode_locations-250w.webp"
+      },
+      {
         "width": 400,
         "height": 300,
         "file": "images/RH_diode_locations-400w.webp"
@@ -1339,6 +1994,16 @@
     "width": 3285,
     "height": 2464,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/RH_backside_diode-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/RH_backside_diode-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -1366,6 +2031,16 @@
     "height": 742,
     "variants": [
       {
+        "width": 150,
+        "height": 112,
+        "file": "images/LH_diode_locations-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 187,
+        "file": "images/LH_diode_locations-250w.webp"
+      },
+      {
         "width": 400,
         "height": 300,
         "file": "images/LH_diode_locations-400w.webp"
@@ -1381,6 +2056,16 @@
     "width": 3093,
     "height": 2320,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/LH_backside_diode-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/LH_backside_diode-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -1408,6 +2093,16 @@
     "height": 3024,
     "variants": [
       {
+        "width": 150,
+        "height": 113,
+        "file": "images/Ergodonk_zero_one_foot-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/Ergodonk_zero_one_foot-250w.webp"
+      },
+      {
         "width": 400,
         "height": 300,
         "file": "images/Ergodonk_zero_one_foot-400w.webp"
@@ -1433,6 +2128,16 @@
     "width": 4032,
     "height": 3024,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/ErgoDonk_zero_all_feet-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/ErgoDonk_zero_all_feet-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -1460,6 +2165,16 @@
     "height": 481,
     "variants": [
       {
+        "width": 150,
+        "height": 59,
+        "file": "images/ErgoDonk_row_heights-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 98,
+        "file": "images/ErgoDonk_row_heights-250w.webp"
+      },
+      {
         "width": 400,
         "height": 157,
         "file": "images/ErgoDonk_row_heights-400w.webp"
@@ -1480,6 +2195,16 @@
     "width": 1371,
     "height": 1059,
     "variants": [
+      {
+        "width": 150,
+        "height": 116,
+        "file": "images/3d_model_of_work_feet-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 193,
+        "file": "images/3d_model_of_work_feet-250w.webp"
+      },
       {
         "width": 400,
         "height": 309,
@@ -1502,67 +2227,55 @@
     "height": 403,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/1N4001_diode_bending-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/1N4001_diode_bending-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/1N4001_diode_bending-400w.webp"
       }
     ]
   },
-  "images/qmk/ergodonk_zero_qmk_default_keymap.png": {
-    "width": 1230,
-    "height": 1015,
+  "images/fdm_case/fdm_donk_cases_hero.jpeg": {
+    "width": 1920,
+    "height": 1152,
     "variants": [
       {
+        "width": 150,
+        "height": 90,
+        "file": "images/fdm_case/fdm_donk_cases_hero-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 150,
+        "file": "images/fdm_case/fdm_donk_cases_hero-250w.webp"
+      },
+      {
         "width": 400,
-        "height": 330,
-        "file": "images/qmk/ergodonk_zero_qmk_default_keymap-400w.webp"
+        "height": 240,
+        "file": "images/fdm_case/fdm_donk_cases_hero-400w.webp"
       },
       {
         "width": 800,
-        "height": 660,
-        "file": "images/qmk/ergodonk_zero_qmk_default_keymap-800w.webp"
+        "height": 480,
+        "file": "images/fdm_case/fdm_donk_cases_hero-800w.webp"
       },
       {
         "width": 1200,
-        "height": 990,
-        "file": "images/qmk/ergodonk_zero_qmk_default_keymap-1200w.webp"
-      }
-    ]
-  },
-  "images/ordering_guide/JLCPCB_Ordering_2.png": {
-    "width": 1070,
-    "height": 1580,
-    "variants": [
-      {
-        "width": 400,
-        "height": 591,
-        "file": "images/ordering_guide/JLCPCB_Ordering_2-400w.webp"
+        "height": 720,
+        "file": "images/fdm_case/fdm_donk_cases_hero-1200w.webp"
       },
       {
-        "width": 800,
-        "height": 1181,
-        "file": "images/ordering_guide/JLCPCB_Ordering_2-800w.webp"
-      }
-    ]
-  },
-  "images/ordering_guide/JLCPCB_Ordering_1.png": {
-    "width": 1433,
-    "height": 150,
-    "variants": [
-      {
-        "width": 400,
-        "height": 42,
-        "file": "images/ordering_guide/JLCPCB_Ordering_1-400w.webp"
-      },
-      {
-        "width": 800,
-        "height": 84,
-        "file": "images/ordering_guide/JLCPCB_Ordering_1-800w.webp"
-      },
-      {
-        "width": 1200,
-        "height": 126,
-        "file": "images/ordering_guide/JLCPCB_Ordering_1-1200w.webp"
+        "width": 1600,
+        "height": 960,
+        "file": "images/fdm_case/fdm_donk_cases_hero-1600w.webp"
       }
     ]
   },
@@ -1570,6 +2283,16 @@
     "width": 752,
     "height": 671,
     "variants": [
+      {
+        "width": 150,
+        "height": 134,
+        "file": "images/mvp_case/mvp_case_print_settings-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 223,
+        "file": "images/mvp_case/mvp_case_print_settings-250w.webp"
+      },
       {
         "width": 400,
         "height": 357,
@@ -1581,6 +2304,16 @@
     "width": 5712,
     "height": 3427,
     "variants": [
+      {
+        "width": 150,
+        "height": 90,
+        "file": "images/mvp_case/mvp_case_left_closeup-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 150,
+        "file": "images/mvp_case/mvp_case_left_closeup-250w.webp"
+      },
       {
         "width": 400,
         "height": 240,
@@ -1608,6 +2341,16 @@
     "height": 2897,
     "variants": [
       {
+        "width": 150,
+        "height": 90,
+        "file": "images/mvp_case/mvp_case_both-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 150,
+        "file": "images/mvp_case/mvp_case_both-250w.webp"
+      },
+      {
         "width": 400,
         "height": 240,
         "file": "images/mvp_case/mvp_case_both-400w.webp"
@@ -1634,6 +2377,16 @@
     "height": 2897,
     "variants": [
       {
+        "width": 150,
+        "height": 90,
+        "file": "images/mvp_case/mvp_case_back-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 150,
+        "file": "images/mvp_case/mvp_case_back-250w.webp"
+      },
+      {
         "width": 400,
         "height": 240,
         "file": "images/mvp_case/mvp_case_back-400w.webp"
@@ -1655,41 +2408,77 @@
       }
     ]
   },
-  "images/fdm_case/fdm_donk_cases_hero.jpeg": {
-    "width": 1920,
-    "height": 1152,
+  "images/ordering_guide/JLCPCB_Ordering_2.png": {
+    "width": 1070,
+    "height": 1580,
     "variants": [
       {
+        "width": 150,
+        "height": 221,
+        "file": "images/ordering_guide/JLCPCB_Ordering_2-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 369,
+        "file": "images/ordering_guide/JLCPCB_Ordering_2-250w.webp"
+      },
+      {
         "width": 400,
-        "height": 240,
-        "file": "images/fdm_case/fdm_donk_cases_hero-400w.webp"
+        "height": 591,
+        "file": "images/ordering_guide/JLCPCB_Ordering_2-400w.webp"
       },
       {
         "width": 800,
-        "height": 480,
-        "file": "images/fdm_case/fdm_donk_cases_hero-800w.webp"
-      },
-      {
-        "width": 1200,
-        "height": 720,
-        "file": "images/fdm_case/fdm_donk_cases_hero-1200w.webp"
-      },
-      {
-        "width": 1600,
-        "height": 960,
-        "file": "images/fdm_case/fdm_donk_cases_hero-1600w.webp"
+        "height": 1181,
+        "file": "images/ordering_guide/JLCPCB_Ordering_2-800w.webp"
       }
     ]
   },
-  "images/build_guide/labeled_data_jack.png": {
-    "width": 276,
-    "height": 246,
-    "variants": []
+  "images/ordering_guide/JLCPCB_Ordering_1.png": {
+    "width": 1433,
+    "height": 150,
+    "variants": [
+      {
+        "width": 150,
+        "height": 16,
+        "file": "images/ordering_guide/JLCPCB_Ordering_1-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 26,
+        "file": "images/ordering_guide/JLCPCB_Ordering_1-250w.webp"
+      },
+      {
+        "width": 400,
+        "height": 42,
+        "file": "images/ordering_guide/JLCPCB_Ordering_1-400w.webp"
+      },
+      {
+        "width": 800,
+        "height": 84,
+        "file": "images/ordering_guide/JLCPCB_Ordering_1-800w.webp"
+      },
+      {
+        "width": 1200,
+        "height": 126,
+        "file": "images/ordering_guide/JLCPCB_Ordering_1-1200w.webp"
+      }
+    ]
   },
   "images/build-log/riverbottom_ergodonk_nameshare.png": {
     "width": 1074,
     "height": 1874,
     "variants": [
+      {
+        "width": 150,
+        "height": 262,
+        "file": "images/build-log/riverbottom_ergodonk_nameshare-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 436,
+        "file": "images/build-log/riverbottom_ergodonk_nameshare-250w.webp"
+      },
       {
         "width": 400,
         "height": 698,
@@ -1702,10 +2491,36 @@
       }
     ]
   },
+  "images/build_guide/labeled_data_jack.png": {
+    "width": 276,
+    "height": 246,
+    "variants": [
+      {
+        "width": 150,
+        "height": 134,
+        "file": "images/build_guide/labeled_data_jack-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 223,
+        "file": "images/build_guide/labeled_data_jack-250w.webp"
+      }
+    ]
+  },
   "images/acrylic_ordering_guide/acrylic_ordering_guide.png": {
     "width": 1278,
     "height": 958,
     "variants": [
+      {
+        "width": 150,
+        "height": 112,
+        "file": "images/acrylic_ordering_guide/acrylic_ordering_guide-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 187,
+        "file": "images/acrylic_ordering_guide/acrylic_ordering_guide-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -1723,10 +2538,150 @@
       }
     ]
   },
+  "images/qmk/ergodonk_zero_qmk_default_keymap.png": {
+    "width": 1230,
+    "height": 1015,
+    "variants": [
+      {
+        "width": 150,
+        "height": 124,
+        "file": "images/qmk/ergodonk_zero_qmk_default_keymap-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 206,
+        "file": "images/qmk/ergodonk_zero_qmk_default_keymap-250w.webp"
+      },
+      {
+        "width": 400,
+        "height": 330,
+        "file": "images/qmk/ergodonk_zero_qmk_default_keymap-400w.webp"
+      },
+      {
+        "width": 800,
+        "height": 660,
+        "file": "images/qmk/ergodonk_zero_qmk_default_keymap-800w.webp"
+      },
+      {
+        "width": 1200,
+        "height": 990,
+        "file": "images/qmk/ergodonk_zero_qmk_default_keymap-1200w.webp"
+      }
+    ]
+  },
+  "images/VIA/via_4.png": {
+    "width": 1563,
+    "height": 1109,
+    "variants": [
+      {
+        "width": 150,
+        "height": 106,
+        "file": "images/VIA/via_4-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 177,
+        "file": "images/VIA/via_4-250w.webp"
+      },
+      {
+        "width": 400,
+        "height": 284,
+        "file": "images/VIA/via_4-400w.webp"
+      },
+      {
+        "width": 800,
+        "height": 568,
+        "file": "images/VIA/via_4-800w.webp"
+      },
+      {
+        "width": 1200,
+        "height": 851,
+        "file": "images/VIA/via_4-1200w.webp"
+      }
+    ]
+  },
+  "images/VIA/via_3.png": {
+    "width": 878,
+    "height": 923,
+    "variants": [
+      {
+        "width": 150,
+        "height": 158,
+        "file": "images/VIA/via_3-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 263,
+        "file": "images/VIA/via_3-250w.webp"
+      },
+      {
+        "width": 400,
+        "height": 421,
+        "file": "images/VIA/via_3-400w.webp"
+      },
+      {
+        "width": 800,
+        "height": 841,
+        "file": "images/VIA/via_3-800w.webp"
+      }
+    ]
+  },
+  "images/VIA/via_2.png": {
+    "width": 442,
+    "height": 353,
+    "variants": [
+      {
+        "width": 150,
+        "height": 120,
+        "file": "images/VIA/via_2-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 200,
+        "file": "images/VIA/via_2-250w.webp"
+      },
+      {
+        "width": 400,
+        "height": 319,
+        "file": "images/VIA/via_2-400w.webp"
+      }
+    ]
+  },
+  "images/VIA/via_1.png": {
+    "width": 443,
+    "height": 245,
+    "variants": [
+      {
+        "width": 150,
+        "height": 83,
+        "file": "images/VIA/via_1-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 138,
+        "file": "images/VIA/via_1-250w.webp"
+      },
+      {
+        "width": 400,
+        "height": 221,
+        "file": "images/VIA/via_1-400w.webp"
+      }
+    ]
+  },
   "images/acrylic_case/solenoid_cover_plate_LH.jpeg": {
     "width": 4032,
     "height": 3024,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/acrylic_case/solenoid_cover_plate_LH-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/acrylic_case/solenoid_cover_plate_LH-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -1754,6 +2709,16 @@
     "height": 294,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/acrylic_case/solenoid_cover-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/acrylic_case/solenoid_cover-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/acrylic_case/solenoid_cover-400w.webp"
@@ -1764,6 +2729,16 @@
     "width": 4032,
     "height": 3024,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/acrylic_case/solenoid_blank_cover_plate_RH-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/acrylic_case/solenoid_blank_cover_plate_RH-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -1791,6 +2766,16 @@
     "height": 752,
     "variants": [
       {
+        "width": 150,
+        "height": 112,
+        "file": "images/acrylic_case/m2_9mm_standoff-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 187,
+        "file": "images/acrylic_case/m2_9mm_standoff-250w.webp"
+      },
+      {
         "width": 400,
         "height": 300,
         "file": "images/acrylic_case/m2_9mm_standoff-400w.webp"
@@ -1806,6 +2791,16 @@
     "width": 3024,
     "height": 2268,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/acrylic_case/m2_6mm_standoff-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/acrylic_case/m2_6mm_standoff-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -1833,6 +2828,16 @@
     "height": 833,
     "variants": [
       {
+        "width": 150,
+        "height": 113,
+        "file": "images/acrylic_case/m2_16mm_standoff-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 189,
+        "file": "images/acrylic_case/m2_16mm_standoff-250w.webp"
+      },
+      {
         "width": 400,
         "height": 302,
         "file": "images/acrylic_case/m2_16mm_standoff-400w.webp"
@@ -1848,6 +2853,16 @@
     "width": 3024,
     "height": 4032,
     "variants": [
+      {
+        "width": 150,
+        "height": 200,
+        "file": "images/acrylic_case/m2_12mm_standoff-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 333,
+        "file": "images/acrylic_case/m2_12mm_standoff-250w.webp"
+      },
       {
         "width": 400,
         "height": 533,
@@ -1875,6 +2890,16 @@
     "height": 2419,
     "variants": [
       {
+        "width": 150,
+        "height": 90,
+        "file": "images/acrylic_case/knob_close_up-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 150,
+        "file": "images/acrylic_case/knob_close_up-250w.webp"
+      },
+      {
         "width": 400,
         "height": 240,
         "file": "images/acrylic_case/knob_close_up-400w.webp"
@@ -1901,6 +2926,16 @@
     "height": 896,
     "variants": [
       {
+        "width": 150,
+        "height": 110,
+        "file": "images/acrylic_case/keyplate-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 183,
+        "file": "images/acrylic_case/keyplate-250w.webp"
+      },
+      {
         "width": 400,
         "height": 293,
         "file": "images/acrylic_case/keyplate-400w.webp"
@@ -1921,6 +2956,16 @@
     "width": 2257,
     "height": 1693,
     "variants": [
+      {
+        "width": 150,
+        "height": 113,
+        "file": "images/acrylic_case/bumper_locations-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 188,
+        "file": "images/acrylic_case/bumper_locations-250w.webp"
+      },
       {
         "width": 400,
         "height": 300,
@@ -1948,6 +2993,16 @@
     "height": 1006,
     "variants": [
       {
+        "width": 150,
+        "height": 110,
+        "file": "images/acrylic_case/backplate-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 184,
+        "file": "images/acrylic_case/backplate-250w.webp"
+      },
+      {
         "width": 400,
         "height": 294,
         "file": "images/acrylic_case/backplate-400w.webp"
@@ -1968,6 +3023,16 @@
     "width": 4032,
     "height": 2419,
     "variants": [
+      {
+        "width": 150,
+        "height": 90,
+        "file": "images/acrylic_case/acrylic_tilted_hero-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 150,
+        "file": "images/acrylic_case/acrylic_tilted_hero-250w.webp"
+      },
       {
         "width": 400,
         "height": 240,
@@ -1995,6 +3060,16 @@
     "height": 4032,
     "variants": [
       {
+        "width": 150,
+        "height": 200,
+        "file": "images/acrylic_case/acrylic_rh_mcu_cover-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 333,
+        "file": "images/acrylic_case/acrylic_rh_mcu_cover-250w.webp"
+      },
+      {
         "width": 400,
         "height": 533,
         "file": "images/acrylic_case/acrylic_rh_mcu_cover-400w.webp"
@@ -2020,6 +3095,16 @@
     "width": 3024,
     "height": 4032,
     "variants": [
+      {
+        "width": 150,
+        "height": 200,
+        "file": "images/acrylic_case/acrylic_lh_mcu_cover-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 333,
+        "file": "images/acrylic_case/acrylic_lh_mcu_cover-250w.webp"
+      },
       {
         "width": 400,
         "height": 533,
@@ -2047,6 +3132,16 @@
     "height": 2419,
     "variants": [
       {
+        "width": 150,
+        "height": 90,
+        "file": "images/acrylic_case/acrylic_handsome_stack-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 150,
+        "file": "images/acrylic_case/acrylic_handsome_stack-250w.webp"
+      },
+      {
         "width": 400,
         "height": 240,
         "file": "images/acrylic_case/acrylic_handsome_stack-400w.webp"
@@ -2073,6 +3168,16 @@
     "height": 389,
     "variants": [
       {
+        "width": 150,
+        "height": 84,
+        "file": "images/acrylic_case/RH_MCU_cover-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 141,
+        "file": "images/acrylic_case/RH_MCU_cover-250w.webp"
+      },
+      {
         "width": 400,
         "height": 225,
         "file": "images/acrylic_case/RH_MCU_cover-400w.webp"
@@ -2084,68 +3189,19 @@
     "height": 646,
     "variants": [
       {
+        "width": 150,
+        "height": 176,
+        "file": "images/acrylic_case/LH_MCU_cover-150w.webp"
+      },
+      {
+        "width": 250,
+        "height": 293,
+        "file": "images/acrylic_case/LH_MCU_cover-250w.webp"
+      },
+      {
         "width": 400,
         "height": 468,
         "file": "images/acrylic_case/LH_MCU_cover-400w.webp"
-      }
-    ]
-  },
-  "images/VIA/via_4.png": {
-    "width": 1563,
-    "height": 1109,
-    "variants": [
-      {
-        "width": 400,
-        "height": 284,
-        "file": "images/VIA/via_4-400w.webp"
-      },
-      {
-        "width": 800,
-        "height": 568,
-        "file": "images/VIA/via_4-800w.webp"
-      },
-      {
-        "width": 1200,
-        "height": 851,
-        "file": "images/VIA/via_4-1200w.webp"
-      }
-    ]
-  },
-  "images/VIA/via_3.png": {
-    "width": 878,
-    "height": 923,
-    "variants": [
-      {
-        "width": 400,
-        "height": 421,
-        "file": "images/VIA/via_3-400w.webp"
-      },
-      {
-        "width": 800,
-        "height": 841,
-        "file": "images/VIA/via_3-800w.webp"
-      }
-    ]
-  },
-  "images/VIA/via_2.png": {
-    "width": 442,
-    "height": 353,
-    "variants": [
-      {
-        "width": 400,
-        "height": 319,
-        "file": "images/VIA/via_2-400w.webp"
-      }
-    ]
-  },
-  "images/VIA/via_1.png": {
-    "width": 443,
-    "height": 245,
-    "variants": [
-      {
-        "width": 400,
-        "height": 221,
-        "file": "images/VIA/via_1-400w.webp"
       }
     ]
   }

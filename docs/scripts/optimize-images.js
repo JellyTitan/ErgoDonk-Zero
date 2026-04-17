@@ -4,11 +4,11 @@ import path from 'path';
 import fs from 'fs';
 
 // --- Configuration ---
-const WIDTHS = [400, 800, 1200, 1600];
+const WIDTHS = [150, 250, 400, 800, 1200, 1600];
 const QUALITY = 82;
 const INPUT_DIR = 'images';
 const OUTPUT_DIR = 'images';
-const MANIFEST_PATH = 'images/manifest.json';
+const MANIFEST_PATH = '_data/image_manifest.json';
 const EXTENSIONS = ['jpg', 'jpeg', 'JPG', 'JPEG', 'gif', 'GIF', 'png', 'PNG'];
 
 async function processImage(inputPath) {
