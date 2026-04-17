@@ -12,7 +12,7 @@ image: /images/acrylic_case/acrylic_tilted_hero.jpeg
 # ErgoDonk Zero Cases
 
 {% comment %}
- - @todo - slideshow images not working on fdm page - plugin may not support .webp - Fix plugin?
+ - @todo - need to optimize images - way too big. 
 {% endcomment %}
   
 <a href="/images/acrylic_case/acrylic_tilted_hero.jpeg"><img src="/images/acrylic_case/acrylic_tilted_hero.jpeg" alt="Acrylic ErgoDonk Zero case" width="32%" fetchpriority=high></a> <a href="/images/fdm_case/fdm_donk_cases_hero.jpeg"><img src="/images/fdm_case/fdm_donk_cases_hero.jpeg" alt="Ergodonk zero 3d printed case" width="32%"></a><a href="/images/mvp_case/mvp_case_both.JPG"><img src="/images/mvp_case/mvp_case_both.JPG" alt="ErgoDonk with a naked minimialist case" width="32%"></a>

@@ -5,3 +5,7 @@ docs/_site
 .jekyll-metadata
 vendor
 mogrify_looper.py
+docs/images/.DS_Store
+docs/.DS_Store
+docs/node_modules/
+ .DS_Store

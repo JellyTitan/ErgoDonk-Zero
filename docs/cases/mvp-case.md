@@ -24,12 +24,29 @@ image: /images/mvp_case/mvp_case_both.JPG
 For those that like the look of a bare pcb with the minimum viable case. Also known as a "naked case".
 
 {: .warning}
->  Beware - this case collects cat hair like it's going out of style. Expect a tear down cleaning at least yearly. 
-
+>  Beware - this case collects cat hair like it's going out of style. Expect a tear-down cleaning at least yearly. 
 <hr>
+<p class="image-grid-3">
+{% include picture.html
+   src="/images/mvp_case/mvp_case_both.JPG"
+   alt="Acrylic ErgoDonk Zero case"
+   fetchpriority="high"
+   width="800"
+   height="533" %}
 
-<a href="/images/mvp_case/mvp_case_both.JPG"><img src="/images/mvp_case/mvp_case_both.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a> <a href="/images/mvp_case/mvp_case_left_closeup.JPG"><img src="/images/mvp_case/mvp_case_left_closeup.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a> <a href="/images/mvp_case/mvp_case_back.JPG"><img src="/images/mvp_case/mvp_case_back.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a>   
+   {% include picture.html
+   src="/images/mvp_case/mvp_case_left_closeup.JPG"
+   alt="Acrylic ErgoDonk Zero case"
+   width="800"
+   height="533" %}
 
+   {% include picture.html
+   src="/images/mvp_case/mvp_case_back.JPG"
+   alt="Minimal ErgoDonk case with only a keyplate"
+   width="800"
+   height="533" %}
+</p>
+<!-- <a href="/images/mvp_case/mvp_case_both.JPG"><img src="/images/mvp_case/mvp_case_both.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a> <a href="/images/mvp_case/mvp_case_left_closeup.JPG"><img src="/images/mvp_case/mvp_case_left_closeup.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a> <a href="/images/mvp_case/mvp_case_back.JPG"><img src="/images/mvp_case/mvp_case_back.JPG" alt="Acrylic ErgoDonk Zero case" width="32%"></a>    -->
 <hr>
 
 ## Details
