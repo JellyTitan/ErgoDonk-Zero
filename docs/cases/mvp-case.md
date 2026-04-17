@@ -28,20 +28,20 @@ For those that like the look of a bare pcb with the minimum viable case. Also kn
 {% assign p2 = site.data.image_manifest["images/mvp_case/mvp_case_left_closeup.JPG"] %}
 {% assign p3 = site.data.image_manifest["images/mvp_case/mvp_case_back.JPG"] %}
 <p class="image-grid-3">
-{% include picture.html
+{% include slider_img_srcset.html
    src="images/mvp_case/mvp_case_both.JPG"
    alt="Acrylic ErgoDonk Zero case"
    eager=true
    fetchpriority="high" 
    manifest=p1 %}
 
-   {% include picture.html
+   {% include slider_img_srcset.html
    src="images/mvp_case/mvp_case_left_closeup.JPG"
    alt="Acrylic ErgoDonk Zero case"
    fetchpriority="high"
    manifest=p2 %}
 
-   {% include picture.html
+   {% include slider_img_srcset.html
    src="images/mvp_case/mvp_case_back.JPG"
    alt="Minimal ErgoDonk case with only a keyplate"
    fetchpriority="high"
@@ -58,7 +58,7 @@ The 3d printed keyplate is the easiest method. You can find the source files for
 You could also print the source file for the acrylic key plate, and use it as a template to cut a keyplate from cardboard.[8.5x11 & A4 pdf's of the keyplate](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/mvp_case) can be found in the github repo. Be sure to print at 100%, and test one key hole before cutting out the whole thing. Many printers default to 96% to offset the printer margins.
 <figure>
 {% assign p4 = site.data.image_manifest["images/mvp_case/mvp_case_print_settings.png"] %}
-{% include picture.html
+{% include img_srcset.html
    src="images/mvp_case/mvp_case_print_settings.png"
    alt="Print dialog with scale percentage highlighted"
    manifest=p4
