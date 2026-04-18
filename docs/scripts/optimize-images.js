@@ -14,7 +14,7 @@ const EXTENSIONS = ['jpg', 'jpeg', 'JPG', 'JPEG', 'gif', 'GIF', 'png', 'PNG'];
 async function processImage(inputPath) {
   const parsed = path.parse(inputPath);
   const baseName = parsed.name;
-  const relativeDir = path.dirname(inputPath).replace(INPUT_DIR, '');
+  const relativeDir = path.relative(INPUT_DIR, path.dirname(inputPath));
   const outputBase = path.join(OUTPUT_DIR, relativeDir);
 
   fs.mkdirSync(outputBase, { recursive: true });
@@ -41,11 +41,12 @@ async function processImage(inputPath) {
     console.log(`  ✓ ${outputFile}`);
   }
 
-  // Generate full-size WebP
-  const fullSizeOutput = path.join(outputBase, `${baseName}.webp`);
+  // Generate full-size WebP and add to variants
+  const fullSizeOutput = path.join(outputBase, `${baseName}-${originalWidth}w.webp`);
   await sharp(inputPath)
     .webp({ quality: QUALITY })
     .toFile(fullSizeOutput);
+  variants.push({ width: originalWidth, height: originalHeight, file: fullSizeOutput });
   console.log(`  ✓ ${fullSizeOutput}`);
 
   return {
