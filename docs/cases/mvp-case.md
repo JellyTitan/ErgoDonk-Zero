@@ -38,13 +38,15 @@ For those that like the look of a bare pcb with the minimum viable case. Also kn
    {% include slider_img_srcset.html
    src="images/mvp_case/mvp_case_left_closeup.JPG"
    alt="Acrylic ErgoDonk Zero case"
-   fetchpriority="high"
+   eager=true
+   fetchpriority="low"
    manifest=p2 %}
 
    {% include slider_img_srcset.html
    src="images/mvp_case/mvp_case_back.JPG"
    alt="Minimal ErgoDonk case with only a keyplate"
-   fetchpriority="high"
+   eager=true
+   fetchpriority="low"
    manifest=p3 %}
 </p>
 <hr>
