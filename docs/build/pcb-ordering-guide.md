@@ -7,6 +7,9 @@ parent: Build
 permalink: /build/pcb-ordering
 nav_order: 2
 ---
+
+{% assign img1 = site.data.image_manifest["images/ordering_guide/JLCPCB_Ordering_1.png"] %}
+{% assign img2 = site.data.image_manifest["images/ordering_guide/JLCPCB_Ordering_2.png"] %}
 # PCB Ordering Guide.
 
 How to order this board from a PCB vendor - helpful info if it's your first time ordering a PCB.
@@ -23,13 +26,29 @@ The Gerbers for the ErgoDonk Zero can be found as a zipped file in the "Releases
 
 The homepage of JLCPCB has a drag & drop upload. Drag the gerber `.zip` and drop it on the "add gerber file" box.
 
-<a href="/images/ordering_guide/JLCPCB_Ordering_1.png"><img src="/images/ordering_guide/JLCPCB_Ordering_1.png" alt="jlcpcb button for uploading Gerber files" fetchpriority=high></a>
+<figure>
+    {% include slider_img_srcset.html
+        src="images/ordering_guide/JLCPCB_Ordering_1.png"
+        alt="jlcpcb button for uploading Gerber files"
+        manifest=img1
+        eager=true
+        fetchpriority="high" 
+    %}
+</figure>
+
 
 While the file is uploading, it will take you to an options screen. Once the board size is detected<sup>1</sup>, the price<sup>2</sup> will update accordingly.
 Changing the pcb color<sup>3</sup> may impact production time and price.
 Shipping estimates<sup>4</sup> can vary widely, so be sure to check those. (You'll see these options again during checkout).
-
-<a href="/images/ordering_guide/JLCPCB_Ordering_2.png">![JLCPCB Home](/images/ordering_guide/JLCPCB_Ordering_2.png)</a>
+<figure>
+    {% include slider_img_srcset.html
+        src="images/ordering_guide/JLCPCB_Ordering_2.png"
+        alt="JLCPCB Home"
+        manifest=img2
+        eager=true
+        fetchpriority="low" 
+    %}
+</figure>
 
 {: .warning }
 > Warning: The default pcb surface finish contains Lead. For boards in cases, this is usually not a problem. If you're going to rock a naked board, consider going with "lead free"<sup>5</sup> for a few bucks more. The more popular colors like green and black tend to cost less for the lead free option.
