@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Overview
+title: ErgoDonk Zero Keyboard
 description: ErgoDonk Zero is an open source split ortholinear keyboard with hotswap MX/Choc support, solenoid, encoder, and RP2040 Zero MCU. A great first ergo build.
 nav_order: 1
 image: /images/v0.1_hero.JPG

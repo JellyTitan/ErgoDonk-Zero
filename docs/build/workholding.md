@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Workholding
+title: Soldering & Workholding
 description: Suggested work holding and assembly methods 
 parent: Build
 permalink: /build/workholding

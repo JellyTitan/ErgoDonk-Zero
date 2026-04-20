@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cases
+title: Case Options
 permalink: /cases
 description: Case options for the ErgoDonk Zero keyboard. Choose from a sandwich-style acrylic case, FDM 3D-printed case, or a minimalist bare-PCB setup with just a keyplate.
 nav_order: 6

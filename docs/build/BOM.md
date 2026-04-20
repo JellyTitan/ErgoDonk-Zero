@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BOM
+title: Bill of Materials
 description: Bill of Materials and sourcing notes
 parent: Build
 permalink: build/bom

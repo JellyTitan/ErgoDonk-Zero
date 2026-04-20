@@ -9,7 +9,8 @@ has_children: true
 
 # Current Project status
 
-While the current hardware iteration is stable and functional, (v0.2) there are some supporting tasks still in progress. Specifically, QMK & VIA commits, documenting case variants.
+UPDATE: April 2026. After a break, I'm back at it.
+While the current hardware iteration is stable and functional, (v0.2) there are some supporting tasks still in progress. Specifically, QMK & VIA commits, documenting case variants. 
 
 ## Punch list
 

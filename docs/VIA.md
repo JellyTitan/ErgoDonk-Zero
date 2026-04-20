@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VIA
+title: VIA Keymap Configuration
 description: How to configure ErgoDonk Zero keymaps using VIA. Covers loading the custom JSON definition, authorizing your device, and remapping keys without reflashing firmware.
 permalink: via
 nav_order: 5
