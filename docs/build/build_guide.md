@@ -38,7 +38,7 @@ This guide includes all optional components.
 ### Prepare
 
 Make sure you know which side you are working on, and don't make two left hand sides by mistake. Stick a piece of tape on the front side of both PCBs to help remember.
-{% comment }
+{% comment %}
 - @ todo add image of taped key plates
 {% endcomment %}
 
