@@ -5,19 +5,47 @@ nav_order: 1
 image: /images/v0.1_hero.JPG
 ---
 
+{% comment %}
+  Local build command: bundle exec jekyll serve 
+  Image aspect ratio should be 3:5 unless there is an intentional deviation.
+  Adds lightbox to links around images:
+  https://jekyllcodex.org/without-plugin/lightbox/
+
+  The images are in a non-markdown format to create responsive image variants at build time. 
+  You can use markdown syntax, it will work fine. It's just not as performant.
+
+{% endcomment %}
+
+{% assign img1 = site.data.image_manifest["images/v0.1_hero.JPG"] %}
+{% assign img2 = site.data.image_manifest["images/sa_heights.png"] %}
+
 # ErgoDonk Zero Keyboard
 
 ErgoDonk Zero is a 6×9+6 keys split ortholinear keyboard with encoder & solenoid support, hotswap sockets for MX or Choc v1 low profile switches, and uses the RP2040 "Zero" MCU.
 
 The ErgoDonk Zero was designed by [Ryan Neff](https://github.com/JellyTitan). Many of the footprints came from the well-regarded foostan [kbd library](https://github.com/foostan/kbd). 
+<figure>
+  {% include slider_img_srcset.html 
+    src="images/v0.1_hero.JPG" 
+    alt="ErgoDonk Zero split keyboard v0.1 hero image" 
+    manifest=img1
+    eager=true
+    fetchpriority="high" 
+  %}
+</figure>
 
-<a href="images/v0.1_hero.JPG"><img src="images/v0.1_hero.JPG" alt="Ergodonk Zero split keyboaard v0.1 hero image" fetchpriority=high> </a>
 ## Overview
-The ErgoDonk Zero was designed to be a good first split ortholinear keyboard. It is inexpensive, the parts are accessable, it's easy to build, and has a key layout that is still familiar to non-split querty users. 
+The ErgoDonk Zero was designed to be a good first split ortholinear keyboard. It is inexpensive, the parts are accessible, it's easy to build, and has a key layout that is still familiar to non-split Qwerty users. 
 
 It can be used with any MX [keycap profile](https://www.reddit.com/r/MechanicalKeyboards/comments/j484j5/keycap_profiles_i_compiled_a_direct_comparison/), but is designed specifically for the ergonomic SA Keycap profile. The E0 has been designed to use off the shelf keycap sets. The layout leverages the variable height profile of SA keycaps. 
 
-<a href="images/sa_heights.png"><img src="images/sa_heights.png" alt="SA Keycap row heights" width="50%"> </a>
+<figure>
+  {% include slider_img_srcset.html 
+    src="images/sa_heights.png" 
+    alt="SA Keycap row heights" 
+    manifest=img2 
+  %}
+</figure>
 
 @todo get image of the SA profiles from the thumb and sides.
 
