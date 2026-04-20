@@ -1,22 +1,39 @@
 import fs from 'fs';
 import { glob } from 'glob';
 
-const IMAGE_DIR = 'images';
+// Matches <a ...><img ... src="images/..." ... alt="..." .../></a>
+// Captures src and alt from the img tag, ignores the anchor href
+const IMAGE_REGEX = /<a\b[^>]*>\s*<img\b[^>]*\bsrc=["']([^"']*images\/[^"']+)["'][^>]*\balt=["']([^"']*)["'][^>]*\/?>\s*<\/a>/gi;
 
-// Matches standard Markdown image syntax: ![alt text](/images/photo.jpg)
-const IMAGE_REGEX = /!\[([^\]]*)\]\(\/?(images\/[^)]+)\)/g;
+// Also try alt before src order
+const IMAGE_REGEX_ALT_FIRST = /<a\b[^>]*>\s*<img\b[^>]*\balt=["']([^"']*)["'][^>]*\bsrc=["']([^"']*images\/[^"']+)["'][^>]*\/?>\s*<\/a>/gi;
 
 async function processFile(filePath) {
   let content = fs.readFileSync(filePath, 'utf8');
-  const matches = [...content.matchAll(IMAGE_REGEX)];
+
+  // Normalize src to always be relative (strip leading slash)
+  const normalizesrc = (src) => src.replace(/^\//, '');
+
+  // Collect all matches, handling both src-first and alt-first attribute orders
+  const matches = [];
+
+  for (const match of content.matchAll(IMAGE_REGEX)) {
+    matches.push({ full: match[0], src: normalizesrc(match[1]), alt: match[2] });
+  }
+
+  for (const match of content.matchAll(IMAGE_REGEX_ALT_FIRST)) {
+    // Avoid duplicates already caught by the first regex
+    if (!matches.find(m => m.full === match[0])) {
+      matches.push({ full: match[0], src: normalizeSource(match[2]), alt: match[1] });
+    }
+  }
 
   if (matches.length === 0) return;
 
   let assigns = '';
   let updated = content;
 
-  matches.forEach((match, i) => {
-    const [full, alt, src] = match;
+  matches.forEach(({ full, src, alt }, i) => {
     const varName = `img${i + 1}`;
 
     assigns += `{% assign ${varName} = site.data.image_manifest["${src}"] %}\n`;
