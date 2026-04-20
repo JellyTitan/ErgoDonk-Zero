@@ -38,9 +38,9 @@ This guide includes all optional components.
 ### Prepare
 
 Make sure you know which side you are working on, and don't make two left hand sides by mistake. Stick a piece of tape on the front side of both PCBs to help remember.
-
-@todo Update image.
-![Sofle V3](/images/sofle_Zero_tape.png)
+{% comment }
+- @ todo add image of taped key plates
+{% endcomment %}
 
 The assembly order does not matter. This guide is written in the order I like to install components, starting with the components on the back, shortest to tallest:
  - diodes
