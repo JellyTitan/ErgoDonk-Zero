@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Minimialist case
+title: Minimalist case
 description: Minimalist ErgoDonk Zero case using only a 3D-printed keyplate. Works with or without a backplate — great for showing off a bare PCB with minimal hardware.
 parent: Cases
 permalink: /cases/mvp-case
@@ -53,7 +53,7 @@ For those that like the look of a bare pcb with the minimum viable case. Also kn
 
 ## Details
 
-You can get away with only a 3d printed keyplate. You can add some rubber bumpers on the underside of the pcb if your feeling fancy. You could even get away without the key plate, but the switches will likely rock in their sockets. This setup has been my daily driver for the last year, and it's been lovely. In the pictures above, the left hand is the 'thickaronie' keyplate, while the right hand is a 3d print of the acrylic keyplate. I didn't bother with bumpers on the underside because i'm on a non-conductive desk. I'm happy to report that no keys popped out, and nothing short circuited.
+You can get away with only a 3d printed keyplate. You can add some rubber bumpers on the underside of the pcb if you're feeling fancy. You could even get away without the key plate, but the switches will likely rock in their sockets. This setup has been my daily driver for the last year, and it's been lovely. In the pictures above, the left hand is the 'thickaronie' keyplate, while the right hand is a 3d print of the acrylic keyplate. I didn't bother with bumpers on the underside because I'm on a non-conductive desk. I'm happy to report that no keys popped out, and nothing short circuited.
 
 The 3d printed keyplate is the easiest method. You can find the source files for the keyplates in [this repo](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/3d_printable_case) or on [printables](https://www.printables.com/model/738066-ergodonk-zero-case). 
 
@@ -67,7 +67,7 @@ You could also print the source file for the acrylic key plate, and use it as a 
 %}
 <figcaption>Don't forget to check print size!</figcaption>
 </figure>
-Rubber bumpers on the bottom can be subbed out for bumps of hot glue, or omitted entirely if your using a desk mat that isn't conductive. If you go that route, you might want to clean up your flux and nip your solder joints flat so you don't tear up your desk.
+Rubber bumpers on the bottom can be subbed out for bumps of hot glue, or omitted entirely if you're using a desk mat that isn't conductive. If you go that route, you might want to clean up your flux and nip your solder joints flat so you don't tear up your desk.
 
 ## BOM
 

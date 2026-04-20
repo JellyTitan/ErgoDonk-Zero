@@ -27,7 +27,7 @@ These are mostly personal notes to keep track of things during the development p
 * Fix jumper bay graphics
 * Changing pad connections on Polygons to 'Solid' - might be a bit harder to solder, but leads to better connections.
 * Added key cap labels to each key.
-* Increased key outlines and solenid component silks for improved legibility.
+* Increased key outlines and solenoid component silks for improved legibility.
 * Added key plate layer with stabilizer cutouts.
 * **3.7795** is the keyplate multiplier when creating Fusion 360 imports
 * Moved rotary encoder column up 2.5mm to avoid hitting encoder with my freakishly long thumbs.
@@ -40,7 +40,7 @@ These are mostly personal notes to keep track of things during the development p
 {% include img_srcset.html src="images/pad_nub.png" alt="pad nub" manifest=img1 %}
 </figure>
 * Moved all diodes down a bit to make more room for choc keys
-* Considered moving TRRS jack below vol buttons. Decided against it, as i like to keep things between the two halves of the keyboard, so keeping the cables higher up is preferred.
+* Considered moving TRRS jack below vol buttons. Decided against it, as I like to keep things between the two halves of the keyboard, so keeping the cables higher up is preferred.
 * Converted TRRS jack to TRS. 
 * Refactored TRRS jack to remove full duplex. Replaced with serial default. Rerouted accordingly - then rolled it all back. I think it's better to leave the config for Full duplex available, but only implement serial communication. The full duplex config will probably be used in other ergodonk variants, and there is no urgent need for freeing up that extra pin.
 * Via support added. It's on branch ergodonk_zero: https://github.com/JellyTitan/keyboards/blob/ergodonk_zero/v3/ergodonk_zero/ergodonk_zero.json
@@ -65,7 +65,7 @@ These are mostly personal notes to keep track of things during the development p
 <figure> 
 {% include img_srcset.html src="images/solenoids.JPG" alt="Solenoids" manifest=img3 %}
 </figure>
-- Found another Soleniod on AliExpress that works, and added it to the BOM.
+- Found another Solenoid on AliExpress that works, and added it to the BOM.
 - The tenting puck did not work with MX footprints - it intersected the switch sockets. I added a second tenting puck, now there's one for choc and one for MX.
 - Was issued a quasi-official USB-IF VendorID and ProductID through [pid.codes](pid.codes):<br>
 [https://github.com/pidcodes/pidcodes.github.com/blob/master/1209/455A/index.md](https://github.com/pidcodes/pidcodes.github.com/blob/master/1209/455A/index.md)<br> 
@@ -77,5 +77,5 @@ These are mostly personal notes to keep track of things during the development p
 - Ordered an acrylic backplate to validate `Ergodonk_Zero_v0.2.1_bottom_plate.dxf.zip` 7-29-2024. 
 
 ## v0.2.2
-- The Solenoid circuit shottky diode reference designator on the PCB was IN4004, it should have been IN4001, as indicated in the BOM. Updated PCB footprint, documentation.
+- The Solenoid circuit Schottky diode reference designator on the PCB was IN4004, it should have been IN4001, as indicated in the BOM. Updated PCB footprint, documentation.
 - Picking back up on development after a year away. I can't find a full set of Choc keycaps. The choc layout hasn't been tested with a prototype. I think I validated the circuit with a multimeter - but I'm not 100%. 

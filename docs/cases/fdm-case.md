@@ -26,7 +26,7 @@ Designed for use with MX switches.
 
 Right and Left hand cases are unique and not interchangeable. 
 
-The keyplate is mirrored for the right and left hand. They are split into separate files with a LH/RH suffix to prevent any confusion. The should be printed with the notches up, and the side that shows through the keys is against the build plate. They are oriented that way in the .stl & gcode files.
+The keyplate is mirrored for the right and left hand. They are split into separate files with a LH/RH suffix to prevent any confusion. They should be printed with the notches up, and the side that shows through the keys is against the build plate. They are oriented that way in the .stl & gcode files.
 
 You can add print helper objects to keep the edges from curling. There is a ‘sacrificial’ support below the bridge that connects the island in the middle of the thumb cluster. Snap that off by hand. (It's highlighted in the image with the yellow arrow).
 

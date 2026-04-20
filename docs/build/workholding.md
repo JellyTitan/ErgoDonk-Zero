@@ -10,7 +10,7 @@ image: /images/build_guide_pico/sofle_pico_workholding_foot_closeup.jpeg
 
 # Soldering and workholding
 
-There's a few common soldering methods used with through-hole components. In this guide, we'll be using the third method - "work holding". Accordingly, the docs will not reference flipping the PCB over for soldering legs.
+There are a few common soldering methods used with through-hole components. In this guide, we'll be using the third method - "work holding". Accordingly, the docs will not reference flipping the PCB over for soldering legs.
 
 ## The bendy method
 Push the legs through the holes, then bend the legs slightly outward on the bottom side to keep the component in the hole when the PCB is flipped over. Solder on the side of the board opposite from the side the component was inserted.

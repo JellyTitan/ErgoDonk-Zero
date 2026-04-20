@@ -28,10 +28,10 @@ After the first 'drag and drop' flash, you can tweak your keymaps further using 
 The rp2040 supports 'drag and drop' flashing with a UF2 file on Mac or PC. This is the recommended approach if you're not familiar with compiling QMK firmware yourself. After the first 'drag and drop' flash, you can tweak your key maps further using [VIA](https://www.caniusevia.com/).
 
 To flash with 'drag 'n drop':
-These instructions are a summarization of the [official explanation found in the QMK docs](https://docs.qmk.fm/#/flashing?id=raspberry-pi-rp2040-uf2).
+These instructions are a summary of the [official explanation found in the QMK docs](https://docs.qmk.fm/#/flashing?id=raspberry-pi-rp2040-uf2).
 1. Make sure halves are not connected together with TRS cable.
 1. Connect one half to USB.
-1. Enter the bootloader using any of the following methods. These are dependant on where your RP2040 Zero came from.
+1. Enter the bootloader using any of the following methods. These are dependent on where your RP2040 Zero came from.
     * Hold down `BOOT` and tap `RESET`.
     * Hold the `BOOT` button while plugging in the usb cable.
     * Double tapping the `RESET` button on the RP2040. ([Double tap reset is enabled by default on the RP2040](https://github.com/qmk/qmk_firmware/blob/master/docs/platformdev_rp2040.md#double-tap-reset-boot-loader-entry-iddouble-tap)).

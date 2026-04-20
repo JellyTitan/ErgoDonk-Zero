@@ -36,9 +36,9 @@ The ErgoDonk Zero was designed by [Ryan Neff](https://github.com/JellyTitan). Ma
 </figure>
 
 ## Overview
-The ErgoDonk Zero was designed to be a good first split ortholinear keyboard. It is inexpensive, the parts are accessible, it's easy to build, and has a key layout that is still familiar to non-split Qwerty users. 
+The ErgoDonk Zero was designed to be a good first split ortholinear keyboard. It is inexpensive, the parts are accessible, it's easy to build, and it has a key layout that is still familiar to non-split Qwerty users. 
 
-It can be used with any MX [keycap profile](https://www.reddit.com/r/MechanicalKeyboards/comments/j484j5/keycap_profiles_i_compiled_a_direct_comparison/), but is designed specifically for the ergonomic SA Keycap profile. The E0 has been designed to use off the shelf keycap sets. The layout leverages the variable height profile of SA keycaps. 
+It can be used with any MX [keycap profile](https://www.reddit.com/r/MechanicalKeyboards/comments/j484j5/keycap_profiles_i_compiled_a_direct_comparison/), but is designed specifically for the ergonomic SA keycap profile. The E0 has been designed to use off-the-shelf keycap sets. The layout leverages the variable height profile of SA keycaps. 
 
 <figure>
   {% include slider_img_srcset.html 

@@ -15,7 +15,7 @@ How to order this board from a PCB vendor - helpful info if it's your first time
 
 Most PCB vendors have a similar ordering process. I use [JLCPCB](https://jlcpcb.com/) because they are usually the most cost effective. I've had good luck with [Elecrow](https://www.elecrow.com/) too. [You can find PCB price comparison tools online.](https://pcbshopper.com/) When comparing pricing, be sure to enter the board dimensions, and set the minimum quantity to 5. The ErgoDonk zero is 217mm X 156mm. Usually anything under 100x100mm is really inexpensive - so be sure to use actual dimensions when pricing. Most manufacturers have a 5 board minimum, so this is a safe quantity to start with.
 
-Usually the minimum quantity to order is 5 boards. The ErgoDonk Zero been designed to be double sided, so a batch of 5 boards gets you 2 & 1/2 sets.
+Usually the minimum quantity to order is 5 boards. The ErgoDonk Zero has been designed to be double-sided, so a batch of 5 boards gets you 2 & 1/2 sets.
 
 The production files are known as "gerbers", and they are usually uploaded as a `.zip` file. (It's essentially a collection of files for each layer of the board, like holes, graphics, traces etc.) 
 
@@ -52,6 +52,6 @@ Shipping estimates<sup>4</sup> can vary widely, so be sure to check those. (You'
 {: .warning }
 > Warning: The default pcb surface finish contains Lead. For boards in cases, this is usually not a problem. If you're going to rock a naked board, consider going with "lead free"<sup>5</sup> for a few bucks more. The more popular colors like green and black tend to cost less for the lead free option.
 
-By default, all JLC boards have a part number printed on them. (Most people won't notice them unless your looking for them). You can pay extra to have them removed. ErgoDonk Zero supports the option to "Specify a location"<sup>6</sup>. (Essentially this is a line of text on the PCB that will JLC will substitute with their part number.) There is no additional charge for specifying the location. 
+By default, all JLC boards have a part number printed on them. (Most people won't notice them unless you're looking for them). You can pay extra to have them removed. ErgoDonk Zero supports the option to "Specify a location"<sup>6</sup>. (Essentially this is a line of text on the PCB that JLC will substitute with their part number.) There is no additional charge for specifying the location. 
 
 The remainder of the checkout process is standard e-commerce stuff. After you pay for your order, it will be reviewed before going into production. They will let you know if the file has any issues. 

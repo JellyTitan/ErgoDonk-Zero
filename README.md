@@ -5,8 +5,8 @@ ErgoDonk Zero is a 6×9+6 keys split ortholinear keyboard with encoder & solenoi
 ![Ergodonk simple zero v0.1](docs/images/v0.1_hero.JPG)
 
 > [!IMPORTANT]
-> The hardware is under active development!. Documentation, QMK PR, and VIA PR's are the bulk of the remaining work. The remaining tasks can be seen at [ergodonk.com/status](https://www.ergodonk.com/status)
->Build guide and other supporting documentation can be found at [ergodonk.com](https://www.ergodonk.com)
+> The hardware is under active development! Documentation, QMK PR, and VIA PR's are the bulk of the remaining work. The remaining tasks can be seen at [ergodonk.com/status](https://www.ergodonk.com/status)
+> Build guide and other supporting documentation can be found at [ergodonk.com](https://www.ergodonk.com)
 
 ***
 
@@ -20,8 +20,8 @@ The build guide can be found at [ergodonk.com](https://www.ergodonk.com/).
 
 PCB ordering guide can be found at [ergodonk.com/build/pcb-ordering](https://www.ergodonk.com/build/pcb-ordering).
 
-Sofle Pico [KiCad files](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/PCB).\
-Sofle Pico [Gerber files](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/PCB/gerbers).
+ErgoDonk Zero [KiCad files](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/PCB).\
+ErgoDonk Zero [Gerber files](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/PCB/gerbers).
 
 ***
 

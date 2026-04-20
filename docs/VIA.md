@@ -44,7 +44,7 @@ Once you have the file locally, Click "Load" to upload `ergodonk_zero.json`.<br>
 </figure>
 </li>
 <li markdown="1">
-After the definition is loaded, you may be asked to authorize a connection to your device. If the auth request doesn't pop-up automagically, click on the 'configure' icon at the top of the page, then click on 'Authorize Device +'
+After the definition is loaded, you may be asked to authorize a connection to your device. If the auth request doesn't pop up automatically, click on the 'configure' icon at the top of the page, then click on 'Authorize Device +'.
 <figure>
 {% include img_srcset.html src="images/VIA/via_3.png" alt="VIA device authorization" manifest=img3 %}
 </figure>

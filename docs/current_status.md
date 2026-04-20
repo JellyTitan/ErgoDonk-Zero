@@ -9,7 +9,7 @@ has_children: true
 
 # Current Project status
 
-While the current hardware iteration is stable and functional, (v.2) there are some supporting tasks still in progress. Specifically, QMK & VIA commits, documenting case variants.
+While the current hardware iteration is stable and functional, (v0.2) there are some supporting tasks still in progress. Specifically, QMK & VIA commits, documenting case variants.
 
 ## Punch list
 
@@ -31,7 +31,7 @@ While the current hardware iteration is stable and functional, (v.2) there are s
 * [ ] Use the new logo to generate the Favicon
 * [ ] Add a page detailing the differences between ErgoDonk and ErgoDonk Zero
 * [ ] Document more appealing default key layout.
-* [ ] Add notes to the build guide, about how the symbols on the key cap should not correspond to the actual key presses., and the default layout is an adaptation of the Ergodox.
+* [ ] Add notes to the build guide, about how the symbols on the key cap should not correspond to the actual key presses, and the default layout is an adaptation of the Ergodox.
 * [ ] Add note about how great those magnetic data cables are.
 * [ ] Add note in the build guide about the key layout using the ergonomic height of the SA keys and add images demonstrating. 
 * [ ] Add note about the merits of AliExpress vs other vendors.

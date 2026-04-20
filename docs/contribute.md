@@ -9,7 +9,7 @@ nav_order: 7
 
 # ErgoDonk Zero is open source - feel free to help out!
 {: .no_toc }
-**The ErgoDonk Zeros' PCB & schematics have been intentionally designed to make it easy to swap in alternative switch footprints. Modifications and variants are encouraged!**
+**The ErgoDonk Zero's PCB & schematics have been intentionally designed to make it easy to swap in alternative switch footprints. Modifications and variants are encouraged!**
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -36,7 +36,7 @@ To avoid 'breaking changes' when creating ErgoDonk Zero variants, please keep th
 - Update the README / documentation of your changes as necessary.
 
 ## ErgoDonk Zero Future feature wish list
-Theres some features that I would like to add if time permits. Open to contributions.
+There are some features that I would like to add if time permits. Open to contributions.
 * [ ] Plate mount stabilizers. Currently has PCB mount only, but would like to support both types.
 * [ ] Write a PCBA ordering walk through. I pulled images for the process with the ErgoDonk Zero - but never wrote a guide.
 

@@ -457,34 +457,34 @@
       }
     ]
   },
-  "images/stabalizer_markings.jpeg": {
+  "images/stabilizer_markings.jpeg": {
     "width": 811,
     "height": 456,
     "variants": [
       {
         "width": 150,
         "height": 84,
-        "file": "images/stabalizer_markings-150w.webp"
+        "file": "images/stabilizer_markings-150w.webp"
       },
       {
         "width": 250,
         "height": 141,
-        "file": "images/stabalizer_markings-250w.webp"
+        "file": "images/stabilizer_markings-250w.webp"
       },
       {
         "width": 400,
         "height": 225,
-        "file": "images/stabalizer_markings-400w.webp"
+        "file": "images/stabilizer_markings-400w.webp"
       },
       {
         "width": 800,
         "height": 450,
-        "file": "images/stabalizer_markings-800w.webp"
+        "file": "images/stabilizer_markings-800w.webp"
       },
       {
         "width": 811,
         "height": 456,
-        "file": "images/stabalizer_markings-811w.webp"
+        "file": "images/stabilizer_markings-811w.webp"
       }
     ]
   },
@@ -868,34 +868,34 @@
       }
     ]
   },
-  "images/sofle_pico_luxary_pins.png": {
+  "images/sofle_pico_luxury_pins.png": {
     "width": 907,
     "height": 309,
     "variants": [
       {
         "width": 150,
         "height": 51,
-        "file": "images/sofle_pico_luxary_pins-150w.webp"
+        "file": "images/sofle_pico_luxury_pins-150w.webp"
       },
       {
         "width": 250,
         "height": 85,
-        "file": "images/sofle_pico_luxary_pins-250w.webp"
+        "file": "images/sofle_pico_luxury_pins-250w.webp"
       },
       {
         "width": 400,
         "height": 136,
-        "file": "images/sofle_pico_luxary_pins-400w.webp"
+        "file": "images/sofle_pico_luxury_pins-400w.webp"
       },
       {
         "width": 800,
         "height": 273,
-        "file": "images/sofle_pico_luxary_pins-800w.webp"
+        "file": "images/sofle_pico_luxury_pins-800w.webp"
       },
       {
         "width": 907,
         "height": 309,
-        "file": "images/sofle_pico_luxary_pins-907w.webp"
+        "file": "images/sofle_pico_luxury_pins-907w.webp"
       }
     ]
   },
@@ -2110,34 +2110,34 @@
       }
     ]
   },
-  "images/asymetrical_diode_marking.jpeg": {
+  "images/asymmetrical_diode_marking.jpeg": {
     "width": 1115,
     "height": 627,
     "variants": [
       {
         "width": 150,
         "height": 84,
-        "file": "images/asymetrical_diode_marking-150w.webp"
+        "file": "images/asymmetrical_diode_marking-150w.webp"
       },
       {
         "width": 250,
         "height": 141,
-        "file": "images/asymetrical_diode_marking-250w.webp"
+        "file": "images/asymmetrical_diode_marking-250w.webp"
       },
       {
         "width": 400,
         "height": 225,
-        "file": "images/asymetrical_diode_marking-400w.webp"
+        "file": "images/asymmetrical_diode_marking-400w.webp"
       },
       {
         "width": 800,
         "height": 450,
-        "file": "images/asymetrical_diode_marking-800w.webp"
+        "file": "images/asymmetrical_diode_marking-800w.webp"
       },
       {
         "width": 1115,
         "height": 627,
-        "file": "images/asymetrical_diode_marking-1115w.webp"
+        "file": "images/asymmetrical_diode_marking-1115w.webp"
       }
     ]
   },
