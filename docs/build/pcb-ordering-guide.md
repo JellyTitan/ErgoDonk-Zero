@@ -21,9 +21,9 @@ Usually the minimum quantity to order is 5 boards. The ErgoDonk Zero been design
 The production files are known as "gerbers", and they are usually uploaded as a `.zip` file. (It's essentially a collection of files for each layer of the board, like holes, graphics, traces etc.) 
 
 The Gerbers for the ErgoDonk Zero can be found as a zipped file in the "Releases" section on the right hand side of the [Github repo](https://github.com/JellyTitan/ErgoDonk-Zero). 
-
+{% comment %}
 @todo add image and name of release
-
+{% endcomment %}
 The homepage of JLCPCB has a drag & drop upload. Drag the gerber `.zip` and drop it on the "add gerber file" box.
 
 <figure>
