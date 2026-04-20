@@ -3,7 +3,7 @@ layout: page
 title: 3d Printable (FDM)
 parent: Cases
 permalink: /cases/fdm-case
-description: 3d printable ErgoDonk Zero case instructions and links
+description: 3D printable FDM case for the ErgoDonk Zero keyboard. STL files for MX switches with keyplate, monobody cover, and optional backplate. Also available on Printables.
 nav_order: 3
 image: /images/fdm_case/fdm_donk_1.webp
 # published: false

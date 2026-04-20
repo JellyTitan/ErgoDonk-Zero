@@ -1,8 +1,7 @@
 ---
 layout: page
 title: PCB Ordering
-# permalink: /pcb-ordering
-description: ErgoDonk Zero PCB ordering guide
+description: How to order ErgoDonk Zero PCBs from JLCPCB or Elecrow. Covers gerber file upload, board dimensions (217×156mm), color options, lead-free finish, and part number placement.
 parent: Build
 permalink: /build/pcb-ordering
 nav_order: 2

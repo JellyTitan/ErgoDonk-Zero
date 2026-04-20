@@ -5,6 +5,8 @@ description: Bill of Materials and sourcing notes
 parent: Build
 permalink: build/bom
 nav_order: 1
+description: "Complete bill of materials for the ErgoDonk Zero keyboard. Sourcing notes, quantities, and links for switches, hotswap sockets, diodes, MCU, solenoid, and more."
+
 ---
 
 # Bill of materials (BOM)

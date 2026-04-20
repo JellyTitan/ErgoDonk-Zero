@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Current Project Status
+description: Current development status for the ErgoDonk Zero keyboard. Hardware is stable at v0.2 — see open punch list items for QMK, VIA, and documentation tasks.
 permalink: /status
 nav_order: 2
-# has_children: true
+has_children: true
 ---
 
 # Current Project status

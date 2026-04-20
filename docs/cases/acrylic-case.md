@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Acrylic
+description: Acrylic sandwich case for the ErgoDonk Zero keyboard. Includes BOM with standoff sizes, DXF files for laser cutting, and sourcing notes for Elecrow orders.
 parent: Cases
 permalink: /cases/acrylic-case
-description: Acrylic case files and ordering instructions
 nav_order: 1
 image: /images/acrylic_case/acrylic_tilted_hero.jpeg
 ---

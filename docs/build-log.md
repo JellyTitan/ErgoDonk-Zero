@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Build Log
-description: ErgoDonk Zero keyboard build log.
+description: Full development history of the ErgoDonk Zero keyboard. Covers design decisions, PCB revisions from v0.1 through v0.2.1, firmware milestones, and lessons learned.
 permalink: build-log
-# parent: Build
 nav_order: 9
-# image: /images/build_guide_pico/sofle_pico_MCU_heroshot.png
+image: /images/solenoids.JPG
 ---
 
 {% assign img1 = site.data.image_manifest["images/pad_nub.png"] %}
@@ -79,3 +78,4 @@ These are mostly personal notes to keep track of things during the development p
 
 ## v0.2.2
 - The Solenoid circuit shottky diode reference designator on the PCB was IN4004, it should have been IN4001, as indicated in the BOM. Updated PCB footprint, documentation.
+- Picking back up on development after a year away. I can't find a full set of Choc keycaps. The choc layout hasn't been tested with a prototype. I think I validated the circuit with a multimeter - but I'm not 100%. 

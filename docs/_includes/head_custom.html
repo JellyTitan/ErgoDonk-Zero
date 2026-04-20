@@ -9,3 +9,50 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <meta name="apple-mobile-web-app-title" content="ErgoDonk" />
 <link rel="manifest" href="/site.webmanifest" />
+
+{% comment %}
+  Open Graph & Twitter Card meta tags for ErgoDonk Zero
+  Per-page overrides (add these to any page's front matter):
+    description: "Custom description for this page"
+    image: /images/some-image.webp
+{% endcomment %}
+
+{% comment %} --- Title --- {% endcomment %}
+{% if page.title %}
+  {% assign og_title = page.title | append: " | ErgoDonk Zero" %}
+{% else %}
+  {% assign og_title = "ErgoDonk Zero — Open Source Split Ortholinear Keyboard" %}
+{% endif %}
+
+{% comment %} --- Description --- {% endcomment %}
+{% if page.description %}
+  {% assign og_description = page.description %}
+{% else %}
+  {% assign og_description = site.description %}
+{% endif %}
+
+{% comment %} --- Image --- {% endcomment %}
+{% if page.image %}
+  {% assign og_image = page.image | absolute_url %}
+{% else %}
+  {% assign og_image = "/images/v0.1_hero-2712w.webp" | absolute_url %}
+{% endif %}
+
+{% comment %} --- Canonical URL --- {% endcomment %}
+{% assign og_url = page.url | absolute_url %}
+
+<!-- Open Graph -->
+<meta property="og:type"        content="website" />
+<meta property="og:site_name"   content="ErgoDonk Zero" />
+<meta property="og:url"         content="{{ og_url }}" />
+<meta property="og:title"       content="{{ og_title }}" />
+<meta property="og:description" content="{{ og_description }}" />
+<meta property="og:image"       content="{{ og_image }}" />
+<meta property="og:image:width" content="2712" />
+<meta property="og:image:alt"   content="ErgoDonk Zero split ortholinear keyboard" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card"        content="summary_large_image" />
+<meta name="twitter:title"       content="{{ og_title }}" />
+<meta name="twitter:description" content="{{ og_description }}" />
+<meta name="twitter:image"       content="{{ og_image }}" />

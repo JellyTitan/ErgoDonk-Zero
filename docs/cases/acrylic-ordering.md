@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acrylic Ordering
-description: ErgoDonk Zero acrylic case ordering guide
+description: How to order the ErgoDonk Zero acrylic case from Elecrow. Step-by-step guide with DXF downloads, dimensions for each plate, pricing notes, and quantity recommendations.
 parent: Cases
 permalink: /cases/acrylic-ordering-guide
 nav_order: 2

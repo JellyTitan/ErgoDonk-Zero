@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contributing
+description: How to contribute to the ErgoDonk Zero open source keyboard project. Guidelines for submitting PCB variants, new cases, firmware changes, and documentation updates.
 permalink: /contributing
 nav_order: 7
 # has_children: true
