@@ -41,6 +41,7 @@ plugins:
   - jekyll-loading-lazy
   - jekyll-target-blank
   - jekyll-seo-tag
+  - jekyll-last-modified-at
 
 # Exclude from processing.
 # The following items will not be processed, by default.
