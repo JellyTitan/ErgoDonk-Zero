@@ -25,15 +25,15 @@ There are a few common soldering methods used with through-hole components. In t
 ## The bendy method
 Push the legs through the holes, then bend the legs slightly outward on the bottom side to keep the component in the hole when the PCB is flipped over. Solder on the side of the board opposite from the side the component was inserted.
 <div class="image-grid-2">
-    {% include slider_img_srcset.html src="images/diode_bend_top.JPG" alt="pcb with diode inserted from the top" manifest=img1 %} 
-    {% include slider_img_srcset.html src="images/diode_bend_under.JPG" alt="pcb with bent diode legs" manifest=img2 %}
+    {% include slider_img_srcset.html src="images/diode_bend_top.JPG" alt="pcb with diode inserted from the top" manifest=img1 eager=true fetchpriority="high" %} 
+    {% include slider_img_srcset.html src="images/diode_bend_under.JPG" alt="pcb with bent diode legs" manifest=img2 eager=true fetchpriority="high" %}
 </div>
 <hr>
 ## The tape method
 Push the legs through the holes and put a piece of kapton tape over the component to keep it in place when the board is flipped. Solder on the side of the board opposite from the side the component was inserted.
 <div class="image-grid-2"> 
-    {% include slider_img_srcset.html src="images/kapton_top.JPG" alt="pcb with diodes held in place by kapton tape" manifest=img3 %} 
-    {% include slider_img_srcset.html src="images/kapton_under.JPG" alt="underside of pcb with diodes held in place by kapton tape" manifest=img4 %} 
+    {% include slider_img_srcset.html src="images/kapton_top.JPG" alt="pcb with diodes held in place by kapton tape" manifest=img3 eager=true fetchpriority="low" %} 
+    {% include slider_img_srcset.html src="images/kapton_under.JPG" alt="underside of pcb with diodes held in place by kapton tape" manifest=img4 eager=true fetchpriority="low" %} 
 </div>
 <hr>
 ## Work holding
