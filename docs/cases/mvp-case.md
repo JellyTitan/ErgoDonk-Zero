@@ -2,7 +2,7 @@
 layout: page
 title: Minimalist Keyplate Case
 description: Minimalist ErgoDonk Zero case using only a 3D-printed keyplate. Works with or without a backplate — great for showing off a bare PCB with minimal hardware.
-parent: Cases
+parent: Case Options
 permalink: /cases/mvp-case
 nav_order: 4
 image: /images/mvp_case/mvp_case_both.JPG
