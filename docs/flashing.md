@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Flashing QMK Firmware
-description: How to flash the ErgoDonk Zero keyboard with QMK firmware. Covers drag-and-drop UF2 flashing for both halves, reset procedure, and building custom firmware from source.
+description: How to flash the ErgoDonk Zero keyboard with QMK firmware. Covers drag-and-drop UF2 flashing, reset procedure, and building custom firmware.
 permalink: flashing
 nav_order: 3
 # has_children: true
 ---
 
-# Firmware and programming
+# Flashing QMK Firmware
 {: .no_toc }
 
 {: .warning}
