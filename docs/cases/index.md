@@ -5,7 +5,7 @@ permalink: /cases
 description: "ErgoDonk Zero case options: acrylic sandwich, FDM 3D-printed, or bare PCB with keyplate."
 nav_order: 6
 has_children: true
-image: /images/acrylic_case/acrylic_tilted_hero.jpeg
+image: /images/acrylic_case/acrylic_tilted_hero-1200w.webp
 ---
 
 # ErgoDonk Zero Cases

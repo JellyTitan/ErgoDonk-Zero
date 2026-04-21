@@ -5,7 +5,7 @@ description: Acrylic sandwich case for the ErgoDonk Zero keyboard. Includes BOM 
 parent: Case Options
 permalink: /cases/acrylic-case
 nav_order: 1
-image: /images/acrylic_case/acrylic_tilted_hero.jpeg
+image: /images/acrylic_case/acrylic_tilted_hero-1200w.webp
 ---
 
 # Acrylic case

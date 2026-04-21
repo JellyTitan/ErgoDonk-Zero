@@ -5,7 +5,7 @@ description: Minimalist ErgoDonk Zero case using only a 3D-printed keyplate. Wor
 parent: Case Options
 permalink: /cases/mvp-case
 nav_order: 4
-image: /images/mvp_case/mvp_case_both.JPG
+image: /images/mvp_case/mvp_case_both-1200w.webp
 # published: false
 ---
 {% comment %}

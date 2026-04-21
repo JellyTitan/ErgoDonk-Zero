@@ -5,7 +5,7 @@ description: Suggested work holding and assembly methods
 parent: Build
 permalink: /build/workholding
 nav_order: 3
-image: /images/build_guide_pico/sofle_pico_workholding_foot_closeup.jpeg
+image: /images/workholding_jig_solder_from_top-1200w.webp
 ---
 
 # Soldering and workholding

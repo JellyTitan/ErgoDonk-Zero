@@ -4,7 +4,7 @@ title: VIA Keymap Configuration
 description: How to configure ErgoDonk Zero keymaps using VIA. Covers loading the custom JSON definition, authorizing your device, and remapping keys without reflashing firmware.
 permalink: via
 nav_order: 5
-image: /images/VIA/via_3.png
+image: /images/VIA/via_3-878w.webp
 ---
 
 {% assign img1 = site.data.image_manifest["images/VIA/via_1.png"] %}

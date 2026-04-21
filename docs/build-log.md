@@ -4,7 +4,7 @@ title: Build Log
 description: Full development history of the ErgoDonk Zero keyboard. Covers design decisions, PCB revisions from v0.1 through v0.2.1, firmware milestones, and lessons learned.
 permalink: build-log
 nav_order: 9
-image: /images/solenoids.JPG
+image: /images/solenoids-1200w.webp
 ---
 
 {% assign img1 = site.data.image_manifest["images/pad_nub.png"] %}
