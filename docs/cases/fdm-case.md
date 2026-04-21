@@ -9,6 +9,10 @@ image: /images/fdm_case/fdm_donk_1.webp
 # published: false
 ---
 
+{% assign img1 = site.data.image_manifest["images/fdm_case/fdm_donk_1.webp"] %}
+{% assign img2 = site.data.image_manifest["images/fdm_case/fdm_donk_2.webp"] %}
+{% assign img3 = site.data.image_manifest["images/fdm_case/fdm_donk_3.webp"] %}
+
 # 3d printable ErgoDonk Zero case
 
 {: .info}
@@ -16,8 +20,11 @@ image: /images/fdm_case/fdm_donk_1.webp
 > This is also posted on [Printables](https://www.printables.com/model/738066-ergodonk-zero-case). You'll find the latest discussion there.
 
 <hr>
-
-<a href="/images/fdm_case/fdm_donk_1.webp"><img src="/images/fdm_case/fdm_donk_1.webp" alt="3d printed ErgoDonk Zero case" width="32%" fetchpriority=high></a><a href="/images/fdm_case/fdm_donk_2.webp"><img src="/images/fdm_case/fdm_donk_2.webp" alt="Close up of right hand egodonk zero 3d printed case" width="32%"></a><a href="/images/fdm_case/fdm_donk_3.webp"><img src="/images/fdm_case/fdm_donk_3.webp" alt="Back of 3d printed ergodonk zero case without the optional back plate." width="32%"></a>
+<p class="image-grid-3">
+{% include slider_img_srcset.html src="images/fdm_case/fdm_donk_1.webp" alt="3d printed ErgoDonk Zero case" manifest=img1 eager=true fetchpriority="high" %}
+{% include slider_img_srcset.html src="images/fdm_case/fdm_donk_2.webp" alt="Close up of right hand ErgoDonk Zero 3d printed case" manifest=img2 eager=true fetchpriority="low" %}
+{% include slider_img_srcset.html src="images/fdm_case/fdm_donk_3.webp" alt="Back of 3d printed ErgoDonk Zero case without the optional back plate." manifest=img3 eager=true fetchpriority="low" %}
+</p>
 
 <hr>
 

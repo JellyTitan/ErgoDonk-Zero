@@ -8,14 +8,17 @@ has_children: true
 image: /images/acrylic_case/acrylic_tilted_hero-1200w.webp
 ---
 
+{% assign img1 = site.data.image_manifest["images/acrylic_case/acrylic_tilted_hero.jpeg"] %}
+{% assign img2 = site.data.image_manifest["images/fdm_case/fdm_donk_cases_hero.jpeg"] %}
+{% assign img3 = site.data.image_manifest["images/mvp_case/mvp_case_both.JPG"] %}
+
 # ErgoDonk Zero Cases
 
-{% comment %}
- - @todo - need to optimize images - way too big. 
-{% endcomment %}
-  
-<a href="/images/acrylic_case/acrylic_tilted_hero.jpeg"><img src="/images/acrylic_case/acrylic_tilted_hero.jpeg" alt="Acrylic ErgoDonk Zero case" width="32%" fetchpriority=high></a> <a href="/images/fdm_case/fdm_donk_cases_hero.jpeg"><img src="/images/fdm_case/fdm_donk_cases_hero.jpeg" alt="Ergodonk zero 3d printed case" width="32%"></a><a href="/images/mvp_case/mvp_case_both.JPG"><img src="/images/mvp_case/mvp_case_both.JPG" alt="ErgoDonk with a naked minimalist case" width="32%"></a>
-
+<p class="image-grid-3">
+{% include slider_img_srcset.html src="images/acrylic_case/acrylic_tilted_hero.jpeg" alt="Acrylic ErgoDonk Zero case" manifest=img1 eager=true fetchpriority="high" %} 
+{% include slider_img_srcset.html src="images/fdm_case/fdm_donk_cases_hero.jpeg" alt="Ergodonk zero 3d printed case" manifest=img2 eager=true fetchpriority="low" %}
+{% include slider_img_srcset.html src="images/mvp_case/mvp_case_both.JPG" alt="ErgoDonk with a naked minimalist case" manifest=img3 eager=true fetchpriority="low" %}
+</p>
  - Key plates are strongly recommended, but not technically required. If you use 3 pin MX keys, the thumb keys tend to fall out if you don't use a key plate.
  - Plates can be made from acrylic, or 3d printed.
  - The 3d printed or acrylic key plates combined with a backplate make a nice 'sandwich' case. 

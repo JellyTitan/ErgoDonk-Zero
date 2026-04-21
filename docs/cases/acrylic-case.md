@@ -8,14 +8,21 @@ nav_order: 1
 image: /images/acrylic_case/acrylic_tilted_hero-1200w.webp
 ---
 
+{% assign img1 = site.data.image_manifest["images/acrylic_case/acrylic_tilted_hero.jpeg"] %}
+{% assign img2 = site.data.image_manifest["images/acrylic_case/knob_close_up.jpeg"] %}
+{% assign img3 = site.data.image_manifest["images/acrylic_case/acrylic_handsome_stack.jpeg"] %}
+
 # Acrylic case
 
 {: .info}
 >  Files are in the Github Repo [here](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/Acrylic/production_ready).
 
 <hr>
-
-<a href="/images/acrylic_case/acrylic_tilted_hero.jpeg"><img src="/images/acrylic_case/acrylic_tilted_hero.jpeg" alt="Acrylic ErgoDonk Zero case" width="32%"></a> <a href="/images/acrylic_case/knob_close_up.jpeg"><img src="/images/acrylic_case/knob_close_up.jpeg" alt="Acrylic ErgoDonk Zero case" width="32%"></a> <a href="/images/acrylic_case/acrylic_handsome_stack.jpeg"><img src="/images/acrylic_case/acrylic_handsome_stack.jpeg" alt="Acrylic ErgoDonk Zero case" width="32%"></a>   
+<p class="image-grid-3">
+{% include slider_img_srcset.html src="images/acrylic_case/acrylic_tilted_hero.jpeg" alt="Acrylic ErgoDonk Zero case" manifest=img1 eager=true fetchpriority="high" %} 
+{% include slider_img_srcset.html src="images/acrylic_case/knob_close_up.jpeg" alt="Acrylic ErgoDonk Zero case" manifest=img2 eager=true fetchpriority="low" %} 
+{% include slider_img_srcset.html src="images/acrylic_case/acrylic_handsome_stack.jpeg" alt="Acrylic ErgoDonk Zero case" manifest=img3 eager=true fetchpriority="low"  %}   
+</p>
 
 <hr>
 
