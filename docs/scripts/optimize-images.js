@@ -9,7 +9,7 @@ const QUALITY = 82;
 const INPUT_DIR = 'images';
 const OUTPUT_DIR = 'images';
 const MANIFEST_PATH = '_data/image_manifest.json';
-const EXTENSIONS = ['jpg', 'jpeg', 'JPG', 'JPEG', 'gif', 'GIF', 'png', 'PNG'];
+const EXTENSIONS = ['jpg', 'jpeg', 'JPG', 'JPEG', 'gif', 'GIF', 'png', 'PNG', 'webp', 'WEBP'];
 
 async function processImage(inputPath) {
   const parsed = path.parse(inputPath);
@@ -61,16 +61,19 @@ async function main() {
   const pattern = `${INPUT_DIR}/**/*.{${EXTENSIONS.join(',')}}`;
   const images = await glob(pattern, { nodir: true });
 
-  if (images.length === 0) {
+  // Skip files that are already generated variants (e.g. foo-800w.webp)
+  const sourceImages = images.filter(f => !/-\d+w\.\w+$/.test(path.basename(f)));
+
+  if (sourceImages.length === 0) {
     console.log(`No images found in ${INPUT_DIR}`);
     return;
   }
 
-  console.log(`Found ${images.length} image(s) to process...\n`);
+  console.log(`Found ${sourceImages.length} image(s) to process...\n`);
 
   const manifest = {};
 
-  for (const imagePath of images) {
+  for (const imagePath of sourceImages) {
     console.log(`Processing: ${imagePath}`);
     const result = await processImage(imagePath);
 
