@@ -1,5 +1,5 @@
 {% assign src_with_slash = "/" | append: include.src %}
-{% assign base = src_with_slash | remove: '.jpg' | remove: '.JPG' | remove: '.jpeg' | remove: '.JPEG' | remove: '.gif' | remove: '.GIF' | remove: '.png' | remove: '.PNG' %}
+{% assign base = src_with_slash | remove: '.jpg' | remove: '.JPG' | remove: '.jpeg' | remove: '.JPEG' | remove: '.gif' | remove: '.GIF' | remove: '.png' | remove: '.PNG' | remove: '.webp' | remove: '.WEBP' %}
 {% assign manifest_entry = include.manifest %}
 {% assign largest = manifest_entry.variants | last %}
 
