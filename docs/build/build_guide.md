@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Build Guide
-description: ErgoDonk Zero keyboard build guide.
+description: Step-by-step soldering and assembly guide for the ErgoDonk Zero split keyboard. Covers diodes, hotswap sockets, MCU headers, solenoid wiring, encoders, and case installation.
 parent: Build
 permalink: build/build-guide
 nav_order: 4
