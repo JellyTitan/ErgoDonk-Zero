@@ -11,3 +11,7 @@
 <link rel="manifest" href="/site.webmanifest" />
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+{% if page.schema == "build-guide-howto" %}
+  {% include structured_data/build_guide_howto.html %}
+{% endif %}

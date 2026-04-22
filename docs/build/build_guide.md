@@ -5,6 +5,9 @@ description: Step-by-step assembly guide for the ErgoDonk Zero split keyboard. C
 parent: Build
 permalink: build/build-guide
 nav_order: 4
+# Structured data: renders _includes/structured_data/build_guide_howto.html into <head> via _includes/head_custom.html.
+# Remove or rename this key to disable. Add the same key to any other page to reuse the same schema.
+schema: build-guide-howto
 ---
 
 {% assign img1 = site.data.image_manifest["images/asymmetrical_diode_marking.jpeg"] %}

@@ -1,0 +1,287 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "ErgoDonk Zero Build Guide",
+  "description": "Step-by-step assembly guide for the ErgoDonk Zero split keyboard. Covers diodes, hotswap sockets, MCU headers, solenoid wiring, encoders, and case assembly.",
+  "tool": [
+    { "@type": "HowToTool", "name": "Soldering iron and solder" },
+    { "@type": "HowToTool", "name": "No-clean flux" },
+    { "@type": "HowToTool", "name": "Solder wick or desoldering pump" },
+    { "@type": "HowToTool", "name": "Tweezers" },
+    { "@type": "HowToTool", "name": "Flush cutters" },
+    { "@type": "HowToTool", "name": "Masking, kapton, or electrical tape" },
+    { "@type": "HowToTool", "name": "Isopropyl alcohol" },
+    { "@type": "HowToTool", "name": "Magnetic third-hand PCB work holding fixture (optional)" },
+    { "@type": "HowToTool", "name": "Multimeter (optional)" },
+    { "@type": "HowToTool", "name": "Magnifier headband (optional)" }
+  ],
+  "supply": [
+    { "@type": "HowToSupply", "name": "Diodes (through-hole or SMD)" },
+    { "@type": "HowToSupply", "name": "Hotswap switch sockets" },
+    { "@type": "HowToSupply", "name": "RP2040 Zero MCU" },
+    { "@type": "HowToSupply", "name": "Male-male pin headers" },
+    { "@type": "HowToSupply", "name": "TRRS jacks" },
+    { "@type": "HowToSupply", "name": "TIP120 transistor" },
+    { "@type": "HowToSupply", "name": "1k ohm resistor" },
+    { "@type": "HowToSupply", "name": "1N4001 Schottky diode" },
+    { "@type": "HowToSupply", "name": "Solenoid" },
+    { "@type": "HowToSupply", "name": "EC11 rotary encoders" },
+    { "@type": "HowToSupply", "name": "Stabilizers (optional)" },
+    { "@type": "HowToSupply", "name": "Key switches" },
+    { "@type": "HowToSupply", "name": "Keycaps" },
+    { "@type": "HowToSupply", "name": "M2 screws and standoffs" },
+    { "@type": "HowToSupply", "name": "Adhesive rubber feet" }
+  ],
+  "step": [
+    {
+      "@type": "HowToSection",
+      "name": "Prepare",
+      "position": 1,
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Mark your PCBs",
+          "text": "Make sure you know which side you are working on, and don't make two left hand sides by mistake. Stick a piece of tape on the front side of both PCBs to help remember."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Plan assembly order",
+          "text": "Install back components shortest to tallest: diodes, then switch sockets. Then install front components: jumpers, RP2040 Zero MCU, TRRS connector, solenoid components, rotary encoder."
+        }
+      ]
+    },
+    {
+      "@type": "HowToSection",
+      "name": "Diodes",
+      "position": 2,
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Install diodes on the back of the board",
+          "text": "Install one diode per key and one for the rotary encoder on the back of the board. Only install diodes at footprints that have an accompanying switch socket outline. Through-hole diodes are recommended for hand soldering. Pre-bend diode legs using a bending jig or carpenter's pencil before inserting.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/asymmetrical_diode_marking-1115w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Orient diodes correctly",
+          "text": "Diodes must be oriented with the black band in the direction of the arrow symbol on the PCB. A black outline around the pad makes it easy to verify orientation after soldering.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/diode_orientation-1795w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Solder and trim diode legs",
+          "text": "Solder the legs in place. Flip the board and trim the legs with flush cutters. Save 12 trimmed legs to use as jumpers."
+        }
+      ]
+    },
+    {
+      "@type": "HowToSection",
+      "name": "Switch Sockets",
+      "position": 3,
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Place all sockets",
+          "text": "Install hotswap switch sockets on the back of the PCB facing up towards the front. Ensure all sockets are flush with the PCB before soldering.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/ergodonk_lh_sockets-3776w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Solder one side of each socket",
+          "text": "Heat the metal connector and apply solder, looking for it to wick down to the PCB. Tap the board to check for loose sockets."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Solder the remaining sides",
+          "text": "Rotate the board 180 degrees and solder the remaining side of each socket."
+        }
+      ]
+    },
+    {
+      "@type": "HowToSection",
+      "name": "Jumpers",
+      "position": 4,
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Identify the correct jumper set",
+          "text": "The six jumpers for the right and left hands are marked accordingly on the PCB. Soldering on the front is recommended.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/bending_jigs-147w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Bridge the jumpers",
+          "text": "Bridge each jumper by dragging a blob of solder across the 2 adjacent pads, or bend a saved diode leg to the correct width using the bending jig and solder it in place. Trim any excess.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/soldered_jumpers-476w.webp" }
+        }
+      ]
+    },
+    {
+      "@type": "HowToSection",
+      "name": "RP2040 Zero MCU",
+      "position": 5,
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Insert headers into board and Zero",
+          "text": "Insert the Zero into the rectangular outline on the top of the board with buttons facing up. Insert male-male headers into both the board and the Zero before soldering. Use kapton tape to hold the Zero in place while soldering.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/mcu_top_of_board_1-4032w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Solder and align the PCB side",
+          "text": "Flip the board. Solder one outermost pin on each header on the PCB side. Hold the board up to verify the header is flush with the PCB. Reheat and adjust if needed, then solder all remaining PCB/pin header joints.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/line_up_the_zero-2002w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Solder the Zero side",
+          "text": "Flip the board back over. Solder and check one pin on the Zero side, then solder all remaining Zero/pin header pins.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/solder_remaining_zero_pins-4032w.webp" }
+        }
+      ]
+    },
+    {
+      "@type": "HowToSection",
+      "name": "TRRS Jacks",
+      "position": 6,
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Insert and solder TRRS jack",
+          "text": "Insert the jack into the outline on the front of the board. Tape down if needed. Flip the board and solder one pin first to verify flush seating. Adjust as needed, then solder remaining pins.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/TRRS_front-1149w.webp" }
+        }
+      ]
+    },
+    {
+      "@type": "HowToSection",
+      "name": "Solenoid (left hand only)",
+      "position": 7,
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Insulate the TIP120",
+          "text": "Put a piece of electrical tape on the backside of the TIP120 and trim it to the outline to prevent the exposed metal from contacting the board.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/tip_tape_trim_1-1230w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Bend and install the TIP120",
+          "text": "Use the TIP120 bending jig to put a 90 degree bend just below the pins. Insert into the front of the board, solder one pin, verify it is straight, then solder remaining pins.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/solenoid_circuit_tip120-2642w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Install the 1k resistor",
+          "text": "Bend the resistor legs using the bending jig. Insert into the front of the board. Orientation does not matter. Solder in place.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/solenoid_circuit_1k_resitor-2642w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Install the 1N4001 Schottky diode",
+          "text": "Bend the legs using the bending jig. Insert into the front of the board with the stripe oriented towards the top of the board. Solder in place.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/solenoid_circuit_1N4001_diode-2642w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Trim component pins",
+          "text": "Flip the board and trim all protruding component pins flush.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/solenoid_pin_nipping-3024w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Attach solenoid and wire",
+          "text": "Attach the solenoid to the top of the board with M2 screws. Run wires through the hole in the PCB, tape down with kapton tape, and solder to the holes marked solenoid. Polarity does not matter.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/Solenoid_on_front-3667w.webp" }
+        }
+      ]
+    },
+    {
+      "@type": "HowToSection",
+      "name": "Rotary Encoders",
+      "position": 8,
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Install rotary encoder",
+          "text": "Insert the EC11 encoder into the top of the board and solder on the backside. Metal stabilizing tabs on the sides do not need to be soldered.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/ec11_soldered-2778w.webp" }
+        }
+      ]
+    },
+    {
+      "@type": "HowToSection",
+      "name": "Final Assembly",
+      "position": 9,
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Install stabilizers (optional)",
+          "text": "Insert stabilizers into the front of the board and screw in from the back. Stabilizer insertion holes are marked with arrows on the front of the board. Thumb cluster stabilizers are installed back-to-back.",
+          "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/stabilizer_markings-811w.webp" }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Seat switches in the key plate",
+          "text": "Snap switches into the corners of the key plate."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Lower key plate onto PCB",
+          "text": "Place the PCB on a flat surface. Carefully lower the top plate with switches onto the PCB and push into sockets. Ensure all pins are aligned, then snap the remaining switches into the top plate."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Install encoder knob",
+          "text": "Place the encoder knob on the shaft and tighten the set screw with a hex key. A small screwdriver for glasses may work in a pinch."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Attach standoffs and bottom plate",
+          "text": "Slide the four 8mm standoffs through the PCB and align to the holes on the key plate. Attach the standoffs to the key plate using M2 screws, then attach the bottom plate to the four standoffs."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Attach OLED cover plate",
+          "text": "Use M2 screws to attach the three 12mm standoffs to the OLED cover plate. Slide those standoffs through the PCB and attach to the backplate using M2 screws."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Add rubber feet",
+          "text": "Put at least 4 adhesive rubber feet in the corners so the keyboard does not move when typing."
+        }
+      ]
+    }
+  ]
+}
+</script>
