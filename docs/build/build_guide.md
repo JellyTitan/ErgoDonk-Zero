@@ -116,7 +116,7 @@ When inserting diodes into the backs of the boards, you only need to insert diod
 <figcaption>No diode is needed where there is no socket outline.</figcaption>
 </figure>
 
-For surface mount diodes, a common soldering method is to tin one pad, place the diode on, apply the soldering iron to the diode leg until it melts the solder underneath and sinks flush with the PCB. Then come back and solder the other leg. Alternately, you can use a rework station heat gun and solder paste. (I prefer this method for smds).
+For surface mount diodes, a common soldering method is to tin one pad, place the diode on, apply the soldering iron to the diode leg until it melts the solder underneath and sinks flush with the PCB. Then come back and solder the other leg. Alternatively, you can use a rework station heat gun and solder paste. (I prefer this method for SMDs).
 <figure class="image-grid-2">
 {% include slider_img_srcset.html src="images/smd_diode_orientation_1.jpeg" alt="SMD orientation marking example" manifest=img2 %}
 {% include slider_img_srcset.html src="images/smd_diode_orientation_2.jpeg" alt="SMD orientation example" manifest=img3 %}
@@ -124,7 +124,7 @@ For surface mount diodes, a common soldering method is to tin one pad, place the
 </figure>
  
 
-For through-hole diodes, pre bending the legs while they are still on the paper strip makes inserting them much easier. You can use a 3d printed diode [bending jig](https://www.printables.com/model/734696-diode-bending-jig-8mm) to make quick uniform bends.<br>
+For through-hole diodes, pre-bending the legs while they are still on the paper strip makes inserting them much easier. You can use a 3d printed diode [bending jig](https://www.printables.com/model/734696-diode-bending-jig-8mm) to make quick uniform bends.<br>
 <figure class="image-grid-2">
 {% include slider_img_srcset.html src="images/diode_jig_fold.jpeg" alt="Using a carpenter" manifest=img4 %}
 {% include slider_img_srcset.html src="images/diode_jig_cut.jpeg" alt="Using a carpenter" manifest=img5 %}
@@ -132,11 +132,11 @@ For through-hole diodes, pre bending the legs while they are still on the paper 
 </figure>
 
 
-Alternately, a carpenter's pencil is roughly the right size. (The diode holes are 8mm apart, wooden pencils are often 7mm - 8mm).<br>
+Alternatively, a carpenter's pencil is roughly the right size. (The diode holes are 8mm apart, wooden pencils are often 7mm - 8mm).<br>
 
 <figure>
 {% include slider_img_srcset.html src="images/carpenter_pencil.JPG" alt="Using a carpenter" manifest=img6 %}
-<figcaption>Using a carpenters pencil as a diode bending jig.</figcaption>
+<figcaption>Using a carpenter's pencil as a diode bending jig.</figcaption>
 </figure>
 
 
@@ -151,7 +151,7 @@ Diodes _must_ be oriented with the black band in the direction of the "arrow" sy
 <figcaption>Workholding jigs make room for diode legs.</figcaption>
 </figure>
 <figure class="image-grid-2">
-    {% include slider_img_srcset.html src="images/LH_diode_locations.png" alt="Left hand diode locations on the back of the ErgoDonk zero keyboar" manifest=img9 %}
+    {% include slider_img_srcset.html src="images/LH_diode_locations.png" alt="Left hand diode locations on the back of the ErgoDonk zero keyboard" manifest=img9 %}
     {% include slider_img_srcset.html src="images/RH_diode_locations.png" alt="Right hand diode locations on the back of the ErgoDonk zero keyboard" manifest=img10 %}
 <figcaption>Diode placement locations indicated by yellow circles.</figcaption>
 </figure>
@@ -166,7 +166,7 @@ When you trim off the diode legs, save 12 for use as jumpers.
 <hr>
 
 ### Switch Sockets
-Switch sockets installed on the back of the PCB facing up towards the front of the PCB. Make sure they are flush with the PCB. 
+Switch sockets are installed on the back of the PCB facing up towards the front of the PCB. Make sure they are flush with the PCB. 
 
 1. Put all the sockets in place. PCB hole tolerance can vary quite a bit, so some sockets may snap in, while others rest in the holes. If you have some that snap in, be sure to check everything is flush before you start soldering. 
 1. Solder _one_ side of each socket by heating the metal connector. Apply solder and look for the solder to wick down to the PCB. You want a solid joint since this may take some mechanical strain from switch installation and removal. The 3d printed workholding feet are really handy here. You can reposition the board as you work to get the best angle for soldering those connectors.
@@ -186,7 +186,7 @@ Switch sockets installed on the back of the PCB facing up towards the front of t
 ### Jumpers
 Because the MCU on both sides shares the same footprint, we need to set jumpers to ensure the power is routed correctly. The set of six jumpers for the right and left hands are marked accordingly. They can be soldered on the front or the back. Soldering on the front is recommended.
 
-You can bridge the jumpers by dragging a blob of solder across the 2 adjacent pads. Modern rosin core solder can make this difficult. As an alternate bridging method, you can bend a diode leg and solder that in place. There is bending jig to make it easy to bend jumpers to the optimal width. The bottom slot on the jig is for the jumpers.
+You can bridge the jumpers by dragging a blob of solder across the 2 adjacent pads. Modern rosin core solder can make this difficult. As an alternate bridging method, you can bend a diode leg and solder that in place. There is a bending jig to make it easy to bend jumpers to the optimal width. The bottom slot on the jig is for the jumpers.
 
 
 <figure class="image-grid-3">
@@ -252,7 +252,7 @@ Insert the jack into the outline on the front of the board. Some brands of jack 
 <hr>
 
 ### Solenoid
-The Solenoid is installed on the left hand front of the board _only_. Right hand installation is not supported. *Some of the build guide images show `IN4004` diode label on the board. You can use either `IN4001` or `IN4004`, they will both work.*
+The Solenoid is installed on the left hand front of the board _only_. Right hand installation is not supported. *Some of the build guide images show `1N4004` diode label on the board. You can use either `1N4001` or `1N4004`, they will both work.*
 
 <ol>
 <li>Put a piece of electrical tape on the backside of the tip120 and trim it to the outline. In some applications these get really hot so a heat sink _could_ be attached. Our application will never need that heat sink, but we don’t want that exposed metal against our board. Alternately, you can slap a sticker on there if you’re feeling fancy.
@@ -304,7 +304,7 @@ The Solenoid is installed on the left hand front of the board _only_. Right hand
 {% include slider_img_srcset.html src="images/Solenoid_on_front.jpeg" alt="Solenoid attached to the front of the left hand board by 2 M2 screws" manifest=img37 %}
 {% include slider_img_srcset.html src="images/Solenoid_wiring_on_back.jpeg" alt="Solenoid wiring routed along the back of the board" manifest=img38 %}
 {% include slider_img_srcset.html src="images/solenoid_circuit_solenoid_connection.jpeg" alt="Solenoid connection point indicated" manifest=img39 %}
-<figcaption>Solenoid attachement.</figcaption>
+<figcaption>Solenoid attachment.</figcaption>
 </figure></li>
 </ol>
  
@@ -312,7 +312,7 @@ The Solenoid is installed on the left hand front of the board _only_. Right hand
 <hr>
 
 ### Rotary encoders
-Saved these for last because they are tallest. Insert into the top of the board, and solder on the backside. Some EC11's have metal tabs on opposite sides that add mechanical stability - no need to solder those tabs.
+Saved these for last because they are tallest. Insert into the top of the board, and solder on the backside. Some EC11s have metal tabs on opposite sides that add mechanical stability - no need to solder those tabs.
 <br>
 <figure>
 {% include slider_img_srcset.html src="images/ec11_soldered.jpeg" alt="rotary encoder soldered to the PCB" manifest=img40 %}
@@ -352,6 +352,6 @@ Installing the stabilizers, keys and case.
 
 ## Warnings and disclaimers
 - Don't connect or disconnect the TRRS cable when the keyboard is powered. It may short out. Always disconnect the USB cable first.
-- Be gentle with USB-C ports on your micro controllers. They are easy to break.
+- Be gentle with USB-C ports on your microcontrollers. They are easy to break.
 - Keep in mind that this is a DIY keyboard. It’s not a polished product.
 - If you find any errors or omissions in this build guide, please feel free to contribute. [See contributing page for more details.](../contributing)
