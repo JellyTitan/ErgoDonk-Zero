@@ -5,11 +5,15 @@
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
+figcaption {
+    margin-bottom: 1rem;
+    // Span all columns in grid.
+    grid-column: 1 / -1;
+}
 .image-grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-
+  gap: 0 1rem;
   img {
     width: 100%;
     height: auto;
@@ -19,8 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 .image-grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-
+  gap: 0 1rem;
   img {
     width: 100%;
     height: auto;
@@ -40,9 +43,9 @@ figure {
     display: block;
   }
   figcaption {
-    font-size: 0.85rem;
+    font-size: 1.25 rem;
     color: var(--body-text-color);
-    opacity: 0.6;
+    opacity: 1;
     font-style: italic;
     margin-top: 0.4rem;
   }
