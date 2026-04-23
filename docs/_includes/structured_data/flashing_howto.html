@@ -1,0 +1,116 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Flash QMK Firmware on the ErgoDonk Zero",
+  "description": "How to flash the ErgoDonk Zero split keyboard with QMK firmware. Covers drag-and-drop UF2 flashing, reset procedure, and building custom firmware.",
+  "tool": [
+    { "@type": "HowToTool", "name": "USB-C cable" },
+    { "@type": "HowToTool", "name": "TRS or TRRS cable" }
+  ],
+  "supply": [
+    { "@type": "HowToSupply", "name": "ErgoDonk Zero left-hand UF2 firmware file" },
+    { "@type": "HowToSupply", "name": "ErgoDonk Zero right-hand UF2 firmware file" }
+  ],
+  "step": [
+    {
+      "@type": "HowToSection",
+      "name": "Drag and drop flashing (the easy way)",
+      "position": 1,
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Disconnect the cable between halves",
+          "text": "Make sure the two halves are not connected together with the TRS cable before flashing."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Connect one half to USB",
+          "text": "Plug one half of the keyboard into your computer via USB."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Enter the bootloader",
+          "text": "Enter the bootloader using one of these methods: hold BOOT and tap RESET; hold BOOT while plugging in USB; double-tap RESET; or hold the top far corner key while plugging in (Bootmagic reset, after first flash only)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Wait for OS detection",
+          "text": "Wait for your operating system to detect the keyboard as a USB storage device."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Copy the correct UF2 file",
+          "text": "Copy the correct .uf2 file to the new USB disk. Use the _LH file for the left hand and the _RH file for the right hand. Files are in the ErgoDonk Zero GitHub repo under Firmware/drag_and_drop. On Mac, dismiss the Keyboard Setup Assistant if it appears."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Flash the second half",
+          "text": "Unplug the first half and repeat steps 2–5 with the other half, using the opposite UF2 file."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Disconnect both halves from USB",
+          "text": "Unplug both halves from USB."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 8,
+          "name": "Connect the halves together",
+          "text": "Connect both halves together using the TRS or TRRS cable."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 9,
+          "name": "Connect left half to USB",
+          "text": "Plug the left half into your computer via USB. The solenoid only works when the left half is connected."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 10,
+          "name": "Test with VIA",
+          "text": "Test all keys and features using VIA (usevia.app). ErgoDonk Zero requires loading the custom JSON definition until the official VIA PR is merged."
+        }
+      ]
+    },
+    {
+      "@type": "HowToSection",
+      "name": "Compile QMK for flashing (the hard way)",
+      "position": 2,
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Clone the QMK fork",
+          "text": "Clone https://github.com/jellytitan/qmk_firmware and switch to the ergodonk_zero branch with: git checkout ergodonk_zero"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Set up QMK environment",
+          "text": "Follow the official QMK documentation to set up your build environment."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Flash each half",
+          "text": "With halves disconnected from each other, connect one half to USB and flash: qmk flash -kb ergodonk_zero --keymap default -bl uf2-split-right (or uf2-split-left for the left half). Press RESET when prompted. Repeat for the second half."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Connect and test",
+          "text": "Disconnect USB. Connect both halves with the TRRS cable. Connect USB to the left half and test."
+        }
+      ]
+    }
+  ]
+}
+</script>

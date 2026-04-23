@@ -5,6 +5,9 @@ description: How to configure ErgoDonk Zero keymaps using VIA. Covers loading th
 permalink: via
 nav_order: 5
 image: /images/VIA/via_3-878w.webp
+# Structured data: renders _includes/structured_data/via_howto.html into <head> via _includes/head_custom.html.
+# Remove or rename this key to disable.
+schema: via-howto
 ---
 
 {% assign img1 = site.data.image_manifest["images/VIA/via_1.png"] %}

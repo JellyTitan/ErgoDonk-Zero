@@ -5,6 +5,9 @@ description: How to order ErgoDonk Zero PCBs from JLCPCB or Elecrow. Covers gerb
 parent: Build
 permalink: /build/pcb-ordering
 nav_order: 2
+# Structured data: renders _includes/structured_data/pcb_ordering_howto.html into <head> via _includes/head_custom.html.
+# Remove or rename this key to disable.
+schema: pcb-ordering-howto
 ---
 
 {% assign img1 = site.data.image_manifest["images/ordering_guide/JLCPCB_Ordering_1.png"] %}

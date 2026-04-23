@@ -5,6 +5,9 @@ description: How to flash the ErgoDonk Zero keyboard with QMK firmware. Covers d
 permalink: flashing
 nav_order: 3
 # has_children: true
+# Structured data: renders _includes/structured_data/flashing_howto.html into <head> via _includes/head_custom.html.
+# Remove or rename this key to disable.
+schema: flashing-howto
 ---
 
 # Flashing QMK Firmware

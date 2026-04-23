@@ -1,0 +1,45 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Order ErgoDonk Zero PCBs from a PCB Manufacturer",
+  "description": "How to order ErgoDonk Zero PCBs from JLCPCB or Elecrow. Covers gerber file upload, board dimensions (217×156mm), color options, lead-free finish, and part number placement.",
+  "supply": [
+    { "@type": "HowToSupply", "name": "ErgoDonk Zero gerber files (.zip)" }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Compare vendor pricing",
+      "text": "Compare PCB manufacturers such as JLCPCB, PCBWay, and Elecrow using a price comparison tool. Enter the board dimensions (217mm × 156mm) and set minimum quantity to 5. The ErgoDonk Zero is a double-sided reversible design, so 5 boards yields 2.5 complete sets."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Download the gerber files",
+      "text": "Download the gerber .zip file from the Releases section of the ErgoDonk Zero GitHub repository (https://github.com/JellyTitan/ErgoDonk-Zero)."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Upload the gerber file",
+      "text": "On the JLCPCB homepage, drag and drop the gerber .zip onto the 'Add gerber file' box. Wait for the file to upload and the board dimensions to be detected automatically.",
+      "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/ordering_guide/JLCPCB_Ordering_1-1433w.webp" }
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Configure board options",
+      "text": "Review the options screen. Choose a PCB color (green and black are often cheapest for the lead-free option). Select 'lead free' surface finish (HASL lead-free) if you plan to use the board without a case. For the part number, choose 'Specify a location' to have JLCPCB place their number in the designated spot on the PCB at no extra charge.",
+      "image": { "@type": "ImageObject", "url": "https://www.ergodonk.com/images/ordering_guide/JLCPCB_Ordering_2-1070w.webp" }
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Complete checkout",
+      "text": "Complete the standard checkout process. After payment, JLCPCB will review the files before starting production and will contact you if there are any issues with the gerbers."
+    }
+  ]
+}
+</script>
