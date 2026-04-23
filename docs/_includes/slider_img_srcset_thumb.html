@@ -1,0 +1,14 @@
+{% assign src_with_slash = "/" | append: include.src %}
+{% assign base = src_with_slash | remove: '.jpg' | remove: '.JPG' | remove: '.jpeg' | remove: '.JPEG' | remove: '.gif' | remove: '.GIF' | remove: '.png' | remove: '.PNG' | remove: '.webp' | remove: '.WEBP' %}
+{% assign manifest_entry = include.manifest %}
+{% assign largest = manifest_entry.variants | last %}
+{% assign smallest = manifest_entry.variants | first %}
+
+<a href="{{ base }}-{{ largest.width }}w.webp"
+   data-title="{{ include.alt }}"><img
+  src="{{ base }}-{{ smallest.width }}w.webp"
+  alt="{{ include.alt }}"
+  loading="lazy"
+  width="{{ smallest.width }}"
+  height="{{ smallest.height }}"
+/></a>
