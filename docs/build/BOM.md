@@ -8,6 +8,12 @@ nav_order: 1
 
 ---
 
+{% assign img1 = site.data.image_manifest["images/ergodonk_zero_3d_printable_case.jpeg"] %}
+{% assign img2 = site.data.image_manifest["images/ergodonk_zero_3d_printable_case_backside.jpeg"] %}
+{% assign img3 = site.data.image_manifest["images/ergodonk_zero_keyplate.jpeg"] %}
+{% assign img4 = site.data.image_manifest["images/ergodonk_monobody_case.jpeg"] %}
+{% assign img5 = site.data.image_manifest["images/sofle_pico_luxury_pins.png"] %}
+
 # Bill of materials (BOM)
 {: .no_toc }
 
@@ -202,12 +208,36 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
 
 ### Optional - 3d printed case
 This [3d printable ErgoDonk Zero case](https://www.printables.com/model/738066-ergodonk-zero-open-back-case) includes a key plate and a "monobody" case that covers the front of the board and screws onto the back. The Solenoid acoustics on this case are not great. YMMV.<br>
-<a href="/images/ergodonk_zero_3d_printable_case.jpeg"><img src="/images/ergodonk_zero_3d_printable_case.jpeg"  alt="ErgoDonk Zero Monobody case hero shot" width="100%" ></a>
-<a href="/images/ergodonk_zero_3d_printable_case_backside.jpeg"><img src="/images/ergodonk_zero_3d_printable_case_backside.jpeg"  alt="ErgoDonk Zero 3d printable monobody case back side" width="32%" ></a> 
-<a href="/images/ergodonk_zero_keyplate.jpeg"><img src="/images/ergodonk_zero_keyplate.jpeg"  alt="ErgoDonk Zero 3d printable key plate" width="32%"> <img src="/images/ergodonk_monobody_case.jpeg" alt="ErgoDonk Zero 3d printable monobody case" width="32%" ></a>
-<hr>
+
+<p>
+{% include slider_img_srcset.html src="images/ergodonk_zero_3d_printable_case.jpeg" alt="ErgoDonk Zero Monobody case hero shot" manifest=img1 %}
+</p>
+<p class="image-grid-3">
+    {% include slider_img_srcset.html 
+        src="images/ergodonk_zero_3d_printable_case_backside.jpeg" 
+        alt="ErgoDonk Zero 3d printable monobody case back side" 
+        manifest=img2
+    %}
+    {% include slider_img_srcset.html 
+        src="images/ergodonk_zero_keyplate.jpeg" 
+        alt="ErgoDonk Zero 3d printable monobody case back side" 
+        manifest=img3
+    %}
+    {% include slider_img_srcset.html 
+        src="images/ergodonk_monobody_case.jpeg" 
+        alt="ErgoDonk Zero 3d printable monobody case" 
+        manifest=img4
+    %}
+</p>
+
+
 
 ### Optional - low profile header pins
 - The header pins that come with the Zero are usually too long. You can either clip them off after soldering, clip them flush before soldering, or use [8.5mm low profile header pins ](https://www.aliexpress.us/item/3256805874707460.html) instead.
 
-<a href="/images/sofle_pico_luxury_pins.png"><img src="/images/sofle_pico_luxury_pins.png"  alt="low profile header pins" height="100" ></a>
+
+<figure>
+{% include slider_img_srcset.html src="images/sofle_pico_luxury_pins.png" alt="low profile header pins" manifest=img5 %}
+<figcaption>Optional low-profile header pins.</figcaption>
+</figure>
+
