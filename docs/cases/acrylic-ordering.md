@@ -6,6 +6,9 @@ parent: Case Options
 permalink: /cases/acrylic-ordering-guide
 nav_order: 2
 # published: false
+# Structured data: renders _includes/structured_data/acrylic_ordering_howto.html into <head> via _includes/head_custom.html.
+# Remove or rename this key to disable.
+schema: acrylic-ordering-howto
 ---
 
 # Acrylic case ordering guide
