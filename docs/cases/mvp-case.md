@@ -8,13 +8,23 @@ nav_order: 4
 image: /images/mvp_case/mvp_case_both-1200w.webp
 # published: false
 ---
+
+{% assign img1 = site.data.image_manifest["images/acrylic_case/keyplate.png"] %}
+{% assign img2 = site.data.image_manifest["images/acrylic_case/bumper_locations.JPG"] %}
 {% comment %}
   Local build command: bundle exec jekyll serve 
   Image aspect ratio should be 3:5
   Adds lightbox to links around images:
   https://jekyllcodex.org/without-plugin/lightbox/
 
-   - @todo - need to optimize images - way too big. 
+   - @todo - need to optimize images - way too big.
+
+  Tables on this page use static HTML instead of markdown pipe syntax because
+  kramdown does not process Liquid includes ({% include %}) inside markdown table cells.
+
+  When multiple images appear together in a single <td>, they must be wrapped in a <p>
+  tag. The slider lightbox identifies image groups by their shared parent element —
+  without the wrapper, left/right navigation between adjacent images will not work.
 {% endcomment %}
 
 # Minimalist ErgoDonk Zero case
@@ -71,7 +81,42 @@ Rubber bumpers on the bottom can be subbed out for bumps of hot glue, or omitted
 
 ## BOM
 
-| Name | Count | Remarks | Potential Storefront | Image |
-| -----| ----- |---------| -------------------- | ----- |
-| Left & right hand keyplates   | 1 | Use the 2 [ErgoDonk Zero keyplate files found on printables](on [printables](https://www.printables.com/model/738066-ergodonk-zero-case)) | <a href="/images/acrylic_case/keyplate.png"><img src="/images/acrylic_case/keyplate.png" alt="Acrylic ErgoDonk Zero key plate" ></a> |
-| 2mm adhesive Rubber bumper feet. | 10 | These keep the board from sliding on the desk. Put 5 on the bottom side of each hand to keep from sliding on the desk. | [Amazon](https://www.amazon.com/ROCHU-Self-Adhesive-Rubber-Bumpons-Furniture/dp/B073SVKFYJ) | <a href="/images/acrylic_case/bumper_locations.JPG"><img src="/images/acrylic_case/bumper_locations.JPG" alt="Bumper feet locations" ></a> |
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Count</th>
+      <th>Remarks</th>
+      <th>Potential Storefront</th>
+      <th>Image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Left &amp; right hand keyplates</td>
+      <td>1</td>
+      <td>Use the 2 <a href="https://www.printables.com/model/738066-ergodonk-zero-case">ErgoDonk Zero keyplate files found on printables</a>.</td>
+      <td></td>
+      <td>
+        {% include slider_img_srcset_thumb.html
+            src="images/acrylic_case/keyplate.png"
+            alt="Acrylic ErgoDonk Zero key plate"
+            manifest=img1
+        %}
+      </td>
+    </tr>
+    <tr>
+      <td>2mm adhesive Rubber bumper feet.</td>
+      <td>10</td>
+      <td>These keep the board from sliding on the desk. Put 5 on the bottom side of each hand to keep from sliding on the desk.</td>
+      <td><a href="https://www.amazon.com/ROCHU-Self-Adhesive-Rubber-Bumpons-Furniture/dp/B073SVKFYJ">Amazon</a></td>
+      <td>
+        {% include slider_img_srcset_thumb.html
+            src="images/acrylic_case/bumper_locations.JPG"
+            alt="Bumper feet locations"
+            manifest=img2
+        %}
+      </td>
+    </tr>
+  </tbody>
+</table>

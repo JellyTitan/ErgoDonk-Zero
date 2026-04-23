@@ -20,75 +20,93 @@ async function processFile(filePath) {
 
   const normalizeSrc = (src) => src.replace(/^\//, '');
 
-  // Collect all matches with positions, skipping table images
-  const allMatches = [];
+  // Collect all matches, tagged by whether they're in a table
+  const nonTableMatches = [];
+  const tableMatches = [];
 
   for (const match of content.matchAll(IMAGE_REGEX)) {
-    if (!isInTable(content, match.index)) {
-      allMatches.push({ full: match[0], src: normalizeSrc(match[1]), alt: match[2], index: match.index });
-    }
+    const entry = { full: match[0], src: normalizeSrc(match[1]), alt: match[2], index: match.index };
+    isInTable(content, match.index) ? tableMatches.push(entry) : nonTableMatches.push(entry);
   }
 
   for (const match of content.matchAll(IMAGE_REGEX_ALT_FIRST)) {
-    if (!allMatches.find(m => m.full === match[0]) && !isInTable(content, match.index)) {
-      allMatches.push({ full: match[0], src: normalizeSrc(match[2]), alt: match[1], index: match.index });
+    const alreadySeen = [...nonTableMatches, ...tableMatches].find(m => m.full === match[0]);
+    if (!alreadySeen) {
+      const entry = { full: match[0], src: normalizeSrc(match[2]), alt: match[1], index: match.index };
+      isInTable(content, match.index) ? tableMatches.push(entry) : nonTableMatches.push(entry);
     }
   }
 
-  if (allMatches.length === 0) return;
+  if (nonTableMatches.length === 0 && tableMatches.length === 0) return;
 
-  // Sort by position in file
-  allMatches.sort((a, b) => a.index - b.index);
+  // Seed varIndex from any existing {% assign imgN %} in the file to avoid collisions
+  const existingAssigns = [...content.matchAll(/\{%\s*assign\s+img(\d+)/g)];
+  let varIndex = existingAssigns.reduce((max, m) => Math.max(max, parseInt(m[1])), 0);
 
-  // Group consecutive images (only whitespace between them)
-  const groups = [];
-  let currentGroup = [allMatches[0]];
-
-  for (let i = 1; i < allMatches.length; i++) {
-    const prev = allMatches[i - 1];
-    const curr = allMatches[i];
-    const between = content.slice(prev.index + prev.full.length, curr.index);
-    if (/^\s*$/.test(between)) {
-      currentGroup.push(curr);
-    } else {
-      groups.push(currentGroup);
-      currentGroup = [curr];
-    }
-  }
-  groups.push(currentGroup);
-
-  // Assign liquid variable names to all matches
-  let varIndex = 0;
+  // Assign var names and build assign statements for all new matches
+  const allNew = [...nonTableMatches, ...tableMatches].sort((a, b) => a.index - b.index);
   let assigns = '';
-  allMatches.forEach(m => {
+  allNew.forEach(m => {
     m.varName = `img${++varIndex}`;
     assigns += `{% assign ${m.varName} = site.data.image_manifest["${m.src}"] %}\n`;
   });
 
-  // Build replacements in reverse order to preserve string positions
+  // Build the unified replacements list
+  const replacements = [];
+
+  // Non-table: group consecutive images, wrap in <figure>
+  if (nonTableMatches.length > 0) {
+    nonTableMatches.sort((a, b) => a.index - b.index);
+    const groups = [];
+    let currentGroup = [nonTableMatches[0]];
+    for (let i = 1; i < nonTableMatches.length; i++) {
+      const prev = nonTableMatches[i - 1];
+      const curr = nonTableMatches[i];
+      const between = content.slice(prev.index + prev.full.length, curr.index);
+      /^\s*$/.test(between) ? currentGroup.push(curr) : (groups.push(currentGroup), currentGroup = [curr]);
+    }
+    groups.push(currentGroup);
+
+    for (const group of groups) {
+      const start = group[0].index;
+      const end = group[group.length - 1].index + group[group.length - 1].full.length;
+      const includeLines = group.map(m =>
+        `{% include slider_img_srcset.html src="${m.src}" alt="${m.alt}" manifest=${m.varName} %}\n`
+      );
+      let figClass = '';
+      if (group.length === 2) figClass = ' class="image-grid-2"';
+      else if (group.length === 3) figClass = ' class="image-grid-3"';
+      replacements.push({ start, end, replacement: `\n<figure${figClass}>\n${includeLines.join('')}<figcaption></figcaption>\n</figure>\n` });
+    }
+  }
+
+  // Table images: replace each inline with thumb include, no figure wrapper
+  for (const m of tableMatches) {
+    replacements.push({
+      start: m.index,
+      end: m.index + m.full.length,
+      replacement: `{% include slider_img_srcset_thumb.html src="${m.src}" alt="${m.alt}" manifest=${m.varName} %}`
+    });
+  }
+
+  // Apply all replacements in reverse order to preserve string positions
   let updated = content;
-  for (const group of [...groups].reverse()) {
-    const start = group[0].index;
-    const end = group[group.length - 1].index + group[group.length - 1].full.length;
-
-    const includeLines = group.map(m =>
-      `{% include slider_img_srcset.html src="${m.src}" alt="${m.alt}" manifest=${m.varName} %}\n`
-    );
-
-    let figClass = '';
-    if (group.length === 2) figClass = ' class="image-grid-2"';
-    else if (group.length === 3) figClass = ' class="image-grid-3"';
-
-    const replacement = `\n<figure${figClass}>\n${includeLines.join('')}<figcaption></figcaption>\n</figure>\n`;
-
+  replacements.sort((a, b) => b.start - a.start);
+  for (const { start, end, replacement } of replacements) {
     updated = updated.slice(0, start) + replacement + updated.slice(end);
   }
 
-  // Prepend assigns to the content after the front matter
-  updated = updated.replace(/^(---[\s\S]+?---\n)/, `$1\n${assigns}`);
+  // Append new assigns after any existing ones, or after front matter if none exist
+  if (existingAssigns.length > 0) {
+    const lastAssignMatch = [...updated.matchAll(/\{%\s*assign\s+img\d[^\n]*\n/g)].pop();
+    const insertAt = lastAssignMatch.index + lastAssignMatch[0].length;
+    updated = updated.slice(0, insertAt) + assigns + updated.slice(insertAt);
+  } else {
+    updated = updated.replace(/^(---[\s\S]+?---\n)/, `$1\n${assigns}`);
+  }
 
   fs.writeFileSync(filePath, updated);
-  console.log(`✓ ${filePath} — replaced ${allMatches.length} image(s)`);
+  console.log(`✓ ${filePath} — replaced ${nonTableMatches.length} non-table and ${tableMatches.length} table image(s)`);
 }
 
 async function main() {

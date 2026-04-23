@@ -13,6 +13,23 @@ nav_order: 1
 {% assign img3 = site.data.image_manifest["images/ergodonk_zero_keyplate.jpeg"] %}
 {% assign img4 = site.data.image_manifest["images/ergodonk_monobody_case.jpeg"] %}
 {% assign img5 = site.data.image_manifest["images/sofle_pico_luxury_pins.png"] %}
+{% comment %}
+  Tables on this page use static HTML instead of markdown pipe syntax because
+  kramdown does not process Liquid includes ({% include %}) inside markdown table cells.
+
+  When multiple images appear together in a single <td>, they must be wrapped in a <p>
+  tag. The slider lightbox identifies image groups by their shared parent element —
+  without the wrapper, left/right navigation between adjacent images will not work.
+{% endcomment %}
+{% assign img6 = site.data.image_manifest["images/ergodonk_simple_zero_v0.1.png"] %}
+{% assign img7 = site.data.image_manifest["images/bom_switches.png"] %}
+{% assign img8 = site.data.image_manifest["images/hot_swop_sockets.JPG"] %}
+{% assign img9 = site.data.image_manifest["images/diodes.png"] %}
+{% assign img10 = site.data.image_manifest["images/rp2040.png"] %}
+{% assign img11 = site.data.image_manifest["images/trrs.png"] %}
+{% assign img12 = site.data.image_manifest["images/trs_cable.png"] %}
+{% assign img13 = site.data.image_manifest["images/ec11.png"] %}
+{% assign img14 = site.data.image_manifest["images/ec11_knob.png"] %}
 
 # Bill of materials (BOM)
 {: .no_toc }
@@ -41,42 +58,85 @@ nav_order: 1
       <td>2</td>
       <td>The PCB should be 1.6mm thick. I used JLCPCB's default settings only customizing the PCB color, and selecting 'lead free'.</td>
       <td>Manufacturers such as JLCPCB, PCBWay, and Elecrow. <a href="https://pcbshopper.com/">Price comparison tool</a></td>
-      <td><a href="/images/ergodonk_simple_zero_v0.1.png"><img src="/images/ergodonk_simple_zero_v0.1.png" alt="Ergodonk Zero PCB 3d rendering" fetchpriority="high"></a></td>
+      <td>
+        {% include slider_img_srcset_thumb.html
+            src="images/ergodonk_simple_zero_v0.1.png"
+            alt="Ergodonk Zero PCB 3d rendering"
+            manifest=img6
+        %}
+      </td>
     </tr>
     <tr>
       <td>Hot-swap Sockets</td>
       <td>101</td>
       <td>The PCB requires sockets. Switches cannot be soldered directly to the board. <br> Either MX or Choc low profile sockets. <br> When shopping for MX sockets, try to avoid the variant that has a metal tab in the center of the socket. This makes it harder to get the soldering iron in there. I've only encountered this tab when buying black MX sockets in bulk (500+) from AliExpress. I've <em>not</em> encountered that problem with Kailh &amp; Durock colored sockets. In the image to the right, the black socket has the troublesome tab.</td>
       <td><a href="https://www.amazon.com/DUROCK-Mechanical-Keyboard-Switches-Hot-Swap/dp/B0B4WCKWLZ/">Amazon MX</a> <br> <a href="https://www.aliexpress.us/item/3256803687338432.html">Aliexpress MX &amp; Choc</a></td>
-      <td><a href="/images/bom_switches.png"><img src="/images/bom_switches.png" alt="Choc and MX switches with their respective sockets"></a> <br> <a href="/images/hot_swop_sockets.JPG"><img src="/images/hot_swop_sockets.JPG" alt="troublesome tab on kailh hot swop sockets"></a></td>
+      <td>
+        <p>
+          {% include slider_img_srcset_thumb.html
+              src="images/bom_switches.png"
+              alt="Choc and MX switches with their respective sockets"
+              manifest=img7
+          %}
+          {% include slider_img_srcset_thumb.html
+              src="images/hot_swop_sockets.JPG"
+              alt="troublesome tab on kailh hot swop sockets"
+              manifest=img8
+          %}
+        </p>
+      </td>
     </tr>
     <tr>
       <td>Diodes</td>
       <td>103</td>
       <td>Surface mount SOD-123 1N4148, or through-hole 1N4148 diode. These are common, any old one should do. Through hole is usually easier to solder.</td>
       <td>SMD: <br> <a href="https://www.aliexpress.us/item/2251832663565152.html">AliExpress</a> <br> <a href="https://jlcpcb.com/partdetail/3368026-1N4148SOD123/C2972760">JLCPCB</a> <br> Through-hole: <a href="https://www.aliexpress.us/item/2251832473773777.html">AliExpress</a> <br> <a href="https://www.amazon.com/100-Pieces-1N4148-Switching-High-Speed/dp/B079KJ91JZ">Amazon</a></td>
-      <td><a href="/images/diodes.png"><img src="/images/diodes.png" alt="through hole diodes"></a></td>
+      <td>
+        {% include slider_img_srcset_thumb.html
+            src="images/diodes.png"
+            alt="through hole diodes"
+            manifest=img9
+        %}
+      </td>
     </tr>
     <tr>
       <td>Raspberry Pi Zero</td>
       <td>2</td>
       <td>There's tons of clones available. Getting the version with the header pins pre-soldered saves you some time, but the pins are long so you'll have to nip off the excess and the pins may bend during shipping. Consider getting the versions without the soldered pins, and using <a href="#optional---low-profile-header-pins">low profile header pins</a> instead of the header pins it comes with.</td>
       <td><a href="https://www.amazon.com/RP2040-Zero-High-Performance-Microcontroller-Castellated-Boards-2pcs/dp/B0B2Z3YWB9/">Amazon</a> <br> <a href="https://www.aliexpress.us/item/3256805808673201.html">AliExpress</a></td>
-      <td><a href="/images/rp2040.png"><img src="/images/rp2040.png" alt="RP2040 Zero Micro controller"></a></td>
+      <td>
+        {% include slider_img_srcset_thumb.html
+            src="images/rp2040.png"
+            alt="RP2040 Zero Micro controller"
+            manifest=img10
+        %}
+      </td>
     </tr>
     <tr>
       <td>TRRS Jacks</td>
       <td>2</td>
       <td>PJ-320A</td>
       <td><a href="https://www.aliexpress.us/item/2255800474897706.html">AliExpress</a></td>
-      <td><a href="/images/trrs.png"><img src="/images/trrs.png" alt="TRRS jacks"></a></td>
+      <td>
+        {% include slider_img_srcset_thumb.html
+            src="images/trrs.png"
+            alt="TRRS jacks"
+            manifest=img11
+        %}
+      </td>
     </tr>
     <tr>
       <td>TRRS or TRS (3.5mm "Headphone" Cable)</td>
       <td>1</td>
       <td>Either TRRS "4 pole" or TRS "3 pole" will work. These are often referred to as 3.5mm audio cables, or 'aux' cables.</td>
       <td><a href="https://www.aliexpress.us/item/3256804197001011.html">Aliexpress</a> <br> <a href="https://www.amazon.com/gp/product/B072TYSV61">Amazon</a></td>
-      <td><a href="/images/trs_cable.png"><img src="/images/trs_cable.png" alt="Tip ring sleeve (TRS) cable"></a></td>
+      <td>
+        {% include slider_img_srcset_thumb.html
+            src="images/trs_cable.png"
+            alt="Tip ring sleeve (TRS) cable"
+            manifest=img12
+        %}
+      </td>
     </tr>
     <tr>
       <td>MX Style Switches or Choc V1 low profile switches.</td>
@@ -97,7 +157,20 @@ nav_order: 1
       <td>2</td>
       <td>EC-11 Rotary Encoder. 20mm stem is the most common, and a 6mm shaft is standard. Either "D" shaft or round shaft will work. If you're partial to fancy knobs, you should pick a shaft that matches your knob. 6mm shafts are used for guitar knobs, so you've got plenty of options. SA Profile keycaps can be quite tall, so you may want to use tall knobs as well. Some EC11's include a washer and nut, but you won't be using either the washer or nut.</td>
       <td><a href="https://www.amazon.com/gp/product/B07D3DF8TK">Amazon</a> <br> <a href="https://www.aliexpress.us/item/3256802171959870.html">AliExpress 20mm</a></td>
-      <td><a href="/images/ec11.png"><img src="/images/ec11.png" alt="ec11 rotary encoder"></a> <br> <a href="/images/ec11_knob.png"><img src="/images/ec11_knob.png" alt="ec11 rotary encoder knob"></a></td>
+      <td>
+        <p>
+          {% include slider_img_srcset_thumb.html
+              src="images/ec11.png"
+              alt="ec11 rotary encoder"
+              manifest=img13
+          %}
+          {% include slider_img_srcset_thumb.html
+              src="images/ec11_knob.png"
+              alt="ec11 rotary encoder knob"
+              manifest=img14
+          %}
+        </p>
+      </td>
     </tr>
     <tr>
       <td>M2 8mm FF spacers @todo - these heights &amp; qty are outdated.</td>
@@ -237,7 +310,7 @@ This [3d printable ErgoDonk Zero case](https://www.printables.com/model/738066-e
 
 
 <figure>
-{% include slider_img_srcset.html src="images/sofle_pico_luxury_pins.png" alt="low profile header pins" manifest=img5 %}
+{% include img_srcset.html src="images/sofle_pico_luxury_pins.png" alt="low profile header pins" manifest=img5 %}
 <figcaption>Optional low-profile header pins.</figcaption>
 </figure>
 
