@@ -56,7 +56,7 @@ nav_order: 1
     <tr>
       <td>PCB</td>
       <td>2</td>
-      <td>The PCB should be 1.6mm thick. I used JLCPCB's default settings only customizing the PCB color, and selecting 'lead free'.</td>
+      <td>The PCB should be 1.6mm thick. I used JLCPCB's default settings, only customizing the PCB color, and selecting 'lead free'.</td>
       <td>Manufacturers such as JLCPCB, PCBWay, and Elecrow. <a href="https://pcbshopper.com/">Price comparison tool</a></td>
       <td>
         {% include slider_img_srcset_thumb.html
@@ -80,7 +80,7 @@ nav_order: 1
           %}
           {% include slider_img_srcset_thumb.html
               src="images/hot_swop_sockets.JPG"
-              alt="troublesome tab on kailh hot swop sockets"
+              alt="troublesome tab on kailh hot swap sockets"
               manifest=img8
           %}
         </p>
@@ -89,7 +89,7 @@ nav_order: 1
     <tr>
       <td>Diodes</td>
       <td>103</td>
-      <td>Surface mount SOD-123 1N4148, or through-hole 1N4148 diode. These are common, any old one should do. Through hole is usually easier to solder.</td>
+      <td>Surface mount SOD-123 1N4148, or through-hole 1N4148 diode. These are common; any old one should do. Through hole is usually easier to solder.</td>
       <td>SMD: <br> <a href="https://www.aliexpress.us/item/2251832663565152.html">AliExpress</a> <br> <a href="https://jlcpcb.com/partdetail/3368026-1N4148SOD123/C2972760">JLCPCB</a> <br> Through-hole: <a href="https://www.aliexpress.us/item/2251832473773777.html">AliExpress</a> <br> <a href="https://www.amazon.com/100-Pieces-1N4148-Switching-High-Speed/dp/B079KJ91JZ">Amazon</a></td>
       <td>
         {% include slider_img_srcset_thumb.html
@@ -100,14 +100,14 @@ nav_order: 1
       </td>
     </tr>
     <tr>
-      <td>Raspberry Pi Zero</td>
+      <td>RP2040 Zero</td>
       <td>2</td>
-      <td>There's tons of clones available. Getting the version with the header pins pre-soldered saves you some time, but the pins are long so you'll have to nip off the excess and the pins may bend during shipping. Consider getting the versions without the soldered pins, and using <a href="#optional---low-profile-header-pins">low profile header pins</a> instead of the header pins it comes with.</td>
+      <td>There are tons of clones available. Getting the version with the header pins pre-soldered saves you some time, but the pins are long, so you'll have to nip off the excess and the pins may bend during shipping. Consider getting the versions without the soldered pins, and using <a href="#optional---low-profile-header-pins">low profile header pins</a> instead of the header pins it comes with.</td>
       <td><a href="https://www.amazon.com/RP2040-Zero-High-Performance-Microcontroller-Castellated-Boards-2pcs/dp/B0B2Z3YWB9/">Amazon</a> <br> <a href="https://www.aliexpress.us/item/3256805808673201.html">AliExpress</a></td>
       <td>
         {% include slider_img_srcset_thumb.html
             src="images/rp2040.png"
-            alt="RP2040 Zero Micro controller"
+            alt="RP2040 Zero Microcontroller"
             manifest=img10
         %}
       </td>
@@ -155,7 +155,7 @@ nav_order: 1
     <tr>
       <td>Rotary Encoders and Caps</td>
       <td>2</td>
-      <td>EC-11 Rotary Encoder. 20mm stem is the most common, and a 6mm shaft is standard. Either "D" shaft or round shaft will work. If you're partial to fancy knobs, you should pick a shaft that matches your knob. 6mm shafts are used for guitar knobs, so you've got plenty of options. SA Profile keycaps can be quite tall, so you may want to use tall knobs as well. Some EC11's include a washer and nut, but you won't be using either the washer or nut.</td>
+      <td>EC-11 Rotary Encoder. The 20mm stem is the most common, and a 6mm shaft is standard. Either "D" shaft or round shaft will work. If you're partial to fancy knobs, you should pick a shaft that matches your knob. 6mm shafts are used for guitar knobs, so you've got plenty of options. SA Profile keycaps can be quite tall, so you may want to use tall knobs as well. Some EC11s include a washer and nut, but you won't be using either the washer or nut.</td>
       <td><a href="https://www.amazon.com/gp/product/B07D3DF8TK">Amazon</a> <br> <a href="https://www.aliexpress.us/item/3256802171959870.html">AliExpress 20mm</a></td>
       <td>
         <p>
@@ -173,34 +173,6 @@ nav_order: 1
       </td>
     </tr>
     <tr>
-      <td>M2 8mm FF spacers @todo - these heights &amp; qty are outdated.</td>
-      <td>12</td>
-      <td>Connects the bottom plate to the key plate, running through the PCB</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>M2 12mm FF spacers</td>
-      <td>6</td>
-      <td>Connects the bottom plate to the OLED plate, running through the PCB and the keyplate. @todo - is it really 12mm?</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>M2x5mm screws</td>
-      <td>52</td>
-      <td>M2 screws.</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Case</td>
-      <td>1 Left Set, 1 Right Set</td>
-      <td>Case files are located in the <a href="https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Case">github repo case folder</a>.</td>
-      <td>@todo - regenerate after next prototype validated</td>
-      <td></td>
-    </tr>
-    <tr>
       <td>USB-C Cable</td>
       <td>1</td>
       <td>USB cable for connecting the keyboard to your computer.</td>
@@ -215,7 +187,7 @@ nav_order: 1
 ## Optional parts
 
 ### Optional - PCB screw in Stabilizers 
-Supports up to 8 PCB mounted screw in stabilizers that are 2u in length. Stabilizers often come in sets based on keyboard sizes. A full size 104 key set will usually have 7 2u bars. Note, "PCB mount stabilizers" are not the same as "plate mount stabilizers". Stabilizers can rattle. [There's plenty of mods to 'tune' the stabilizers](https://www.youtube.com/watch?v=4XCErBcn5lc) - but I've given up fighting the rattle and just skip them. YMMV. 
+Supports up to 8 PCB mounted screw-in stabilizers that are 2u in length. Stabilizers often come in sets based on keyboard sizes. A full-size, 104-key set will usually have 7 2u bars. Note: "PCB mount stabilizers" are not the same as "plate mount stabilizers". Stabilizers can rattle. [There are plenty of mods to 'tune' the stabilizers](https://www.youtube.com/watch?v=4XCErBcn5lc) - but I've given up fighting the rattle and just skip them. YMMV. 
 
 <hr>
 
@@ -262,7 +234,7 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
       <td>M2 4mm screws</td>
       <td>2</td>
       <td>Attaches the Solenoid to the PCB</td>
-      <td>@todo use the same source as case screws in the required section.</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -270,9 +242,9 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
 <hr>
 
 ### Optional - Case plates
- - Key plates are strongly recommended with 3-pin MX switches, but not technically required. The thumb keys tend to fall out if you don't use a key plate. If you're using choc switches or 5-pin MX switches, they stay put well enough to skip the key plate entirely. Key plates should be made from PCB or 3d printed. Acrylic is not recommended because the ErgoDonk is so large the acrylic can flex, making it difficult to seat the keys properly. 3d printable keyplates can be found [here](https://www.printables.com/model/738066-ergodonk-zero-open-back-case).
- - Bottom plates pair nicely with key plates and can be connected with M2 standoff posts. These are not strictly necessary, as you could use [adhesive rubber bumpers](https://www.amazon.com/gp/product/B074C2XKXH) on the underside of the pcb instead. Acrylic, PCB or 3d prints are good for these.
- - The MCU's and the Solenoid are taller than the key plate, so they have their own separate taller cover plates. Acrylic, PCB or 3d prints are good for these.
+ - Key plates are strongly recommended with 3-pin MX switches, but not technically required. The thumb keys tend to fall out if you don't use a key plate. If you're using choc switches or 5-pin MX switches, they stay put well enough to skip the key plate entirely. Key plates should be made from PCB or 3d printed. Acrylic is not recommended because the ErgoDonk is so large, the acrylic can flex, making it difficult to seat the keys properly. 3d printable keyplates can be found [here](https://www.printables.com/model/738066-ergodonk-zero-open-back-case).
+ - Bottom plates pair nicely with key plates and can be connected with M2 standoff posts. These are not strictly necessary, as you could use [adhesive rubber bumpers](https://www.amazon.com/gp/product/B074C2XKXH) on the underside of the PCB instead. Acrylic, PCB or 3d prints are good for these.
+ - The MCUs and the solenoid are taller than the key plate, so they have their own separate taller cover plates. Acrylic, PCB or 3d prints are good for these.
  - The left MCU cover plate is different from the right MCU cover plate, because the left MCU cover plate also hides empty keyholes. 
  {% comment %}
  @todo add images here.
@@ -280,8 +252,7 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
  - Spacers are intended to pass through the main pcb and screw onto the bottom plates, key plates, and MCU cover plates.
 
 ### Optional - 3d printed case
-This [3d printable ErgoDonk Zero case](https://www.printables.com/model/738066-ergodonk-zero-open-back-case) includes a key plate and a "monobody" case that covers the front of the board and screws onto the back. The Solenoid acoustics on this case are not great. YMMV.<br>
-
+This [3d printable ErgoDonk Zero case](https://www.printables.com/model/738066-ergodonk-zero-open-back-case) includes a key plate and a "monobody" case that covers the front of the board and screws onto the back. The solenoid acoustics on this case are not great. YMMV.
 <p>
 {% include slider_img_srcset.html src="images/ergodonk_zero_3d_printable_case.jpeg" alt="ErgoDonk Zero Monobody case hero shot" manifest=img1 %}
 </p>
