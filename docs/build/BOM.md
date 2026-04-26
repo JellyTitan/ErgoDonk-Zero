@@ -45,11 +45,11 @@ nav_order: 1
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Count</th>
-      <th>Remarks</th>
-      <th>Potential Storefront</th>
-      <th>Image</th>
+      <th scope="col">Name</th>
+      <th scope="col">Count</th>
+      <th scope="col">Remarks</th>
+      <th scope="col">Potential Storefront</th>
+      <th scope="col">Image</th>
     </tr>
   </thead>
   <tbody>
@@ -199,10 +199,10 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Count</th>
-      <th>Remarks</th>
-      <th>Potential Storefront</th>
+      <th scope="col">Name</th>
+      <th scope="col">Count</th>
+      <th scope="col">Remarks</th>
+      <th scope="col">Potential Storefront</th>
     </tr>
   </thead>
   <tbody>
@@ -242,7 +242,7 @@ Based on this [diagram by Adafruit](https://cdn-shop.adafruit.com/product-files/
 <hr>
 
 ### Optional - Case plates
- - Key plates are strongly recommended with 3-pin MX switches, but not technically required. The thumb keys tend to fall out if you don't use a key plate. If you're using choc switches or 5-pin MX switches, they stay put well enough to skip the key plate entirely. Key plates should be made from PCB or 3d printed. Acrylic is not recommended because the ErgoDonk is so large, the acrylic can flex, making it difficult to seat the keys properly. 3d printable keyplates can be found [here](https://www.printables.com/model/738066-ergodonk-zero-open-back-case).
+ - Key plates are strongly recommended with 3-pin MX switches, but not technically required. The thumb keys tend to fall out if you don't use a key plate. If you're using choc switches or 5-pin MX switches, they stay put well enough to skip the key plate entirely. Key plates should be made from PCB or 3d printed. Acrylic is not recommended because the ErgoDonk is so large, the acrylic can flex, making it difficult to seat the keys properly. 3d printable keyplates can be found on [Printables](https://www.printables.com/model/738066-ergodonk-zero-open-back-case).
  - Bottom plates pair nicely with key plates and can be connected with M2 standoff posts. These are not strictly necessary, as you could use [adhesive rubber bumpers](https://www.amazon.com/gp/product/B074C2XKXH) on the underside of the PCB instead. Acrylic, PCB or 3d prints are good for these.
  - The MCUs and the solenoid are taller than the key plate, so they have their own separate taller cover plates. Acrylic, PCB or 3d prints are good for these.
  - The left MCU cover plate is different from the right MCU cover plate, because the left MCU cover plate also hides empty keyholes. 
@@ -264,7 +264,7 @@ This [3d printable ErgoDonk Zero case](https://www.printables.com/model/738066-e
     %}
     {% include slider_img_srcset.html 
         src="images/ergodonk_zero_keyplate.jpeg" 
-        alt="ErgoDonk Zero 3d printable monobody case back side" 
+        alt="ErgoDonk Zero 3d printed 'thickaronie' keyplate" 
         manifest=img3
     %}
     {% include slider_img_srcset.html 

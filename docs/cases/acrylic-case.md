@@ -37,13 +37,13 @@ image: /images/acrylic_case/acrylic_tilted_hero-1200w.webp
 # Acrylic case
 
 {: .info}
->  Files are in the Github Repo [here](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/Acrylic/production_ready).
+>  Files are in the [GitHub repo (Cases/Acrylic/production_ready)](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/Acrylic/production_ready).
 
 <hr>
 <p class="image-grid-3">
-{% include slider_img_srcset.html src="images/acrylic_case/acrylic_tilted_hero.jpeg" alt="Acrylic ErgoDonk Zero case" manifest=img1 eager=true fetchpriority="high" %} 
-{% include slider_img_srcset.html src="images/acrylic_case/knob_close_up.jpeg" alt="Acrylic ErgoDonk Zero case" manifest=img2 eager=true fetchpriority="low" %} 
-{% include slider_img_srcset.html src="images/acrylic_case/acrylic_handsome_stack.jpeg" alt="Acrylic ErgoDonk Zero case" manifest=img3 eager=true fetchpriority="low"  %}   
+{% include slider_img_srcset.html src="images/acrylic_case/acrylic_tilted_hero.jpeg" alt="Acrylic ErgoDonk Zero case, tilted hero shot" manifest=img1 eager=true fetchpriority="high" %} 
+{% include slider_img_srcset.html src="images/acrylic_case/knob_close_up.jpeg" alt="Acrylic ErgoDonk Zero case, close-up of the rotary encoder knob" manifest=img2 eager=true fetchpriority="low" %} 
+{% include slider_img_srcset.html src="images/acrylic_case/acrylic_handsome_stack.jpeg" alt="Acrylic ErgoDonk Zero case, both halves stacked" manifest=img3 eager=true fetchpriority="low"  %}   
 </p>
 
 <hr>
@@ -63,11 +63,11 @@ The production ready files for upload can be found in the "production_ready" fol
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Count</th>
-      <th>Remarks</th>
-      <th>Potential Storefront</th>
-      <th>Image</th>
+      <th scope="col">Name</th>
+      <th scope="col">Count</th>
+      <th scope="col">Remarks</th>
+      <th scope="col">Potential Storefront</th>
+      <th scope="col">Image</th>
     </tr>
   </thead>
   <tbody>
@@ -106,17 +106,17 @@ The production ready files for upload can be found in the "production_ready" fol
         <p>
           {% include slider_img_srcset_thumb.html
               src="images/acrylic_case/solenoid_cover_plate_LH.jpeg"
-              alt="Acrylic ErgoDonk Zero case solenoid cover"
+              alt="Left hand acrylic ErgoDonk Zero solenoid cover plate"
               manifest=img6
           %}
           {% include slider_img_srcset_thumb.html
               src="images/acrylic_case/solenoid_blank_cover_plate_RH.jpeg"
-              alt="Acrylic ErgoDonk Zero case solenoid cover"
+              alt="Right hand acrylic ErgoDonk Zero blank solenoid cover plate"
               manifest=img7
           %}
           {% include slider_img_srcset_thumb.html
               src="images/acrylic_case/solenoid_cover.png"
-              alt="Acrylic ErgoDonk Zero case solenoid cover"
+              alt="Acrylic ErgoDonk Zero solenoid cover plate diagram"
               manifest=img8
           %}
         </p>

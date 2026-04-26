@@ -16,7 +16,7 @@ image: /images/fdm_case/fdm_donk_1.webp
 # 3d printable ErgoDonk Zero case
 
 {: .info}
-> Files are in the Github Repo [here](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/3d_printable_case).
+> Files are in the [GitHub repo (Cases/3d_printable_case)](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Cases/3d_printable_case).
 > This is also posted on [Printables](https://www.printables.com/model/738066-ergodonk-zero-case). You'll find the latest discussion there.
 
 <hr>

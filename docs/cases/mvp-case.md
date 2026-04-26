@@ -40,14 +40,14 @@ For those that like the look of a bare pcb with the minimum viable case. Also kn
 <p class="image-grid-3">
 {% include slider_img_srcset.html
    src="images/mvp_case/mvp_case_both.JPG"
-   alt="Acrylic ErgoDonk Zero case"
+   alt="ErgoDonk Zero minimalist case, both hands"
    eager=true
    fetchpriority="high" 
    manifest=p1 %}
 
    {% include slider_img_srcset.html
    src="images/mvp_case/mvp_case_left_closeup.JPG"
-   alt="Acrylic ErgoDonk Zero case"
+   alt="ErgoDonk Zero minimalist case, left hand close-up"
    eager=true
    fetchpriority="low"
    manifest=p2 %}
@@ -84,11 +84,11 @@ Rubber bumpers on the bottom can be subbed out for bumps of hot glue, or omitted
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Count</th>
-      <th>Remarks</th>
-      <th>Potential Storefront</th>
-      <th>Image</th>
+      <th scope="col">Name</th>
+      <th scope="col">Count</th>
+      <th scope="col">Remarks</th>
+      <th scope="col">Potential Storefront</th>
+      <th scope="col">Image</th>
     </tr>
   </thead>
   <tbody>
