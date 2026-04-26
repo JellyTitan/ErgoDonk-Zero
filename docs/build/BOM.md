@@ -5,7 +5,7 @@ description: "Complete bill of materials for the ErgoDonk Zero keyboard. Sourcin
 parent: Build
 permalink: build/bom
 nav_order: 1
-
+schema: bom-howto
 ---
 
 {% assign img1 = site.data.image_manifest["images/ergodonk_zero_3d_printable_case.jpeg"] %}

@@ -1,0 +1,40 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "ErgoDonk Zero Bill of Materials",
+  "description": "Complete parts list for building the ErgoDonk Zero split keyboard. Includes required components with quantities and sourcing links, plus optional solenoid and case hardware.",
+  "supply": [
+    { "@type": "HowToSupply", "name": "ErgoDonk Zero PCB", "requiredQuantity": "2" },
+    { "@type": "HowToSupply", "name": "Hotswap switch sockets (MX or Choc V1)", "requiredQuantity": "101" },
+    { "@type": "HowToSupply", "name": "SOD-123 or through-hole 1N4148 diodes", "requiredQuantity": "103" },
+    { "@type": "HowToSupply", "name": "RP2040 Zero MCU", "requiredQuantity": "2" },
+    { "@type": "HowToSupply", "name": "TRRS jacks (PJ-320A)", "requiredQuantity": "2" },
+    { "@type": "HowToSupply", "name": "TRRS or TRS 3.5mm cable", "requiredQuantity": "1" },
+    { "@type": "HowToSupply", "name": "MX or Choc V1 key switches", "requiredQuantity": "101" },
+    { "@type": "HowToSupply", "name": "Keycaps", "requiredQuantity": "101" },
+    { "@type": "HowToSupply", "name": "EC11 rotary encoders with knobs", "requiredQuantity": "2" },
+    { "@type": "HowToSupply", "name": "USB-C cable", "requiredQuantity": "1" }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Source required parts",
+      "text": "Order 2 ErgoDonk Zero PCBs (1.6mm thick) from a manufacturer such as JLCPCB, PCBWay, or Elecrow. Also source 101 hotswap sockets (MX or Choc V1), 103 diodes, 2 RP2040 Zero MCUs, 2 TRRS jacks, a TRRS or TRS cable, 101 key switches, 101 keycaps, 2 EC11 rotary encoders, and a USB-C cable."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Source optional solenoid parts",
+      "text": "For haptic solenoid feedback on the left hand, source a 4.5v solenoid, 1k ohm resistor, 1N4001 diode, TIP120 transistor, and 2 M2 4mm screws."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Source optional case hardware",
+      "text": "Keyplates are strongly recommended with 3-pin MX switches. Choose from a 3D printable FDM case, acrylic sandwich case, or minimalist keyplate-only setup. Case hardware typically includes M2 standoffs, M2 screws, and adhesive rubber bumper feet."
+    }
+  ]
+}
+</script>

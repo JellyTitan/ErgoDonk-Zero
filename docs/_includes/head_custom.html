@@ -12,6 +12,9 @@
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 
+{% if page.schema == "bom-howto" %}
+  {% include structured_data/bom_howto.html %}
+{% endif %}
 {% if page.schema == "build-guide-howto" %}
   {% include structured_data/build_guide_howto.html %}
 {% endif %}
