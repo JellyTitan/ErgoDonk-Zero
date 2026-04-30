@@ -6,4 +6,10 @@
   https://jekyllcodex.org/without-plugin/lightbox/
 {% endcomment %}
 <script src="{{ '/assets/js/lightbox.js' | relative_url }}" defer></script>
-<link rel="stylesheet" href="{{ '/assets/css/lightbox.css' | relative_url }}" >
+{% comment %}
+  Load lightbox CSS non-blocking: browser skips render-blocking for print stylesheets,
+  then onload flips media to 'all' so styles apply after paint. noscript fallback for
+  JS-disabled browsers.
+{% endcomment %}
+<link rel="stylesheet" href="{{ '/assets/css/lightbox.css' | relative_url }}" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/lightbox.css' | relative_url }}"></noscript>
