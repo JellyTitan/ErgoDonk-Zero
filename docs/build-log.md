@@ -79,3 +79,17 @@ These are mostly personal notes to keep track of things during the development p
 ## v0.2.2
 - The Solenoid circuit Schottky diode reference designator on the PCB was IN4004, it should have been IN4001, as indicated in the BOM. Updated PCB footprint, documentation.
 - Picking back up on development after a year away. I can't find a full set of Choc keycaps. The choc layout hasn't been tested with a prototype. I think I validated the circuit with a multimeter - but I'm not 100%. 
+
+May 9th 2026.
+- after a few years away, I updated the QMK firmware. A ton of stuff has changed on the QMK side. I set handedness to default to master left, to simplify everything. (IF Rh is master, the solenoid won't work).
+- Got a ton of help from Claude to bring everything up to speed.
+- config.h: removes SOLENOID_MIN_DWELL (was default value) and NO_HAPTIC_MOD
+- keyboard.json: removes redundant command/console false defaults and encoder_map feature (keymap-level only); reformats with qmk format-json
+- keymaps/default/config.h: adds NO_HAPTIC_MOD at keymap level (user preference, not hardware requirement)
+- keymaps/default/rules.mk: adds ENCODER_MAP_ENABLE (must be keymap-level per QMK guidelines)
+- keymaps/default/keymap.c: replaces QK_MAKE/QK_BOOT/QK_RBT with KC_TRNS, DT_UP/DT_DOWN with KC_UP/KC_DOWN for a more pristine default.
+- Updated default keymap image and KLE link in readme.md to reflect current layer 1 layout
+
+May 10th 2026.
+- Bootmagic keys moved to 'd' for left hand and 'j' for right hand. Now that the default is LH primary, when the RH is plugged in, it is perceived as the left. The asymmetrical key matrix combined with the removal of hand detection require this atypical setup. (Usually it's corner keys, like `del` and `esc`).
+- Moving away from using the term `master`, replacing with `primary`.
