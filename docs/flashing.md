@@ -38,7 +38,7 @@ These instructions are a summary of the [official explanation found in the QMK d
     * Hold down `BOOT` and tap `RESET`.
     * Hold the `BOOT` button while plugging in the usb cable.
     * Double tapping the `RESET` button on the RP2040. ([Double tap reset is enabled by default on the RP2040](https://github.com/qmk/qmk_firmware/blob/master/docs/platformdev_rp2040.md#double-tap-reset-boot-loader-entry-iddouble-tap)).
-    * **Bootmagic reset** (works after you have flashed once): Hold down the top far corner key while plugging in the keyboard (`~` left half, `-` right half). This will also clear the EEPROM. @todo Add Bootmagic to QMK config.
+    * **Bootmagic reset** (works after you have flashed once): Hold down the top far corner key while plugging in the keyboard (`Esc` left half, `Del` right half). This will also clear the EEPROM. @todo Add Bootmagic to QMK config.
 1. Wait for the OS to detect the device.
 1. Copy the .uf2 file to the new USB disk. 
   * The files can be found in the [ErgoDonk Zero repo](https://github.com/JellyTitan/ErgoDonk-Zero/tree/main/Firmware/drag_and_drop).
